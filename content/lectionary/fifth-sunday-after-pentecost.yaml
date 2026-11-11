@@ -1,0 +1,136 @@
+# Reusable text for Fifth Sunday after Pentecost. Year-independent; a dated edition in content/sundays/ overrides any field.
+# Readings transcribed from https://mosc.in/lectionary/kyomtho-easter-to-koodosh-edtho/. Everything else is a DRAFT for priest/editor review.
+sunday_slug: fifth-sunday-after-pentecost
+is_sunday: true
+name:
+  en: Fifth Sunday after Pentecost
+  ml: '[MALAYALAM NAME]'
+title_as_printed: Fifth Sunday after Pentecost
+season:
+  en: Pentecost
+  gloss: The season of the Holy Spirit
+  syr: '[SYRIAC]'
+tagline: Five loaves, two fish, five thousand people
+standfirst: The apostles come back tired, and Jesus takes them away to rest. The crowds follow. By evening there are five thousand hungry people and only five loaves and two fish.
+description: Readings for the Fifth Sunday after Pentecost, with Luke 9:10–17, the feeding of the five thousand, explained in five scenes. Reflection and question.
+hero_quote:
+  text: He took the five loaves and the two fish, and looking up to the sky, he blessed them, broke them, and gave them to the disciples to set before the multitude.
+  ref: Luke 9:16
+readings:
+  evening:
+  - kind: Gospel
+    kind_ml: സുവിശേഷം
+    ref: Luke 9:10–17
+    ml: ലൂക്കോസ് 9:10–17
+    note: Five loaves and two fish feed five thousand, with twelve baskets left over.
+    printed: St. Luke 9:10-17
+  morning:
+  - kind: Gospel
+    kind_ml: സുവിശേഷം
+    ref: Matthew 17:20–28
+    ml: മത്തായി 17:20–28
+    note: Faith like a mustard seed can move mountains.
+    printed: St. Matthew 17:20-28
+  before_qurbana:
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: Exodus 23:14–19
+    ml: പുറപ്പാട് 23:14–19
+    note: Three feasts a year; bring the best of your first fruits to the house of the Lord.
+    printed: Exodus 23:14-19
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: Psalm 16
+    ml: സങ്കീർത്തനങ്ങൾ 16
+    note: You will not abandon me to the grave; in your presence is fullness of joy.
+    printed: Psalms 16
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: Isaiah 40:27–31
+    ml: യെശയ്യാവ് 40:27–31
+    note: Those who wait on the Lord will renew their strength; they will mount up with wings like eagles.
+    printed: Isaiah 40:27-31
+  holy_qurbana:
+  - kind: Acts of the Apostles
+    kind_ml: അപ്പൊസ്തലപ്രവൃത്തികൾ
+    ref: Acts 9:10–18
+    ml: അപ്പൊസ്തലപ്രവൃത്തികൾ 9:10–18
+    note: Ananias is sent to lay hands on Saul, and something like scales falls from his eyes.
+    printed: Acts 9:10-18
+  - kind: Pauline Epistle
+    kind_ml: പൗലോസിന്റെ ലേഖനം
+    ref: 2 Corinthians 5:14–20
+    ml: 2 കൊരിന്ത്യർ 5:14–20
+    note: 'We are ambassadors for Christ: be reconciled to God.'
+    printed: II Corinthians 5:14-20
+  - kind: Gospel
+    kind_ml: സുവിശേഷം
+    ref: Luke 9:10–17
+    ml: ലൂക്കോസ് 9:10–17
+    note: Five loaves and two fish feed five thousand, with twelve baskets left over. This is the Gospel of the day.
+    printed: St. Luke 9:10-17
+    main: true
+one_minute:
+  what_happens: Jesus tries to take the apostles away to rest near Bethsaida, but the crowds follow. He welcomes them, teaches and heals. In the evening the twelve want to send everyone away. He tells them to give the people food, and feeds five thousand with five loaves and two fish.
+  why_this_sunday: The evening Gospel and the Qurbana Gospel are the same passage today, so the whole day turns on this one miracle.
+  take_with_you: “You give them something to eat.” Jesus uses what we have, even when it is obviously not enough.
+readings_thread: Israel brings the first fruits of harvest to God, and the psalm trusts God as the giver of every good thing. Isaiah says those who wait on the Lord will renew their strength. Ananias is sent to Saul, and Paul calls us ambassadors for Christ.
+key_verse:
+  ref: Luke 9:13
+  ml: '[ML VERSE: Sathyavedapusthakam 1910, Luke 9:13]'
+  ml_translation: Sathyavedapusthakam, 1910
+  en: But he said to them, “You give them something to eat.” They said, “We have no more than five loaves and two fish, unless we should go and buy food for all these people.”
+  en_translation: World English Bible
+scenes:
+- verses: Luke 9:10–11
+  title: No time to rest
+  text: The apostles return and report. Jesus takes them away privately to Bethsaida, but the crowds find out and follow. He welcomes them, speaks about the kingdom and heals those who need it.
+  easy_to_miss: Jesus “welcomed” the crowd that interrupted his rest. Luke chose that word carefully.
+- verses: Luke 9:12
+  title: Send them away
+  text: 'Late in the day the twelve say: send the crowd away to find food and lodging, because we are in a deserted place.'
+  easy_to_miss: The disciples’ suggestion is sensible and kind. It just leaves Jesus out.
+- verses: Luke 9:13–14a
+  title: You give them something
+  text: You give them something to eat, says Jesus. We have only five loaves and two fish, they answer, unless we buy food for all these people. There are about five thousand men.
+  easy_to_miss: Luke counts only the men. With women and children, the crowd was much larger.
+- verses: Luke 9:14b–16
+  title: Blessed and broken
+  text: Jesus has them sit in groups of about fifty. He takes the loaves and fish, looks up to heaven, blesses and breaks them, and gives them to the disciples to serve.
+  easy_to_miss: 'Took, blessed, broke, gave: the words of the Last Supper and of every Qurbana.'
+- verses: Luke 9:17
+  title: Twelve baskets left
+  text: All eat and are satisfied. The leftovers fill twelve baskets.
+  easy_to_miss: One basket for each apostle. The ones who doubted there was enough end up with more than they started with.
+people:
+- name: The twelve
+  ml: പന്ത്രണ്ടു പേർ
+  role: Just back from their mission, tired, and asked to feed a crowd.
+  name_meaning: —
+phrases:
+- term: Bethsaida
+  explanation: A fishing town on the north shore of the Sea of Galilee, home of Peter, Andrew and Philip.
+- term: Deserted place
+  explanation: Open country away from villages, like the wilderness where God fed Israel with manna.
+- term: Groups of fifty
+  explanation: An echo of Moses organising Israel in the wilderness in groups (Exodus 18:21).
+reflection:
+  title_en: Not enough, in his hands
+  title_ml: '[TITLE ML]'
+  read_time: A three-minute read
+  body: |-
+    The disciples’ maths was correct. Five loaves and two fish do not feed five thousand people. Their suggestion to send everyone away to buy food was practical. Jesus asked something impossible instead: you give them something to eat.
+
+    What they had was not enough, and Jesus did not pretend it was. He took it, looked up to heaven, blessed it and broke it, and gave it back to them to share. The disciples still did the serving. The miracle happened in their hands as they handed it out.
+
+    We often look at a need and at what we have, and decide it is hopeless. A parish budget, a family’s energy, one person’s time. This Gospel does not promise that we will always see a miracle. It does say that small things given to Jesus are not small any more. Bring the loaves; let him bless them.
+  author: '[AUTHOR NAME]'
+  reviewer: '[REVIEWER NAME, PARISH]'
+week:
+  question: When have you seen a small gift make a big difference?
+  question_note: Two minutes after the audio. Everyone gets a turn, and nobody is interrupted.
+  small_act: Cook a little extra this week and share it with a neighbour, or give to a food collection.
+  prayer: Lord Jesus, you took five loaves and two fish and fed a crowd. Take the little we have, bless it and break it, and let it feed many. Amen.
+sources:
+  lectionary: https://mosc.in/lectionary/kyomtho-easter-to-koodosh-edtho/
+reviewed: false

@@ -1,0 +1,140 @@
+# Reusable text for Third Sunday after Pentecost. Year-independent; a dated edition in content/sundays/ overrides any field.
+# Readings transcribed from https://mosc.in/lectionary/kyomtho-easter-to-koodosh-edtho/. Everything else is a DRAFT for priest/editor review.
+sunday_slug: third-sunday-after-pentecost
+is_sunday: true
+name:
+  en: Third Sunday after Pentecost
+  ml: '[MALAYALAM NAME]'
+title_as_printed: Third Sunday after Pentecost
+season:
+  en: Pentecost
+  gloss: The season of the Holy Spirit
+  syr: '[SYRIAC]'
+tagline: “Whoever comes to me I will never drive away”
+standfirst: 'Jesus keeps teaching about the bread of life. The crowd begins to grumble: isn’t this Joseph’s son? Jesus says no one comes to him unless the Father draws them.'
+description: 'Readings for the Third Sunday after Pentecost, with John 6:35–46 explained: the bread of life and the Father who draws. Reflection and question.'
+hero_quote:
+  text: All those whom the Father gives me will come to me. He who comes to me I will in no way throw out.
+  ref: John 6:37
+readings:
+  evening:
+  - kind: Gospel
+    kind_ml: സുവിശേഷം
+    ref: Mark 6:4–13
+    ml: മർക്കൊസ് 6:4–13
+    note: A prophet without honour at home; the twelve sent out two by two.
+    printed: St. Mark 6:4-13
+  morning:
+  - kind: Gospel
+    kind_ml: സുവിശേഷം
+    ref: Luke 9:1–11
+    ml: ലൂക്കോസ് 9:1–11
+    note: Jesus sends the twelve to proclaim the kingdom and heal.
+    printed: St. Luke 9:1-11
+  before_qurbana:
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: Genesis 42:18–25
+    ml: ഉല്പത്തി 42:18–25
+    note: Joseph’s brothers admit their guilt, not knowing he understands them.
+    printed: Genesis 42:18-25
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: Jeremiah 3:1–5
+    ml: യിരെമ്യാവ് 3:1–5
+    note: Will you not call to me, “My Father”?
+    printed: Jeremiah 3:1-5
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: Daniel 3:21–30
+    ml: ദാനീയേൽ 3:21–30
+    note: Three young men in the furnace, and a fourth walking with them.
+    printed: Daniel 3:21-30
+  holy_qurbana:
+  - kind: Acts of the Apostles
+    kind_ml: അപ്പൊസ്തലപ്രവൃത്തികൾ
+    ref: Acts 13:26–39
+    ml: അപ്പൊസ്തലപ്രവൃത്തികൾ 13:26–39
+    note: Paul preaches that God raised Jesus and did not let him see decay.
+    printed: Acts 13:26-39
+  - kind: Pauline Epistle
+    kind_ml: പൗലോസിന്റെ ലേഖനം
+    ref: Galatians 6:10–18
+    ml: ഗലാത്യർ 6:10–18
+    note: Do good to all; what counts is a new creation.
+    printed: Galatians 6:10-18
+  - kind: Gospel
+    kind_ml: സുവിശേഷം
+    ref: John 6:35–46
+    ml: യോഹന്നാൻ 6:35–46
+    note: Whoever comes to me I will never drive away. This is the Gospel of the day.
+    printed: St. John 6:35-46
+    main: true
+one_minute:
+  what_happens: 'Jesus says he is the bread of life and will not turn away anyone who comes to him. He came to do the Father’s will: that he lose none of those given to him and raise them on the last day. The crowd grumbles that they know his parents.'
+  why_this_sunday: This continues the bread of life teaching from two Sundays ago. The Church reads John 6 in stages through this season.
+  take_with_you: Jesus promises he will never throw out anyone who comes to him. There is no one he is looking for a reason to reject.
+readings_thread: Joseph tests his brothers in Egypt, and Jeremiah calls an unfaithful people to return. In Daniel, God rescues his servants from the furnace. Paul preaches forgiveness through Jesus, and Galatians says what counts is a new creation.
+key_verse:
+  ref: John 6:37
+  ml: '[ML VERSE: Sathyavedapusthakam 1910, John 6:37]'
+  ml_translation: Sathyavedapusthakam, 1910
+  en: All those whom the Father gives me will come to me. He who comes to me I will in no way throw out.
+  en_translation: World English Bible
+scenes:
+- verses: John 6:35–36
+  title: Seen, and not believed
+  text: I am the bread of life, Jesus says. Whoever comes to me will never hunger. But you have seen me and still do not believe.
+  easy_to_miss: Seeing and believing are not the same. Thomas will learn the reverse at Easter (John 20:29).
+- verses: John 6:37–38
+  title: I will not drive anyone away
+  text: Everyone the Father gives me will come to me, and whoever comes to me I will never drive away. I came down not to do my own will but the will of the one who sent me.
+  easy_to_miss: 'The promise is absolute. John uses a strong double negative in Greek: “I will certainly not throw out”.'
+- verses: John 6:39–40
+  title: Raised on the last day
+  text: 'This is the Father’s will: that I lose none of those he has given me, but raise them up on the last day. Everyone who sees the Son and believes has eternal life.'
+  easy_to_miss: Jesus repeats “I will raise him up on the last day” four times in this chapter.
+- verses: John 6:41–42
+  title: Isn’t this Joseph’s son?
+  text: The people grumble because he said he came down from heaven. Isn’t this Jesus, son of Joseph? We know his father and mother.
+  easy_to_miss: “Grumble” is the same word used of Israel complaining about manna in the wilderness (Exodus 16).
+- verses: John 6:43–46
+  title: Drawn by the Father
+  text: 'Stop grumbling, says Jesus. No one can come to me unless the Father who sent me draws them. The prophets wrote: they will all be taught by God.'
+  easy_to_miss: Faith is not only our search for God. It begins with God drawing us.
+people:
+- name: The crowd in Capernaum
+  ml: '[ML NAME]'
+  role: Listeners in the synagogue who know Jesus’ family and cannot believe he came from heaven.
+  name_meaning: —
+- name: Joseph
+  ml: യോസേഫ്
+  role: Named by the crowd as Jesus’ father.
+  name_meaning: “He will add”
+phrases:
+- term: The last day
+  explanation: The day of resurrection and judgment at the end of time.
+- term: Draw
+  explanation: The same Greek word is used for hauling a net (John 21:6). God pulls people towards Christ.
+- term: Taught by God
+  explanation: A quotation of Isaiah 54:13, where God promises to teach all his children himself.
+reflection:
+  title_en: Never driven away
+  title_ml: '[TITLE ML]'
+  read_time: A three-minute read
+  body: |-
+    Many people carry a fear that they are not good enough for God. They think they have done something too bad, or come too late, or doubted too much. Jesus answers that fear in one line: whoever comes to me I will never drive away.
+
+    The crowd in Capernaum grumbles because Jesus seems too ordinary. They know his family. How can he come from heaven? Jesus does not argue. He says faith begins with the Father drawing people to him, and that he will lose none of those the Father gives him.
+
+    That is good news for anyone who feels on the edge of the Church, and for parents worried about children who have drifted. It is not up to us to drag anyone back. God is already drawing them. Our part is to keep the door open, and to trust that Jesus will not turn away anyone who comes.
+  author: '[AUTHOR NAME]'
+  reviewer: '[REVIEWER NAME, PARISH]'
+week:
+  question: Is there anyone you know who feels unwelcome in church? How could we make them feel welcome?
+  question_note: Two minutes after the audio. Everyone gets a turn, and nobody is interrupted.
+  small_act: Pray each day for one person who has drifted from faith, trusting that the Father is drawing them.
+  prayer: Lord Jesus, you will never drive away anyone who comes to you. Draw us and those we love to yourself, and raise us up on the last day. Amen.
+sources:
+  lectionary: https://mosc.in/lectionary/kyomtho-easter-to-koodosh-edtho/
+reviewed: false

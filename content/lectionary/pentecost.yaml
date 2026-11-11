@@ -1,0 +1,256 @@
+# Reusable text for Pentecost (Fiftieth day after Easter) Sunday School day. Year-independent; a dated edition in content/sundays/ overrides any field.
+# Readings transcribed from https://mosc.in/lectionary/kyomtho-easter-to-koodosh-edtho/. Everything else is a DRAFT for priest/editor review.
+sunday_slug: pentecost
+is_sunday: true
+name:
+  en: Pentecost
+  ml: '[MALAYALAM NAME]'
+title_as_printed: Pentecost (Fiftieth day after Easter) Sunday School day
+season:
+  en: Pentecost
+  gloss: The season of the Holy Spirit
+  syr: '[SYRIAC]'
+also_kept_as: Sunday School Day
+tagline: The vine and the branches, and the Spirit poured out
+standfirst: 'Fifty days after Easter the Holy Spirit comes on the disciples in wind and fire. The Gospel for the Qurbana goes back to the Last Supper, where Jesus said: I am the vine, you are the branches.'
+description: Readings for Pentecost, with Acts 2 and John 15:1–14, the vine and the branches, explained in five scenes. A reflection and a family question.
+hero_quote:
+  text: They were all filled with the Holy Spirit, and began to speak with other languages, as the Spirit gave them the ability to speak.
+  ref: Acts 2:4
+readings:
+  evening:
+  - kind: Gospel
+    kind_ml: സുവിശേഷം
+    ref: John 14:15–31
+    ml: യോഹന്നാൻ 14:15–31
+    note: I will ask the Father, and he will give you another Advocate, the Spirit of truth.
+    printed: St. John 14:15-31
+  morning:
+  - kind: Gospel
+    kind_ml: സുവിശേഷം
+    ref: John 15:20–25
+    ml: യോഹന്നാൻ 15:20–25
+    note: A servant is not greater than his master; they hated me without a cause.
+    printed: St. John 15:20-25
+  before_qurbana:
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: Numbers 11:16–35
+    ml: സംഖ്യാപുസ്തകം 11:16–35
+    note: God puts his Spirit on seventy elders, and they prophesy.
+    printed: Numbers 11:16-35
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: 1 Samuel 10:9–15
+    ml: 1 ശമൂവേൽ 10:9–15
+    note: God gives Saul a new heart, and the Spirit comes upon him.
+    printed: I Samuel 10:9-15
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: 2 Kings 2:14–17
+    ml: 2 രാജാക്കന്മാർ 2:14–17
+    note: 'Elisha strikes the Jordan with Elijah’s cloak: where is the Lord, the God of Elijah?'
+    printed: 'II Kings 2:14 -17 , 12: 1-27'
+    check: 'Printed as ''II Kings 2:14 -17 , 12: 1-27''. The second part cannot be right as printed (2 Kings 12 has 21 verses), so only 2:14-17 is kept.'
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: Ezekiel 11:17–20; 36:25–27
+    ml: യെഹെസ്കേൽ 11:17–20; 36:25–27
+    note: I will give you a new heart and put a new spirit within you.
+    printed: Ezekiel 11:17-20, 36:25-27
+  - kind: '[KIND]'
+    kind_ml: '[KIND ML]'
+    ref: '[CHECK SOURCE: Isaiah42: 1- 27]'
+    ml: '[CHECK SOURCE: Isaiah42: 1- 27]'
+    note: '[NOTE: add once the reference is checked]'
+    printed: 'Isaiah42: 1- 27'
+    check: 'Printed as ''Isaiah42: 1- 27'', but Isaiah 42 has 25 verses.'
+  holy_qurbana:
+  - kind: Acts of the Apostles
+    kind_ml: അപ്പൊസ്തലപ്രവൃത്തികൾ
+    ref: Acts 2:1–13
+    ml: അപ്പൊസ്തലപ്രവൃത്തികൾ 2:1–13
+    note: The Holy Spirit comes like wind and fire, and the apostles speak in many languages.
+    printed: Acts 2:1-13
+  - kind: Pauline Epistle
+    kind_ml: പൗലോസിന്റെ ലേഖനം
+    ref: Galatians 5:16–26
+    ml: ഗലാത്യർ 5:16–26
+    note: The fruit of the Spirit is love, joy, peace, patience, kindness.
+    printed: Galatians 5:16-26
+  - kind: Gospel
+    kind_ml: സുവിശേഷം
+    ref: John 15:1–14
+    ml: യോഹന്നാൻ 15:1–14
+    note: I am the vine, you are the branches; remain in me. This is the Gospel of the day.
+    printed: St. John 15:1-14
+    main: true
+readings_other:
+  first_kneeling:
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: Genesis 11:1–9
+    ml: ഉല്പത്തി 11:1–9
+    note: The tower of Babel, where human languages were confused.
+    printed: Genesis 11:1-9
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: 2 Kings 2:14–17
+    ml: 2 രാജാക്കന്മാർ 2:14–17
+    note: 'Elisha strikes the Jordan with Elijah’s cloak: where is the Lord, the God of Elijah?'
+    printed: II Kings 2:14-17
+  - kind: Acts of the Apostles
+    kind_ml: അപ്പൊസ്തലപ്രവൃത്തികൾ
+    ref: Acts 19:1–7
+    ml: അപ്പൊസ്തലപ്രവൃത്തികൾ 19:1–7
+    note: Paul lays hands on believers in Ephesus, and the Holy Spirit comes on them.
+    printed: Acts 19:1-7
+  - kind: Pauline Epistle
+    kind_ml: പൗലോസിന്റെ ലേഖനം
+    ref: 1 Corinthians 14:20–25
+    ml: 1 കൊരിന്ത്യർ 14:20–25
+    note: Tongues and prophecy, and the outsider who says “God is really among you.”
+    printed: I Corinthians 14:20-25
+  - kind: Gospel
+    kind_ml: സുവിശേഷം
+    ref: John 14:1–17
+    ml: യോഹന്നാൻ 14:1–17
+    note: I am the way; I will ask the Father to give you another Advocate.
+    printed: St. John 14:1-17
+  second_kneeling:
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: Ezekiel 37:1–14
+    ml: യെഹെസ്കേൽ 37:1–14
+    note: 'The valley of dry bones: I will put my Spirit in you and you will live.'
+    printed: Ezekiel 37:1-14
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: Joel 2:25–32
+    ml: യോവേൽ 2:25–32
+    note: I will pour out my Spirit on all people.
+    printed: Joel 2:25-32
+  - kind: Acts of the Apostles
+    kind_ml: അപ്പൊസ്തലപ്രവൃത്തികൾ
+    ref: Acts 10:34–48
+    ml: അപ്പൊസ്തലപ്രവൃത്തികൾ 10:34–48
+    note: 'The Holy Spirit falls on Cornelius’ household: God shows no partiality.'
+    printed: Acts 10:34-48
+  - kind: Pauline Epistle
+    kind_ml: പൗലോസിന്റെ ലേഖനം
+    ref: 1 Corinthians 12:12–27
+    ml: 1 കൊരിന്ത്യർ 12:12–27
+    note: One body with many members, all baptised by one Spirit.
+    printed: I Corinthians 12:12-27
+  - kind: Gospel
+    kind_ml: സുവിശേഷം
+    ref: John 14:25–31
+    ml: യോഹന്നാൻ 14:25–31
+    note: The Holy Spirit will teach you everything; my peace I give you.
+    printed: St. John 14:25-31
+  third_kneeling:
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: Judges 13:24–14:7
+    ml: ന്യായാധിപന്മാർ 13:24–14:7
+    note: The Spirit of the Lord stirs Samson.
+    printed: Judges 13:24-14:7
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: Ezekiel 47:1–12
+    ml: യെഹെസ്കേൽ 47:1–12
+    note: A river flows from the Temple, and everything it touches lives.
+    printed: Ezekiel 47:1-12
+  - kind: '[KIND]'
+    kind_ml: '[KIND ML]'
+    ref: '[CHECK SOURCE: Isaiah47: 1- 1]'
+    ml: '[CHECK SOURCE: Isaiah47: 1- 1]'
+    note: '[NOTE: add once the reference is checked]'
+    printed: 'Isaiah47: 1- 1'
+    check: 'Printed as ''Isaiah47: 1- 1''.'
+  - kind: Acts of the Apostles
+    kind_ml: അപ്പൊസ്തലപ്രവൃത്തികൾ
+    ref: Acts 2:1–21
+    ml: അപ്പൊസ്തലപ്രവൃത്തികൾ 2:1–21
+    note: 'Pentecost: the Spirit poured out, as Joel promised.'
+    printed: Acts 2:1-21
+  - kind: Pauline Epistle
+    kind_ml: പൗലോസിന്റെ ലേഖനം
+    ref: 1 Corinthians 14:20–33
+    ml: 1 കൊരിന്ത്യർ 14:20–33
+    note: God is not a God of disorder but of peace.
+    printed: I Corinthians 14:20-33
+  - kind: Gospel
+    kind_ml: സുവിശേഷം
+    ref: John 16:1–15
+    ml: യോഹന്നാൻ 16:1–15
+    note: When the Spirit of truth comes, he will guide you into all truth.
+    printed: St. John 16:1-15
+one_minute:
+  what_happens: 'In Acts, the Holy Spirit comes on the disciples like wind and tongues of fire, and they speak in languages every pilgrim can understand. In the Gospel, Jesus says he is the vine and they are the branches: remain in me and you will bear much fruit.'
+  why_this_sunday: Pentecost is the fiftieth day after Easter, when the Spirit came on the Church. It ends the Easter season. The Church also keeps it as Sunday School Day.
+  take_with_you: A branch does not try hard to bear fruit. It stays connected to the vine. The Spirit is how we stay connected.
+readings_thread: 'God puts his Spirit on seventy elders, and Saul is changed when the Spirit comes on him. Ezekiel promises a new heart and a new spirit. In Acts the promise is kept, and Galatians lists the fruit of the Spirit: love, joy, peace, patience.'
+key_verse:
+  ref: John 15:5
+  ml: '[ML VERSE: Sathyavedapusthakam 1910, John 15:5]'
+  ml_translation: Sathyavedapusthakam, 1910
+  en: I am the vine. You are the branches. He who remains in me and I in him bears much fruit, for apart from me you can do nothing.
+  en_translation: World English Bible
+scenes:
+- verses: John 15:1–2
+  title: The true vine
+  text: I am the true vine, and my Father is the gardener. He cuts away every branch that bears no fruit, and prunes every branch that does, so that it bears more.
+  easy_to_miss: Israel was often called God’s vine (Isaiah 5:1–7). Jesus calls himself the true one.
+- verses: John 15:3–4
+  title: Remain in me
+  text: You are already clean because of the word I have spoken. Remain in me, and I in you. A branch cannot bear fruit by itself unless it stays on the vine.
+  easy_to_miss: The Greek word for “remain” (or “abide”) comes again and again in these verses. It is the key word of the passage.
+- verses: John 15:5–8
+  title: Apart from me, nothing
+  text: I am the vine, you are the branches. Whoever remains in me bears much fruit, for apart from me you can do nothing. My Father is glorified when you bear much fruit and so prove to be my disciples.
+  easy_to_miss: The fruit is not for the branch. Branches bear fruit for others to eat.
+- verses: John 15:9–11
+  title: Remain in my love
+  text: As the Father has loved me, so I have loved you. Remain in my love by keeping my commandments. I tell you this so my joy may be in you and your joy may be full.
+  easy_to_miss: Jesus speaks of joy on the night of his betrayal, as in John 17.
+- verses: John 15:12–14
+  title: Friends
+  text: 'This is my commandment: love one another as I have loved you. No one has greater love than to lay down their life for their friends. You are my friends if you do what I command.'
+  easy_to_miss: Jesus calls his disciples friends, not servants (verse 15). Friendship with God is the fruit of the Spirit.
+people:
+- name: The apostles
+  ml: അപ്പൊസ്തലന്മാർ
+  role: Gathered in Jerusalem on the day of Pentecost when the Spirit comes.
+  name_meaning: “Ones who are sent”
+- name: The pilgrims
+  ml: '[ML NAME]'
+  role: Jews from every nation, in Jerusalem for the feast, who hear the apostles in their own languages.
+  name_meaning: —
+phrases:
+- term: Pentecost
+  explanation: Greek for “fiftieth”. The Jewish harvest feast fifty days after Passover, when the Spirit came.
+- term: Kneeling services
+  explanation: On Pentecost the Malankara Church holds three services of kneeling prayer for the Holy Spirit.
+- term: Pruning
+  explanation: Cutting back a vine so it bears more fruit. Jesus uses it for God’s work in his people.
+reflection:
+  title_en: Branches, not trees
+  title_ml: '[TITLE ML]'
+  read_time: A three-minute read
+  body: |-
+    The Church reads two pictures today. In Acts, the Spirit comes like a rushing wind and tongues of fire, and frightened disciples become bold preachers. In the Gospel, Jesus gives a much quieter picture: a vine and its branches. Both are about the same thing. The life of the Church comes from outside itself.
+
+    A branch cut off from the vine may look fine for a day, but it is already dying. A branch that stays connected bears fruit without straining. Jesus says it bluntly: apart from me you can do nothing. The Spirit poured out at Pentecost is the sap that runs from the vine into us.
+
+    On Sunday School Day we think of the children and teachers who meet every week. What we most want for them is not that they know all the answers, but that they stay connected to Christ for life. That is the work of the Spirit, through prayer, the Qurbana and a Church that remains in him.
+  author: '[AUTHOR NAME]'
+  reviewer: '[REVIEWER NAME, PARISH]'
+week:
+  question: What helps you stay connected to Jesus during the week? What tends to cut you off?
+  question_note: Two minutes after the audio. Everyone gets a turn, and nobody is interrupted.
+  small_act: Thank a Sunday School teacher this week, and ask the children what they are learning.
+  prayer: 'Come, Holy Spirit. Keep us joined to Christ the true vine, prune what is dead in us, and let us bear fruit that lasts: love, joy and peace in our home and our Church. Amen.'
+sources:
+  lectionary: https://mosc.in/lectionary/kyomtho-easter-to-koodosh-edtho/
+reviewed: false

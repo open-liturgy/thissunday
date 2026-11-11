@@ -1,0 +1,93 @@
+# Reusable text for Feast of the glory of St. Mary, Mother of God. Year-independent; a dated edition in content/sundays/ overrides any field.
+# Readings transcribed from https://mosc.in/lectionary/421-2/. Everything else is a DRAFT for priest/editor review.
+sunday_slug: glory-of-st-mary
+is_sunday: false
+name:
+  en: Feast of the glory of St. Mary, Mother of God
+  ml: '[MALAYALAM NAME]'
+title_as_printed: Feast of the glory of St. Mary, Mother of God
+season:
+  en: '[SEASON]'
+  gloss: '[SEASON GLOSS]'
+  syr: '[SYRIAC]'
+tagline: '[TAGLINE]'
+standfirst: '[STANDFIRST]'
+description: '[DESCRIPTION naming Luke 8:16–21]'
+hero_quote:
+  text: '[HERO QUOTE]'
+  ref: '[REF]'
+readings:
+  evening:
+  - kind: Gospel
+    kind_ml: സുവിശേഷം
+    ref: Luke 2:15–20
+    ml: ലൂക്കോസ് 2:15–20
+    note: '[NOTE: what to listen for in Luke 2:15–20]'
+    printed: St. Luke 2:15-20
+  morning:
+  - kind: Gospel
+    kind_ml: സുവിശേഷം
+    ref: Luke 11:23–32
+    ml: ലൂക്കോസ് 11:23–32
+    note: '[NOTE: what to listen for in Luke 11:23–32]'
+    printed: St. Luke 11:23-32
+  before_qurbana:
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: Exodus 3:1–10
+    ml: പുറപ്പാട് 3:1–10
+    note: '[NOTE: what to listen for in Exodus 3:1–10]'
+    printed: Exodus 3:1-10
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: Ezekiel 44:1–12
+    ml: യെഹെസ്കേൽ 44:1–12
+    note: '[NOTE: what to listen for in Ezekiel 44:1–12]'
+    printed: Ezekiel 44:1-12
+  holy_qurbana:
+  - kind: Acts of the Apostles
+    kind_ml: അപ്പൊസ്തലപ്രവൃത്തികൾ
+    ref: Acts 7:30–43
+    ml: അപ്പൊസ്തലപ്രവൃത്തികൾ 7:30–43
+    note: '[NOTE: what to listen for in Acts 7:30–43]'
+    printed: Acts 7:30-43
+  - kind: Pauline Epistle
+    kind_ml: പൗലോസിന്റെ ലേഖനം
+    ref: Romans 1:1–10
+    ml: റോമർ 1:1–10
+    note: '[NOTE: what to listen for in Romans 1:1–10]'
+    printed: Romans 1:1-10
+  - kind: Gospel
+    kind_ml: സുവിശേഷം
+    ref: Luke 8:16–21
+    ml: ലൂക്കോസ് 8:16–21
+    note: A lamp is not hidden; Jesus’ mother and brothers are those who hear God’s word and do it. This is the Gospel of the day.
+    printed: St. Luke 8:16-21
+    main: true
+one_minute:
+  what_happens: '[WHAT HAPPENS]'
+  why_this_sunday: '[WHY THIS SUNDAY]'
+  take_with_you: '[TAKE WITH YOU]'
+readings_thread: '[THREAD THROUGH THE READINGS]'
+key_verse:
+  ref: '[REF]'
+  ml: '[ML VERSE: Sathyavedapusthakam 1910]'
+  en: '[EN VERSE: World English Bible]'
+scenes: []
+people: []
+phrases: []
+reflection:
+  title_en: '[TITLE]'
+  title_ml: '[TITLE ML]'
+  body: '[REFLECTION]'
+  author: '[AUTHOR NAME]'
+  reviewer: '[REVIEWER NAME, PARISH]'
+  read_time: '[READ TIME]'
+week:
+  question: '[QUESTION]'
+  question_note: Two minutes after the audio. Everyone gets a turn, and nobody is interrupted.
+  small_act: '[SMALL ACT]'
+  prayer: '[PRAYER]'
+sources:
+  lectionary: https://mosc.in/lectionary/421-2/
+reviewed: false

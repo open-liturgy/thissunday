@@ -1,0 +1,9 @@
+# Edition for Sunday 15 August 2027. Merged over content/lectionary/shunoyo.yaml (edition wins).
+date: 2027-08-15
+sunday_slug: shunoyo
+week_of_year: 42
+date_status: computed
+date_source: '[CONFIRM DATE against the MOSC 2027 liturgical calendar]'
+date_question: 15 Aug 2027 is a Sunday, so assumed the feast of the Ascension of St. Mary is kept that day instead of the Second Sunday after Transfiguration.
+prepared: 2026-11-11
+reviewed: false

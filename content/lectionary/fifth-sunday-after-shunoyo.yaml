@@ -1,0 +1,99 @@
+# Reusable text for Fifth Sunday after the Festival of the Ascension of St. Mary. Year-independent; a dated edition in content/sundays/ overrides any field.
+# Readings transcribed from https://mosc.in/lectionary/kyomtho-easter-to-koodosh-edtho/. Everything else is a DRAFT for priest/editor review.
+sunday_slug: fifth-sunday-after-shunoyo
+is_sunday: true
+name:
+  en: Fifth Sunday after the Festival of the Ascension of St. Mary
+  ml: '[MALAYALAM NAME]'
+title_as_printed: Fifth Sunday after the Festival of the Ascension of St. Mary
+season:
+  en: '[SEASON]'
+  gloss: '[SEASON GLOSS]'
+  syr: '[SYRIAC]'
+tagline: '[TAGLINE]'
+standfirst: '[STANDFIRST]'
+description: '[DESCRIPTION naming Luke 11:33–41]'
+hero_quote:
+  text: '[HERO QUOTE]'
+  ref: '[REF]'
+readings:
+  evening:
+  - kind: Gospel
+    kind_ml: സുവിശേഷം
+    ref: Mark 7:1–13
+    ml: മർക്കൊസ് 7:1–13
+    note: '[NOTE: what to listen for in Mark 7:1–13]'
+    printed: St. Mark 7:1-13
+  morning:
+  - kind: Gospel
+    kind_ml: സുവിശേഷം
+    ref: Mark 7:14–23
+    ml: മർക്കൊസ് 7:14–23
+    note: '[NOTE: what to listen for in Mark 7:14–23]'
+    printed: St. Mark 7:14-23
+  before_qurbana:
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: Leviticus 18:1–5
+    ml: ലേവ്യപുസ്തകം 18:1–5
+    note: '[NOTE: what to listen for in Leviticus 18:1–5]'
+    printed: Leviticus 18:1-5
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: Joshua 22:1–6
+    ml: യോശുവ 22:1–6
+    note: '[NOTE: what to listen for in Joshua 22:1–6]'
+    printed: Joshua 22:1-6
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: Ezekiel 34:1–6
+    ml: യെഹെസ്കേൽ 34:1–6
+    note: '[NOTE: what to listen for in Ezekiel 34:1–6]'
+    printed: Ezekiel 34:1-6
+  holy_qurbana:
+  - kind: Acts of the Apostles
+    kind_ml: അപ്പൊസ്തലപ്രവൃത്തികൾ
+    ref: Acts 11:2–10
+    ml: അപ്പൊസ്തലപ്രവൃത്തികൾ 11:2–10
+    note: '[NOTE: what to listen for in Acts 11:2–10]'
+    printed: Acts 11:2-10
+  - kind: Pauline Epistle
+    kind_ml: പൗലോസിന്റെ ലേഖനം
+    ref: Romans 2:28–3:8
+    ml: റോമർ 2:28–3:8
+    note: '[NOTE: what to listen for in Romans 2:28–3:8]'
+    printed: Romans 2:28-3:8
+  - kind: Gospel
+    kind_ml: സുവിശേഷം
+    ref: Luke 11:33–41
+    ml: ലൂക്കോസ് 11:33–41
+    note: '[NOTE: what to listen for in Luke 11:33–41]'
+    printed: St. Luke 11:33-41
+    main: true
+one_minute:
+  what_happens: '[WHAT HAPPENS]'
+  why_this_sunday: '[WHY THIS SUNDAY]'
+  take_with_you: '[TAKE WITH YOU]'
+readings_thread: '[THREAD THROUGH THE READINGS]'
+key_verse:
+  ref: '[REF]'
+  ml: '[ML VERSE: Sathyavedapusthakam 1910]'
+  en: '[EN VERSE: World English Bible]'
+scenes: []
+people: []
+phrases: []
+reflection:
+  title_en: '[TITLE]'
+  title_ml: '[TITLE ML]'
+  body: '[REFLECTION]'
+  author: '[AUTHOR NAME]'
+  reviewer: '[REVIEWER NAME, PARISH]'
+  read_time: '[READ TIME]'
+week:
+  question: '[QUESTION]'
+  question_note: Two minutes after the audio. Everyone gets a turn, and nobody is interrupted.
+  small_act: '[SMALL ACT]'
+  prayer: '[PRAYER]'
+sources:
+  lectionary: https://mosc.in/lectionary/kyomtho-easter-to-koodosh-edtho/
+reviewed: false

@@ -1,0 +1,146 @@
+# Reusable text for Second Sunday after the Feast of Holy Cross. Year-independent; a dated edition in content/sundays/ overrides any field.
+# Readings transcribed from https://mosc.in/lectionary/kyomtho-easter-to-koodosh-edtho/. Everything else is a DRAFT for priest/editor review.
+sunday_slug: second-sunday-after-holy-cross
+is_sunday: true
+name:
+  en: Second Sunday after Holy Cross
+  ml: '[MALAYALAM NAME]'
+title_as_printed: Second Sunday after the Feast of Holy Cross
+season:
+  en: Sleeba
+  gloss: The season of the Cross
+  syr: '[SYRIAC]'
+tagline: Forgotten bread and the yeast of the Pharisees
+standfirst: The disciples cross the lake and realise they forgot to bring bread. Jesus warns them about yeast, and they think he is talking about lunch.
+description: Readings for the Second Sunday after Holy Cross, with Matthew 16:5–12, the yeast of the Pharisees, explained in five scenes. A reflection and a question.
+hero_quote:
+  text: Take heed and beware of the yeast of the Pharisees and Sadducees.
+  ref: Matthew 16:6
+readings:
+  evening:
+  - kind: Gospel
+    kind_ml: സുവിശേഷം
+    ref: Matthew 14:34–36; 15:1–11
+    ml: മത്തായി 14:34–36; 15:1–11
+    note: The sick are healed by touching his cloak; what comes out of the mouth defiles.
+    printed: St. Matthew 14:34-36, 15:1-11
+  morning:
+  - kind: Gospel
+    kind_ml: സുവിശേഷം
+    ref: Matthew 15:12–20
+    ml: മത്തായി 15:12–20
+    note: Every plant my Father did not plant will be uprooted; evil comes from the heart.
+    printed: St. Matthew 15:12-20
+  before_qurbana:
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: Genesis 42:9–17
+    ml: ഉല്പത്തി 42:9–17
+    note: Joseph accuses his brothers of being spies and puts them in prison.
+    printed: Genesis 42:9-17
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: 1 Kings 3:5–9
+    ml: 1 രാജാക്കന്മാർ 3:5–9
+    note: Solomon asks God for an understanding heart to govern his people.
+    printed: I Kings 3:5-9
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: Wisdom 6:1–9
+    ml: '[ML BOOK NAME: Wisdom] 6:1–9'
+    note: 'Listen, you kings: your power was given by the Lord.'
+    printed: Wisdom 6:1-9
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: Isaiah 48:12–16
+    ml: യെശയ്യാവ് 48:12–16
+    note: I am the first and the last; my hand laid the foundation of the earth.
+    printed: Isaiah 48:12-16
+  holy_qurbana:
+  - kind: Acts of the Apostles
+    kind_ml: അപ്പൊസ്തലപ്രവൃത്തികൾ
+    ref: Acts 5:17–32
+    ml: അപ്പൊസ്തലപ്രവൃത്തികൾ 5:17–32
+    note: 'An angel frees the apostles from prison: we must obey God rather than people.'
+    printed: Acts 5:17-32
+  - kind: Pauline Epistle
+    kind_ml: പൗലോസിന്റെ ലേഖനം
+    ref: 1 Corinthians 2:14–3:9
+    ml: 1 കൊരിന്ത്യർ 2:14–3:9
+    note: I fed you with milk, not solid food; we are God’s fellow workers.
+    printed: I Corinthians 2:14-3:9
+  - kind: Gospel
+    kind_ml: സുവിശേഷം
+    ref: Matthew 16:5–12
+    ml: മത്തായി 16:5–12
+    note: Beware the yeast of the Pharisees and Sadducees. This is the Gospel of the day.
+    printed: St. Matthew 16:5-12
+    main: true
+one_minute:
+  what_happens: The disciples forget to bring bread across the lake. Jesus warns them about the yeast of the Pharisees and Sadducees. They think he is complaining about the bread. He reminds them of the two feedings, and they understand he means the Pharisees’ teaching.
+  why_this_sunday: The readings today are about wisdom and understanding, and what we let shape our thinking.
+  take_with_you: A little wrong teaching, like a little yeast, spreads through everything.
+readings_thread: Joseph tests his brothers in Egypt, and Solomon asks God for an understanding heart. Wisdom says power is given by God. The apostles are freed from prison and keep teaching, and Paul says the Corinthians are still ready only for milk.
+key_verse:
+  ref: Matthew 16:12
+  ml: '[ML VERSE: Sathyavedapusthakam 1910, Matthew 16:12]'
+  ml_translation: Sathyavedapusthakam, 1910
+  en: Then they understood that he didn’t tell them to beware of the yeast of bread, but of the teaching of the Pharisees and Sadducees.
+  en_translation: World English Bible
+scenes:
+- verses: Matthew 16:5
+  title: No bread
+  text: The disciples reach the other side of the lake and find they have forgotten to bring bread.
+  easy_to_miss: This comes straight after the Pharisees demanded a sign from heaven (Matthew 16:1–4).
+- verses: Matthew 16:6–7
+  title: Beware the yeast
+  text: 'Jesus says: watch out, beware of the yeast of the Pharisees and Sadducees. They say among themselves: it is because we brought no bread.'
+  easy_to_miss: The disciples are worried about lunch while Jesus is worried about their minds.
+- verses: Matthew 16:8–10
+  title: Do you not remember?
+  text: You of little faith, why talk about having no bread? Do you not remember the five loaves for five thousand, or the seven for four thousand, and how many baskets you gathered?
+  easy_to_miss: Jesus asks them to remember. Forgetting what God has done is how worry starts.
+- verses: Matthew 16:11
+  title: Not about bread
+  text: How can you not understand that I was not talking about bread? Beware the yeast of the Pharisees and Sadducees.
+  easy_to_miss: Jesus repeats the warning rather than dropping it. He thinks it matters.
+- verses: Matthew 16:12
+  title: Then they understood
+  text: Then they understand that he meant the teaching of the Pharisees and Sadducees, not the yeast in bread.
+  easy_to_miss: Pharisees and Sadducees disagreed about much. Jesus groups them together as both refusing to see God at work in him.
+people:
+- name: The Pharisees
+  ml: പരീശന്മാർ
+  role: A movement devoted to strict keeping of the law and its traditions.
+  name_meaning: Probably “the separated ones”
+- name: The Sadducees
+  ml: സദൂക്യർ
+  role: A priestly party that denied the resurrection.
+  name_meaning: Probably from Zadok, the priest
+phrases:
+- term: Yeast
+  explanation: A little yeast works through a whole lump of dough. Usually a picture of corruption spreading (1 Corinthians 5:6).
+- term: Little faith
+  explanation: Matthew’s gentle rebuke for disciples who trust Jesus, but not enough to stop worrying.
+- term: Teaching
+  explanation: What the Pharisees and Sadducees taught, which kept people from recognising Jesus.
+reflection:
+  title_en: Watch what you take in
+  title_ml: '[TITLE ML]'
+  read_time: A three-minute read
+  body: |-
+    The disciples’ mistake is funny and familiar. Jesus says something serious, and all they can think about is that they forgot the bread. Their stomachs are louder than his words. He has to remind them of two miracles of bread they have already forgotten.
+
+    His warning is about yeast. A small amount, worked into dough, changes the whole loaf. Ideas are like that. A cynical habit of mind, a bitter way of talking about others, a teaching that makes God small: a little of it gets into everything.
+
+    We take in a great deal every day through screens, conversations and what we read. This Gospel asks us to be careful what yeast we let into our minds and homes. And when worry crowds out faith, to do what Jesus told the disciples: remember what God has already done.
+  author: '[AUTHOR NAME]'
+  reviewer: '[REVIEWER NAME, PARISH]'
+week:
+  question: What “yeast” gets into our thinking during the week? Is it good or bad?
+  question_note: Two minutes after the audio. Everyone gets a turn, and nobody is interrupted.
+  small_act: Replace fifteen minutes of scrolling each day this week with reading one chapter of a Gospel.
+  prayer: Lord Jesus, guard our minds from teaching that leads us away from you. When we worry, remind us of all you have already done, and fill us with your truth. Amen.
+sources:
+  lectionary: https://mosc.in/lectionary/kyomtho-easter-to-koodosh-edtho/
+reviewed: false

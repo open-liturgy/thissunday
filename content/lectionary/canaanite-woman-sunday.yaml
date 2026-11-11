@@ -1,0 +1,140 @@
+# Reusable text for Fourth Sunday of Great Lent (Canaanite woman). Year-independent; a dated edition in content/sundays/ overrides any field.
+# Readings transcribed from https://mosc.in/lectionary/great-lent/. Everything else is a DRAFT for priest/editor review.
+sunday_slug: canaanite-woman-sunday
+is_sunday: true
+name:
+  en: Sunday of the Canaanite Woman
+  ml: '[MALAYALAM NAME]'
+title_as_printed: Fourth Sunday of Great Lent (Canaanite woman)
+season:
+  en: Great Lent
+  gloss: The fifty days of fasting before Easter
+  syr: '[SYRIAC]'
+tagline: “Even the dogs eat the crumbs”
+standfirst: A foreign mother follows Jesus, shouting for her sick daughter. He does not answer. The disciples want her gone. She keeps asking, and Jesus calls her faith great.
+description: Readings for the fourth Sunday of Great Lent, with Matthew 15:21–31, the Canaanite woman, explained in five scenes. Reflection and a family question.
+hero_quote:
+  text: Yes, Lord, but even the dogs eat the crumbs which fall from their masters’ table.
+  ref: Matthew 15:27
+readings:
+  evening:
+  - kind: Gospel
+    kind_ml: സുവിശേഷം
+    ref: Mark 7:24–37
+    ml: മർക്കൊസ് 7:24–37
+    note: 'A Syrophoenician mother’s faith, and a deaf man hears: “Ephphatha, be opened.”'
+    printed: St. Mark 7:24-37
+  morning:
+  - kind: Gospel
+    kind_ml: സുവിശേഷം
+    ref: Luke 7:1–10
+    ml: ലൂക്കോസ് 7:1–10
+    note: 'A Roman centurion’s faith: “Just say the word, and my servant will be healed.”'
+    printed: St. Luke 7:1-10
+  before_qurbana:
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: 1 Samuel 7:10–17
+    ml: 1 ശമൂവേൽ 7:10–17
+    note: 'Samuel sets up a stone, Ebenezer: “Thus far the Lord has helped us.”'
+    printed: I Samuel 7:10-17
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: Numbers 17:1–8
+    ml: സംഖ്യാപുസ്തകം 17:1–8
+    note: Aaron’s staff buds, blossoms and bears almonds overnight.
+    printed: Numbers 17:1-8
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: Isaiah 56:1–7
+    ml: യെശയ്യാവ് 56:1–7
+    note: My house will be called a house of prayer for all peoples.
+    printed: Isaiah 56:1-7
+  holy_qurbana:
+  - kind: Acts of the Apostles
+    kind_ml: അപ്പൊസ്തലപ്രവൃത്തികൾ
+    ref: Acts 4:1–12
+    ml: അപ്പൊസ്തലപ്രവൃത്തികൾ 4:1–12
+    note: 'Peter before the council: there is no other name by which we must be saved.'
+    printed: Acts 4:1-12
+  - kind: Pauline Epistle
+    kind_ml: പൗലോസിന്റെ ലേഖനം
+    ref: Romans 7:14–25
+    ml: റോമർ 7:14–25
+    note: I do not do the good I want; who will rescue me? Thanks be to God through Jesus Christ.
+    printed: Romans 7:14-25
+  - kind: Gospel
+    kind_ml: സുവിശേഷം
+    ref: Matthew 15:21–31
+    ml: മത്തായി 15:21–31
+    note: A Canaanite mother’s great faith, and crowds healed by the Sea of Galilee. This is the Gospel of the day.
+    printed: St. Matthew 15:21-31
+    main: true
+one_minute:
+  what_happens: In the region of Tyre and Sidon, a Canaanite woman begs Jesus to heal her daughter. He is silent, then says he was sent to Israel. She kneels and answers his hard words with humility and wit. He praises her faith and her daughter is healed.
+  why_this_sunday: On the fourth Sunday of Lent the Church reads a miracle for a foreigner. The morning Gospel tells of another outsider, the Roman centurion.
+  take_with_you: She was not put off by silence. Keep praying when it feels as if nobody is answering.
+readings_thread: Isaiah says foreigners who hold fast to God will be welcomed into his house of prayer for all peoples. Aaron’s staff blossoms, and Samuel sets up a stone to say the Lord has helped us. Peter says there is no other name by which we are saved.
+key_verse:
+  ref: Matthew 15:28
+  ml: '[ML VERSE: Sathyavedapusthakam 1910, Matthew 15:28]'
+  ml_translation: Sathyavedapusthakam, 1910
+  en: Then Jesus answered her, “Woman, great is your faith! Be it done to you even as you desire.” And her daughter was healed from that hour.
+  en_translation: World English Bible
+scenes:
+- verses: Matthew 15:21–22
+  title: A mother cries out
+  text: 'Jesus goes to the region of Tyre and Sidon. A Canaanite woman comes out shouting: have mercy on me, Lord, Son of David! My daughter is badly troubled by a demon.'
+  easy_to_miss: She calls him “Son of David”, a title many in Israel would not give him. A foreigner sees who he is.
+- verses: Matthew 15:23
+  title: Not a word
+  text: 'Jesus does not answer her at all. His disciples urge him: send her away, she keeps shouting after us.'
+  easy_to_miss: His silence is not the end of the story. Matthew lets it sit there before anything else happens.
+- verses: Matthew 15:24–26
+  title: The children’s bread
+  text: 'Jesus says he was sent only to the lost sheep of Israel. She kneels: Lord, help me. He says it is not right to take the children’s bread and throw it to the dogs.'
+  easy_to_miss: 'Her prayer becomes shorter each time: from a long plea to “Lord, help me”. Many of the best prayers are that short.'
+- verses: Matthew 15:27–28
+  title: Great is your faith
+  text: 'She answers: yes, Lord, but even the dogs eat the crumbs that fall from their master’s table. Jesus says: woman, great is your faith. Let it be as you wish. Her daughter is healed at that hour.'
+  easy_to_miss: 'A chapter earlier Jesus called Peter “you of little faith” (Matthew 14:31). The two people he praises for great faith in Matthew are both outsiders: a Roman centurion (8:10) and this woman.'
+- verses: Matthew 15:29–31
+  title: Crowds by the lake
+  text: Back by the Sea of Galilee, crowds bring the lame, the blind, the maimed and the mute. He heals them, and the people glorify the God of Israel.
+  easy_to_miss: The crumbs she asked for turn out to be a whole meal. Right after this, Jesus feeds four thousand.
+people:
+- name: The Canaanite woman
+  ml: കനാന്യസ്ത്രീ
+  role: A mother from the coast of Phoenicia, outside Israel.
+  name_meaning: —
+- name: Her daughter
+  ml: '[ML NAME]'
+  role: Healed without meeting Jesus, from a distance.
+  name_meaning: —
+phrases:
+- term: Tyre and Sidon
+  explanation: Two port cities on the Mediterranean coast, north of Galilee, in modern Lebanon. Gentile territory.
+- term: Canaanite
+  explanation: The old name for the people of the land before Israel. Matthew uses it to underline that she is an outsider.
+- term: Lost sheep of Israel
+  explanation: Jesus’ mission began with Israel. After the resurrection he sends the disciples to all nations (Matthew 28:19).
+reflection:
+  title_en: Faith that keeps asking
+  title_ml: '[TITLE ML]'
+  read_time: A three-minute read
+  body: |-
+    This is one of the hardest conversations in the Gospels. A mother asks for help for her sick child, and Jesus first says nothing, then says he was not sent to her, then uses a word that sounds like an insult. It is uncomfortable to read, and it is meant to be.
+
+    What stands out is the woman. She does not leave in anger, and she does not argue that she deserves help. She takes Jesus’ own picture and turns it into a prayer: even the dogs get the crumbs. She trusts that there is enough at his table for her daughter too. Jesus praises her faith above anyone else’s in Matthew.
+
+    Most of us have prayed and heard nothing. It is tempting to stop. This woman shows another way: keep coming, keep kneeling, keep it short if you must, “Lord, help me”. Silence is not always a no. Sometimes it is room for faith to grow.
+  author: '[AUTHOR NAME]'
+  reviewer: '[REVIEWER NAME, PARISH]'
+week:
+  question: Is there something you have prayed about for a long time without an answer? How do you keep going?
+  question_note: Two minutes after the audio. Everyone gets a turn, and nobody is interrupted.
+  small_act: Choose one long-standing family prayer and pray it together every night this week, even if it is just “Lord, help us”.
+  prayer: Lord, help me. Like the Canaanite mother, teach us to keep asking when you seem silent, to trust that there is enough at your table, and to bring our children to you. Amen.
+sources:
+  lectionary: https://mosc.in/lectionary/great-lent/
+reviewed: false

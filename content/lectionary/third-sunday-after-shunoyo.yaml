@@ -1,0 +1,140 @@
+# Reusable text for Third Sunday after the Festival of the Ascension of St. Mary. Year-independent; a dated edition in content/sundays/ overrides any field.
+# Readings transcribed from https://mosc.in/lectionary/kyomtho-easter-to-koodosh-edtho/. Everything else is a DRAFT for priest/editor review.
+sunday_slug: third-sunday-after-shunoyo
+is_sunday: true
+name:
+  en: Third Sunday after Shunoyo
+  ml: '[MALAYALAM NAME]'
+title_as_printed: Third Sunday after the Festival of the Ascension of St. Mary
+season:
+  en: Pentecost
+  gloss: The season of the Holy Spirit
+  syr: '[SYRIAC]'
+tagline: A coin in a fish’s mouth
+standfirst: Tax collectors ask Peter whether his teacher pays the Temple tax. Jesus says the king’s children should be free, but pays anyway, with a coin Peter finds in the mouth of a fish.
+description: Readings for the Third Sunday after Shunoyo, with Matthew 17:22–27, the Temple tax and the coin in the fish, explained. Reflection and question.
+hero_quote:
+  text: and they will kill him, and the third day he will be raised up.” They were exceedingly sorry.
+  ref: Matthew 17:23
+readings:
+  evening:
+  - kind: Gospel
+    kind_ml: സുവിശേഷം
+    ref: Matthew 19:1–12
+    ml: മത്തായി 19:1–12
+    note: 'Jesus on marriage: what God has joined together, let no one separate.'
+    printed: St. Matthew 19:1-12
+  morning:
+  - kind: Gospel
+    kind_ml: സുവിശേഷം
+    ref: Luke 19:11–27
+    ml: ലൂക്കോസ് 19:11–27
+    note: 'The parable of the pounds: well done, good servant, faithful in a very little.'
+    printed: St. Luke 19:11-27
+  before_qurbana:
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: Exodus 24:12–18
+    ml: പുറപ്പാട് 24:12–18
+    note: Moses goes up into the cloud on Sinai for forty days and nights.
+    printed: Exodus 24:12-18
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: 1 Samuel 3:16–21
+    ml: 1 ശമൂവേൽ 3:16–21
+    note: Samuel tells Eli everything; all Israel knows he is a prophet of the Lord.
+    printed: I Samuel 3:16-21
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: Ezekiel 18:21–24
+    ml: യെഹെസ്കേൽ 18:21–24
+    note: If the wicked turn from their sins, they will surely live.
+    printed: Ezekiel 18:21-24
+  holy_qurbana:
+  - kind: General Epistle
+    kind_ml: പൊതുലേഖനം
+    ref: James 5:1–6
+    ml: യാക്കോബ് 5:1–6
+    note: 'Weep, you rich: the wages you held back cry out.'
+    printed: James 5:1-6
+  - kind: Pauline Epistle
+    kind_ml: പൗലോസിന്റെ ലേഖനം
+    ref: 2 Corinthians 10:1–7
+    ml: 2 കൊരിന്ത്യർ 10:1–7
+    note: Paul appeals by the meekness and gentleness of Christ.
+    printed: II Corinthians 10:1-7
+  - kind: Gospel
+    kind_ml: സുവിശേഷം
+    ref: Matthew 17:22–27
+    ml: മത്തായി 17:22–27
+    note: Jesus foretells his death; Peter finds the Temple tax in a fish’s mouth. This is the Gospel of the day.
+    printed: St. Matthew 17:22-27
+    main: true
+one_minute:
+  what_happens: In Galilee Jesus tells his disciples he will be betrayed, killed and raised on the third day, and they are deeply grieved. In Capernaum the Temple tax collectors question Peter. Jesus says sons are free, but so as not to offend, sends Peter to catch a fish with a coin in its mouth.
+  why_this_sunday: This is an unusual and gentle story about freedom and not giving needless offence.
+  take_with_you: Jesus was free not to pay, and paid anyway, so as not to make anyone stumble.
+readings_thread: Moses goes up the mountain into the cloud, and the boy Samuel becomes known as a prophet. Ezekiel says if the wicked turn from their ways they will live. James warns the rich who hold back wages, and Paul speaks with the gentleness of Christ.
+key_verse:
+  ref: Matthew 17:27
+  ml: '[ML VERSE: Sathyavedapusthakam 1910, Matthew 17:27]'
+  ml_translation: Sathyavedapusthakam, 1910
+  en: But, lest we cause them to stumble, go to the sea, cast a hook, and take up the first fish that comes up. When you have opened its mouth, you will find a stater coin. Take that, and give it to them for me and you.”
+  en_translation: World English Bible
+scenes:
+- verses: Matthew 17:22–23
+  title: On the third day
+  text: 'As they gather in Galilee, Jesus says: the Son of Man will be handed over, they will kill him, and on the third day he will be raised. The disciples are greatly distressed.'
+  easy_to_miss: They hear the death and miss the resurrection. Grief closes their ears to the last part.
+- verses: Matthew 17:24–25a
+  title: Does your teacher pay?
+  text: 'In Capernaum the collectors of the Temple tax ask Peter: does your teacher not pay the tax? Yes, he does, says Peter.'
+  easy_to_miss: Peter answers for Jesus without asking him first. He is often quick to speak.
+- verses: Matthew 17:25b–26
+  title: The children are free
+  text: 'At home Jesus asks: from whom do kings collect taxes, from their own children or from others? From others. Then the children are free, says Jesus.'
+  easy_to_miss: The tax was for God’s house. Jesus is the Son of the house, so he owes nothing.
+- verses: Matthew 17:27a
+  title: So as not to offend
+  text: But so that we do not cause offence, go to the lake, throw out a hook and take the first fish you catch.
+  easy_to_miss: Jesus chooses to give up a right so others are not hurt. Paul teaches the same in 1 Corinthians 8.
+- verses: Matthew 17:27b
+  title: For me and for you
+  text: Open its mouth and you will find a coin. Take it and give it to them for me and for you.
+  easy_to_miss: One coin pays for both. Jesus includes Peter with himself.
+people:
+- name: Peter
+  ml: പത്രൊസ്
+  role: A fisherman sent back to fishing for a coin.
+  name_meaning: “Rock”
+- name: The tax collectors
+  ml: '[ML NAME]'
+  role: Men collecting the yearly half-shekel for the Temple.
+  name_meaning: —
+phrases:
+- term: Temple tax
+  explanation: A half-shekel, about two days’ wages, paid yearly by every Jewish man for the Temple (Exodus 30:13).
+- term: Stater
+  explanation: A silver coin worth four drachmas, exactly enough for two people’s Temple tax.
+- term: Cause to stumble
+  explanation: To put an obstacle in someone’s way that might lead them to sin or turn from God.
+reflection:
+  title_en: Free, and choosing not to offend
+  title_ml: '[TITLE ML]'
+  read_time: A three-minute read
+  body: |-
+    This is one of the strangest stories in the Gospels, and one of the gentlest. Jesus has every right not to pay a tax for his Father’s house. He is the Son. But he does not insist on his rights. He pays, so as not to put an obstacle in anyone’s way.
+
+    Many arguments in families and parishes are about rights. Who should apologise first. Whose turn it is. What I am owed. Often we are technically right. Jesus shows another way: knowing you are free, and choosing to give way for the sake of peace and other people’s faith.
+
+    He also pays for Peter. One coin, for me and for you. It is a small picture of a much larger gift. On the cross Jesus paid what we could not, and included us with himself. Before we argue for our rights this week, it is worth remembering how much has been paid for us.
+  author: '[AUTHOR NAME]'
+  reviewer: '[REVIEWER NAME, PARISH]'
+week:
+  question: Is there a right you have been insisting on that you could give up for someone else’s sake?
+  question_note: Two minutes after the audio. Everyone gets a turn, and nobody is interrupted.
+  small_act: Let one argument go this week, even if you are right, for the sake of peace.
+  prayer: Lord Jesus, you were free and still paid the tax for yourself and Peter. Teach us to give up our rights for the sake of others, and thank you for paying what we owed. Amen.
+sources:
+  lectionary: https://mosc.in/lectionary/kyomtho-easter-to-koodosh-edtho/
+reviewed: false

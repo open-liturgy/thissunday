@@ -1,0 +1,105 @@
+# Reusable text for New Year (January 1) Circumcision of our Lord, Feast of St. Basil and St. Gregory. Year-independent; a dated edition in content/sundays/ overrides any field.
+# Readings transcribed from https://mosc.in/lectionary/421-2/. Everything else is a DRAFT for priest/editor review.
+sunday_slug: new-year-circumcision
+is_sunday: false
+name:
+  en: New Year (January 1) Circumcision of our Lord, Feast of St. Basil and St. Gregory
+  ml: '[MALAYALAM NAME]'
+title_as_printed: New Year (January 1) Circumcision of our Lord, Feast of St. Basil and St. Gregory
+season:
+  en: '[SEASON]'
+  gloss: '[SEASON GLOSS]'
+  syr: '[SYRIAC]'
+tagline: '[TAGLINE]'
+standfirst: '[STANDFIRST]'
+description: '[DESCRIPTION naming John 15:5–19]'
+hero_quote:
+  text: '[HERO QUOTE]'
+  ref: '[REF]'
+readings:
+  evening:
+  - kind: Gospel
+    kind_ml: സുവിശേഷം
+    ref: Luke 13:6–9
+    ml: ലൂക്കോസ് 13:6–9
+    note: '[NOTE: what to listen for in Luke 13:6–9]'
+    printed: St. Luke 13:6-9
+  morning:
+  - kind: Gospel
+    kind_ml: സുവിശേഷം
+    ref: John 9:4–7
+    ml: യോഹന്നാൻ 9:4–7
+    note: '[NOTE: what to listen for in John 9:4–7]'
+    printed: St. John 9:4-7
+  before_qurbana:
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: Genesis 12:1–9
+    ml: ഉല്പത്തി 12:1–9
+    note: '[NOTE: what to listen for in Genesis 12:1–9]'
+    printed: Genesis 12:1-9
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: Deuteronomy 10:12–11:1
+    ml: ആവർത്തനം 10:12–11:1
+    note: '[NOTE: what to listen for in Deuteronomy 10:12–11:1]'
+    printed: Deuteronomy 10:12-11:1
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: Ezekiel 18:21–24
+    ml: യെഹെസ്കേൽ 18:21–24
+    note: If the wicked turn from their sins, they will surely live.
+    printed: Ezekiel 18:21-24
+  holy_qurbana:
+  - kind: General Epistle
+    kind_ml: പൊതുലേഖനം
+    ref: 1 John 3:13–18
+    ml: 1 യോഹന്നാൻ 3:13–18
+    note: '[NOTE: what to listen for in 1 John 3:13–18]'
+    printed: I John 3:13-18
+  - kind: Pauline Epistle
+    kind_ml: പൗലോസിന്റെ ലേഖനം
+    ref: Romans 2:28–3:8
+    ml: റോമർ 2:28–3:8
+    note: '[NOTE: what to listen for in Romans 2:28–3:8]'
+    printed: Romans 2:28-3:8
+  - kind: Gospel
+    kind_ml: സുവിശേഷം
+    ref: Luke 2:21
+    ml: ലൂക്കോസ് 2:21
+    note: '[NOTE: what to listen for in Luke 2:21]'
+    printed: St. Luke 2:21
+  - kind: Gospel
+    kind_ml: സുവിശേഷം
+    ref: John 15:5–19
+    ml: യോഹന്നാൻ 15:5–19
+    note: '[NOTE: what to listen for in John 15:5–19]'
+    printed: St. John 15:5-19
+    main: true
+one_minute:
+  what_happens: '[WHAT HAPPENS]'
+  why_this_sunday: '[WHY THIS SUNDAY]'
+  take_with_you: '[TAKE WITH YOU]'
+readings_thread: '[THREAD THROUGH THE READINGS]'
+key_verse:
+  ref: '[REF]'
+  ml: '[ML VERSE: Sathyavedapusthakam 1910]'
+  en: '[EN VERSE: World English Bible]'
+scenes: []
+people: []
+phrases: []
+reflection:
+  title_en: '[TITLE]'
+  title_ml: '[TITLE ML]'
+  body: '[REFLECTION]'
+  author: '[AUTHOR NAME]'
+  reviewer: '[REVIEWER NAME, PARISH]'
+  read_time: '[READ TIME]'
+week:
+  question: '[QUESTION]'
+  question_note: Two minutes after the audio. Everyone gets a turn, and nobody is interrupted.
+  small_act: '[SMALL ACT]'
+  prayer: '[PRAYER]'
+sources:
+  lectionary: https://mosc.in/lectionary/421-2/
+reviewed: false

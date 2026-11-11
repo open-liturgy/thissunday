@@ -1,0 +1,100 @@
+# Reusable text for Twelfth Sunday after Pentecost. Year-independent; a dated edition in content/sundays/ overrides any field.
+# Readings transcribed from https://mosc.in/lectionary/kyomtho-easter-to-koodosh-edtho/. Everything else is a DRAFT for priest/editor review.
+sunday_slug: twelfth-sunday-after-pentecost
+is_sunday: true
+name:
+  en: Twelfth Sunday after Pentecost
+  ml: '[MALAYALAM NAME]'
+title_as_printed: Twelfth Sunday after Pentecost
+season:
+  en: '[SEASON]'
+  gloss: '[SEASON GLOSS]'
+  syr: '[SYRIAC]'
+tagline: '[TAGLINE]'
+standfirst: '[STANDFIRST]'
+description: '[DESCRIPTION naming John 17:13–26]'
+hero_quote:
+  text: '[HERO QUOTE]'
+  ref: '[REF]'
+readings:
+  evening:
+  - kind: Gospel
+    kind_ml: സുവിശേഷം
+    ref: Mark 9:33–50
+    ml: മർക്കൊസ് 9:33–50
+    note: Whoever wants to be first must be servant of all; a child in his arms.
+    printed: St. Mark 9:33-50
+  morning:
+  - kind: Gospel
+    kind_ml: സുവിശേഷം
+    ref: Luke 21:29–38
+    ml: ലൂക്കോസ് 21:29–38
+    note: '[NOTE: what to listen for in Luke 21:29–38]'
+    printed: St. Luke 21:29-38
+  before_qurbana:
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: Leviticus 17:1–7
+    ml: ലേവ്യപുസ്തകം 17:1–7
+    note: '[NOTE: what to listen for in Leviticus 17:1–7]'
+    printed: Leviticus 17:1-7
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: Isaiah 65:1–7
+    ml: യെശയ്യാവ് 65:1–7
+    note: '[NOTE: what to listen for in Isaiah 65:1–7]'
+    printed: Isaiah 65:1-7
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: Psalm 139
+    ml: സങ്കീർത്തനങ്ങൾ 139
+    note: '[NOTE: what to listen for in Psalm 139]'
+    printed: Psalms 139
+  holy_qurbana:
+  - kind: General Epistle
+    kind_ml: പൊതുലേഖനം
+    ref: James 2:14–26
+    ml: യാക്കോബ് 2:14–26
+    note: Faith without works is dead.
+    printed: James 2:14-26
+  - kind: Pauline Epistle
+    kind_ml: പൗലോസിന്റെ ലേഖനം
+    ref: 1 Corinthians 14:34–39
+    ml: 1 കൊരിന്ത്യർ 14:34–39
+    note: 'Paul on order in worship: let all things be done decently and in order.'
+    printed: 1 Corintians 14:34-39 or.
+    check: Printed with a trailing 'or.' and no alternative after it.
+  - kind: Gospel
+    kind_ml: സുവിശേഷം
+    ref: John 17:13–26
+    ml: യോഹന്നാൻ 17:13–26
+    note: 'Jesus prays for his disciples and for all who will believe: that they may all be one. This is the Gospel of the day.'
+    printed: St. John 17:13-26
+    main: true
+one_minute:
+  what_happens: '[WHAT HAPPENS]'
+  why_this_sunday: '[WHY THIS SUNDAY]'
+  take_with_you: '[TAKE WITH YOU]'
+readings_thread: '[THREAD THROUGH THE READINGS]'
+key_verse:
+  ref: '[REF]'
+  ml: '[ML VERSE: Sathyavedapusthakam 1910]'
+  en: '[EN VERSE: World English Bible]'
+scenes: []
+people: []
+phrases: []
+reflection:
+  title_en: '[TITLE]'
+  title_ml: '[TITLE ML]'
+  body: '[REFLECTION]'
+  author: '[AUTHOR NAME]'
+  reviewer: '[REVIEWER NAME, PARISH]'
+  read_time: '[READ TIME]'
+week:
+  question: '[QUESTION]'
+  question_note: Two minutes after the audio. Everyone gets a turn, and nobody is interrupted.
+  small_act: '[SMALL ACT]'
+  prayer: '[PRAYER]'
+sources:
+  lectionary: https://mosc.in/lectionary/kyomtho-easter-to-koodosh-edtho/
+reviewed: false

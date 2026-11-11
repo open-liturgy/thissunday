@@ -1,0 +1,178 @@
+# Reusable text for Easter Sunday. Year-independent; a dated edition in content/sundays/ overrides any field.
+# Readings transcribed from https://mosc.in/lectionary/kyomtho-easter-to-koodosh-edtho/. Everything else is a DRAFT for priest/editor review.
+sunday_slug: easter
+is_sunday: true
+name:
+  en: Easter (Kyomtho)
+  ml: '[MALAYALAM NAME]'
+title_as_printed: Easter Sunday
+season:
+  en: Kyomtho
+  gloss: The Resurrection season
+  syr: '[SYRIAC]'
+tagline: He is not here. He has risen
+standfirst: At dawn two women come to see the tomb. The earth shakes, an angel rolls the stone away and sits on it, and the guards fall down like dead men. He is not here, the angel says.
+description: Readings for Easter (Kyomtho), with Matthew 28:1–20, the resurrection and the Great Commission, explained in five scenes. Reflection and question.
+hero_quote:
+  text: He is not here, for he has risen, just like he said. Come, see the place where the Lord was lying.
+  ref: Matthew 28:6
+readings:
+  evening:
+  - kind: Gospel
+    kind_ml: സുവിശേഷം
+    ref: Mark 16:1–8
+    ml: മർക്കൊസ് 16:1–8
+    note: 'The women find the stone rolled away: “He has risen; he is not here.”'
+    printed: St. Mark 16:1-8
+  morning:
+  - kind: Gospel
+    kind_ml: സുവിശേഷം
+    ref: John 20:1–18
+    ml: യോഹന്നാൻ 20:1–18
+    note: Mary Magdalene at the tomb hears Jesus call her name.
+    printed: St. John 20:1-18
+  before_qurbana:
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: Leviticus 23:26–32
+    ml: ലേവ്യപുസ്തകം 23:26–32
+    note: The Day of Atonement, a day to humble yourselves before God.
+    printed: Leviticus 23:26-32
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: Isaiah 60:1–7, 11–16; 61:10–62:5
+    ml: യെശയ്യാവ് 60:1–7, 11–16; 61:10–62:5
+    note: Arise, shine, for your light has come.
+    printed: Isaiah 60:1-7, 11-16, 61:10-62:5
+  - kind: '[KIND]'
+    kind_ml: '[KIND ML]'
+    ref: '[CHECK SOURCE: Joel : 2:21 -3]'
+    ml: '[CHECK SOURCE: Joel : 2:21 -3]'
+    note: '[NOTE: add once the reference is checked]'
+    printed: 'Joel : 2:21 -3'
+    check: 'Printed as ''Joel : 2:21 -3''; the end of the passage is incomplete.'
+  holy_qurbana:
+  - kind: Acts of the Apostles
+    kind_ml: അപ്പൊസ്തലപ്രവൃത്തികൾ
+    ref: Acts 2:22–36
+    ml: അപ്പൊസ്തലപ്രവൃത്തികൾ 2:22–36
+    note: 'Peter at Pentecost: God raised Jesus and made him Lord and Christ.'
+    printed: Acts 2:22-36
+  - kind: Pauline Epistle
+    kind_ml: പൗലോസിന്റെ ലേഖനം
+    ref: 1 Corinthians 15:1–19
+    ml: 1 കൊരിന്ത്യർ 15:1–19
+    note: Christ died, was buried and was raised on the third day; if not, our faith is futile.
+    printed: I Corinthians 15:1-19
+  - kind: Gospel
+    kind_ml: സുവിശേഷം
+    ref: Matthew 28:1–20
+    ml: മത്തായി 28:1–20
+    note: He is not here; he has risen. Go and make disciples of all nations. This is the Gospel of the day.
+    printed: St. Matthew 28:1-20
+    main: true
+readings_other:
+  midnight:
+  - kind: Gospel
+    kind_ml: സുവിശേഷം
+    ref: Luke 24:1–12
+    ml: ലൂക്കോസ് 24:1–12
+    note: Why do you look for the living among the dead?
+    printed: St. Luke 24:1-12
+  celebration_of_the_cross:
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: Isaiah 60:17–22
+    ml: യെശയ്യാവ് 60:17–22
+    note: The Lord will be your everlasting light.
+    printed: Isaiah 60:17-22
+  - kind: General Epistle
+    kind_ml: പൊതുലേഖനം
+    ref: 1 Peter 5:5–14
+    ml: 1 പത്രോസ് 5:5–14
+    note: Clothe yourselves with humility; cast all your anxiety on him.
+    printed: I Peter 5:5-14
+  - kind: Pauline Epistle
+    kind_ml: പൗലോസിന്റെ ലേഖനം
+    ref: Romans 16:1–16
+    ml: റോമർ 16:1–16
+    note: Paul greets the men and women who worked with him in the Gospel.
+    printed: Romans 16:1-16
+  - kind: Gospel
+    kind_ml: സുവിശേഷം
+    ref: John 14:27; 15:11–15, 17–19
+    ml: യോഹന്നാൻ 14:27; 15:11–15, 17–19
+    note: Peace I leave with you; I have called you friends.
+    printed: St. John 14:27, 15:11-15, 17-19
+one_minute:
+  what_happens: Mary Magdalene and the other Mary go to the tomb at dawn. An angel tells them Jesus is risen. Running to tell the disciples, they meet Jesus himself. The guards are paid to lie. On a mountain in Galilee Jesus sends the eleven to all nations.
+  why_this_sunday: This is the feast of feasts, the resurrection of Christ, the centre of the whole Church year. Great Lent and Holy Week end here.
+  take_with_you: The women ran from the tomb “with fear and great joy”. Easter does not remove fear at once. It puts joy beside it.
+readings_thread: Leviticus describes the Day of Atonement, and Isaiah calls Jerusalem to arise and shine because its light has come. Peter tells the crowd that God raised Jesus from the dead, and Paul says that if Christ is not raised, our faith is empty.
+key_verse:
+  ref: Matthew 28:20
+  ml: '[ML VERSE: Sathyavedapusthakam 1910, Matthew 28:20]'
+  ml_translation: Sathyavedapusthakam, 1910
+  en: teaching them to observe all things that I commanded you. Behold, I am with you always, even to the end of the age.” Amen.
+  en_translation: World English Bible
+scenes:
+- verses: Matthew 28:1–4
+  title: An earthquake at dawn
+  text: As the first day of the week dawns, the two Marys go to see the tomb. There is a great earthquake. An angel rolls back the stone and sits on it. The guards shake with fear and become like dead men.
+  easy_to_miss: The stone is rolled away not to let Jesus out, but to let the women see in.
+- verses: Matthew 28:5–7
+  title: He is not here
+  text: Do not be afraid, the angel tells the women. You are looking for Jesus who was crucified. He is not here; he has risen, as he said. Come and see the place, then go quickly and tell his disciples.
+  easy_to_miss: The guards, who were armed, are the ones who collapse. The women are told not to be afraid.
+- verses: Matthew 28:8–10
+  title: Fear and great joy
+  text: 'They run from the tomb with fear and great joy. Suddenly Jesus meets them: Rejoice! They take hold of his feet and worship him. Go and tell my brothers to go to Galilee, he says.'
+  easy_to_miss: Jesus calls the disciples who ran away “my brothers”. Easter begins with forgiveness.
+- verses: Matthew 28:11–15
+  title: The guards’ story
+  text: Some of the guards report to the chief priests, who pay them to say the disciples stole the body while they slept.
+  easy_to_miss: Matthew says this story was still told “to this day”. The empty tomb was never in dispute, only the explanation.
+- verses: Matthew 28:16–20
+  title: To all nations
+  text: 'The eleven go to the mountain in Galilee. They worship him, though some doubt. Jesus says: all authority has been given to me. Go and make disciples of all nations, baptising and teaching them. I am with you always.'
+  easy_to_miss: “Some doubted”, even then, even there. Jesus sends them out anyway.
+people:
+- name: Mary Magdalene
+  ml: മഗ്ദലക്കാരത്തി മറിയ
+  role: A follower of Jesus from Magdala, first at the tomb.
+  name_meaning: “Of Magdala”, a town on the Sea of Galilee
+- name: The other Mary
+  ml: മറ്റേ മറിയ
+  role: Probably the mother of James and Joseph (Matthew 27:56).
+  name_meaning: Hebrew Miriam
+- name: The eleven
+  ml: പതിനൊന്നു ശിഷ്യന്മാർ
+  role: The apostles without Judas, sent to all nations.
+  name_meaning: —
+phrases:
+- term: Kyomtho
+  explanation: Syriac for resurrection. The Malankara Church’s name for Easter.
+- term: First day of the week
+  explanation: Sunday. Christians have gathered on this day ever since because it is the day of the resurrection.
+- term: Great Commission
+  explanation: 'Jesus’ last command in Matthew: make disciples of all nations. The Church in India traces its own beginning to it through St. Thomas.'
+reflection:
+  title_en: Fear and great joy
+  title_ml: '[TITLE ML]'
+  read_time: A three-minute read
+  body: |-
+    The women came to the tomb expecting grief. They had watched Jesus die and seen where he was laid. They came to sit with a dead friend. Instead the ground shook, a stone rolled, and an angel told them to come and see that he was not there.
+
+    Matthew says they ran away “with fear and great joy”. Both at once. Easter did not make their fear disappear in a moment. They had just been through the worst week of their lives. But joy came and stood beside the fear, and then Jesus himself met them on the road and said: rejoice.
+
+    Many of us come to Easter carrying something: an illness, a loss, a worry that will still be there on Monday. The resurrection does not pretend those things are not real. It tells us they do not have the last word. Christ is risen, and he is with us always, to the end of the age.
+  author: '[AUTHOR NAME]'
+  reviewer: '[REVIEWER NAME, PARISH]'
+week:
+  question: What is one fear you are carrying today? What would it look like to carry joy alongside it?
+  question_note: Two minutes after the audio. Everyone gets a turn, and nobody is interrupted.
+  small_act: Greet each person at home this week with the Easter greeting, and share an Easter meal with someone who would otherwise eat alone.
+  prayer: Christ is risen from the dead! Lord Jesus, you met the women on the road and said “rejoice”. Meet us in our fear, fill us with your joy, and send us out to tell what we have seen. Amen.
+sources:
+  lectionary: https://mosc.in/lectionary/kyomtho-easter-to-koodosh-edtho/
+reviewed: false

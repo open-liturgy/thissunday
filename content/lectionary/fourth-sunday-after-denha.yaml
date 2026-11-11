@@ -1,0 +1,117 @@
+# Reusable text for Fourth Sunday after Baptism (Sunday for Workers). Year-independent; a dated edition in content/sundays/ overrides any field.
+# Readings transcribed from https://mosc.in/lectionary/421-2/. Everything else is a DRAFT for priest/editor review.
+sunday_slug: fourth-sunday-after-denha
+is_sunday: true
+name:
+  en: Fourth Sunday after Baptism (Sunday for Workers)
+  ml: '[MALAYALAM NAME]'
+title_as_printed: Fourth Sunday after Baptism (Sunday for Workers)
+season:
+  en: '[SEASON]'
+  gloss: '[SEASON GLOSS]'
+  syr: '[SYRIAC]'
+tagline: '[TAGLINE]'
+standfirst: '[STANDFIRST]'
+description: '[DESCRIPTION naming Mark 6:1–6]'
+hero_quote:
+  text: '[HERO QUOTE]'
+  ref: '[REF]'
+readings:
+  evening:
+  - kind: Gospel
+    kind_ml: സുവിശേഷം
+    ref: Luke 7:18–23
+    ml: ലൂക്കോസ് 7:18–23
+    note: '[NOTE: what to listen for in Luke 7:18–23]'
+    printed: St. Luke 7:18-23
+  morning:
+  - kind: Gospel
+    kind_ml: സുവിശേഷം
+    ref: Mark 12:28–37
+    ml: മർക്കൊസ് 12:28–37
+    note: '[NOTE: what to listen for in Mark 12:28–37]'
+    printed: St. Mark 12:28-37
+  before_qurbana:
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: Genesis 2:4–17
+    ml: ഉല്പത്തി 2:4–17
+    note: '[NOTE: what to listen for in Genesis 2:4–17]'
+    printed: Genesis 2:4-17
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: Deuteronomy 18:9–16
+    ml: ആവർത്തനം 18:9–16
+    note: '[NOTE: what to listen for in Deuteronomy 18:9–16]'
+    printed: Deuteronomy 18:9-16
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: Isaiah 40:27–31
+    ml: യെശയ്യാവ് 40:27–31
+    note: Those who wait on the Lord will renew their strength; they will mount up with wings like eagles.
+    printed: Isaiah 40:27-31
+  holy_qurbana:
+  - kind: Acts of the Apostles
+    kind_ml: അപ്പൊസ്തലപ്രവൃത്തികൾ
+    ref: Acts 18:1–4; 20:33–35
+    ml: അപ്പൊസ്തലപ്രവൃത്തികൾ 18:1–4; 20:33–35
+    note: '[NOTE: what to listen for in Acts 18:1–4; 20:33–35]'
+    printed: Acts 18:1-4, 20:33-35
+  - kind: General Epistle
+    kind_ml: പൊതുലേഖനം
+    ref: James 5:1–14
+    ml: യാക്കോബ് 5:1–14
+    note: '[NOTE: what to listen for in James 5:1–14]'
+    printed: James 5:1-14
+  - kind: Pauline Epistle
+    kind_ml: പൗലോസിന്റെ ലേഖനം
+    ref: 1 Corinthians 12:12–27
+    ml: 1 കൊരിന്ത്യർ 12:12–27
+    note: One body with many members, all baptised by one Spirit.
+    printed: I Corinthians 12:12-27
+  - kind: Pauline Epistle
+    kind_ml: പൗലോസിന്റെ ലേഖനം
+    ref: 1 Thessalonians 4:9–12
+    ml: 1 തെസ്സലൊനീക്യർ 4:9–12
+    note: '[NOTE: what to listen for in 1 Thessalonians 4:9–12]'
+    printed: I Thessalonians 4:9-12
+  - kind: Pauline Epistle
+    kind_ml: പൗലോസിന്റെ ലേഖനം
+    ref: 2 Thessalonians 3:6–15
+    ml: 2 തെസ്സലൊനീക്യർ 3:6–15
+    note: '[NOTE: what to listen for in 2 Thessalonians 3:6–15]'
+    printed: II Thessalonians 3:6-15
+  - kind: Gospel
+    kind_ml: സുവിശേഷം
+    ref: Mark 6:1–6
+    ml: മർക്കൊസ് 6:1–6
+    note: '[NOTE: what to listen for in Mark 6:1–6]'
+    printed: St. Mark 6:1-6
+    main: true
+one_minute:
+  what_happens: '[WHAT HAPPENS]'
+  why_this_sunday: '[WHY THIS SUNDAY]'
+  take_with_you: '[TAKE WITH YOU]'
+readings_thread: '[THREAD THROUGH THE READINGS]'
+key_verse:
+  ref: '[REF]'
+  ml: '[ML VERSE: Sathyavedapusthakam 1910]'
+  en: '[EN VERSE: World English Bible]'
+scenes: []
+people: []
+phrases: []
+reflection:
+  title_en: '[TITLE]'
+  title_ml: '[TITLE ML]'
+  body: '[REFLECTION]'
+  author: '[AUTHOR NAME]'
+  reviewer: '[REVIEWER NAME, PARISH]'
+  read_time: '[READ TIME]'
+week:
+  question: '[QUESTION]'
+  question_note: Two minutes after the audio. Everyone gets a turn, and nobody is interrupted.
+  small_act: '[SMALL ACT]'
+  prayer: '[PRAYER]'
+sources:
+  lectionary: https://mosc.in/lectionary/421-2/
+reviewed: false

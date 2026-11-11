@@ -1,0 +1,126 @@
+# Reusable text for Baptism of our Lord Jesus Christ (6th January). Year-independent; a dated edition in content/sundays/ overrides any field.
+# Readings transcribed from https://mosc.in/lectionary/421-2/. Everything else is a DRAFT for priest/editor review.
+sunday_slug: denha
+is_sunday: false
+name:
+  en: Baptism of our Lord Jesus Christ (6th January)
+  ml: '[MALAYALAM NAME]'
+title_as_printed: Baptism of our Lord Jesus Christ (6th January)
+season:
+  en: '[SEASON]'
+  gloss: '[SEASON GLOSS]'
+  syr: '[SYRIAC]'
+tagline: '[TAGLINE]'
+standfirst: '[STANDFIRST]'
+description: '[DESCRIPTION naming Luke 3:7–22]'
+hero_quote:
+  text: '[HERO QUOTE]'
+  ref: '[REF]'
+readings:
+  evening:
+  - kind: Gospel
+    kind_ml: സുവിശേഷം
+    ref: Mark 1:1–11
+    ml: മർക്കൊസ് 1:1–11
+    note: '[NOTE: what to listen for in Mark 1:1–11]'
+    printed: St. Mark 1:1-11
+  morning:
+  - kind: Gospel
+    kind_ml: സുവിശേഷം
+    ref: Matthew 3:1–17
+    ml: മത്തായി 3:1–17
+    note: '[NOTE: what to listen for in Matthew 3:1–17]'
+    printed: St. Matthew 3:1-17
+  before_qurbana:
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: Genesis 24:10–20
+    ml: ഉല്പത്തി 24:10–20
+    note: '[NOTE: what to listen for in Genesis 24:10–20]'
+    printed: Genesis 24:10-20
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: 2 Kings 3:19–25
+    ml: 2 രാജാക്കന്മാർ 3:19–25
+    note: '[NOTE: what to listen for in 2 Kings 3:19–25]'
+    printed: II Kings 3:19-25
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: Ezekiel 47:1–12
+    ml: യെഹെസ്കേൽ 47:1–12
+    note: A river flows from the Temple, and everything it touches lives.
+    printed: Ezekiel 47:1-12
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: Isaiah 12:1–6
+    ml: യെശയ്യാവ് 12:1–6
+    note: '[NOTE: what to listen for in Isaiah 12:1–6]'
+    printed: Isaiah 12:1-6
+  holy_qurbana:
+  - kind: Acts of the Apostles
+    kind_ml: അപ്പൊസ്തലപ്രവൃത്തികൾ
+    ref: Acts 19:1–7
+    ml: അപ്പൊസ്തലപ്രവൃത്തികൾ 19:1–7
+    note: Paul lays hands on believers in Ephesus, and the Holy Spirit comes on them.
+    printed: Acts 19:1-7
+  - kind: Pauline Epistle
+    kind_ml: പൗലോസിന്റെ ലേഖനം
+    ref: Titus 2:11–3:9
+    ml: തീത്തൊസ് 2:11–3:9
+    note: '[NOTE: what to listen for in Titus 2:11–3:9]'
+    printed: Titus 2:11-3:9
+  - kind: Gospel
+    kind_ml: സുവിശേഷം
+    ref: Luke 3:7–22
+    ml: ലൂക്കോസ് 3:7–22
+    note: '[NOTE: what to listen for in Luke 3:7–22]'
+    printed: St. Luke 3:7-22
+    main: true
+readings_other:
+  blessing_of_the_water:
+  - kind: Acts of the Apostles
+    kind_ml: അപ്പൊസ്തലപ്രവൃത്തികൾ
+    ref: Acts 8:35–40
+    ml: അപ്പൊസ്തലപ്രവൃത്തികൾ 8:35–40
+    note: '[NOTE: what to listen for in Acts 8:35–40]'
+    printed: Acts 8:35-40
+  - kind: Pauline Epistle
+    kind_ml: പൗലോസിന്റെ ലേഖനം
+    ref: Hebrews 10:15–25
+    ml: എബ്രായർ 10:15–25
+    note: '[NOTE: what to listen for in Hebrews 10:15–25]'
+    printed: Hebrews 10:15-25
+  - kind: Gospel
+    kind_ml: സുവിശേഷം
+    ref: John 4:1–42
+    ml: യോഹന്നാൻ 4:1–42
+    note: '[NOTE: what to listen for in John 4:1–42]'
+    printed: St. John 4:1-42
+one_minute:
+  what_happens: '[WHAT HAPPENS]'
+  why_this_sunday: '[WHY THIS SUNDAY]'
+  take_with_you: '[TAKE WITH YOU]'
+readings_thread: '[THREAD THROUGH THE READINGS]'
+key_verse:
+  ref: '[REF]'
+  ml: '[ML VERSE: Sathyavedapusthakam 1910]'
+  en: '[EN VERSE: World English Bible]'
+scenes: []
+people: []
+phrases: []
+reflection:
+  title_en: '[TITLE]'
+  title_ml: '[TITLE ML]'
+  body: '[REFLECTION]'
+  author: '[AUTHOR NAME]'
+  reviewer: '[REVIEWER NAME, PARISH]'
+  read_time: '[READ TIME]'
+week:
+  question: '[QUESTION]'
+  question_note: Two minutes after the audio. Everyone gets a turn, and nobody is interrupted.
+  small_act: '[SMALL ACT]'
+  prayer: '[PRAYER]'
+sources:
+  lectionary: https://mosc.in/lectionary/421-2/
+lectionary_note: This festival is called Danaha in Syriac meaning 'Dawn'. Also called Epiphany or Theophany.
+reviewed: false

@@ -1,0 +1,140 @@
+# Reusable text for All Departed Priests. Year-independent; a dated edition in content/sundays/ overrides any field.
+# Readings transcribed from https://mosc.in/lectionary/421-2/. Everything else is a DRAFT for priest/editor review.
+sunday_slug: all-departed-priests
+is_sunday: true
+name:
+  en: Sunday of All Departed Priests
+  ml: '[MALAYALAM NAME]'
+title_as_printed: All Departed Priests
+season:
+  en: Remembrance of the departed
+  gloss: The Sundays before Great Lent
+  syr: '[SYRIAC]'
+tagline: The faithful servant who feeds the household
+standfirst: Before Great Lent the Church remembers the priests who served it and have died. Jesus tells a story about a servant left in charge of a household while the master is away.
+description: Readings for the Sunday of All Departed Priests, with Matthew 24:42–51 explained in five scenes, a reflection and a question for the family.
+hero_quote:
+  text: Who then is the faithful and wise servant, whom his lord has set over his household, to give them their food in due season?
+  ref: Matthew 24:45
+readings:
+  evening:
+  - kind: Gospel
+    kind_ml: സുവിശേഷം
+    ref: Matthew 25:13–30
+    ml: മത്തായി 25:13–30
+    note: 'The parable of the talents: well done, good and faithful servant.'
+    printed: St. Matthew 25:13-30
+  morning:
+  - kind: Gospel
+    kind_ml: സുവിശേഷം
+    ref: Luke 19:11–28
+    ml: ലൂക്കോസ് 19:11–28
+    note: A nobleman leaves money with his servants and returns to see what they did with it.
+    printed: St. Luke 19:11-28
+  before_qurbana:
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: Numbers 20:23–29
+    ml: സംഖ്യാപുസ്തകം 20:23–29
+    note: Aaron dies on Mount Hor, and his priestly robes pass to his son Eleazar.
+    printed: Numbers 20:23-29
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: Deuteronomy 34:1–8
+    ml: ആവർത്തനം 34:1–8
+    note: Moses sees the promised land from Mount Nebo and dies there.
+    printed: Deuteronomy 34:1-8
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: Isaiah 65:13–20
+    ml: യെശയ്യാവ് 65:13–20
+    note: I create new heavens and a new earth; no more weeping will be heard.
+    printed: Isaiah 65:13-20
+  holy_qurbana:
+  - kind: Acts of the Apostles
+    kind_ml: അപ്പൊസ്തലപ്രവൃത്തികൾ
+    ref: Acts 20:26–38
+    ml: അപ്പൊസ്തലപ്രവൃത്തികൾ 20:26–38
+    note: 'Paul’s farewell to the elders of Ephesus: keep watch over the flock.'
+    printed: Acts 20:26-38
+  - kind: Pauline Epistle
+    kind_ml: പൗലോസിന്റെ ലേഖനം
+    ref: 1 Thessalonians 4:13–5:11
+    ml: 1 തെസ്സലൊനീക്യർ 4:13–5:11
+    note: Do not grieve as those without hope; the day of the Lord comes like a thief.
+    printed: I Thessalonians 4:13-5:11
+  - kind: Gospel
+    kind_ml: സുവിശേഷം
+    ref: Matthew 24:42–51
+    ml: മത്തായി 24:42–51
+    note: 'Keep watch: the faithful servant gives the household food at the proper time. This is the Gospel of the day.'
+    printed: St. Matthew 24:42-51
+    main: true
+one_minute:
+  what_happens: 'Jesus tells his disciples to keep watch, because they do not know when he will come. He describes two servants: one feeds the household faithfully and is rewarded, the other abuses his position and is caught out.'
+  why_this_sunday: On the two Sundays before Great Lent the Church remembers the departed, first its priests and then all the faithful. This Sunday is for the priests.
+  take_with_you: The faithful servant is not doing anything dramatic. He is giving people their food at the right time, day after day.
+readings_thread: Aaron dies on Mount Hor and his son takes his robes, and Moses sees the promised land before he dies. Paul says goodbye to the elders of Ephesus and tells them to guard the flock. Thessalonians tells us not to grieve without hope.
+key_verse:
+  ref: Matthew 24:46
+  ml: '[ML VERSE: Sathyavedapusthakam 1910, Matthew 24:46]'
+  ml_translation: Sathyavedapusthakam, 1910
+  en: Blessed is that servant whom his lord finds doing so when he comes.
+  en_translation: World English Bible
+scenes:
+- verses: Matthew 24:42
+  title: Keep watch
+  text: Watch, Jesus says, because you do not know on what day your Lord is coming.
+  easy_to_miss: This comes at the end of Jesus’ last long teaching before his Passion. He is preparing them for his absence.
+- verses: Matthew 24:43–44
+  title: Like a thief
+  text: If a householder knew when a thief was coming, he would stay awake. So be ready, because the Son of Man comes when you do not expect him.
+  easy_to_miss: Paul uses the same picture in 1 Thessalonians 5:2, read before this Gospel.
+- verses: Matthew 24:45
+  title: Food at the right time
+  text: Who is the faithful and wise servant the master puts in charge of his household, to give them food at the proper time?
+  easy_to_miss: The servant is in charge of the others, but his task is to serve them. Authority here means feeding people.
+- verses: Matthew 24:46–47
+  title: Found doing his work
+  text: Blessed is the servant the master finds doing this when he comes. He will put him in charge of all he has.
+  easy_to_miss: The reward for faithful service is more service.
+- verses: Matthew 24:48–51
+  title: The master is delayed
+  text: But if the servant says “my master is taking his time” and begins beating the others and drinking, the master will come on a day he does not expect and punish him.
+  easy_to_miss: 'The wicked servant’s mistake starts in his heart: “my master is delayed”. Forgetting that the master will return is what lets him abuse the household.'
+people:
+- name: The faithful servant
+  ml: '[ML NAME]'
+  role: Left in charge of the household, he keeps feeding everyone on time.
+  name_meaning: —
+- name: Aaron
+  ml: അഹരോൻ
+  role: The first high priest, whose death is read before Qurbana.
+  name_meaning: Uncertain; often given as “mountain of strength”
+phrases:
+- term: Household
+  explanation: A large household included family, servants and workers. A trusted steward ran it for the master.
+- term: Food in due season
+  explanation: Daily rations handed out at the right time. The Church has long read it as the Word and the sacraments.
+- term: Departed priests
+  explanation: The Church prays for its priests who have died, by name in the Thubden of the Qurbana and on this Sunday.
+reflection:
+  title_en: The priests who fed us
+  title_ml: '[TITLE ML]'
+  read_time: A three-minute read
+  body: |-
+    Most of us can name the priests who baptised us, married us, or buried someone we loved. Many of them have now died. On this Sunday the Church remembers them and prays for them, and the Gospel it chooses tells us what they were for: feeding the household at the right time.
+
+    That is not glamorous work. It means celebrating the Qurbana in rain and heat, visiting the sick, sitting with the dying and teaching children who would rather be elsewhere. It means doing it for years, often for little thanks. Jesus calls a servant like that blessed, and promises he will be found doing it when the master comes.
+
+    This Sunday is a good time to give thanks for the priests who fed us, and to pray for them by name. It is also a good time to pray for those who serve us now. They are not perfect, and the Gospel is honest about servants who fail. But the faithful ones deserve our gratitude while they are still with us.
+  author: '[AUTHOR NAME]'
+  reviewer: '[REVIEWER NAME, PARISH]'
+week:
+  question: Which priest has made a difference in our family’s life? What do we remember about them?
+  question_note: Two minutes after the audio. Everyone gets a turn, and nobody is interrupted.
+  small_act: Pray by name for one priest who has died, and send a short note of thanks to a priest who serves you now.
+  prayer: Lord, remember the priests who served your Church and have fallen asleep. Give them rest with your saints. Bless those who serve us now, and find them faithful when you come. Amen.
+sources:
+  lectionary: https://mosc.in/lectionary/421-2/
+reviewed: false

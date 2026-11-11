@@ -1,0 +1,140 @@
+# Reusable text for Second Sunday after New Sunday. Year-independent; a dated edition in content/sundays/ overrides any field.
+# Readings transcribed from https://mosc.in/lectionary/kyomtho-easter-to-koodosh-edtho/. Everything else is a DRAFT for priest/editor review.
+sunday_slug: second-sunday-after-new-sunday
+is_sunday: true
+name:
+  en: Second Sunday after New Sunday
+  ml: '[MALAYALAM NAME]'
+title_as_printed: Second Sunday after New Sunday
+season:
+  en: Kyomtho
+  gloss: The Resurrection season
+  syr: '[SYRIAC]'
+tagline: “Do you love me?” Peter is asked three times
+standfirst: After breakfast on the beach, Jesus turns to Peter. Three times Peter had denied him. Now, three times, Jesus asks him the same question.
+description: Readings for the Second Sunday after New Sunday, with John 21:15–19, Jesus and Peter by the lake, explained in five scenes. Reflection and question.
+hero_quote:
+  text: Lord, you know everything. You know that I have affection for you.
+  ref: John 21:17
+readings:
+  evening:
+  - kind: Gospel
+    kind_ml: സുവിശേഷം
+    ref: John 6:16–29
+    ml: യോഹന്നാൻ 6:16–29
+    note: Jesus walks on the sea; the work of God is to believe in the one he has sent.
+    printed: St. John 6:16-29
+  morning:
+  - kind: Gospel
+    kind_ml: സുവിശേഷം
+    ref: Matthew 14:22–33
+    ml: മത്തായി 14:22–33
+    note: Peter walks on water, begins to sink, and Jesus catches him.
+    printed: St. Matthew 14:22-33
+  before_qurbana:
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: Exodus 40:1–16
+    ml: പുറപ്പാട് 40:1–16
+    note: Moses sets up the tabernacle and anoints Aaron and his sons to serve.
+    printed: Exodus 40:1-16
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: Joshua 2:1–6
+    ml: യോശുവ 2:1–6
+    note: Rahab hides the spies sent to Jericho.
+    printed: Joshua 2:1-6
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: Isaiah 49:13–21
+    ml: യെശയ്യാവ് 49:13–21
+    note: Can a mother forget her nursing child? Even if she could, I will not forget you.
+    printed: Isaiah 49:13-21
+  holy_qurbana:
+  - kind: Acts of the Apostles
+    kind_ml: അപ്പൊസ്തലപ്രവൃത്തികൾ
+    ref: Acts 4:8–21
+    ml: അപ്പൊസ്തലപ്രവൃത്തികൾ 4:8–21
+    note: 'Peter and John before the council: we cannot stop speaking about what we have seen.'
+    printed: Acts 4:8-21
+  - kind: Pauline Epistle
+    kind_ml: പൗലോസിന്റെ ലേഖനം
+    ref: Hebrews 3:1–13
+    ml: എബ്രായർ 3:1–13
+    note: Christ is faithful over God’s house; encourage one another every day.
+    printed: Hebrews 3:1-13
+  - kind: Gospel
+    kind_ml: സുവിശേഷം
+    ref: John 21:15–19
+    ml: യോഹന്നാൻ 21:15–19
+    note: Do you love me? Feed my sheep. Follow me. This is the Gospel of the day.
+    printed: St. John 21:15-19
+    main: true
+one_minute:
+  what_happens: 'Jesus asks Peter three times whether he loves him. Each time Peter says yes, and Jesus tells him to feed or care for his sheep. Peter is hurt by the third question. Jesus tells him how he will die, and says: follow me.'
+  why_this_sunday: This continues last Sunday’s Gospel. The breakfast by the lake turns into Peter’s restoration.
+  take_with_you: Jesus does not ask Peter to explain his failure. He asks if he loves him, and then gives him work to do.
+readings_thread: Moses anoints Aaron and his sons to serve, and Rahab, an outsider, protects God’s people. Isaiah says even if a mother forgets her child, God will not forget. Peter and John refuse to stop speaking about Jesus.
+key_verse:
+  ref: John 21:15
+  ml: '[ML VERSE: Sathyavedapusthakam 1910, John 21:15]'
+  ml_translation: Sathyavedapusthakam, 1910
+  en: So when they had eaten their breakfast, Jesus said to Simon Peter, “Simon, son of Jonah, do you love me more than these?” He said to him, “Yes, Lord; you know that I have affection for you.” He said to him, “Feed my lambs.”
+  en_translation: World English Bible
+scenes:
+- verses: John 21:15
+  title: More than these?
+  text: 'After breakfast Jesus says: Simon, son of John, do you love me more than these? Yes, Lord, you know I love you. Feed my lambs.'
+  easy_to_miss: Jesus calls him Simon, his old name, not Peter, the rock. He is starting again from the beginning.
+- verses: John 21:16
+  title: Tend my sheep
+  text: 'A second time: Simon, son of John, do you love me? Yes, Lord, you know I love you. Take care of my sheep.'
+  easy_to_miss: 'Lambs, then sheep: the young and the grown. Peter is to care for the whole flock.'
+- verses: John 21:17
+  title: Peter is hurt
+  text: 'A third time: do you love me? Peter is grieved that he asks a third time. Lord, you know everything; you know that I love you. Feed my sheep.'
+  easy_to_miss: Three denials beside a charcoal fire; three declarations of love beside another one.
+- verses: John 21:18–19a
+  title: When you are old
+  text: 'When you were young you dressed yourself and went where you wanted. When you are old, someone else will dress you and lead you where you do not want to go. John explains: this showed the kind of death by which Peter would glorify God.'
+  easy_to_miss: Tradition says Peter was crucified in Rome. John wrote after it had happened.
+- verses: John 21:19b
+  title: Follow me
+  text: 'Then Jesus says to him: follow me.'
+  easy_to_miss: By the same lake, “follow me” was the first call Peter heard (Mark 1:17). Now it is the last thing Jesus says to him in John.
+people:
+- name: Simon Peter
+  ml: ശിമോൻ പത്രൊസ്
+  role: The disciple who denied Jesus three times, now restored.
+  name_meaning: Simon, “he has heard”; Peter, “rock”
+- name: Jesus
+  ml: യേശു
+  role: The risen Lord, the Good Shepherd, handing his flock to Peter.
+  name_meaning: “The Lord saves”
+phrases:
+- term: Feed my sheep
+  explanation: Jesus called himself the Good Shepherd (John 10:11). Now he gives Peter a share in the same work.
+- term: Love
+  explanation: John uses two Greek words here, agapao and phileo. Interpreters differ on whether the change matters.
+- term: Stretch out your hands
+  explanation: Early Christians read this as a picture of crucifixion.
+reflection:
+  title_en: Three questions for three denials
+  title_ml: '[TITLE ML]'
+  read_time: A three-minute read
+  body: |-
+    Peter must have dreaded this moment. Three times he had said he did not know Jesus. Now he was sitting by a fire with him again. Jesus could have asked why. He could have reminded him of the boasting at the Last Supper. Instead he asks a single question, three times: do you love me?
+
+    The third time hurts. Peter knows what Jesus is doing, and he answers with everything he has left: Lord, you know everything. You know I love you. Each answer is met not with forgiveness in words but with a job. Feed my lambs. Look after my sheep. The failed disciple is trusted with the flock.
+
+    When someone we love has let us down, it is hard not to make them explain. Jesus shows another way: ask about love, and then hand them something to do. Being trusted again heals in a way that words alone cannot. And for all of us, after every failure, the last word is the same: follow me.
+  author: '[AUTHOR NAME]'
+  reviewer: '[REVIEWER NAME, PARISH]'
+week:
+  question: Is there someone you need to trust again after they let you down? What would it take?
+  question_note: Two minutes after the audio. Everyone gets a turn, and nobody is interrupted.
+  small_act: Give someone who has made a mistake a real responsibility this week, to show that you trust them.
+  prayer: Lord Jesus, you know everything; you know that we love you, even when we fail you. Restore us as you restored Peter, give us work to do for your flock, and teach us to follow you to the end. Amen.
+sources:
+  lectionary: https://mosc.in/lectionary/kyomtho-easter-to-koodosh-edtho/
+reviewed: false

@@ -1,0 +1,148 @@
+# Reusable text for Hoodhosh Eetho (Dedication) Sunday. Year-independent; a dated edition in content/sundays/ overrides any field.
+# Readings transcribed from https://mosc.in/lectionary/421-2/. Everything else is a DRAFT for priest/editor review.
+sunday_slug: hoodhosh-eetho
+is_sunday: true
+name:
+  en: Hoodosh Eetho
+  ml: '[MALAYALAM NAME]'
+title_as_printed: Hoodhosh Eetho (Dedication) Sunday
+season:
+  en: Koodosh Eetho
+  gloss: The Church year begins
+  syr: '[SYRIAC]'
+also_kept_as: Dedication of the Church
+tagline: Renewal of the Church
+standfirst: It is winter in Jerusalem and the city is celebrating the day the Temple was rededicated. Jesus walks in the Temple courts and tells the crowd that his sheep know his voice.
+description: Readings for Hoodosh Eetho, the dedication of the Church, with John 10:22–38 explained in five scenes, a reflection and a family question.
+hero_quote:
+  text: It was the Feast of the Dedication at Jerusalem. It was winter, and Jesus was walking in the temple, in Solomon’s porch.
+  ref: John 10:22–23
+readings:
+  evening:
+  - kind: Gospel
+    kind_ml: സുവിശേഷം
+    ref: Luke 19:47–20:8
+    ml: ലൂക്കോസ് 19:47–20:8
+    note: Jesus teaches daily in the Temple, and the leaders question his authority.
+    printed: St. Luke 19:47-20:8
+  morning:
+  - kind: Gospel
+    kind_ml: സുവിശേഷം
+    ref: Mark 12:41–44
+    ml: മർക്കൊസ് 12:41–44
+    note: 'A poor widow puts two small coins in the Temple treasury: all she had.'
+    printed: St. Mark 12:41-44
+  before_qurbana:
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: Exodus 33:7–11
+    ml: പുറപ്പാട് 33:7–11
+    note: Moses meets God in the tent outside the camp, face to face, as a friend.
+    printed: Exodus 33:7-11
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: 1 Kings 8:22–40
+    ml: 1 രാജാക്കന്മാർ 8:22–40
+    note: 'Solomon prays at the dedication of the Temple: hear from heaven and forgive.'
+    printed: I Kings 8:22-40
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: Isaiah 55:1–13
+    ml: യെശയ്യാവ് 55:1–13
+    note: Come, everyone who is thirsty; my word will not return to me empty.
+    printed: Isaiah 55:1-13
+  holy_qurbana:
+  - kind: Acts of the Apostles
+    kind_ml: അപ്പൊസ്തലപ്രവൃത്തികൾ
+    ref: Acts 7:44–53
+    ml: അപ്പൊസ്തലപ്രവൃത്തികൾ 7:44–53
+    note: Stephen says the Most High does not live in houses made by human hands.
+    printed: Acts 7:44-53
+    or:
+      kind: Revelation
+      kind_ml: വെളിപ്പാട്
+      ref: Revelation 3:14–22
+      ml: വെളിപ്പാട് 3:14–22
+      printed: Revelation 3:14-22
+  - kind: Pauline Epistle
+    kind_ml: പൗലോസിന്റെ ലേഖനം
+    ref: Hebrews 9:1–14
+    ml: എബ്രായർ 9:1–14
+    note: The old tabernacle was a pattern; Christ entered the true sanctuary with his own blood.
+    printed: Hebrews 9:1-14
+  - kind: Gospel
+    kind_ml: സുവിശേഷം
+    ref: John 10:22–38
+    ml: യോഹന്നാൻ 10:22–38
+    note: 'At the Feast of Dedication: “My sheep hear my voice… I and the Father are one.” This is the Gospel of the day.'
+    printed: St. John 10:22-38
+    main: true
+one_minute:
+  what_happens: 'At the Feast of Dedication, people surround Jesus and demand a plain answer: is he the Christ? He points to his works, says his sheep hear his voice, and says he and the Father are one. They pick up stones.'
+  why_this_sunday: Hoodosh Eetho means the dedication of the Church. Last week the Church was sanctified; this week it is dedicated to God, as Solomon dedicated the Temple.
+  take_with_you: A building is dedicated once. People who belong to the Shepherd are dedicated every time they listen for his voice.
+readings_thread: Solomon prays at the dedication of the first Temple, Isaiah invites everyone who is thirsty to come, and Hebrews describes the tabernacle Christ fulfils. Stephen reminds his hearers that God does not live in houses made by hands.
+key_verse:
+  ref: John 10:27
+  ml: '[ML VERSE: Sathyavedapusthakam 1910, John 10:27]'
+  ml_translation: Sathyavedapusthakam, 1910
+  en: My sheep hear my voice, and I know them, and they follow me.
+  en_translation: World English Bible
+scenes:
+- verses: John 10:22–24
+  title: Winter in Solomon’s porch
+  text: 'It is the Feast of Dedication, and Jesus is walking in the covered colonnade of the Temple. People gather round him and say: stop keeping us in suspense.'
+  easy_to_miss: This feast remembers the cleansing of the Temple after it was defiled, about 160 years earlier. Today it is called Hanukkah.
+- verses: John 10:25–26
+  title: I told you
+  text: Jesus says he has already answered them. The works he does in his Father’s name speak for him, but they do not believe.
+  easy_to_miss: John’s Gospel calls Jesus’ miracles “signs”. They are meant to point beyond themselves.
+- verses: John 10:27–30
+  title: My sheep hear my voice
+  text: His sheep know his voice and follow him. He gives them eternal life, and no one can snatch them out of his hand or his Father’s. “I and the Father are one.”
+  easy_to_miss: The hand of Jesus and the hand of the Father hold the same sheep. The safety is doubled.
+- verses: John 10:31–33
+  title: Stones in their hands
+  text: The crowd picks up stones. Jesus asks which of his good works they are stoning him for. They say it is for blasphemy, because he, a man, makes himself God.
+  easy_to_miss: At a feast celebrating God’s presence in the Temple, they try to stone the one in whom God is present.
+- verses: John 10:34–38
+  title: Believe the works
+  text: Jesus quotes Psalm 82, where God calls people “gods”. If you cannot believe me, he says, believe the works, so that you may know the Father is in me and I am in the Father.
+  easy_to_miss: 'Jesus calls himself the one “the Father sanctified and sent into the world” (verse 36). Sanctified and dedicated: the same idea as this Sunday’s name.'
+people:
+- name: Jesus
+  ml: യേശു
+  role: Walking in the Temple at the winter feast, questioned by the crowd.
+  name_meaning: “The Lord saves”
+- name: Solomon
+  ml: ശലോമോൻ
+  role: The king who built and dedicated the first Temple. The porch where Jesus walks bears his name.
+  name_meaning: “Peaceful”
+phrases:
+- term: Feast of Dedication
+  explanation: A winter feast remembering the rededication of the Temple by the Maccabees after it had been defiled (1 Maccabees 4:52–59).
+- term: Solomon’s porch
+  explanation: A long covered colonnade on the east side of the Temple courts. The early Church met there too (Acts 5:12).
+- term: Hoodosh Eetho
+  explanation: Syriac for the dedication of the Church. It is kept on the Sunday after Koodosh Eetho.
+reflection:
+  title_en: A people who know the voice
+  title_ml: '[TITLE ML]'
+  read_time: A three-minute read
+  body: |-
+    The people in Solomon’s porch want a plain answer. They have heard Jesus teach and seen what he does, and they still want him to say it in one sentence. He tells them the problem is not the answer. Sheep recognise their shepherd because they have listened to him for a long time.
+
+    This Sunday the Church remembers its dedication. Solomon dedicated a Temple of stone, and the Maccabees rededicated it after it had been defiled. Both mattered. But in this Gospel the dedication that counts is a person: the one the Father sanctified and sent into the world, and the people who belong to him.
+
+    Recognising a voice takes time spent near it. A child knows a parent’s voice in a crowded room because they have heard it every day. If we want to know the Shepherd’s voice, the readings, the prayers and the Qurbana are where we hear it, week after week, until we can pick it out anywhere.
+  author: '[AUTHOR NAME]'
+  reviewer: '[REVIEWER NAME, PARISH]'
+week:
+  question: Where do you most easily hear God’s voice, and where is it hardest to hear?
+  question_note: Two minutes after the audio. Everyone gets a turn, and nobody is interrupted.
+  small_act: Find ten quiet minutes this week to read the Gospel for next Sunday, Luke 1:5–25, before you hear it in church.
+  prayer: Good Shepherd, we are the sheep of your hand. Dedicate our home and our Church to you again, teach us to know your voice, and let no one snatch us out of your hand. Amen.
+sources:
+  lectionary: https://mosc.in/lectionary/421-2/
+lectionary_note: The Sunday after Koodhosh Eetho is called Hoodhosh Eetho (Dedication of Church) Sunday.
+reviewed: false

@@ -1,0 +1,99 @@
+# Reusable text for Dukharono of St. Thomas (July 3rd). Year-independent; a dated edition in content/sundays/ overrides any field.
+# Readings transcribed from https://mosc.in/lectionary/kyomtho-easter-to-koodosh-edtho/. Everything else is a DRAFT for priest/editor review.
+sunday_slug: dukhrono-of-st-thomas
+is_sunday: false
+name:
+  en: Dukharono of St. Thomas (July 3rd)
+  ml: '[MALAYALAM NAME]'
+title_as_printed: Dukharono of St. Thomas (July 3rd)
+season:
+  en: '[SEASON]'
+  gloss: '[SEASON GLOSS]'
+  syr: '[SYRIAC]'
+tagline: '[TAGLINE]'
+standfirst: '[STANDFIRST]'
+description: '[DESCRIPTION naming Matthew 5:21–26]'
+hero_quote:
+  text: '[HERO QUOTE]'
+  ref: '[REF]'
+readings:
+  evening:
+  - kind: Gospel
+    kind_ml: സുവിശേഷം
+    ref: Luke 12:13–21
+    ml: ലൂക്കോസ് 12:13–21
+    note: '[NOTE: what to listen for in Luke 12:13–21]'
+    printed: St. Luke 12:13-21
+  morning:
+  - kind: Gospel
+    kind_ml: സുവിശേഷം
+    ref: Luke 12:48–59
+    ml: ലൂക്കോസ് 12:48–59
+    note: '[NOTE: what to listen for in Luke 12:48–59]'
+    printed: St. Luke 12:48-59
+  before_qurbana:
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: Exodus 12:43–51
+    ml: പുറപ്പാട് 12:43–51
+    note: '[NOTE: what to listen for in Exodus 12:43–51]'
+    printed: Exodus 12:43-51
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: Job 23:1–7
+    ml: ഇയ്യോബ് 23:1–7
+    note: '[NOTE: what to listen for in Job 23:1–7]'
+    printed: Job 23:1-7
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: Isaiah 52:1–15
+    ml: യെശയ്യാവ് 52:1–15
+    note: '[NOTE: what to listen for in Isaiah 52:1–15]'
+    printed: Isaiah 52:1-15
+  - kind: General Epistle
+    kind_ml: പൊതുലേഖനം
+    ref: 1 Peter 2:15–17
+    ml: 1 പത്രോസ് 2:15–17
+    note: '[NOTE: what to listen for in 1 Peter 2:15–17]'
+    printed: I Peter 2:15-17
+  - kind: Pauline Epistle
+    kind_ml: പൗലോസിന്റെ ലേഖനം
+    ref: 1 Corinthians 6:9–11
+    ml: 1 കൊരിന്ത്യർ 6:9–11
+    note: '[NOTE: what to listen for in 1 Corinthians 6:9–11]'
+    printed: I Corinthians 6:9-11
+  - kind: Gospel
+    kind_ml: സുവിശേഷം
+    ref: Matthew 5:21–26
+    ml: മത്തായി 5:21–26
+    note: '[NOTE: what to listen for in Matthew 5:21–26]'
+    printed: St. Matthew 5:21-26
+    main: true
+one_minute:
+  what_happens: '[WHAT HAPPENS]'
+  why_this_sunday: '[WHY THIS SUNDAY]'
+  take_with_you: '[TAKE WITH YOU]'
+readings_thread: '[THREAD THROUGH THE READINGS]'
+key_verse:
+  ref: '[REF]'
+  ml: '[ML VERSE: Sathyavedapusthakam 1910]'
+  en: '[EN VERSE: World English Bible]'
+scenes: []
+people: []
+phrases: []
+reflection:
+  title_en: '[TITLE]'
+  title_ml: '[TITLE ML]'
+  body: '[REFLECTION]'
+  author: '[AUTHOR NAME]'
+  reviewer: '[REVIEWER NAME, PARISH]'
+  read_time: '[READ TIME]'
+week:
+  question: '[QUESTION]'
+  question_note: Two minutes after the audio. Everyone gets a turn, and nobody is interrupted.
+  small_act: '[SMALL ACT]'
+  prayer: '[PRAYER]'
+sources:
+  lectionary: https://mosc.in/lectionary/kyomtho-easter-to-koodosh-edtho/
+lectionary_note: The page lists these six readings under Before Holy Qurbana and gives no separate Holy Qurbana list.
+reviewed: false

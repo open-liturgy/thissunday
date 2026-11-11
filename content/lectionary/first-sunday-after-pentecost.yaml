@@ -1,0 +1,146 @@
+# Reusable text for First Sunday after Pentecost. Year-independent; a dated edition in content/sundays/ overrides any field.
+# Readings transcribed from https://mosc.in/lectionary/kyomtho-easter-to-koodosh-edtho/. Everything else is a DRAFT for priest/editor review.
+sunday_slug: first-sunday-after-pentecost
+is_sunday: true
+name:
+  en: First Sunday after Pentecost
+  ml: '[MALAYALAM NAME]'
+title_as_printed: First Sunday after Pentecost
+season:
+  en: Pentecost
+  gloss: The season of the Holy Spirit
+  syr: '[SYRIAC]'
+tagline: “I am the bread of life”
+standfirst: The day after Jesus fed five thousand people, the crowd finds him again. They want more bread. He tells them he is the bread they really need.
+description: Readings for the First Sunday after Pentecost, with John 6:26–35, “I am the bread of life”, explained in five scenes. A reflection and a family question.
+hero_quote:
+  text: I am the bread of life. Whoever comes to me will not be hungry, and whoever believes in me will never be thirsty.
+  ref: John 6:35
+readings:
+  evening:
+  - kind: Gospel
+    kind_ml: സുവിശേഷം
+    ref: Luke 8:4–15
+    ml: ലൂക്കോസ് 8:4–15
+    note: 'The parable of the sower: seed on the path, the rock, among thorns and in good soil.'
+    printed: St. Luke 8:4-15
+  morning:
+  - kind: Gospel
+    kind_ml: സുവിശേഷം
+    ref: Matthew 11:20–24
+    ml: മത്തായി 11:20–24
+    note: Woe to the towns that saw Jesus’ mighty works and did not repent.
+    printed: St. Matthew 11:20-24
+  before_qurbana:
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: Genesis 41:38–40
+    ml: ഉല്പത്തി 41:38–40
+    note: 'Pharaoh sets Joseph over Egypt: a man in whom is the Spirit of God.'
+    printed: Genesis 41:38-40
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: Exodus 12:31–40
+    ml: പുറപ്പാട് 12:31–40
+    note: Israel leaves Egypt in haste, carrying unleavened dough.
+    printed: Exodus 12:31-40
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: Joshua 5:9–12
+    ml: യോശുവ 5:9–12
+    note: Israel eats the produce of the promised land, and the manna stops.
+    printed: Joshua 5:9-12
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: Jeremiah 29:10–16
+    ml: യിരെമ്യാവ് 29:10–16
+    note: 'I know the plans I have for you: to give you a future and a hope.'
+    printed: Jeremiah 29:10-16
+  holy_qurbana:
+  - kind: Acts of the Apostles
+    kind_ml: അപ്പൊസ്തലപ്രവൃത്തികൾ
+    ref: Acts 17:10–15
+    ml: അപ്പൊസ്തലപ്രവൃത്തികൾ 17:10–15
+    note: The Bereans search the Scriptures daily to see if what Paul says is true.
+    printed: Acts 17:10-15
+  - kind: Pauline Epistle
+    kind_ml: പൗലോസിന്റെ ലേഖനം
+    ref: 2 Corinthians 5:14–6:10
+    ml: 2 കൊരിന്ത്യർ 5:14–6:10
+    note: If anyone is in Christ, there is a new creation; now is the day of salvation.
+    printed: II Corinthians 5:14-6:10
+  - kind: Gospel
+    kind_ml: സുവിശേഷം
+    ref: John 6:26–35
+    ml: യോഹന്നാൻ 6:26–35
+    note: Do not work for food that perishes; I am the bread of life. This is the Gospel of the day.
+    printed: St. John 6:26-35
+    main: true
+one_minute:
+  what_happens: The crowd follows Jesus across the lake after the feeding of the five thousand. He says they came for the bread, not the sign. They ask for a sign like the manna in the desert. He tells them he is the true bread from heaven.
+  why_this_sunday: After Pentecost the Church begins a long run of ordinary Sundays about life in the Spirit. It starts with what feeds that life.
+  take_with_you: We spend most of our energy on food that runs out. Jesus offers food that lasts.
+readings_thread: Joseph is given charge of Egypt’s grain, and Israel leaves Egypt in haste. The manna stops when Israel eats the produce of the promised land. Jeremiah promises God will bring his people home, and Paul says we are a new creation.
+key_verse:
+  ref: John 6:27
+  ml: '[ML VERSE: Sathyavedapusthakam 1910, John 6:27]'
+  ml_translation: Sathyavedapusthakam, 1910
+  en: Don’t work for the food which perishes, but for the food which remains to eternal life, which the Son of Man will give to you. For God the Father has sealed him.
+  en_translation: World English Bible
+scenes:
+- verses: John 6:26–27
+  title: Bread that perishes
+  text: You are looking for me because you ate your fill of the loaves, says Jesus, not because you saw signs. Do not work for food that perishes, but for food that lasts to eternal life.
+  easy_to_miss: Jesus does not despise their hunger. He fed them yesterday. He wants them to see what the feeding pointed to.
+- verses: John 6:28–29
+  title: The work of God
+  text: 'They ask what they must do to do God’s works. This is the work of God, Jesus says: that you believe in the one he has sent.'
+  easy_to_miss: They ask about “works”, plural. Jesus answers with one work, and it is believing.
+- verses: John 6:30–31
+  title: Show us a sign
+  text: They ask for a sign. Our ancestors ate manna in the wilderness; Moses gave them bread from heaven.
+  easy_to_miss: They have just eaten miraculous bread and still ask for a sign. Signs do not create faith on their own.
+- verses: John 6:32–33
+  title: The true bread from heaven
+  text: It was not Moses who gave the bread from heaven, Jesus says, but my Father gives you the true bread from heaven, which comes down and gives life to the world.
+  easy_to_miss: Manna fed one people for forty years. This bread gives life “to the world”.
+- verses: John 6:34–35
+  title: I am the bread of life
+  text: 'Lord, give us this bread always. Jesus says: I am the bread of life. Whoever comes to me will never be hungry, and whoever believes in me will never be thirsty.'
+  easy_to_miss: This is the first of the seven “I am” sayings in John’s Gospel.
+people:
+- name: The crowd
+  ml: പുരുഷാരം
+  role: Fed by Jesus the day before, now looking for more.
+  name_meaning: —
+- name: Moses
+  ml: മോശെ
+  role: Through whom God gave manna in the wilderness.
+  name_meaning: Probably “drawn out” (Exodus 2:10)
+phrases:
+- term: Manna
+  explanation: The bread-like food God gave Israel each morning in the wilderness (Exodus 16). Its name means “what is it?”
+- term: Sealed
+  explanation: Marked with an official seal of approval. The Father has authorised the Son.
+- term: “I am” sayings
+  explanation: 'Seven sayings in John where Jesus describes himself: bread, light, door, shepherd, resurrection, way, vine.'
+reflection:
+  title_en: Food that lasts
+  title_ml: '[TITLE ML]'
+  read_time: A three-minute read
+  body: |-
+    The crowd had a good reason to look for Jesus. Yesterday he had fed them for free, and they were hungry again. Jesus does not blame them for being hungry. He tells them that their hunger points to something deeper, which bread from a bakery will never satisfy.
+
+    We know this from our own lives. We work hard for things that do not last: a better phone, a bigger house, the approval of people who will forget us next year. None of it is bad. But we come back hungry every time. Jesus says: I am the bread that lasts.
+
+    After Pentecost the Church settles into a long season of ordinary Sundays. This is where faith is fed or starved, week by week. Coming to the Qurbana, reading the Scriptures, praying at home: these are how we eat the bread that lasts. Like daily food, they work best when they are regular.
+  author: '[AUTHOR NAME]'
+  reviewer: '[REVIEWER NAME, PARISH]'
+week:
+  question: What do you spend most of your time and energy working for? Does it last?
+  question_note: Two minutes after the audio. Everyone gets a turn, and nobody is interrupted.
+  small_act: Give food to someone who needs it this week, and pray for them when you do.
+  prayer: Lord Jesus, bread of life, give us this bread always. Feed us with your word and your body, and teach us to work for the food that lasts. Amen.
+sources:
+  lectionary: https://mosc.in/lectionary/kyomtho-easter-to-koodosh-edtho/
+reviewed: false

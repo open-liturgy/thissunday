@@ -1,0 +1,99 @@
+# Reusable text for Feast of St. Peter and St. Paul (June 29). Year-independent; a dated edition in content/sundays/ overrides any field.
+# Readings transcribed from https://mosc.in/lectionary/kyomtho-easter-to-koodosh-edtho/. Everything else is a DRAFT for priest/editor review.
+sunday_slug: sts-peter-and-paul
+is_sunday: false
+name:
+  en: Feast of St. Peter and St. Paul (June 29)
+  ml: '[MALAYALAM NAME]'
+title_as_printed: Feast of St. Peter and St. Paul (June 29)
+season:
+  en: '[SEASON]'
+  gloss: '[SEASON GLOSS]'
+  syr: '[SYRIAC]'
+tagline: '[TAGLINE]'
+standfirst: '[STANDFIRST]'
+description: '[DESCRIPTION naming Matthew 20:1–16]'
+hero_quote:
+  text: '[HERO QUOTE]'
+  ref: '[REF]'
+readings:
+  evening:
+  - kind: Gospel
+    kind_ml: സുവിശേഷം
+    ref: Matthew 16:13–20
+    ml: മത്തായി 16:13–20
+    note: Peter confesses that Jesus is the Christ, the Son of the living God.
+    printed: St. Matthew 16:13-20
+  morning:
+  - kind: Gospel
+    kind_ml: സുവിശേഷം
+    ref: John 21:15–25
+    ml: യോഹന്നാൻ 21:15–25
+    note: Jesus asks Peter three times “do you love me?” and tells him to follow.
+    printed: St. John 21:15-25
+  before_qurbana:
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: Genesis 12:1–9
+    ml: ഉല്പത്തി 12:1–9
+    note: '[NOTE: what to listen for in Genesis 12:1–9]'
+    printed: Genesis 12:1-9
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: Daniel 1:8–21
+    ml: ദാനീയേൽ 1:8–21
+    note: '[NOTE: what to listen for in Daniel 1:8–21]'
+    printed: Daniel 1:8-21
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: Isaiah 43:1–7
+    ml: യെശയ്യാവ് 43:1–7
+    note: '[NOTE: what to listen for in Isaiah 43:1–7]'
+    printed: Isaiah 43:1-7
+  holy_qurbana:
+  - kind: Acts of the Apostles
+    kind_ml: അപ്പൊസ്തലപ്രവൃത്തികൾ
+    ref: Acts 1:12–14
+    ml: അപ്പൊസ്തലപ്രവൃത്തികൾ 1:12–14
+    note: '[NOTE: what to listen for in Acts 1:12–14]'
+    printed: Acts 1:12-14
+  - kind: Pauline Epistle
+    kind_ml: പൗലോസിന്റെ ലേഖനം
+    ref: 1 Corinthians 12:28–13:10
+    ml: 1 കൊരിന്ത്യർ 12:28–13:10
+    note: '[NOTE: what to listen for in 1 Corinthians 12:28–13:10]'
+    printed: I Corinthians 12:28-13:10
+  - kind: Gospel
+    kind_ml: സുവിശേഷം
+    ref: Matthew 20:1–16
+    ml: മത്തായി 20:1–16
+    note: '[NOTE: what to listen for in Matthew 20:1–16]'
+    printed: St. Matthew 20:1-16
+    main: true
+one_minute:
+  what_happens: '[WHAT HAPPENS]'
+  why_this_sunday: '[WHY THIS SUNDAY]'
+  take_with_you: '[TAKE WITH YOU]'
+readings_thread: '[THREAD THROUGH THE READINGS]'
+key_verse:
+  ref: '[REF]'
+  ml: '[ML VERSE: Sathyavedapusthakam 1910]'
+  en: '[EN VERSE: World English Bible]'
+scenes: []
+people: []
+phrases: []
+reflection:
+  title_en: '[TITLE]'
+  title_ml: '[TITLE ML]'
+  body: '[REFLECTION]'
+  author: '[AUTHOR NAME]'
+  reviewer: '[REVIEWER NAME, PARISH]'
+  read_time: '[READ TIME]'
+week:
+  question: '[QUESTION]'
+  question_note: Two minutes after the audio. Everyone gets a turn, and nobody is interrupted.
+  small_act: '[SMALL ACT]'
+  prayer: '[PRAYER]'
+sources:
+  lectionary: https://mosc.in/lectionary/kyomtho-easter-to-koodosh-edtho/
+reviewed: false

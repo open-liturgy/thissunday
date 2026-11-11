@@ -1,0 +1,140 @@
+# Reusable text for Third Sunday after the Feast of Holy Cross. Year-independent; a dated edition in content/sundays/ overrides any field.
+# Readings transcribed from https://mosc.in/lectionary/kyomtho-easter-to-koodosh-edtho/. Everything else is a DRAFT for priest/editor review.
+sunday_slug: third-sunday-after-holy-cross
+is_sunday: true
+name:
+  en: Third Sunday after Holy Cross
+  ml: '[MALAYALAM NAME]'
+title_as_printed: Third Sunday after the Feast of Holy Cross
+season:
+  en: Sleeba
+  gloss: The season of the Cross
+  syr: '[SYRIAC]'
+tagline: The Sabbath was made for people
+standfirst: Walking through a field on the Sabbath, the disciples pick ears of grain to eat. The Pharisees object. Jesus reminds them of what David once did when he was hungry.
+description: Readings for the Third Sunday after Holy Cross, with Mark 2:23–28, grain on the Sabbath, explained in five scenes. A reflection and a family question.
+hero_quote:
+  text: Therefore the Son of Man is lord even of the Sabbath.
+  ref: Mark 2:28
+readings:
+  evening:
+  - kind: Gospel
+    kind_ml: സുവിശേഷം
+    ref: Matthew 18:23–35
+    ml: മത്തായി 18:23–35
+    note: The unforgiving servant, forgiven a huge debt, who would not forgive a small one.
+    printed: St. Matthew 18:23-35
+  morning:
+  - kind: Gospel
+    kind_ml: സുവിശേഷം
+    ref: Luke 16:1–13
+    ml: ലൂക്കോസ് 16:1–13
+    note: The shrewd manager; you cannot serve God and money.
+    printed: St. Luke 16:1-13
+  before_qurbana:
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: Genesis 42:18–35
+    ml: ഉല്പത്തി 42:18–35
+    note: Joseph keeps Simeon and sends his brothers home with their money in their sacks.
+    printed: Genesis 42:18-35
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: Proverbs 1:2–9
+    ml: സദൃശവാക്യങ്ങൾ 1:2–9
+    note: The fear of the Lord is the beginning of knowledge.
+    printed: Proverbs 1:2-9
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: Isaiah 48:12–16
+    ml: യെശയ്യാവ് 48:12–16
+    note: I am the first and the last; my hand laid the foundation of the earth.
+    printed: Isaiah 48:12-16
+  holy_qurbana:
+  - kind: Acts of the Apostles
+    kind_ml: അപ്പൊസ്തലപ്രവൃത്തികൾ
+    ref: Acts 7:2–5
+    ml: അപ്പൊസ്തലപ്രവൃത്തികൾ 7:2–5
+    note: Stephen tells how God called Abraham to leave his country.
+    printed: Acts 7:2-5
+  - kind: Pauline Epistle
+    kind_ml: പൗലോസിന്റെ ലേഖനം
+    ref: Romans 8:1–11
+    ml: റോമർ 8:1–11
+    note: There is no condemnation for those who are in Christ Jesus.
+    printed: Romans 8:1-11
+  - kind: Gospel
+    kind_ml: സുവിശേഷം
+    ref: Mark 2:23–28
+    ml: മർക്കൊസ് 2:23–28
+    note: The Sabbath was made for people, not people for the Sabbath. This is the Gospel of the day.
+    printed: St. Mark 2:23-28
+    main: true
+one_minute:
+  what_happens: On the Sabbath the disciples pick grain as they walk. The Pharisees say this is unlawful. Jesus points to David eating the holy bread when he and his men were hungry, and says the Sabbath was made for people, and the Son of Man is lord of the Sabbath.
+  why_this_sunday: The readings today ask what God’s commands are for. Romans says there is no condemnation for those in Christ.
+  take_with_you: God’s day of rest is a gift, not a trap.
+readings_thread: Joseph’s brothers find their money returned in their sacks and are afraid. Proverbs says the fear of the Lord is the beginning of knowledge. Stephen tells how God called Abraham, and Paul says the Spirit gives life where the law alone could not.
+key_verse:
+  ref: Mark 2:27
+  ml: '[ML VERSE: Sathyavedapusthakam 1910, Mark 2:27]'
+  ml_translation: Sathyavedapusthakam, 1910
+  en: He said to them, “The Sabbath was made for man, not man for the Sabbath.
+  en_translation: World English Bible
+scenes:
+- verses: Mark 2:23
+  title: Through the grain fields
+  text: On a Sabbath Jesus is going through the grain fields, and as they walk his disciples begin to pick heads of grain.
+  easy_to_miss: The law allowed travellers to pick grain by hand from a neighbour’s field (Deuteronomy 23:25). The question is only about the day.
+- verses: Mark 2:24
+  title: Why are they doing this?
+  text: 'The Pharisees say: look, why are they doing what is not lawful on the Sabbath?'
+  easy_to_miss: Their tradition counted picking grain as harvesting, one of the kinds of work forbidden on the Sabbath.
+- verses: Mark 2:25–26
+  title: What David did
+  text: Have you never read what David did when he and his men were hungry? He entered the house of God and ate the holy bread, which only priests could eat, and gave some to his men.
+  easy_to_miss: The story is in 1 Samuel 21:1–6. Human need came before ritual even in the Old Testament.
+- verses: Mark 2:27
+  title: Made for people
+  text: The Sabbath was made for people, not people for the Sabbath.
+  easy_to_miss: God gave the Sabbath as rest for everyone, including servants and animals (Deuteronomy 5:14). It was always a gift.
+- verses: Mark 2:28
+  title: Lord of the Sabbath
+  text: So the Son of Man is lord even of the Sabbath.
+  easy_to_miss: Only God could be lord of the Sabbath he made. Jesus quietly claims that place.
+people:
+- name: David
+  ml: ദാവീദ്
+  role: The young king-to-be who ate the holy bread when he was fleeing Saul.
+  name_meaning: “Beloved”
+- name: Abiathar
+  ml: അബ്യാഥാർ
+  role: The high priest Mark names in the story of David.
+  name_meaning: “Father of abundance”
+phrases:
+- term: Sabbath
+  explanation: The seventh day, Saturday, set apart for rest. Christians keep Sunday as the day of resurrection.
+- term: Bread of the Presence
+  explanation: Twelve loaves set out before God in the sanctuary each week, eaten only by priests (Leviticus 24:5–9).
+- term: Son of Man
+  explanation: Jesus’ title for himself, from Daniel 7:13.
+reflection:
+  title_en: A day made for us
+  title_ml: '[TITLE ML]'
+  read_time: A three-minute read
+  body: |-
+    The Pharisees were not wrong to love the Sabbath. It was one of God’s great gifts to Israel: a day when no one, not even a slave, had to work. But they had surrounded it with so many rules that it had become a burden. They watched hungry men pick grain and saw only a broken rule.
+
+    Jesus reminds them why the day exists. God made it for people: for rest, worship and being together. It was never meant to make life harder for the hungry. And he says he is its lord, which means he decides what it is for.
+
+    For Christians, Sunday has become our day of rest and worship. It is easy to let it become either a burden of obligations or just another busy day. Jesus offers a better way: let it be a gift. Come to the Qurbana, rest, eat together, and look out for anyone who is hungry.
+  author: '[AUTHOR NAME]'
+  reviewer: '[REVIEWER NAME, PARISH]'
+week:
+  question: How do we keep Sunday? Does it feel like a gift or a burden?
+  question_note: Two minutes after the audio. Everyone gets a turn, and nobody is interrupted.
+  small_act: 'Plan next Sunday afternoon as real rest for the whole family: no chores, no work, a meal together.'
+  prayer: Lord of the Sabbath, you made a day of rest for us. Teach us to receive Sunday as your gift, to worship you with joy, and to care for those in need. Amen.
+sources:
+  lectionary: https://mosc.in/lectionary/kyomtho-easter-to-koodosh-edtho/
+reviewed: false

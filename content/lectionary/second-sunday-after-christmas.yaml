@@ -1,0 +1,144 @@
+# Reusable text for Second Sunday after Christmas. Year-independent; a dated edition in content/sundays/ overrides any field.
+# Readings transcribed from https://mosc.in/lectionary/421-2/. Everything else is a DRAFT for priest/editor review.
+sunday_slug: second-sunday-after-christmas
+is_sunday: true
+name:
+  en: Second Sunday after Christmas
+  ml: '[MALAYALAM NAME]'
+title_as_printed: Second Sunday after Christmas
+season:
+  en: Yeldho
+  gloss: The Christmas season
+  syr: '[SYRIAC]'
+tagline: The boy Jesus is found in the Temple
+standfirst: On the way home from Passover, Mary and Joseph realise their twelve-year-old is missing. After three days they find him in the Temple, asking questions.
+description: Readings for the Second Sunday after Christmas, with Luke 2:40–52, the boy Jesus in the Temple, explained in five scenes. Reflection and question.
+hero_quote:
+  text: Didn’t you know that I must be in my Father’s house?
+  ref: Luke 2:49
+readings:
+  evening:
+  - kind: Gospel
+    kind_ml: സുവിശേഷം
+    ref: John 1:35–42
+    ml: യോഹന്നാൻ 1:35–42
+    note: 'Andrew follows Jesus and brings his brother Simon: “We have found the Messiah.”'
+    printed: St. John 1:35-42
+  morning:
+  - kind: Gospel
+    kind_ml: സുവിശേഷം
+    ref: John 1:43–51
+    ml: യോഹന്നാൻ 1:43–51
+    note: 'Philip brings Nathanael: “Come and see.”'
+    printed: St. John 1:43-51
+  before_qurbana:
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: Genesis 37:1–11
+    ml: ഉല്പത്തി 37:1–11
+    note: Joseph dreams, his brothers hate him, and his father keeps the matter in mind.
+    printed: Genesis 37:1-11
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: 1 Samuel 2:18–21
+    ml: 1 ശമൂവേൽ 2:18–21
+    note: The boy Samuel serves the Lord, and Hannah brings him a little robe each year.
+    printed: 1 Samuel 2:18-21
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: Isaiah 26:1–12
+    ml: യെശയ്യാവ് 26:1–12
+    note: You keep in perfect peace the one whose mind is fixed on you.
+    printed: Isaiah 26:1-12
+  holy_qurbana:
+  - kind: General Epistle
+    kind_ml: പൊതുലേഖനം
+    ref: 1 John 3:21–24
+    ml: 1 യോഹന്നാൻ 3:21–24
+    note: Believe in the name of his Son and love one another.
+    printed: I John 3:21-24
+  - kind: Pauline Epistle
+    kind_ml: പൗലോസിന്റെ ലേഖനം
+    ref: Hebrews 11:23–31
+    ml: എബ്രായർ 11:23–31
+    note: By faith Moses’ parents hid him, and by faith Moses chose to suffer with God’s people.
+    printed: Hebrews 11:23-31
+  - kind: Gospel
+    kind_ml: സുവിശേഷം
+    ref: Luke 2:40–52
+    ml: ലൂക്കോസ് 2:40–52
+    note: 'The boy Jesus in the Temple at twelve: “I must be in my Father’s house.” This is the Gospel of the day.'
+    printed: St. Luke 2:40-52
+    main: true
+one_minute:
+  what_happens: When Jesus is twelve, the family goes to Jerusalem for Passover. On the way home his parents find he is missing. After three days they find him in the Temple among the teachers. He goes home with them and grows in wisdom.
+  why_this_sunday: This is the only story in the Gospels from Jesus’ childhood after his infancy. The Church reads it in the Christmas season.
+  take_with_you: Jesus was obedient to his parents and still knew whose house he belonged in. Both can be true of a young person.
+readings_thread: Young Joseph dreams and his father keeps the matter in mind, as Mary later does. The boy Samuel serves in the house of God and grows in favour. Hebrews praises the faith of Moses’ parents, who hid their son.
+key_verse:
+  ref: Luke 2:52
+  ml: '[ML VERSE: Sathyavedapusthakam 1910, Luke 2:52]'
+  ml_translation: Sathyavedapusthakam, 1910
+  en: And Jesus increased in wisdom and stature, and in favor with God and men.
+  en_translation: World English Bible
+scenes:
+- verses: Luke 2:40–42
+  title: Twelve years old
+  text: The child grows strong and full of wisdom. Every year his parents go to Jerusalem for Passover, and when he is twelve they go as usual.
+  easy_to_miss: A Jewish boy took on adult religious duties at about thirteen. At twelve, Jesus is on the edge of growing up.
+- verses: Luke 2:43–45
+  title: A day’s journey without him
+  text: On the way home they assume he is with relatives in the group. After a day they cannot find him and go back to Jerusalem.
+  easy_to_miss: Families travelled in large groups of villagers. It was normal not to see a child all day.
+- verses: Luke 2:46–47
+  title: Among the teachers
+  text: After three days they find him in the Temple, sitting among the teachers, listening and asking questions. Everyone is amazed at his understanding.
+  easy_to_miss: He is listening and asking, not lecturing. Luke shows him learning.
+- verses: Luke 2:48–50
+  title: My Father’s house
+  text: 'Mary says: your father and I have been searching for you anxiously. Jesus answers: why were you looking for me? Did you not know I must be in my Father’s house? They do not understand.'
+  easy_to_miss: These are the first words of Jesus recorded in Luke. Mary says “your father”; Jesus speaks of “my Father”.
+- verses: Luke 2:51–52
+  title: Back to Nazareth
+  text: He goes home with them and is obedient to them. His mother keeps all these things in her heart. Jesus grows in wisdom and stature, and in favour with God and people.
+  easy_to_miss: '“Three days” of searching and then finding him alive: Luke will use the same pattern at Easter.'
+people:
+- name: Jesus
+  ml: യേശു
+  role: Twelve years old, on his first recorded visit to the Temple as a boy.
+  name_meaning: “The Lord saves”
+- name: Mary
+  ml: മറിയം
+  role: His mother, who searches for him and keeps these things in her heart.
+  name_meaning: Hebrew Miriam; the meaning is uncertain
+- name: Joseph
+  ml: യോസേഫ്
+  role: Who brings the family to Jerusalem every year for Passover.
+  name_meaning: “He will add”
+phrases:
+- term: Passover
+  explanation: The spring feast remembering Israel’s escape from Egypt. Every Jewish man was expected to come to Jerusalem for it.
+- term: Teachers
+  explanation: Experts in the law who taught in the Temple courts and debated questions with their students.
+- term: Kept these things in her heart
+  explanation: Luke says this of Mary twice (2:19 and 2:51). She thinks about what she does not yet understand.
+reflection:
+  title_en: Lost, and found asking questions
+  title_ml: '[TITLE ML]'
+  read_time: A three-minute read
+  body: |-
+    Any parent who has lost a child for even a few minutes in a crowd knows what Mary and Joseph felt. They searched for three days. When they found him, Mary said what every parent would say: why have you done this to us? We were so worried.
+
+    Jesus’ answer is gentle and puzzling. He assumed they would know where to find him: in his Father’s house. Then he goes home, obeys them and keeps growing. He knows who his Father is, and he still lives as a son in Joseph and Mary’s home.
+
+    Teenagers are often caught between these two things. They are growing into their own faith and their own questions, and they still belong to a family. This Gospel does not make them choose. It shows a young person asking real questions in God’s house, and parents who do not understand everything but keep it all in their hearts.
+  author: '[AUTHOR NAME]'
+  reviewer: '[REVIEWER NAME, PARISH]'
+week:
+  question: What is one question about God or faith you would like answered? Let the youngest go first.
+  question_note: Two minutes after the audio. Everyone gets a turn, and nobody is interrupted.
+  small_act: Each person write down one question about faith, and take it to your priest or Sunday School teacher this month.
+  prayer: Lord Jesus, you grew in wisdom and stature in the home at Nazareth. Bless our young people with good questions and our parents with patience, and let our whole family grow in favour with God. Amen.
+sources:
+  lectionary: https://mosc.in/lectionary/421-2/
+reviewed: false

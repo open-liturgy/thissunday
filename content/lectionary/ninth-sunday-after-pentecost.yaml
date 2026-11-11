@@ -1,0 +1,146 @@
+# Reusable text for Ninth Sunday after Pentecost. Year-independent; a dated edition in content/sundays/ overrides any field.
+# Readings transcribed from https://mosc.in/lectionary/kyomtho-easter-to-koodosh-edtho/. Everything else is a DRAFT for priest/editor review.
+sunday_slug: ninth-sunday-after-pentecost
+is_sunday: true
+name:
+  en: Ninth Sunday after Pentecost
+  ml: '[MALAYALAM NAME]'
+title_as_printed: Ninth Sunday after Pentecost
+season:
+  en: Pentecost
+  gloss: The season of the Holy Spirit
+  syr: '[SYRIAC]'
+tagline: Take the lowest seat at the wedding
+standfirst: At a dinner, Jesus watches the guests jostle for the best seats. He tells them a story about a wedding feast and the embarrassment of being moved down in front of everyone.
+description: Readings for the Ninth Sunday after Pentecost, with Luke 14:7–11, the lowest seat at the feast, explained in five scenes. Reflection and question.
+hero_quote:
+  text: But when you are invited, go and sit in the lowest place, so that when he who invited you comes, he may tell you, ‘Friend, move up higher.’
+  ref: Luke 14:10
+readings:
+  evening:
+  - kind: Gospel
+    kind_ml: സുവിശേഷം
+    ref: Matthew 13:24–35
+    ml: മത്തായി 13:24–35
+    note: Weeds among the wheat, the mustard seed, and yeast in the dough.
+    printed: St. Matthew 13:24-35
+  morning:
+  - kind: Gospel
+    kind_ml: സുവിശേഷം
+    ref: Matthew 13:36–43
+    ml: മത്തായി 13:36–43
+    note: 'Jesus explains the weeds: the righteous will shine like the sun.'
+    printed: St. Matthew 13:36-43
+  before_qurbana:
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: Psalm 22:1–21
+    ml: സങ്കീർത്തനങ്ങൾ 22:1–21
+    note: My God, my God, why have you forsaken me?
+    printed: Psalms 22:1-21
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: Deuteronomy 4:1–6
+    ml: ആവർത്തനം 4:1–6
+    note: Keep these laws, for this will be your wisdom in the sight of the nations.
+    printed: Deuteronomy 4:1-6
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: Proverbs 13:1–7
+    ml: സദൃശവാക്യങ്ങൾ 13:1–7
+    note: A wise son hears his father’s instruction.
+    printed: Proverbs 13:1-7
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: Isaiah 24:1–5
+    ml: യെശയ്യാവ് 24:1–5
+    note: The earth is defiled because its people have broken the everlasting covenant.
+    printed: Isaiah 24:1-5
+  holy_qurbana:
+  - kind: Acts of the Apostles
+    kind_ml: അപ്പൊസ്തലപ്രവൃത്തികൾ
+    ref: Acts 28:11–22
+    ml: അപ്പൊസ്തലപ്രവൃത്തികൾ 28:11–22
+    note: Paul reaches Rome and meets the Jewish leaders there.
+    printed: Acts 28:11-22
+  - kind: Pauline Epistle
+    kind_ml: പൗലോസിന്റെ ലേഖനം
+    ref: 1 Corinthians 6:1–11
+    ml: 1 കൊരിന്ത്യർ 6:1–11
+    note: Why go to court against each other? You were washed and made holy.
+    printed: I Corinthians 6:1-11
+  - kind: Gospel
+    kind_ml: സുവിശേഷം
+    ref: Luke 14:7–11
+    ml: ലൂക്കോസ് 14:7–11
+    note: Take the lowest seat at the wedding feast. This is the Gospel of the day.
+    printed: St. Luke 14:7-11
+    main: true
+one_minute:
+  what_happens: At a Sabbath meal in the house of a leading Pharisee, Jesus notices how the guests choose the places of honour. He advises them to take the lowest place, so the host may invite them higher. Whoever exalts himself will be humbled, and whoever humbles himself will be exalted.
+  why_this_sunday: The readings today are about humility and the honour that comes from God rather than from ourselves.
+  take_with_you: Real honour is given, not taken.
+readings_thread: The psalm cries “My God, why have you forsaken me?”, the prayer of the one who was humbled most. Proverbs says a wise child listens. Isaiah warns of a world turned upside down. Paul tells the Corinthians not to take one another to court.
+key_verse:
+  ref: Luke 14:11
+  ml: '[ML VERSE: Sathyavedapusthakam 1910, Luke 14:11]'
+  ml_translation: Sathyavedapusthakam, 1910
+  en: For everyone who exalts himself will be humbled, and whoever humbles himself will be exalted.”
+  en_translation: World English Bible
+scenes:
+- verses: Luke 14:7
+  title: Watching the guests
+  text: Jesus notices how the guests are choosing the places of honour, and tells them a parable.
+  easy_to_miss: The Pharisees were watching Jesus closely at this meal (Luke 14:1). Jesus was watching them too.
+- verses: Luke 14:8
+  title: Not the best seat
+  text: When someone invites you to a wedding feast, do not sit in the place of honour. Someone more important may have been invited.
+  easy_to_miss: Jesus starts with plain social sense. Nobody wants to be embarrassed at a wedding.
+- verses: Luke 14:9
+  title: Moved down in front of everyone
+  text: 'The host will come and say: give this person your seat. Then, ashamed, you will have to take the lowest place.'
+  easy_to_miss: By then the only seat left is the lowest. The one who grabbed the top ends at the bottom.
+- verses: Luke 14:10
+  title: Friend, move up higher
+  text: 'Instead, sit in the lowest place, so that when the host comes he will say: friend, move up higher. Then you will be honoured in front of all the guests.'
+  easy_to_miss: The host calls the humble guest “friend”. That is the real honour.
+- verses: Luke 14:11
+  title: Humbled and exalted
+  text: For everyone who exalts himself will be humbled, and whoever humbles himself will be exalted.
+  easy_to_miss: Luke uses this saying again after the parable of the Pharisee and the tax collector (Luke 18:14).
+people:
+- name: The host
+  ml: '[ML NAME]'
+  role: A leader of the Pharisees who invited Jesus to a Sabbath meal.
+  name_meaning: —
+- name: The guests
+  ml: '[ML NAME]'
+  role: Diners competing quietly for the best places.
+  name_meaning: —
+phrases:
+- term: Places of honour
+  explanation: At formal meals people reclined on couches, and the places nearest the host showed rank.
+- term: Parable
+  explanation: Jesus uses a dinner-party rule to describe how God’s kingdom works.
+- term: Exalted
+  explanation: Lifted up. In the end it is God who lifts the humble (Luke 1:52).
+reflection:
+  title_en: The lowest seat
+  title_ml: '[TITLE ML]'
+  read_time: A three-minute read
+  body: |-
+    We may not fight over seats at dinners, but we know the feeling Jesus describes. Wanting to be noticed. Mentioning our achievements. Making sure people know who we are related to. Feeling slighted when someone else is honoured. It happens at weddings, in offices, in parish committees and on social media.
+
+    Jesus does not tell us to pretend we have no worth. He tells us to leave the honour to the host. Take the lower seat, and let the one who invited you decide where you belong. Being called up by the host is better than being sent down in front of everyone.
+
+    Jesus lived this himself. He took the lowest place of all, the cross, and the Father lifted him up. In a culture that teaches us to promote ourselves, this Gospel is quietly radical. It asks us to stop grabbing and start trusting that God sees, and will honour us in his time.
+  author: '[AUTHOR NAME]'
+  reviewer: '[REVIEWER NAME, PARISH]'
+week:
+  question: Where do you most want to be noticed or honoured? What would it look like to take the lower seat there?
+  question_note: Two minutes after the audio. Everyone gets a turn, and nobody is interrupted.
+  small_act: Let someone else go first this week, take the credit, or have the better seat, and do not mention it.
+  prayer: Lord Jesus, you took the lowest place for our sake. Free us from the need to be noticed, teach us to take the lower seat, and let us hear you say “friend, move up higher”. Amen.
+sources:
+  lectionary: https://mosc.in/lectionary/kyomtho-easter-to-koodosh-edtho/
+reviewed: false

@@ -1,0 +1,144 @@
+# Reusable text for First Sunday after Christmas (The Holy Family flee to Egypt). Year-independent; a dated edition in content/sundays/ overrides any field.
+# Readings transcribed from https://mosc.in/lectionary/421-2/. Everything else is a DRAFT for priest/editor review.
+sunday_slug: first-sunday-after-christmas
+is_sunday: true
+name:
+  en: First Sunday after Christmas
+  ml: '[MALAYALAM NAME]'
+title_as_printed: First Sunday after Christmas (The Holy Family flee to Egypt)
+season:
+  en: Yeldho
+  gloss: The Christmas season
+  syr: '[SYRIAC]'
+tagline: Wise men worship, and the Holy Family flees to Egypt
+standfirst: The wise men find the child, kneel and leave their gifts. That night Joseph is woken by an angel, and the family leaves for Egypt before dawn.
+description: 'Readings for the First Sunday after Christmas, with Matthew 2:9–15, 19–23 explained: the wise men and the flight to Egypt. Reflection and question.'
+hero_quote:
+  text: When they saw the star, they rejoiced with exceedingly great joy.
+  ref: Matthew 2:10
+readings:
+  evening:
+  - kind: Gospel
+    kind_ml: സുവിശേഷം
+    ref: Matthew 10:16–23
+    ml: മത്തായി 10:16–23
+    note: 'Sheep among wolves: when they persecute you in one town, flee to the next.'
+    printed: St. Matthew 10:16-23
+  morning:
+  - kind: Gospel
+    kind_ml: സുവിശേഷം
+    ref: John 15:18–21
+    ml: യോഹന്നാൻ 15:18–21
+    note: If the world hates you, know that it hated me first.
+    printed: St. John 15:18-21
+  before_qurbana:
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: Genesis 37:13–28
+    ml: ഉല്പത്തി 37:13–28
+    note: Joseph’s brothers sell him to traders going down to Egypt.
+    printed: Genesis 37:13-28
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: Zechariah 8:3–8
+    ml: സെഖര്യാവ് 8:3–8
+    note: God will bring his people home, and old people and children will fill Jerusalem’s streets.
+    printed: Zechariah 8:3-8
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: Isaiah 5:20–30
+    ml: യെശയ്യാവ് 5:20–30
+    note: Woe to those who call evil good and good evil.
+    printed: Isaiah 5:20-30
+  holy_qurbana:
+  - kind: Acts of the Apostles
+    kind_ml: അപ്പൊസ്തലപ്രവൃത്തികൾ
+    ref: Acts 16:6–10
+    ml: അപ്പൊസ്തലപ്രവൃത്തികൾ 16:6–10
+    note: 'Paul is kept from one road and called in a vision to another: “Come over and help us.”'
+    printed: Acts 16:6-10
+  - kind: Pauline Epistle
+    kind_ml: പൗലോസിന്റെ ലേഖനം
+    ref: 1 Corinthians 10:1–13
+    ml: 1 കൊരിന്ത്യർ 10:1–13
+    note: Israel in the wilderness is a warning; God will not let you be tested beyond your strength.
+    printed: I Corinthians 10:1-13
+  - kind: Gospel
+    kind_ml: സുവിശേഷം
+    ref: Matthew 2:9–15, 19–23
+    ml: മത്തായി 2:9–15, 19–23
+    note: The wise men worship the child; the Holy Family flees to Egypt and returns to Nazareth. This is the Gospel of the day.
+    printed: St. Matthew 2:9-15, 19-23
+    main: true
+one_minute:
+  what_happens: The wise men follow the star to the child, worship him and give gold, frankincense and myrrh. Warned in a dream, they go home another way. Joseph takes Mary and the child to Egypt, and after Herod dies they settle in Nazareth.
+  why_this_sunday: Two days after Christmas the story turns dangerous. The Church remembers the Holy Family as refugees.
+  take_with_you: Christ’s first journey outside his homeland was as a refugee, carried at night by parents who had to leave everything.
+readings_thread: Another Joseph, son of Jacob, is sold and taken down to Egypt. Zechariah promises God will bring his scattered people home, and Isaiah warns of the dark. Paul is turned aside by a vision, and Corinthians remembers Israel in the wilderness.
+key_verse:
+  ref: Matthew 2:11
+  ml: '[ML VERSE: Sathyavedapusthakam 1910, Matthew 2:11]'
+  ml_translation: Sathyavedapusthakam, 1910
+  en: 'They came into the house and saw the young child with Mary, his mother, and they fell down and worshiped him. Opening their treasures, they offered to him gifts: gold, frankincense, and myrrh.'
+  en_translation: World English Bible
+scenes:
+- verses: Matthew 2:9–10
+  title: The star stops
+  text: The star goes ahead of the wise men and stops over the place where the child is. They are overjoyed.
+  easy_to_miss: 'Matthew piles up the words: they rejoiced with exceedingly great joy. After a long journey, they have found him.'
+- verses: Matthew 2:11
+  title: Gold, frankincense and myrrh
+  text: They enter the house, see the child with Mary his mother, kneel and worship him, and open their treasures.
+  easy_to_miss: The first people in Matthew to worship Jesus are foreigners. The Gospel ends with the disciples sent to all nations.
+- verses: Matthew 2:12–13
+  title: Another way home
+  text: Warned in a dream not to return to Herod, the wise men leave by another road. Then an angel tells Joseph to take the child and his mother and flee to Egypt.
+  easy_to_miss: This is the second of four dreams Joseph has in Matthew’s first two chapters. He obeys every one.
+- verses: Matthew 2:14–15
+  title: By night to Egypt
+  text: Joseph gets up, takes the child and his mother by night and leaves for Egypt, where they stay until Herod dies.
+  easy_to_miss: 'Matthew quotes Hosea: “Out of Egypt I called my son.” Jesus relives Israel’s own story of going down to Egypt and coming out.'
+- verses: Matthew 2:19–23
+  title: Home to Nazareth
+  text: After Herod’s death the angel sends them back. Hearing that Herod’s son rules Judea, Joseph is afraid and settles in Nazareth in Galilee.
+  easy_to_miss: Nazareth was so small it is never mentioned in the Old Testament. The King of Israel grows up in a village nobody expected.
+people:
+- name: The wise men
+  ml: വിദ്വാന്മാർ
+  role: Scholars from the east who studied the stars. Matthew does not say how many.
+  name_meaning: Greek magoi, a word for Persian priests and astrologers
+- name: Herod the Great
+  ml: ഹെരോദാവ്
+  role: King of Judea under Rome, known for killing anyone he saw as a threat.
+  name_meaning: “Heroic”
+- name: Archelaus
+  ml: അർക്കെലയൊസ്
+  role: Herod’s son, who ruled Judea after him and was as cruel as his father.
+  name_meaning: “Ruler of the people”
+phrases:
+- term: Frankincense
+  explanation: A fragrant resin burned in worship. It was used in the Temple incense (Exodus 30:34).
+- term: Myrrh
+  explanation: A bitter resin used in perfume and for preparing the dead. It appears again at Jesus’ burial (John 19:39).
+- term: Nazarene
+  explanation: Someone from Nazareth. Matthew may also be hearing the Hebrew netser, “branch”, from Isaiah 11:1.
+reflection:
+  title_en: The Holy Family on the road
+  title_ml: '[TITLE ML]'
+  read_time: A three-minute read
+  body: |-
+    Christmas cards usually stop at the manger. Matthew’s story keeps going. The wise men leave their gifts and go home, and that same night Joseph wakes his wife and the baby and leaves for a foreign country. They take what they can carry and travel in the dark.
+
+    The Son of God spent his early childhood as a refugee. His parents depended on strangers in a land where they did not speak the language. They waited for news from home and did not know when they could return. When they did, they could not go where they had planned, and settled in a small village instead.
+
+    Many families in our Church know something of this: moving for work or safety, building a life in a new country, missing home. This Gospel says God has been on that road. It also asks us to look kindly on those who are on it now, because the Holy Family once needed exactly that kindness.
+  author: '[AUTHOR NAME]'
+  reviewer: '[REVIEWER NAME, PARISH]'
+week:
+  question: Has our family ever had to move to a new place? What helped us feel at home?
+  question_note: Two minutes after the audio. Everyone gets a turn, and nobody is interrupted.
+  small_act: Welcome one person who is new to your parish, school or workplace this week. Learn their name and one thing about them.
+  prayer: Lord Jesus, you were carried into Egypt as a child. Protect all who have had to leave their homes, give them welcome where they arrive, and make our family a place of shelter. Amen.
+sources:
+  lectionary: https://mosc.in/lectionary/421-2/
+reviewed: false

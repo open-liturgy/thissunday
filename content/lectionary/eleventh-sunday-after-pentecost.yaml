@@ -1,0 +1,136 @@
+# Reusable text for Eleventh Sunday after Pentecost. Year-independent; a dated edition in content/sundays/ overrides any field.
+# Readings transcribed from https://mosc.in/lectionary/kyomtho-easter-to-koodosh-edtho/. Everything else is a DRAFT for priest/editor review.
+sunday_slug: eleventh-sunday-after-pentecost
+is_sunday: true
+name:
+  en: Eleventh Sunday after Pentecost
+  ml: '[MALAYALAM NAME]'
+title_as_printed: Eleventh Sunday after Pentecost
+season:
+  en: Pentecost
+  gloss: The season of the Holy Spirit
+  syr: '[SYRIAC]'
+tagline: Sent out two by two, with oil for the sick
+standfirst: Jesus sends the twelve out in pairs with nothing but a staff, sandals and the clothes they stand in. They preach, drive out demons and anoint the sick with oil.
+description: Readings for the Eleventh Sunday after Pentecost, with Mark 6:7–13, the twelve sent two by two, explained in five scenes. Reflection and question.
+hero_quote:
+  text: He called to himself the twelve, and began to send them out two by two; and he gave them authority over the unclean spirits.
+  ref: Mark 6:7
+readings:
+  evening:
+  - kind: Gospel
+    kind_ml: സുവിശേഷം
+    ref: Matthew 18:15–35
+    ml: മത്തായി 18:15–35
+    note: How to settle a wrong; forgive seventy times seven; the unforgiving servant.
+    printed: St. Matthew 18:15-35
+  morning:
+  - kind: Gospel
+    kind_ml: സുവിശേഷം
+    ref: Mark 9:33–50
+    ml: മർക്കൊസ് 9:33–50
+    note: Whoever wants to be first must be servant of all; a child in his arms.
+    printed: St. Mark 9:33-50
+  before_qurbana:
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: Leviticus 19:13–18
+    ml: ലേവ്യപുസ്തകം 19:13–18
+    note: Do not hold back wages; love your neighbour as yourself.
+    printed: Leviticus 19:13-18
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: Joshua 23:7–14
+    ml: യോശുവ 23:7–14
+    note: Hold fast to the Lord; not one of his good promises has failed.
+    printed: Joshua 23:7-14
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: Malachi 4:1–6
+    ml: മലാഖി 4:1–6
+    note: Elijah will turn the hearts of parents to their children.
+    printed: Malachi 4:1-6
+  holy_qurbana:
+  - kind: General Epistle
+    kind_ml: പൊതുലേഖനം
+    ref: James 2:14–26
+    ml: യാക്കോബ് 2:14–26
+    note: Faith without works is dead.
+    printed: James 2:14-26
+  - kind: Pauline Epistle
+    kind_ml: പൗലോസിന്റെ ലേഖനം
+    ref: 1 Corinthians 14:34–39
+    ml: 1 കൊരിന്ത്യർ 14:34–39
+    note: 'Paul on order in worship: let all things be done decently and in order.'
+    printed: I Corinthians 14:34-39
+  - kind: Gospel
+    kind_ml: സുവിശേഷം
+    ref: Mark 6:7–13
+    ml: മർക്കൊസ് 6:7–13
+    note: The twelve go out two by two and anoint the sick with oil. This is the Gospel of the day.
+    printed: St. Mark 6:7-13
+    main: true
+one_minute:
+  what_happens: Jesus calls the twelve and sends them out in pairs with authority over unclean spirits. They take nothing but a staff. They stay where they are welcomed and leave where they are not. They preach repentance, cast out demons and anoint many sick people with oil.
+  why_this_sunday: The readings today join faith and action. James says faith without works is dead, and in the Gospel the apostles’ faith takes them out on the road.
+  take_with_you: Jesus sent them in twos. Nobody is meant to do this alone.
+readings_thread: Leviticus says love your neighbour as yourself, and Joshua urges Israel to hold fast to the Lord. Malachi promises Elijah will turn the hearts of parents to their children. James insists that real faith shows itself in action.
+key_verse:
+  ref: Mark 6:12–13
+  ml: '[ML VERSE: Sathyavedapusthakam 1910, Mark 6:12–13]'
+  ml_translation: Sathyavedapusthakam, 1910
+  en: They went out and preached that people should repent. They cast out many demons, and anointed many with oil who were sick, and healed them.
+  en_translation: World English Bible
+scenes:
+- verses: Mark 6:7
+  title: Two by two
+  text: Jesus calls the twelve and begins to send them out two by two, giving them authority over unclean spirits.
+  easy_to_miss: Jewish law required two witnesses to confirm a testimony (Deuteronomy 19:15).
+- verses: Mark 6:8–9
+  title: A staff and sandals
+  text: 'Take nothing for the journey except a staff: no bread, no bag, no money. Wear sandals, but not two tunics.'
+  easy_to_miss: Israel ate the Passover with sandals on and staff in hand, ready to leave (Exodus 12:11).
+- verses: Mark 6:10
+  title: Stay where you are welcomed
+  text: Wherever you enter a house, stay there until you leave that place.
+  easy_to_miss: Moving to a richer host would insult the first one. Loyalty to those who receive you is part of the mission.
+- verses: Mark 6:11
+  title: Shake off the dust
+  text: If any place will not welcome you or listen, shake the dust off your feet as you leave, as a testimony against them.
+  easy_to_miss: The apostles are not told to argue or force anyone. They move on.
+- verses: Mark 6:12–13
+  title: Anointed with oil
+  text: They go out and preach that people should repent. They cast out many demons and anoint many sick people with oil and heal them.
+  easy_to_miss: Anointing the sick with oil continues in the Church (James 5:14). The Malankara Church calls it the Kantheela service.
+people:
+- name: The twelve
+  ml: പന്ത്രണ്ടു പേർ
+  role: Sent out in pairs for the first time in Mark.
+  name_meaning: Apostle means “one who is sent”
+phrases:
+- term: Unclean spirits
+  explanation: Mark’s usual name for demons, which harm people and keep them from God.
+- term: Tunic
+  explanation: The basic garment worn next to the skin. A spare one was a small luxury.
+- term: Anointing with oil
+  explanation: Olive oil was used as medicine and as a sign of God’s blessing. The Church still prays over the sick with oil.
+reflection:
+  title_en: Faith on the road
+  title_ml: '[TITLE ML]'
+  read_time: A three-minute read
+  body: |-
+    James says in today’s epistle that faith without works is dead. In the Gospel we see what he means. The twelve have listened to Jesus for months. Now he sends them out to do what they have seen him do: preach, heal and set people free. Their faith has to walk.
+
+    He sends them in pairs, with almost nothing. They will be tired, sometimes rejected, often unsure. But they will not be alone, and they will have to rely on God and on the people who welcome them. They come back having seen God work through them.
+
+    Faith that stays in our heads is easy to keep and easy to lose. Faith that goes out to visit the sick, pray with the troubled and help the needy grows stronger. Find a partner, as the apostles did. Doing good with someone else is easier to keep up and more fun.
+  author: '[AUTHOR NAME]'
+  reviewer: '[REVIEWER NAME, PARISH]'
+week:
+  question: What is one good work we could do this week as a pair, two of us together?
+  question_note: Two minutes after the audio. Everyone gets a turn, and nobody is interrupted.
+  small_act: Pair up with someone in your family and visit a sick or housebound person from your parish.
+  prayer: Lord Jesus, you sent your apostles out two by two. Send us out too, with faith that works, hands that heal and hearts that trust you for everything we need. Amen.
+sources:
+  lectionary: https://mosc.in/lectionary/kyomtho-easter-to-koodosh-edtho/
+reviewed: false

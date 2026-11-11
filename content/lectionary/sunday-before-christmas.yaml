@@ -1,0 +1,151 @@
+# Reusable text for Sunday before Christmas. Year-independent; a dated edition in content/sundays/ overrides any field.
+# Readings transcribed from https://mosc.in/lectionary/421-2/. Everything else is a DRAFT for priest/editor review.
+sunday_slug: sunday-before-christmas
+is_sunday: true
+name:
+  en: Sunday before Christmas
+  ml: '[MALAYALAM NAME]'
+title_as_printed: Sunday before Christmas
+season:
+  en: Suboro
+  gloss: The Annunciation season
+  syr: ܣܘܒܪܐ
+tagline: The family tree of Jesus, back to Adam
+standfirst: The Sunday before Christmas reads a list of names. Luke traces Jesus back through David and Abraham all the way to Adam, and then one step further.
+description: Readings for the Sunday before Christmas, with the genealogy of Jesus in Luke 3:23–38 explained, a reflection and a question for the family.
+hero_quote:
+  text: Jesus himself, when he began to teach, was about thirty years old, being the son (as was supposed) of Joseph
+  ref: Luke 3:23
+readings:
+  evening:
+  - kind: Gospel
+    kind_ml: സുവിശേഷം
+    ref: Matthew 1:1–18
+    ml: മത്തായി 1:1–18
+    note: The family tree of Jesus from Abraham, through David, to Joseph.
+    printed: St. Matthew 1:1-18
+  morning:
+  - kind: Gospel
+    kind_ml: സുവിശേഷം
+    ref: John 1:1–18
+    ml: യോഹന്നാൻ 1:1–18
+    note: In the beginning was the Word… and the Word became flesh.
+    printed: St. John 1:1-18
+  before_qurbana:
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: Genesis 46:8–27
+    ml: ഉല്പത്തി 46:8–27
+    note: The names of Jacob’s family who went down to Egypt.
+    printed: Genesis 46:8-27
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: 1 Kings 9:3–7
+    ml: 1 രാജാക്കന്മാർ 9:3–7
+    note: God promises Solomon that David’s line will last if it stays faithful.
+    printed: I Kings 9:3-7
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: Isaiah 7:14–15; 11:1–9
+    ml: യെശയ്യാവ് 7:14–15; 11:1–9
+    note: A virgin will bear a son, Immanuel; a shoot will come from the stump of Jesse.
+    printed: Isaiah 7:14-15, 11:1-9
+  holy_qurbana:
+  - kind: Acts of the Apostles
+    kind_ml: അപ്പൊസ്തലപ്രവൃത്തികൾ
+    ref: Acts 3:16–26
+    ml: അപ്പൊസ്തലപ്രവൃത്തികൾ 3:16–26
+    note: Peter says the prophets foretold Christ, and all nations will be blessed through Abraham’s seed.
+    printed: Acts 3:16-26
+  - kind: Pauline Epistle
+    kind_ml: പൗലോസിന്റെ ലേഖനം
+    ref: Romans 4:13–25
+    ml: റോമർ 4:13–25
+    note: Abraham believed God’s promise against all hope.
+    printed: Romans 4:13-25
+  - kind: Pauline Epistle
+    kind_ml: പൗലോസിന്റെ ലേഖനം
+    ref: Galatians 4:18–20
+    ml: ഗലാത്യർ 4:18–20
+    note: Paul in labour pains until Christ is formed in his children.
+    printed: Galatians 4;18-20
+    check: 'Printed with a semicolon: ''Galatians 4 ;18-20''.'
+  - kind: Gospel
+    kind_ml: സുവിശേഷം
+    ref: Luke 3:23–38
+    ml: ലൂക്കോസ് 3:23–38
+    note: The genealogy of Jesus, back through David and Abraham to Adam, son of God. This is the Gospel of the day.
+    printed: St. Luke 3:23-38
+    main: true
+one_minute:
+  what_happens: Luke lists the ancestors of Jesus, from Joseph back through David, Abraham and Noah to Adam, and ends by calling Adam the son of God.
+  why_this_sunday: Before the birth itself, the Church reads who Jesus is born from. Christmas happens inside a long family history.
+  take_with_you: Most names in this list did nothing anyone remembers. God still counted every one.
+readings_thread: Genesis lists Jacob’s family going down to Egypt, and Kings and Isaiah promise a king from David’s line. Paul says the promise to Abraham was for all his children by faith, and Matthew gives his own family tree the evening before.
+key_verse:
+  ref: Luke 3:38
+  ml: '[ML VERSE: Sathyavedapusthakam 1910, Luke 3:38]'
+  ml_translation: Sathyavedapusthakam, 1910
+  en: the son of Enos, the son of Seth, the son of Adam, the son of God.
+  en_translation: World English Bible
+scenes:
+- verses: Luke 3:23
+  title: About thirty years old
+  text: Jesus begins his work at about thirty. People suppose he is Joseph’s son, and Luke begins the list there.
+  easy_to_miss: “As was supposed” is Luke’s quiet reminder that Jesus’ true Father is God.
+- verses: Luke 3:24–27
+  title: Names nobody remembers
+  text: The list climbs back through generations most readers have never heard of, to Zerubbabel and Shealtiel, who lived around the exile in Babylon.
+  easy_to_miss: Zerubbabel led the return from exile and rebuilt the Temple. The family of Jesus passed through the darkest time in Israel’s history.
+- verses: Luke 3:28–31
+  title: Through Nathan to David
+  text: Luke traces the line back to David, through David’s son Nathan.
+  easy_to_miss: Matthew’s list goes through Solomon. Luke’s goes through Nathan, a son of David otherwise almost unknown.
+- verses: Luke 3:31–34
+  title: From David to Abraham
+  text: Jesse, Obed, Boaz, and on to Judah, Jacob, Isaac and Abraham.
+  easy_to_miss: Boaz is the husband of Ruth, a foreigner from Moab, whose story was read on Parents’ Day.
+- verses: Luke 3:34–38
+  title: Son of Adam, son of God
+  text: 'The list goes past Abraham, past Noah and Enoch, to Seth and Adam, and ends: “the son of God.”'
+  easy_to_miss: Matthew starts with Abraham, father of Israel. Luke goes back to Adam, father of everyone. Jesus belongs to the whole human race.
+people:
+- name: Adam
+  ml: ആദാം
+  role: The first man. Luke’s list ends with him.
+  name_meaning: “Human”, from the word for earth
+- name: Abraham
+  ml: അബ്രാഹാം
+  role: The father of Israel, to whom God promised a blessing for all nations.
+  name_meaning: “Father of many”
+- name: David
+  ml: ദാവീദ്
+  role: The shepherd king, promised a son whose throne would last for ever.
+  name_meaning: “Beloved”
+phrases:
+- term: Genealogy
+  explanation: A family tree. Jewish families kept them carefully, and they mattered for inheritance and for priests.
+- term: As was supposed
+  explanation: Luke’s way of saying that people thought Jesus was Joseph’s son, while the reader knows otherwise.
+- term: Son of God
+  explanation: Luke places this list right after the baptism, where the Father says “You are my beloved Son” (Luke 3:22).
+reflection:
+  title_en: Every name counted
+  title_ml: '[TITLE ML]'
+  read_time: A three-minute read
+  body: |-
+    It is tempting to skip a genealogy. It is a long list of names, many hard to pronounce, most of them people we know nothing about. Yet the Church reads one on the Sunday before Christmas, and Luke places it at the very start of Jesus’ work. The list is telling us something.
+
+    It says that the Son of God did not drop into the world from nowhere. He was born into a family with a long and complicated history: kings and nobodies, exiles and foreigners, faithful people and failures. Luke takes the line all the way back to Adam, so that no one can say Jesus belongs only to one people.
+
+    Every family has a list like this, even if nobody has written it down. There are grandparents we remember and great-grandparents we never knew. Christmas tells us that God came into a family like ours. He knows every name on the list, including the ones we have forgotten.
+  author: '[AUTHOR NAME]'
+  reviewer: '[REVIEWER NAME, PARISH]'
+week:
+  question: How far back can we name our own family? Who is the oldest ancestor anyone at the table knows about?
+  question_note: Two minutes after the audio. Everyone gets a turn, and nobody is interrupted.
+  small_act: Before Christmas, ask a grandparent or older relative to tell you about their parents, and write down the names.
+  prayer: Lord Jesus, you were born into a family with a long history. Remember all our ancestors, those we know and those we have forgotten, and make us faithful in our generation. Amen.
+sources:
+  lectionary: https://mosc.in/lectionary/421-2/
+reviewed: false

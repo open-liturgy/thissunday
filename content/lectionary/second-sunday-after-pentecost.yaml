@@ -1,0 +1,136 @@
+# Reusable text for Second Sunday after Pentecost. Year-independent; a dated edition in content/sundays/ overrides any field.
+# Readings transcribed from https://mosc.in/lectionary/kyomtho-easter-to-koodosh-edtho/. Everything else is a DRAFT for priest/editor review.
+sunday_slug: second-sunday-after-pentecost
+is_sunday: true
+name:
+  en: Second Sunday after Pentecost
+  ml: '[MALAYALAM NAME]'
+title_as_printed: Second Sunday after Pentecost
+season:
+  en: Pentecost
+  gloss: The season of the Holy Spirit
+  syr: '[SYRIAC]'
+tagline: 'Sheep among wolves: the twelve are sent out'
+standfirst: Jesus sends his twelve apostles out for the first time. He tells them what to say, what not to take, and what to do when a town will not listen.
+description: Readings for the Second Sunday after Pentecost, with Matthew 10:5–16, Jesus sending the twelve, explained in five scenes. Reflection and question.
+hero_quote:
+  text: Freely you received, so freely give.
+  ref: Matthew 10:8
+readings:
+  evening:
+  - kind: Gospel
+    kind_ml: സുവിശേഷം
+    ref: Luke 6:12–23
+    ml: ലൂക്കോസ് 6:12–23
+    note: Jesus prays all night, chooses the twelve, and speaks the Beatitudes.
+    printed: St. Luke 6:12-23
+  morning:
+  - kind: Gospel
+    kind_ml: സുവിശേഷം
+    ref: Mark 3:7–19
+    ml: മർക്കൊസ് 3:7–19
+    note: Crowds press in from every region; Jesus appoints the twelve.
+    printed: St. Mark 3:7-19
+  before_qurbana:
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: Leviticus 19:1–8
+    ml: ലേവ്യപുസ്തകം 19:1–8
+    note: Be holy, for I the Lord your God am holy.
+    printed: Leviticus 19:1-8
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: 2 Samuel 5:1–10
+    ml: 2 ശമൂവേൽ 5:1–10
+    note: David is anointed king over all Israel and takes Jerusalem.
+    printed: II Samuel 5:1-10
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: Daniel 6:25–28
+    ml: ദാനീയേൽ 6:25–28
+    note: King Darius praises Daniel’s God, who rescued him from the lions.
+    printed: Daniel 6:25-28
+  holy_qurbana:
+  - kind: Acts of the Apostles
+    kind_ml: അപ്പൊസ്തലപ്രവൃത്തികൾ
+    ref: Acts 4:23–31
+    ml: അപ്പൊസ്തലപ്രവൃത്തികൾ 4:23–31
+    note: The believers pray for boldness, and the place where they meet is shaken.
+    printed: Acts 4:23-31
+  - kind: Pauline Epistle
+    kind_ml: പൗലോസിന്റെ ലേഖനം
+    ref: Ephesians 2:11–22
+    ml: എഫേസ്യർ 2:11–22
+    note: Christ is our peace; he has broken down the wall of hostility.
+    printed: Ephesians 2:11-22
+  - kind: Gospel
+    kind_ml: സുവിശേഷം
+    ref: Matthew 10:5–16
+    ml: മത്തായി 10:5–16
+    note: 'Jesus sends the twelve: freely you have received, freely give. This is the Gospel of the day.'
+    printed: St. Matthew 10:5-16
+    main: true
+one_minute:
+  what_happens: Jesus sends the twelve to the lost sheep of Israel to proclaim the kingdom and heal. They are to take no money or spare clothes, stay with worthy hosts, and shake off the dust of towns that refuse them. He is sending them like sheep among wolves.
+  why_this_sunday: After Pentecost the Church thinks about its mission. The evening Gospel tells how Jesus chose the twelve; today he sends them.
+  take_with_you: Everything they had to give, they had been given first. Freely you received, freely give.
+readings_thread: Leviticus calls Israel to be holy as God is holy, and David is made king over all Israel. Daniel’s God is praised by a foreign king. In Acts the believers pray for boldness, and Ephesians says the wall between peoples has been broken down.
+key_verse:
+  ref: Matthew 10:16
+  ml: '[ML VERSE: Sathyavedapusthakam 1910, Matthew 10:16]'
+  ml_translation: Sathyavedapusthakam, 1910
+  en: Behold, I send you out as sheep among wolves. Therefore be wise as serpents, and harmless as doves.
+  en_translation: World English Bible
+scenes:
+- verses: Matthew 10:5–6
+  title: To the lost sheep
+  text: 'Jesus sends the twelve out with instructions: do not go to the Gentiles or Samaritans, but to the lost sheep of the house of Israel.'
+  easy_to_miss: The mission starts close to home. After the resurrection it widens to all nations (Matthew 28:19).
+- verses: Matthew 10:7–8
+  title: Freely give
+  text: Proclaim that the kingdom of heaven is near. Heal the sick, raise the dead, cleanse lepers, cast out demons. You received without paying; give without charging.
+  easy_to_miss: 'Their message is the same as Jesus’ and John’s: the kingdom is near (Matthew 3:2, 4:17).'
+- verses: Matthew 10:9–10
+  title: Travel light
+  text: Take no gold, silver or copper, no bag, no second tunic, no sandals or staff. The worker deserves his food.
+  easy_to_miss: They will depend on the people they serve. Mission begins by receiving hospitality.
+- verses: Matthew 10:11–15
+  title: Peace to the house
+  text: In each town find a worthy person and stay there. Greet the house with peace. If you are not welcomed, shake the dust off your feet as you leave.
+  easy_to_miss: If the house is not worthy, Jesus says, “let your peace return to you”. Peace offered is never wasted.
+- verses: Matthew 10:16
+  title: Sheep among wolves
+  text: I am sending you out like sheep among wolves. So be wise as serpents and innocent as doves.
+  easy_to_miss: Jesus does not promise safety. He asks for both cleverness and innocence, which rarely go together.
+people:
+- name: The twelve apostles
+  ml: പന്ത്രണ്ട് അപ്പൊസ്തലന്മാർ
+  role: Chosen from among the disciples and now sent out for the first time.
+  name_meaning: Apostle means “one who is sent”
+phrases:
+- term: Lost sheep of Israel
+  explanation: Israel’s people who had drifted from God. Jesus’ first mission was to them.
+- term: Shake the dust off your feet
+  explanation: A sign that the messengers had done their part and were not responsible for the town’s refusal.
+- term: Wise as serpents
+  explanation: Shrewd and alert to danger, while staying as harmless as doves.
+reflection:
+  title_en: Travelling light
+  title_ml: '[TITLE ML]'
+  read_time: A three-minute read
+  body: |-
+    Jesus sends the twelve out with almost nothing. No money, no luggage, not even a spare shirt. They will have to depend on the kindness of the people they visit. It sounds impractical, and it is meant to be. Their message is that God provides, and they are to live as if it is true.
+
+    They are also told what to give: healing, peace and the news that God’s kingdom is near. They had received all of it from Jesus without paying anything. Now they hand it on the same way. Freely you received, freely give.
+
+    We are not all called to walk from village to village. But everyone in the Church has received something freely: forgiveness, faith, a community, a place at the table. This Gospel asks what we are doing with it. The Church grows when ordinary people give away, without charge, what was given to them.
+  author: '[AUTHOR NAME]'
+  reviewer: '[REVIEWER NAME, PARISH]'
+week:
+  question: What has God given you freely that you could give to someone else?
+  question_note: Two minutes after the audio. Everyone gets a turn, and nobody is interrupted.
+  small_act: 'Give something away this week: time, a skill, an item you do not need, with no expectation of return.'
+  prayer: Lord Jesus, you sent your apostles out with nothing but your word and your peace. Make us generous with what we have received freely, and wise and gentle among those who do not welcome us. Amen.
+sources:
+  lectionary: https://mosc.in/lectionary/kyomtho-easter-to-koodosh-edtho/
+reviewed: false

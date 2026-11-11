@@ -1,0 +1,156 @@
+# Reusable text for Third Sunday of Great Lent (Palsy Sunday). Year-independent; a dated edition in content/sundays/ overrides any field.
+# Readings transcribed from https://mosc.in/lectionary/great-lent/. Everything else is a DRAFT for priest/editor review.
+sunday_slug: palsy-sunday
+is_sunday: true
+name:
+  en: Palsy Sunday
+  ml: '[MALAYALAM NAME]'
+title_as_printed: Third Sunday of Great Lent (Palsy Sunday)
+season:
+  en: Great Lent
+  gloss: The fifty days of fasting before Easter
+  syr: '[SYRIAC]'
+tagline: Four friends and a hole in the roof
+standfirst: The house is so crowded that nobody else can get in. Four men climb onto the roof, dig through it and lower their paralysed friend down in front of Jesus.
+description: Readings for Palsy Sunday, the third Sunday of Great Lent, with Mark 2:1–12, the paralysed man and his four friends, explained. Reflection and question.
+hero_quote:
+  text: I tell you, arise, take up your mat, and go to your house.
+  ref: Mark 2:11
+readings:
+  evening:
+  - kind: Gospel
+    kind_ml: സുവിശേഷം
+    ref: Luke 5:17–26
+    ml: ലൂക്കോസ് 5:17–26
+    note: Friends lower a paralysed man through the roof; Jesus forgives and heals him.
+    printed: St. Luke 5:17-26
+  morning:
+  - kind: Gospel
+    kind_ml: സുവിശേഷം
+    ref: John 5:1–18
+    ml: യോഹന്നാൻ 5:1–18
+    note: 'At the pool of Bethesda, a man ill for 38 years is told: get up, take your mat and walk.'
+    printed: St. John 5:1-18
+  before_qurbana:
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: Ezekiel 34:1–16
+    ml: യെഹെസ്കേൽ 34:1–16
+    note: God condemns shepherds who feed themselves and promises to shepherd his sheep himself.
+    printed: Ezekiel 34:1-16
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: Exodus 4:10–17
+    ml: പുറപ്പാട് 4:10–17
+    note: 'Moses says he is slow of speech; God answers: who made the human mouth?'
+    printed: Exodus 4:10-17
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: 2 Kings 2:1–11
+    ml: 2 രാജാക്കന്മാർ 2:1–11
+    note: Elijah is taken up in a whirlwind while Elisha watches.
+    printed: II Kings 2:1-11
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: Isaiah 5:20–25
+    ml: യെശയ്യാവ് 5:20–25
+    note: Woe to those who call evil good and good evil.
+    printed: Isaiah 5:20-25
+  holy_qurbana:
+  - kind: Acts of the Apostles
+    kind_ml: അപ്പൊസ്തലപ്രവൃത്തികൾ
+    ref: Acts 5:12–16; 19:8–12
+    ml: അപ്പൊസ്തലപ്രവൃത്തികൾ 5:12–16; 19:8–12
+    note: The sick are healed as Peter’s shadow passes, and through cloths Paul has touched.
+    printed: Acts 5:12-16, 19:8-12
+  - kind: Pauline Epistle
+    kind_ml: പൗലോസിന്റെ ലേഖനം
+    ref: Romans 5:1–11
+    ml: റോമർ 5:1–11
+    note: Having been made right by faith, we have peace with God; suffering produces endurance.
+    printed: Romans 5:1-11
+  - kind: Pauline Epistle
+    kind_ml: പൗലോസിന്റെ ലേഖനം
+    ref: 2 Corinthians 12:7–10
+    ml: 2 കൊരിന്ത്യർ 12:7–10
+    note: 'Paul’s thorn in the flesh: “My grace is sufficient for you.”'
+    printed: 2 Corinthians 12:7-10
+  - kind: Gospel
+    kind_ml: സുവിശേഷം
+    ref: Mark 2:1–12
+    ml: മർക്കൊസ് 2:1–12
+    note: Four friends lower a paralysed man through a roof, and Jesus forgives and heals him. This is the Gospel of the day.
+    printed: St. Mark 2:1-12
+    main: true
+one_minute:
+  what_happens: In Capernaum, four men carry a paralysed friend to Jesus. They open up the roof and lower him down. Jesus forgives his sins, and when the scribes object, he heals him too. The man picks up his mat and walks out.
+  why_this_sunday: The third Sunday of Great Lent reads the healing of a paralysed man. The morning Gospel tells of another, at the pool of Bethesda.
+  take_with_you: Jesus saw their faith, the faith of the four friends. Sometimes we are carried to Christ by others.
+readings_thread: 'Moses says he cannot speak well, and God answers: who made the mouth? Elisha watches Elijah taken up. In Acts even handkerchiefs carry healing, and Paul learns that God’s grace is enough when his own weakness is not taken away.'
+key_verse:
+  ref: Mark 2:5
+  ml: '[ML VERSE: Sathyavedapusthakam 1910, Mark 2:5]'
+  ml_translation: Sathyavedapusthakam, 1910
+  en: Jesus, seeing their faith, said to the paralytic, “Son, your sins are forgiven you.”
+  en_translation: World English Bible
+scenes:
+- verses: Mark 2:1–2
+  title: No room, not even at the door
+  text: Jesus is back home in Capernaum. So many people gather that there is no room left, not even outside the door, and he is speaking the word to them.
+  easy_to_miss: Mark says Jesus was “at home”. This may have been Peter’s house (Mark 1:29).
+- verses: Mark 2:3–4
+  title: Through the roof
+  text: Four men bring a paralysed man. They cannot get near, so they open up the roof above Jesus, dig through it and lower the mat he is lying on.
+  easy_to_miss: Roofs were flat, made of beams covered with branches and packed clay. Somebody’s roof was ruined that day.
+- verses: Mark 2:5
+  title: Your sins are forgiven
+  text: 'Seeing their faith, Jesus says to the paralysed man: son, your sins are forgiven.'
+  easy_to_miss: The man has not said a word. Jesus responds to the faith of his friends.
+- verses: Mark 2:6–9
+  title: Who can forgive sins?
+  text: 'Some scribes think to themselves: this is blasphemy; only God can forgive sins. Jesus knows their thoughts and asks which is easier to say: your sins are forgiven, or get up and walk?'
+  easy_to_miss: The scribes are right that only God forgives sins. That is exactly Mark’s point about who Jesus is.
+- verses: Mark 2:10–12
+  title: Take up your mat
+  text: 'So that you may know the Son of Man has authority to forgive, he says to the man: get up, take your mat and go home. He does, in front of everyone, and they all glorify God.'
+  easy_to_miss: He came in through the roof and leaves through the door, carrying the mat that carried him.
+people:
+- name: The paralysed man
+  ml: '[ML NAME]'
+  role: Unable to walk, carried on a mat by four friends.
+  name_meaning: —
+- name: The four friends
+  ml: '[ML NAME]'
+  role: Unnamed men whose faith Jesus sees.
+  name_meaning: —
+- name: The scribes
+  ml: ശാസ്ത്രിമാർ
+  role: Experts in the law who question Jesus silently.
+  name_meaning: —
+phrases:
+- term: Palsy
+  explanation: An old English word for paralysis.
+- term: Son of Man
+  explanation: Jesus’ name for himself, drawn from Daniel 7:13–14, where the Son of Man receives authority from God.
+- term: Mat
+  explanation: A simple sleeping pallet, light enough to carry.
+reflection:
+  title_en: Carried by others
+  title_ml: '[TITLE ML]'
+  read_time: A three-minute read
+  body: |-
+    We never learn the paralysed man’s name, or what he believed. We only know that four people cared enough to carry him across town, find the door blocked, climb a roof and tear it open. Mark says Jesus saw their faith. The man was forgiven and healed because his friends would not give up.
+
+    There are times in life when we cannot walk to Christ ourselves. Illness, grief, doubt or sin can leave us lying still. In those times the faith of others carries us: a parent’s prayer, a friend who drives us to church, a parish that keeps our name in its intercessions.
+
+    And there are times when we are the ones holding a corner of the mat. Lent is a good time to ask who we are carrying, and who we have stopped carrying because it got hard. The four friends dug through a roof. Surely we can make a phone call.
+  author: '[AUTHOR NAME]'
+  reviewer: '[REVIEWER NAME, PARISH]'
+week:
+  question: Who has carried you through a hard time? Who might need us to carry them now?
+  question_note: Two minutes after the audio. Everyone gets a turn, and nobody is interrupted.
+  small_act: Pray every day this week for one person who is struggling, and tell them you are doing it.
+  prayer: Lord Jesus, you saw the faith of four friends and raised the man they carried. Bless those who have carried us, and give us strength to carry others to you. Amen.
+sources:
+  lectionary: https://mosc.in/lectionary/great-lent/
+reviewed: false

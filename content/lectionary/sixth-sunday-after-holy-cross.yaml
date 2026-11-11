@@ -1,0 +1,140 @@
+# Reusable text for Sixth Sunday after the Feast of Holy Cross. Year-independent; a dated edition in content/sundays/ overrides any field.
+# Readings transcribed from https://mosc.in/lectionary/kyomtho-easter-to-koodosh-edtho/. Everything else is a DRAFT for priest/editor review.
+sunday_slug: sixth-sunday-after-holy-cross
+is_sunday: true
+name:
+  en: Sixth Sunday after Holy Cross
+  ml: '[MALAYALAM NAME]'
+title_as_printed: Sixth Sunday after the Feast of Holy Cross
+season:
+  en: Sleeba
+  gloss: The season of the Cross
+  syr: '[SYRIAC]'
+tagline: The rich ruler and the eye of a needle
+standfirst: A wealthy, devout man asks Jesus what he must do to inherit eternal life. He has kept the commandments all his life. Jesus tells him he lacks one thing.
+description: Readings for the Sixth Sunday after Holy Cross, with Luke 18:18–27, the rich ruler, explained in five scenes. A reflection and a family question.
+hero_quote:
+  text: You still lack one thing. Sell all that you have, and distribute it to the poor. Then you will have treasure in heaven; then come, follow me.
+  ref: Luke 18:22
+readings:
+  evening:
+  - kind: Gospel
+    kind_ml: സുവിശേഷം
+    ref: Matthew 19:13–26
+    ml: മത്തായി 19:13–26
+    note: Jesus blesses the children; the rich young man; with God all things are possible.
+    printed: St. Matthew 19:13-26
+  morning:
+  - kind: Gospel
+    kind_ml: സുവിശേഷം
+    ref: Mark 10:17–27
+    ml: മർക്കൊസ് 10:17–27
+    note: It is easier for a camel to go through the eye of a needle.
+    printed: St. Mark 10:17-27
+  before_qurbana:
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: Genesis 42:29–36
+    ml: ഉല്പത്തി 42:29–36
+    note: 'Jacob will not let Benjamin go: everything is against me.'
+    printed: Genesis 42:29-36
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: Psalm 84
+    ml: സങ്കീർത്തനങ്ങൾ 84
+    note: How lovely is your dwelling place; a day in your courts is better than a thousand.
+    printed: Psalms 84
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: Isaiah 43:16–25
+    ml: യെശയ്യാവ് 43:16–25
+    note: Do not remember the former things; I am doing a new thing.
+    printed: Isaiah 43:16-25
+  holy_qurbana:
+  - kind: Acts of the Apostles
+    kind_ml: അപ്പൊസ്തലപ്രവൃത്തികൾ
+    ref: Acts 21:27–40
+    ml: അപ്പൊസ്തലപ്രവൃത്തികൾ 21:27–40
+    note: Paul is seized in the Temple and rescued by Roman soldiers.
+    printed: Acts 21:27-40
+  - kind: Pauline Epistle
+    kind_ml: പൗലോസിന്റെ ലേഖനം
+    ref: 1 Corinthians 5:6–13
+    ml: 1 കൊരിന്ത്യർ 5:6–13
+    note: A little yeast leavens the whole batch; Christ our Passover has been sacrificed.
+    printed: I Corinthians 5:6-13
+  - kind: Gospel
+    kind_ml: സുവിശേഷം
+    ref: Luke 18:18–27
+    ml: ലൂക്കോസ് 18:18–27
+    note: 'The rich ruler: one thing you lack; with God all things are possible. This is the Gospel of the day.'
+    printed: St. Luke 18:18-27
+    main: true
+one_minute:
+  what_happens: A ruler asks Jesus how to inherit eternal life. Jesus lists commandments, and the man says he has kept them since youth. Jesus tells him to sell everything, give to the poor and follow him. The man goes away very sad, because he is very rich. Jesus says what is impossible for people is possible for God.
+  why_this_sunday: This is one of the last Sundays of the Church year. The Gospel asks what we still hold on to.
+  take_with_you: The ruler was close. One thing stood between him and following Jesus. Most of us have one thing too.
+readings_thread: Jacob refuses to let Benjamin go to Egypt, holding on to the son he has left. The psalm longs for the courts of the Lord, and Isaiah says God is doing a new thing. Paul tells the Corinthians to clear out the old yeast.
+key_verse:
+  ref: Luke 18:27
+  ml: '[ML VERSE: Sathyavedapusthakam 1910, Luke 18:27]'
+  ml_translation: Sathyavedapusthakam, 1910
+  en: But he said, “The things which are impossible with men are possible with God.”
+  en_translation: World English Bible
+scenes:
+- verses: Luke 18:18–19
+  title: Good Teacher
+  text: 'A ruler asks: Good Teacher, what must I do to inherit eternal life? Jesus answers: why do you call me good? No one is good but God alone.'
+  easy_to_miss: Jesus is not denying he is good. He is asking whether the man realises who he is talking to.
+- verses: Luke 18:20–21
+  title: All these I have kept
+  text: 'You know the commandments: do not commit adultery, do not murder, do not steal, do not lie, honour your father and mother. He replies: I have kept all these since I was young.'
+  easy_to_miss: Jesus lists only the commandments about other people. He leaves out the ones about God, and about coveting.
+- verses: Luke 18:22–23
+  title: One thing you lack
+  text: 'Jesus says: you still lack one thing. Sell all you have, give to the poor, and you will have treasure in heaven. Then come, follow me. The man becomes very sad, for he is very rich.'
+  easy_to_miss: The command ends with “follow me”. Giving things up is the door, not the destination.
+- verses: Luke 18:24–25
+  title: The eye of a needle
+  text: 'Jesus looks at him and says: how hard it is for the rich to enter the kingdom of God. It is easier for a camel to go through the eye of a needle.'
+  easy_to_miss: Mark says Jesus looked at him and loved him (Mark 10:21). His words come from love, not judgment.
+- verses: Luke 18:26–27
+  title: Possible with God
+  text: 'Those listening ask: then who can be saved? Jesus answers: what is impossible for people is possible for God.'
+  easy_to_miss: In the very next chapter, a rich man, Zacchaeus, gives half his goods to the poor (Luke 19:8). The impossible happens.
+people:
+- name: The rich ruler
+  ml: '[ML NAME]'
+  role: A wealthy, law-keeping leader who wants eternal life.
+  name_meaning: —
+- name: Peter
+  ml: പത്രൊസ്
+  role: Speaks up next to say the disciples have left everything (Luke 18:28).
+  name_meaning: “Rock”
+phrases:
+- term: Ruler
+  explanation: Possibly a synagogue leader or member of a local council. Matthew says he was young (Matthew 19:20).
+- term: Eye of a needle
+  explanation: 'A deliberately absurd picture: the largest animal in the region through the smallest opening.'
+- term: Treasure in heaven
+  explanation: What is given to God and to the poor, which cannot be lost.
+reflection:
+  title_en: One thing you lack
+  title_ml: '[TITLE ML]'
+  read_time: A three-minute read
+  body: |-
+    The rich ruler is easy to like. He is sincere, devout and serious about eternal life. He has kept the commandments since he was a boy. He comes to Jesus with a good question. And he goes away sad, because the answer costs more than he can give.
+
+    Jesus puts his finger on one thing. For this man, it was his wealth. It might have been something else for someone else: a relationship, an ambition, a comfort, a grudge. Whatever we cannot let go of to follow Jesus has quietly become our master.
+
+    The Church year is ending, and soon it begins again at Koodosh Eetho. It is a good moment to ask what one thing stands between us and following Jesus more closely. Letting go feels impossible. Jesus does not deny that. He says only that with God, it is possible.
+  author: '[AUTHOR NAME]'
+  reviewer: '[REVIEWER NAME, PARISH]'
+week:
+  question: If Jesus said to you “you lack one thing”, what do you think he would name?
+  question_note: Two minutes after the audio. Everyone gets a turn, and nobody is interrupted.
+  small_act: Give away one thing you are attached to, to someone who needs it more.
+  prayer: Lord Jesus, you looked at the rich young ruler with love. Look at us with love, show us the one thing we lack, and give us grace to let go and follow you, for with God all things are possible. Amen.
+sources:
+  lectionary: https://mosc.in/lectionary/kyomtho-easter-to-koodosh-edtho/
+reviewed: false

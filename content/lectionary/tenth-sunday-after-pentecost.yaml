@@ -1,0 +1,140 @@
+# Reusable text for Tenth Sunday after Pentecost. Year-independent; a dated edition in content/sundays/ overrides any field.
+# Readings transcribed from https://mosc.in/lectionary/kyomtho-easter-to-koodosh-edtho/. Everything else is a DRAFT for priest/editor review.
+sunday_slug: tenth-sunday-after-pentecost
+is_sunday: true
+name:
+  en: Tenth Sunday after Pentecost
+  ml: '[MALAYALAM NAME]'
+title_as_printed: Tenth Sunday after Pentecost
+season:
+  en: Pentecost
+  gloss: The season of the Holy Spirit
+  syr: '[SYRIAC]'
+tagline: Who is the greatest? A child in the middle
+standfirst: The disciples ask Jesus who will be greatest in the kingdom. He answers by calling a small child and standing them in the middle of the group.
+description: Readings for the Tenth Sunday after Pentecost, with Matthew 18:1–11, becoming like children, explained in five scenes. Reflection and question.
+hero_quote:
+  text: Jesus called a little child to himself, and set him in the middle of them
+  ref: Matthew 18:2
+readings:
+  evening:
+  - kind: Gospel
+    kind_ml: സുവിശേഷം
+    ref: Luke 9:12–17
+    ml: ലൂക്കോസ് 9:12–17
+    note: Jesus feeds five thousand with five loaves and two fish.
+    printed: St. Luke 9:12-17
+  morning:
+  - kind: Gospel
+    kind_ml: സുവിശേഷം
+    ref: Matthew 16:13–20
+    ml: മത്തായി 16:13–20
+    note: Peter confesses that Jesus is the Christ, the Son of the living God.
+    printed: St. Matthew 16:13-20
+  before_qurbana:
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: Exodus 15:23–27
+    ml: പുറപ്പാട് 15:23–27
+    note: 'God makes the bitter water of Marah sweet: I am the Lord who heals you.'
+    printed: Exodus 15:23-27
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: Job 42:7–17
+    ml: ഇയ്യോബ് 42:7–17
+    note: Job prays for his friends, and God restores his fortunes twice over.
+    printed: Job 42:7-17
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: Psalm 112:1–10
+    ml: സങ്കീർത്തനങ്ങൾ 112:1–10
+    note: Blessed is the one who fears the Lord and gives freely to the poor.
+    printed: Psalms 112:1-10
+  holy_qurbana:
+  - kind: Acts of the Apostles
+    kind_ml: അപ്പൊസ്തലപ്രവൃത്തികൾ
+    ref: Acts 28:23–30
+    ml: അപ്പൊസ്തലപ്രവൃത്തികൾ 28:23–30
+    note: Paul spends two years in Rome, welcoming all and preaching boldly.
+    printed: Acts 28:23-30
+  - kind: Pauline Epistle
+    kind_ml: പൗലോസിന്റെ ലേഖനം
+    ref: Romans 10:5–21
+    ml: റോമർ 10:5–21
+    note: Everyone who calls on the name of the Lord will be saved; how will they hear without a preacher?
+    printed: Romans 10:5-21
+  - kind: Gospel
+    kind_ml: സുവിശേഷം
+    ref: Matthew 18:1–11
+    ml: മത്തായി 18:1–11
+    note: Unless you become like little children; do not despise one of these little ones. This is the Gospel of the day.
+    printed: St. Matthew 18:1-11
+    main: true
+one_minute:
+  what_happens: The disciples ask who is greatest. Jesus puts a child among them and says unless they become like children they will not enter the kingdom. Whoever welcomes a child welcomes him. He warns against causing little ones to stumble, and says their angels see the Father’s face.
+  why_this_sunday: In the middle of the long season after Pentecost, the Church reads Jesus’ teaching on the little ones of his kingdom.
+  take_with_you: Jesus did not just talk about children. He put one in the middle.
+readings_thread: Water at Marah is made sweet, and Job is restored and prays for his friends. The psalm blesses the generous person. Paul says that all who call on the Lord will be saved, and asks how they will hear unless someone is sent.
+key_verse:
+  ref: Matthew 18:3
+  ml: '[ML VERSE: Sathyavedapusthakam 1910, Matthew 18:3]'
+  ml_translation: Sathyavedapusthakam, 1910
+  en: and said, “Most certainly I tell you, unless you turn, and become as little children, you will in no way enter into the Kingdom of Heaven.
+  en_translation: World English Bible
+scenes:
+- verses: Matthew 18:1–2
+  title: A child in the middle
+  text: 'The disciples ask: who is the greatest in the kingdom of heaven? Jesus calls a child and puts the child in the middle of them.'
+  easy_to_miss: Children had no status in that world. Jesus places the least important person at the centre.
+- verses: Matthew 18:3–4
+  title: Become like children
+  text: Unless you turn and become like children, you will never enter the kingdom. Whoever humbles himself like this child is the greatest.
+  easy_to_miss: The question was about being greatest. Jesus answers that the first problem is getting in at all.
+- verses: Matthew 18:5–6
+  title: Welcome, and do not harm
+  text: Whoever welcomes one such child in my name welcomes me. But whoever causes one of these little ones who believe in me to stumble would be better drowned with a millstone round his neck.
+  easy_to_miss: Jesus identifies himself with the child, as he does with the hungry and the stranger in Matthew 25.
+- verses: Matthew 18:7–9
+  title: Cut it off
+  text: Woe to the world because of stumbling blocks. If your hand or foot or eye causes you to stumble, cut it off. Better to enter life maimed than to be thrown into fire whole.
+  easy_to_miss: Jesus turns from those who make others stumble to what makes us stumble ourselves.
+- verses: Matthew 18:10–11
+  title: Their angels
+  text: Do not despise one of these little ones. Their angels in heaven always see the face of my Father.
+  easy_to_miss: Verse 11, “the Son of Man came to save the lost”, is missing from some old manuscripts. It leads into the parable of the lost sheep.
+people:
+- name: The child
+  ml: ശിശു
+  role: Called by Jesus and set in the middle of the disciples.
+  name_meaning: —
+- name: The disciples
+  ml: ശിഷ്യന്മാർ
+  role: Arguing about rank in the kingdom.
+  name_meaning: —
+phrases:
+- term: Little ones
+  explanation: Children, and also humble believers who are easily hurt or led astray.
+- term: Millstone
+  explanation: A huge stone for grinding grain, turned by a donkey. Tied to someone’s neck, it meant certain drowning.
+- term: Their angels
+  explanation: The Church’s teaching on guardian angels draws on this verse.
+reflection:
+  title_en: A child in the middle
+  title_ml: '[TITLE ML]'
+  read_time: A three-minute read
+  body: |-
+    The disciples wanted a ranking. Who is greatest? Who gets the best seat when the kingdom comes? Jesus does not give them a list. He calls a child over and puts the child in the middle. In a world where children counted for little, that was a shock.
+
+    He says three things about children. Adults must become like them to enter the kingdom: dependent, trusting, unconcerned with rank. Welcoming a child is welcoming Jesus himself. And harming a child, or leading them away from faith, is among the worst things anyone can do.
+
+    That last warning should make every parish and family careful. Children must be safe in our churches and homes, and their faith must be protected and nourished. Jesus says their angels see the face of the Father. Whatever we do to the little ones, heaven is watching.
+  author: '[AUTHOR NAME]'
+  reviewer: '[REVIEWER NAME, PARISH]'
+week:
+  question: What can adults learn from children about faith?
+  question_note: Two minutes after the audio. Everyone gets a turn, and nobody is interrupted.
+  small_act: 'Adults: ask a child to teach you a prayer or song they know. Children: pray for the grown-ups in your family by name.'
+  prayer: Lord Jesus, you set a child in the middle of your disciples. Make us humble and trusting like children, keep every child in our Church safe, and let their angels always see your Father’s face. Amen.
+sources:
+  lectionary: https://mosc.in/lectionary/kyomtho-easter-to-koodosh-edtho/
+reviewed: false

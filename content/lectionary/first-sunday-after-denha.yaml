@@ -1,0 +1,144 @@
+# Reusable text for First Sunday after Baptism of our Lord. Year-independent; a dated edition in content/sundays/ overrides any field.
+# Readings transcribed from https://mosc.in/lectionary/421-2/. Everything else is a DRAFT for priest/editor review.
+sunday_slug: first-sunday-after-denha
+is_sunday: true
+name:
+  en: First Sunday after Denha
+  ml: '[MALAYALAM NAME]'
+title_as_printed: First Sunday after Baptism of our Lord
+season:
+  en: Denha
+  gloss: The Epiphany season
+  syr: '[SYRIAC]'
+tagline: A great light in Galilee, and the first four disciples
+standfirst: John has been arrested. Jesus moves to a lakeside town, starts preaching and calls two pairs of brothers away from their fishing nets.
+description: 'Readings for the First Sunday after Denha, with Matthew 4:12–22 explained: a great light in Galilee and the first disciples. Reflection and question.'
+hero_quote:
+  text: The people who sat in darkness saw a great light, to those who sat in the region and shadow of death, to them light has dawned.
+  ref: Matthew 4:16
+readings:
+  evening:
+  - kind: Gospel
+    kind_ml: സുവിശേഷം
+    ref: Mark 1:14–34
+    ml: മർക്കൊസ് 1:14–34
+    note: Jesus calls the first disciples and heals many in Capernaum.
+    printed: St. Mark 1:14-34
+  morning:
+  - kind: Gospel
+    kind_ml: സുവിശേഷം
+    ref: John 1:18–28
+    ml: യോഹന്നാൻ 1:18–28
+    note: John the Baptist says he is not the Christ, but a voice crying in the wilderness.
+    printed: St. John 1:18-28
+  before_qurbana:
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: Genesis 25:19–34; 30:36–31:2
+    ml: ഉല്പത്തി 25:19–34; 30:36–31:2
+    note: Jacob and Esau struggle from birth; Esau sells his birthright.
+    printed: Genesis 25:19-34, 30:36-31:2
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: 2 Kings 5:1–14
+    ml: 2 രാജാക്കന്മാർ 5:1–14
+    note: Naaman the Syrian washes seven times in the Jordan and is healed of leprosy.
+    printed: II Kings 5:1-14
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: Isaiah 49:7–13
+    ml: യെശയ്യാവ് 49:7–13
+    note: I will make you a light to the nations; sing, heavens, for the Lord comforts his people.
+    printed: Isaiah 49:7-13
+  holy_qurbana:
+  - kind: Acts of the Apostles
+    kind_ml: അപ്പൊസ്തലപ്രവൃത്തികൾ
+    ref: Acts 2:37–47
+    ml: അപ്പൊസ്തലപ്രവൃത്തികൾ 2:37–47
+    note: Repent and be baptised; the first believers share everything and break bread together.
+    printed: Acts 2:37-47
+  - kind: Pauline Epistle
+    kind_ml: പൗലോസിന്റെ ലേഖനം
+    ref: Ephesians 1:3–14
+    ml: എഫേസ്യർ 1:3–14
+    note: Chosen in Christ before the foundation of the world, sealed with the Holy Spirit.
+    printed: Ephesians 1:3-14
+  - kind: Gospel
+    kind_ml: സുവിശേഷം
+    ref: Matthew 4:12–22
+    ml: മത്തായി 4:12–22
+    note: A great light in Galilee; Jesus calls fishermen to be fishers for people. This is the Gospel of the day.
+    printed: St. Matthew 4:12-22
+    main: true
+one_minute:
+  what_happens: 'After John is arrested, Jesus settles in Capernaum and begins to preach: repent, for the kingdom of heaven is near. Walking by the Sea of Galilee, he calls Peter and Andrew, then James and John, and they leave everything to follow him.'
+  why_this_sunday: At Denha the Church celebrated the baptism of Jesus. The Sundays after it follow what he did next, starting with the first light in Galilee.
+  take_with_you: Jesus called fishermen at work, in the middle of an ordinary day. The call usually comes where we already are.
+readings_thread: Jacob and Esau struggle from birth, and Naaman is healed by washing in the Jordan. Isaiah promises a light to the nations. Peter tells the crowd at Pentecost to repent and be baptised, and Ephesians says we were chosen in Christ.
+key_verse:
+  ref: Matthew 4:19
+  ml: '[ML VERSE: Sathyavedapusthakam 1910, Matthew 4:19]'
+  ml_translation: Sathyavedapusthakam, 1910
+  en: He said to them, “Come after me, and I will make you fishers for men.”
+  en_translation: World English Bible
+scenes:
+- verses: Matthew 4:12–13
+  title: Moving to Capernaum
+  text: When Jesus hears that John has been arrested, he leaves Nazareth and settles in Capernaum, a fishing town on the shore of the Sea of Galilee.
+  easy_to_miss: Jesus starts preaching just as John is silenced. The voice in the wilderness hands over to the Word.
+- verses: Matthew 4:14–16
+  title: Light in Galilee of the nations
+  text: 'Matthew quotes Isaiah: the people who sat in darkness have seen a great light.'
+  easy_to_miss: Zebulun and Naphtali were the first tribes taken into exile by Assyria (Isaiah 9:1). The first to fall into darkness are the first to see the light.
+- verses: Matthew 4:17
+  title: The kingdom is near
+  text: 'From then on Jesus preaches: repent, for the kingdom of heaven is at hand.'
+  easy_to_miss: These are exactly John the Baptist’s words in Matthew 3:2. Jesus takes up the message where John left it.
+- verses: Matthew 4:18–20
+  title: Fishers for people
+  text: Jesus sees Simon Peter and Andrew casting a net. Come after me, he says, and I will make you fishers for people. They leave their nets at once.
+  easy_to_miss: Jesus does not ask them to stop being fishermen. He tells them what they will now fish for.
+- verses: Matthew 4:21–22
+  title: Leaving the boat and their father
+  text: Further on he sees James and John mending nets in a boat with their father Zebedee. He calls them, and they leave the boat and their father and follow him.
+  easy_to_miss: The first pair leave their nets; the second pair leave their father too. Matthew shows the cost rising.
+people:
+- name: Peter and Andrew
+  ml: പത്രൊസും അന്ത്രെയാസും
+  role: Brothers from Bethsaida who fished on the Sea of Galilee.
+  name_meaning: Andrew means “manly”
+- name: James and John
+  ml: യാക്കോബും യോഹന്നാനും
+  role: Sons of Zebedee, partners in a family fishing business.
+  name_meaning: James is Jacob, “he grasps the heel”
+- name: Zebedee
+  ml: സെബെദി
+  role: Their father, left in the boat with the hired men.
+  name_meaning: “Gift of the Lord”
+phrases:
+- term: Repent
+  explanation: 'The Greek word means a change of mind and direction: turning round, not only feeling sorry.'
+- term: Kingdom of heaven
+  explanation: Matthew’s usual phrase for the kingdom of God. Many Jews avoided saying God’s name out of reverence.
+- term: Denha
+  explanation: Syriac for “dawn” or “rising”. The feast of Jesus’ baptism on 6 January, also called Epiphany.
+reflection:
+  title_en: Called in the middle of the day
+  title_ml: '[TITLE ML]'
+  read_time: A three-minute read
+  body: |-
+    Peter and Andrew are not praying when Jesus finds them. They are working, throwing a net into the lake as they did every day. James and John are mending torn nets with their father. Nothing about the scene is religious, and that is exactly where the call comes.
+
+    Jesus does not take away what they know. They were fishermen and they will still be fishers, now of people. Everything they learned about patience, weather, teamwork and hauling in a heavy net will be put to new use. Following him changes the direction of a life without wasting what came before.
+
+    Most of us will not leave our jobs or families. But the call still comes in ordinary places: an office, a classroom, a kitchen. The question is whether we hear it there and let it change what we are working for. The first disciples answered at once. We can at least answer this week.
+  author: '[AUTHOR NAME]'
+  reviewer: '[REVIEWER NAME, PARISH]'
+week:
+  question: What are you good at, and how could that skill be used for God?
+  question_note: Two minutes after the audio. Everyone gets a turn, and nobody is interrupted.
+  small_act: Use one thing you are good at to help someone this week, at school, at work or at church.
+  prayer: Lord Jesus, you called fishermen at their nets. Call us where we are, in our work and our homes, and make us ready to follow you at once. Amen.
+sources:
+  lectionary: https://mosc.in/lectionary/421-2/
+reviewed: false

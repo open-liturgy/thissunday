@@ -1,0 +1,136 @@
+# Reusable text for Fifth Sunday after the Feast of Holy Cross. Year-independent; a dated edition in content/sundays/ overrides any field.
+# Readings transcribed from https://mosc.in/lectionary/kyomtho-easter-to-koodosh-edtho/. Everything else is a DRAFT for priest/editor review.
+sunday_slug: fifth-sunday-after-holy-cross
+is_sunday: true
+name:
+  en: Fifth Sunday after Holy Cross
+  ml: '[MALAYALAM NAME]'
+title_as_printed: Fifth Sunday after the Feast of Holy Cross
+season:
+  en: Sleeba
+  gloss: The season of the Cross
+  syr: '[SYRIAC]'
+tagline: The greatest among you will be your servant
+standfirst: Jesus warns the crowds about religious leaders who say the right things and do not do them, who love titles and the best seats. The greatest among you, he says, will be the servant.
+description: Readings for the Fifth Sunday after Holy Cross, with Matthew 23:1–12, the greatest as servant, explained. Reflection and question.
+hero_quote:
+  text: All things therefore whatever they tell you to observe, observe and do, but don’t do their works; for they say, and don’t do.
+  ref: Matthew 23:3
+readings:
+  evening:
+  - kind: Gospel
+    kind_ml: സുവിശേഷം
+    ref: Luke 20:27–40
+    ml: ലൂക്കോസ് 20:27–40
+    note: He is not the God of the dead but of the living.
+    printed: St. Luke 20:27-40
+  morning:
+  - kind: Gospel
+    kind_ml: സുവിശേഷം
+    ref: Matthew 22:34–44
+    ml: മത്തായി 22:34–44
+    note: 'The greatest commandment: love God, and love your neighbour as yourself.'
+    printed: St. Matthew 22:34-44
+  before_qurbana:
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: Leviticus 2:1–3
+    ml: ലേവ്യപുസ്തകം 2:1–3
+    note: The grain offering of fine flour with oil and frankincense.
+    printed: Leviticus 2:1-3
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: Psalm 46
+    ml: സങ്കീർത്തനങ്ങൾ 46
+    note: God is our refuge and strength; be still, and know that I am God.
+    printed: Psalms 46
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: Isaiah 40:27–31
+    ml: യെശയ്യാവ് 40:27–31
+    note: Those who wait on the Lord will renew their strength; they will mount up with wings like eagles.
+    printed: Isaiah 40:27-31
+  holy_qurbana:
+  - kind: Acts of the Apostles
+    kind_ml: അപ്പൊസ്തലപ്രവൃത്തികൾ
+    ref: Acts 22:22–29
+    ml: അപ്പൊസ്തലപ്രവൃത്തികൾ 22:22–29
+    note: The crowd turns on Paul, and he claims his rights as a Roman citizen.
+    printed: Acts 22:22-29
+  - kind: Pauline Epistle
+    kind_ml: പൗലോസിന്റെ ലേഖനം
+    ref: 1 Timothy 6:13–21
+    ml: 1 തിമൊഥെയൊസ് 6:13–21
+    note: Tell the rich not to be proud, but to be rich in good works.
+    printed: I Timothy 6:13-21
+  - kind: Gospel
+    kind_ml: സുവിശേഷം
+    ref: Matthew 23:1–12
+    ml: മത്തായി 23:1–12
+    note: Do what they teach, not what they do; the greatest among you will be your servant. This is the Gospel of the day.
+    printed: St. Matthew 23:1-12
+    main: true
+one_minute:
+  what_happens: Jesus tells the crowds and his disciples to do what the scribes and Pharisees teach, but not to copy what they do. They tie heavy burdens on others, do their deeds to be seen, and love titles and places of honour. The greatest among you will be your servant.
+  why_this_sunday: Near the end of the Church year, the readings turn to how leaders and believers should live. The morning Gospel is about the greatest commandment.
+  take_with_you: Titles are given by people. Greatness, in Jesus’ kingdom, is measured by service.
+readings_thread: Leviticus describes the grain offering, a simple gift of flour and oil. The psalm says God is our refuge and strength, and Isaiah says those who wait on the Lord will renew their strength. Paul charges Timothy to keep the faith without stain.
+key_verse:
+  ref: Matthew 23:11
+  ml: '[ML VERSE: Sathyavedapusthakam 1910, Matthew 23:11]'
+  ml_translation: Sathyavedapusthakam, 1910
+  en: But he who is greatest among you will be your servant.
+  en_translation: World English Bible
+scenes:
+- verses: Matthew 23:1–3
+  title: Moses’ seat
+  text: The scribes and Pharisees sit on Moses’ seat. So do what they tell you, but do not do what they do, because they do not practise what they teach.
+  easy_to_miss: Jesus respects their teaching office. His complaint is about the gap between words and life.
+- verses: Matthew 23:4
+  title: Heavy burdens
+  text: They tie up heavy burdens and lay them on people’s shoulders, but will not lift a finger to move them.
+  easy_to_miss: 'Compare Jesus: “my yoke is easy and my burden is light” (Matthew 11:30).'
+- verses: Matthew 23:5–7
+  title: To be seen
+  text: 'They do everything to be seen: wide prayer boxes, long tassels, the best seats at feasts and in synagogues, greetings in the market, being called rabbi.'
+  easy_to_miss: 'None of these things is wrong in itself. The problem is the reason: “to be seen by people”.'
+- verses: Matthew 23:8–10
+  title: One teacher, one Father
+  text: Do not be called rabbi, for you have one teacher and you are all brothers. Call no one on earth your father, for you have one Father in heaven. Do not be called instructors; you have one instructor, the Christ.
+  easy_to_miss: Paul still calls himself a father to his converts (1 Corinthians 4:15). Jesus is warning against titles that take God’s place, not banning words.
+- verses: Matthew 23:11–12
+  title: The greatest is the servant
+  text: The greatest among you will be your servant. Whoever exalts himself will be humbled, and whoever humbles himself will be exalted.
+  easy_to_miss: 'Jesus said the same about himself: the Son of Man came not to be served but to serve (Matthew 20:28).'
+people:
+- name: The scribes and Pharisees
+  ml: ശാസ്ത്രിമാരും പരീശന്മാരും
+  role: Teachers of the law with real authority, criticised for not living it.
+  name_meaning: —
+phrases:
+- term: Moses’ seat
+  explanation: The authority to teach the law of Moses. Some synagogues had an actual stone seat for the teacher.
+- term: Phylacteries
+  explanation: Small leather boxes holding Scripture verses, worn on the forehead and arm during prayer (Deuteronomy 6:8).
+- term: Rabbi
+  explanation: Hebrew for “my great one”, a respectful title for a teacher.
+reflection:
+  title_en: Practise what you preach
+  title_ml: '[TITLE ML]'
+  read_time: A three-minute read
+  body: |-
+    This Gospel is uncomfortable for anyone with any kind of authority: priests, parents, teachers, committee members, older siblings. Jesus does not say the Pharisees taught the wrong things. He says they did not live them, and they liked being honoured more than serving.
+
+    It is easy to point at others while reading this. Jesus means us to look at ourselves. Do we ask more of our children than we ask of ourselves? Do we enjoy titles and front seats? Do we lay burdens on people and then walk away?
+
+    The answer Jesus gives is simple and hard. The greatest is the servant. He showed what that means when he washed his disciples’ feet and went to the cross. In a family or a parish, the person who most resembles Christ is not the one with the title. It is the one who serves without being seen.
+  author: '[AUTHOR NAME]'
+  reviewer: '[REVIEWER NAME, PARISH]'
+week:
+  question: Is there something we ask of others at home that we do not do ourselves?
+  question_note: Two minutes after the audio. Everyone gets a turn, and nobody is interrupted.
+  small_act: 'Parents and older siblings: do one task you usually ask the younger ones to do, without comment.'
+  prayer: Lord Jesus, you came not to be served but to serve. Make our words and our lives match, free us from love of honour, and make us servants of one another. Amen.
+sources:
+  lectionary: https://mosc.in/lectionary/kyomtho-easter-to-koodosh-edtho/
+reviewed: false

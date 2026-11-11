@@ -1,0 +1,136 @@
+# Reusable text for First Sunday after the Festival of the Ascension of St. Mary. Year-independent; a dated edition in content/sundays/ overrides any field.
+# Readings transcribed from https://mosc.in/lectionary/kyomtho-easter-to-koodosh-edtho/. Everything else is a DRAFT for priest/editor review.
+sunday_slug: first-sunday-after-shunoyo
+is_sunday: true
+name:
+  en: First Sunday after Shunoyo
+  ml: '[MALAYALAM NAME]'
+title_as_printed: First Sunday after the Festival of the Ascension of St. Mary
+season:
+  en: Pentecost
+  gloss: The season of the Holy Spirit
+  syr: '[SYRIAC]'
+tagline: The speck, the log, and the fruit of a good tree
+standfirst: Jesus asks why we notice the speck in someone else’s eye and miss the log in our own. Then he says you can tell a tree by its fruit, and a person by what comes out of their mouth.
+description: Readings for the First Sunday after Shunoyo, with Luke 6:39–45, the speck and the log, explained in five scenes. Reflection and question.
+hero_quote:
+  text: Why do you see the speck of chaff that is in your brother’s eye, but don’t consider the beam that is in your own eye?
+  ref: Luke 6:41
+readings:
+  evening:
+  - kind: Gospel
+    kind_ml: സുവിശേഷം
+    ref: Luke 14:25–35
+    ml: ലൂക്കോസ് 14:25–35
+    note: Count the cost before building a tower; salt that loses its taste.
+    printed: St. Luke 14:25-35
+  morning:
+  - kind: Gospel
+    kind_ml: സുവിശേഷം
+    ref: Luke 15:1–10
+    ml: ലൂക്കോസ് 15:1–10
+    note: 'The lost sheep and the lost coin: joy in heaven over one sinner who repents.'
+    printed: St. Luke 15:1-10
+  before_qurbana:
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: Exodus 14:21–31
+    ml: പുറപ്പാട് 14:21–31
+    note: Israel walks through the sea on dry ground.
+    printed: Exodus 14:21-31
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: 1 Samuel 8:4–9
+    ml: 1 ശമൂവേൽ 8:4–9
+    note: Israel asks for a king like the other nations, rejecting God as their king.
+    printed: I Samuel 8:4-9
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: Isaiah 43:1–5
+    ml: യെശയ്യാവ് 43:1–5
+    note: Do not fear, for I have redeemed you; I have called you by name, you are mine.
+    printed: Isaiah 43:1-5
+  holy_qurbana:
+  - kind: General Epistle
+    kind_ml: പൊതുലേഖനം
+    ref: 1 John 2:22–29
+    ml: 1 യോഹന്നാൻ 2:22–29
+    note: Abide in him, so that we may be confident when he appears.
+    printed: I John 2:22-29
+  - kind: Pauline Epistle
+    kind_ml: പൗലോസിന്റെ ലേഖനം
+    ref: Ephesians 6:10–17
+    ml: എഫേസ്യർ 6:10–17
+    note: Put on the whole armour of God.
+    printed: Ephesians 6:10-17
+  - kind: Gospel
+    kind_ml: സുവിശേഷം
+    ref: Luke 6:39–45
+    ml: ലൂക്കോസ് 6:39–45
+    note: The speck and the log; a tree is known by its fruit. This is the Gospel of the day.
+    printed: St. Luke 6:39-45
+    main: true
+one_minute:
+  what_happens: 'Jesus gives short sayings: the blind cannot lead the blind; a student becomes like the teacher; take the log out of your own eye before the speck from your brother’s; a good tree bears good fruit; the mouth speaks from what fills the heart.'
+  why_this_sunday: These sayings come from Luke’s Sermon on the Plain. They are about examining ourselves before judging others.
+  take_with_you: What we say shows what we have stored in our hearts.
+readings_thread: 'Israel walks through the sea on dry ground, and the people ask Samuel for a king like other nations. God tells Israel: you are mine. John warns about those who deny the Son, and Ephesians tells us to put on God’s armour.'
+key_verse:
+  ref: Luke 6:45
+  ml: '[ML VERSE: Sathyavedapusthakam 1910, Luke 6:45]'
+  ml_translation: Sathyavedapusthakam, 1910
+  en: The good man out of the good treasure of his heart brings out that which is good, and the evil man out of the evil treasure of his heart brings out that which is evil, for out of the abundance of the heart, his mouth speaks.
+  en_translation: World English Bible
+scenes:
+- verses: Luke 6:39
+  title: The blind leading the blind
+  text: Can a blind person lead a blind person? Will they not both fall into a pit?
+  easy_to_miss: Jesus has just told them not to judge (Luke 6:37). A judge who cannot see himself is a blind guide.
+- verses: Luke 6:40
+  title: Like the teacher
+  text: A disciple is not above the teacher, but everyone fully trained will be like their teacher.
+  easy_to_miss: We become like whoever we learn from. It matters who we follow.
+- verses: Luke 6:41–42
+  title: The speck and the log
+  text: Why do you look at the speck in your brother’s eye and not notice the log in your own? First take the log out of your own eye, and then you will see clearly to take out the speck.
+  easy_to_miss: Jesus does not say leave the speck alone. He says see clearly first.
+- verses: Luke 6:43–44
+  title: Known by its fruit
+  text: No good tree bears bad fruit, and no bad tree bears good fruit. Each tree is known by its fruit. Figs do not grow on thorns.
+  easy_to_miss: Jesus was a craftsman’s son in a farming village. His pictures come from everyday life.
+- verses: Luke 6:45
+  title: From the heart
+  text: A good person brings good out of the good stored in the heart, and an evil person evil out of evil. The mouth speaks from what fills the heart.
+  easy_to_miss: The word for “treasure” is a storeroom. Each of us is stocking one.
+people:
+- name: The disciples
+  ml: ശിഷ്യന്മാർ
+  role: Listening to Jesus on a level place with a great crowd (Luke 6:17).
+  name_meaning: —
+phrases:
+- term: Sermon on the Plain
+  explanation: Luke’s version of Jesus’ great sermon (Luke 6:17–49), similar to Matthew’s Sermon on the Mount.
+- term: Speck and log
+  explanation: 'A deliberately funny picture: a person with a beam of wood in their eye trying to remove a speck of sawdust from someone else’s.'
+- term: Treasure of the heart
+  explanation: 'What a person stores up inside: thoughts, habits and loves, which come out in speech.'
+reflection:
+  title_en: Logs and specks
+  title_ml: '[TITLE ML]'
+  read_time: A three-minute read
+  body: |-
+    Jesus’ picture is meant to make us laugh. A man with a plank sticking out of his eye leans in close to help his brother with a speck of dust. We laugh because we recognise ourselves. It is always easier to see what is wrong with other people.
+
+    Jesus does not say we should never help anyone see their faults. He says we should first deal with our own. Someone who has honestly faced their own sin is gentler and clearer when they speak to others. Someone who has not becomes a blind guide.
+
+    The last saying turns the mirror inward again. Our words come from what we have stored in our hearts. If what comes out of our mouths at home is often harsh, the answer is not just to watch our tongues. It is to change what we are storing up: in prayer, in what we watch and read, and in the company we keep.
+  author: '[AUTHOR NAME]'
+  reviewer: '[REVIEWER NAME, PARISH]'
+week:
+  question: What do our words at home this week say about what is in our hearts?
+  question_note: Two minutes after the audio. Everyone gets a turn, and nobody is interrupted.
+  small_act: Before correcting anyone this week, name one fault of your own to God first.
+  prayer: Lord Jesus, take the log out of our eyes so we can see clearly. Fill our hearts with good treasure, so that our words build up and do not tear down. Amen.
+sources:
+  lectionary: https://mosc.in/lectionary/kyomtho-easter-to-koodosh-edtho/
+reviewed: false

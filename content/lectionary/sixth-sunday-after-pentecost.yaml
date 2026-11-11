@@ -1,0 +1,137 @@
+# Reusable text for Sixth Sunday after Pentecost. Year-independent; a dated edition in content/sundays/ overrides any field.
+# Readings transcribed from https://mosc.in/lectionary/kyomtho-easter-to-koodosh-edtho/. Everything else is a DRAFT for priest/editor review.
+sunday_slug: sixth-sunday-after-pentecost
+is_sunday: true
+name:
+  en: Sixth Sunday after Pentecost
+  ml: '[MALAYALAM NAME]'
+title_as_printed: Sixth Sunday after Pentecost
+season:
+  en: Pentecost
+  gloss: The season of the Holy Spirit
+  syr: '[SYRIAC]'
+tagline: 'Compassion for a hungry crowd: four thousand fed'
+standfirst: A crowd has been with Jesus for three days and has nothing left to eat. He says he will not send them home hungry, in case they collapse on the way.
+description: Readings for the Sixth Sunday after Pentecost, with Matthew 15:32–39, the feeding of the four thousand, explained in five scenes. Reflection and question.
+hero_quote:
+  text: I have compassion on the multitude, because they continue with me now three days and have nothing to eat.
+  ref: Matthew 15:32
+readings:
+  evening:
+  - kind: Gospel
+    kind_ml: സുവിശേഷം
+    ref: Luke 17:1–10
+    ml: ലൂക്കോസ് 17:1–10
+    note: Forgive seven times; faith like a mustard seed; we are only servants.
+    printed: St. Luke 17:1-10
+  morning:
+  - kind: Gospel
+    kind_ml: സുവിശേഷം
+    ref: Mark 6:30–52
+    ml: മർക്കൊസ് 6:30–52
+    note: Jesus feeds five thousand and walks on the water.
+    printed: St. Mark 6:30-52
+  before_qurbana:
+  - kind: '[KIND]'
+    kind_ml: '[KIND ML]'
+    ref: '[CHECK SOURCE: Exodus3-: 34-38]'
+    ml: '[CHECK SOURCE: Exodus3-: 34-38]'
+    note: '[NOTE: add once the reference is checked]'
+    printed: 'Exodus3-: 34-38'
+    check: 'Printed as ''Exodus3-: 34-38''; the chapter number is incomplete.'
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: Psalm 20
+    ml: സങ്കീർത്തനങ്ങൾ 20
+    note: Some trust in chariots and some in horses, but we trust in the name of the Lord.
+    printed: Psalms 20
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: Isaiah 14:22–27
+    ml: യെശയ്യാവ് 14:22–27
+    note: The Lord has a purpose, and who can turn it back?
+    printed: Isaiah 14:22-27
+  holy_qurbana:
+  - kind: Acts of the Apostles
+    kind_ml: അപ്പൊസ്തലപ്രവൃത്തികൾ
+    ref: Acts 1:15–20
+    ml: അപ്പൊസ്തലപ്രവൃത്തികൾ 1:15–20
+    note: Peter leads the believers in choosing a replacement for Judas.
+    printed: Acts 1:15-20
+  - kind: Pauline Epistle
+    kind_ml: പൗലോസിന്റെ ലേഖനം
+    ref: 1 Corinthians 8:1–6
+    ml: 1 കൊരിന്ത്യർ 8:1–6
+    note: Knowledge puffs up, but love builds up; there is one God, the Father.
+    printed: I Corinthians 8:1-6
+  - kind: Gospel
+    kind_ml: സുവിശേഷം
+    ref: Matthew 15:32–39
+    ml: മത്തായി 15:32–39
+    note: Jesus has compassion on the crowd and feeds four thousand. This is the Gospel of the day.
+    printed: St. Matthew 15:32-39
+    main: true
+one_minute:
+  what_happens: After three days of teaching and healing by the Sea of Galilee, Jesus has compassion on the hungry crowd. The disciples have seven loaves and a few small fish. He gives thanks, breaks them, and four thousand men, plus women and children, are fed.
+  why_this_sunday: A month after the feeding of the five thousand, the Church reads a second feeding. Jesus does it again, for a different crowd.
+  take_with_you: Jesus noticed that people were hungry, and that some had a long way to go home. Faith pays attention to bodies too.
+readings_thread: The cloud fills the tabernacle and leads Israel on its journey, and the psalm prays that God will answer in the day of trouble. Isaiah says the Lord’s purposes will stand. Paul writes that for us there is one God, from whom all things come.
+key_verse:
+  ref: Matthew 15:32
+  ml: '[ML VERSE: Sathyavedapusthakam 1910, Matthew 15:32]'
+  ml_translation: Sathyavedapusthakam, 1910
+  en: Jesus summoned his disciples and said, “I have compassion on the multitude, because they continue with me now three days and have nothing to eat. I don’t want to send them away fasting, or they might faint on the way.”
+  en_translation: World English Bible
+scenes:
+- verses: Matthew 15:32
+  title: Three days with nothing
+  text: 'Jesus calls his disciples: I have compassion on the crowd. They have been with me three days and have nothing to eat. I do not want to send them away hungry, in case they faint on the way.'
+  easy_to_miss: This time Jesus raises the problem, not the disciples.
+- verses: Matthew 15:33
+  title: Where would we get bread?
+  text: 'The disciples ask: where could we get enough bread in this deserted place to feed such a crowd?'
+  easy_to_miss: They have already seen five thousand fed (Matthew 14). They still ask the same question.
+- verses: Matthew 15:34–35
+  title: Seven loaves
+  text: How many loaves do you have? Seven, and a few small fish. He tells the crowd to sit on the ground.
+  easy_to_miss: Jesus always starts with what they have.
+- verses: Matthew 15:36
+  title: He gave thanks
+  text: He takes the seven loaves and the fish, gives thanks, breaks them and gives them to the disciples, who give them to the crowd.
+  easy_to_miss: 'Here Matthew uses the word “gave thanks”: in Greek, eucharisteo, the root of “Eucharist”.'
+- verses: Matthew 15:37–39
+  title: Seven baskets
+  text: All eat and are satisfied, and seven baskets of leftovers are collected. Four thousand men are fed, besides women and children. Then he sends them away and crosses by boat.
+  easy_to_miss: This feeding comes right after Jesus healed the Canaanite woman’s daughter and many in the region. Crumbs for the outsiders became a full meal.
+people:
+- name: The crowd
+  ml: പുരുഷാരം
+  role: People who stayed with Jesus for three days, bringing the lame, blind and mute to be healed.
+  name_meaning: —
+phrases:
+- term: Compassion
+  explanation: 'The Greek word describes being moved in one’s inner organs: a deep, physical pity.'
+- term: Baskets
+  explanation: A different, larger kind of basket than in the feeding of the five thousand.
+- term: Gave thanks
+  explanation: Eucharisteo in Greek. The Church’s word Eucharist, the Qurbana, comes from it.
+reflection:
+  title_en: He noticed they were hungry
+  title_ml: '[TITLE ML]'
+  read_time: A three-minute read
+  body: |-
+    The crowd had been with Jesus for three days. They had brought their sick, watched them healed and praised God. It would be easy to say their souls had been fed and that was enough. Jesus did not say that. He saw they were hungry and worried they would faint on the long walk home.
+
+    His compassion was practical. It was about food, distance and tired bodies. The disciples had seen him feed a crowd before, and still could not imagine how to do it again. Jesus asked what they had, gave thanks for it, and made it enough.
+
+    Faith is sometimes treated as only spiritual. This Gospel says otherwise. Caring for people’s bodies, feeding the hungry, giving someone a lift home, making sure an elderly neighbour has eaten: these are part of the Gospel too. Jesus fed souls and stomachs on the same hillside.
+  author: '[AUTHOR NAME]'
+  reviewer: '[REVIEWER NAME, PARISH]'
+week:
+  question: Who around us has a practical need we have not noticed?
+  question_note: Two minutes after the audio. Everyone gets a turn, and nobody is interrupted.
+  small_act: 'Meet one practical need this week: a meal, a lift, a repair, for someone who would struggle without it.'
+  prayer: Lord Jesus, you had compassion on the hungry crowd. Give us eyes to see the needs around us, hands to meet them, and thankful hearts for all we have been given. Amen.
+sources:
+  lectionary: https://mosc.in/lectionary/kyomtho-easter-to-koodosh-edtho/
+reviewed: false

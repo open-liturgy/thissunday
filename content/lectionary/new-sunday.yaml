@@ -1,0 +1,148 @@
+# Reusable text for New Sunday (Sunday after Easter – The Sunday of the Youth). Year-independent; a dated edition in content/sundays/ overrides any field.
+# Readings transcribed from https://mosc.in/lectionary/kyomtho-easter-to-koodosh-edtho/. Everything else is a DRAFT for priest/editor review.
+sunday_slug: new-sunday
+is_sunday: true
+name:
+  en: New Sunday
+  ml: '[MALAYALAM NAME]'
+title_as_printed: New Sunday (Sunday after Easter – The Sunday of the Youth)
+season:
+  en: Kyomtho
+  gloss: The Resurrection season
+  syr: '[SYRIAC]'
+also_kept_as: Youth Sunday
+also_kept_as_note: See Ecclesiastes 12:1
+tagline: 'Thomas sees the wounds: “My Lord and my God”'
+standfirst: Thomas was not there when Jesus first appeared, and he will not believe second-hand. A week later Jesus comes back, through locked doors, and shows him his hands.
+description: Readings for New Sunday, the Sunday after Easter, with John 20:19–31, Thomas and the risen Christ, explained in five scenes. Reflection and question.
+hero_quote:
+  text: Blessed are those who have not seen, and have believed.
+  ref: John 20:29
+readings:
+  evening:
+  - kind: Gospel
+    kind_ml: സുവിശേഷം
+    ref: John 20:19–31
+    ml: യോഹന്നാൻ 20:19–31
+    note: Jesus appears to the disciples; a week later Thomas says “My Lord and my God!”
+    printed: St. John 20:19-31
+  morning:
+  - kind: Gospel
+    kind_ml: സുവിശേഷം
+    ref: John 4:31–38
+    ml: യോഹന്നാൻ 4:31–38
+    note: Lift up your eyes; the fields are ready for harvest.
+    printed: St. John 4:31-38
+  before_qurbana:
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: Genesis 41:41–46
+    ml: ഉല്പത്തി 41:41–46
+    note: Joseph, at thirty, is set over all the land of Egypt.
+    printed: Genesis 41:41-46
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: Ecclesiastes 12:1–8
+    ml: സഭാപ്രസംഗി 12:1–8
+    note: Remember your Creator in the days of your youth.
+    printed: Ecclesiastes 12:1-8
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: Jeremiah 1:4–12
+    ml: യിരെമ്യാവ് 1:4–12
+    note: Do not say “I am only a youth”, for I am with you.
+    printed: Jeremiah 1:4-12
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: Isaiah 40:9–15
+    ml: യെശയ്യാവ് 40:9–15
+    note: He will feed his flock like a shepherd and carry the lambs in his arms.
+    printed: Isaiah 40:9-15
+  holy_qurbana:
+  - kind: General Epistle
+    kind_ml: പൊതുലേഖനം
+    ref: 1 Peter 2:19–25
+    ml: 1 പത്രോസ് 2:19–25
+    note: By his wounds you have been healed; you have returned to the Shepherd of your souls.
+    printed: I Peter 2:19-25
+  - kind: Pauline Epistle
+    kind_ml: പൗലോസിന്റെ ലേഖനം
+    ref: 2 Timothy 2:1–13
+    ml: 2 തിമൊഥെയൊസ് 2:1–13
+    note: Be strong in grace, my child; if we die with him, we will live with him.
+    printed: II Timothy 2:1-13
+  - kind: Gospel
+    kind_ml: സുവിശേഷം
+    ref: John 20:19–31
+    ml: യോഹന്നാൻ 20:19–31
+    note: Jesus appears to the disciples; a week later Thomas says “My Lord and my God!” This is the Gospel of the day.
+    printed: St. John 20:19-31
+    main: true
+one_minute:
+  what_happens: 'On Easter evening Jesus stands among the frightened disciples, shows his wounds and breathes the Holy Spirit on them. Thomas is absent and refuses to believe. Eight days later Jesus returns, invites Thomas to touch his wounds, and Thomas says: my Lord and my God.'
+  why_this_sunday: New Sunday is eight days after Easter, the day Jesus appeared to Thomas. Our Church, which traces its faith to St. Thomas, keeps it with special love. It is also Youth Sunday.
+  take_with_you: Thomas’ doubt did not shut him out. Jesus came back for him.
+readings_thread: Joseph is raised to power at thirty, and Ecclesiastes tells the young to remember their Creator. Jeremiah is told not to say “I am only a youth”. Paul urges young Timothy to be strong in grace.
+key_verse:
+  ref: John 20:28
+  ml: '[ML VERSE: Sathyavedapusthakam 1910, John 20:28]'
+  ml_translation: Sathyavedapusthakam, 1910
+  en: Thomas answered him, “My Lord and my God!”
+  en_translation: World English Bible
+scenes:
+- verses: John 20:19–20
+  title: Peace be with you
+  text: 'On Easter evening the disciples are behind locked doors for fear. Jesus stands among them: peace be with you. He shows them his hands and side, and they rejoice.'
+  easy_to_miss: The risen body still has wounds. Jesus is known by his scars.
+- verses: John 20:21–23
+  title: He breathed on them
+  text: 'As the Father sent me, so I send you. He breathes on them: receive the Holy Spirit. Whose sins you forgive are forgiven.'
+  easy_to_miss: God breathed life into Adam (Genesis 2:7). Here Jesus breathes new life into his frightened friends.
+- verses: John 20:24–25
+  title: Unless I see
+  text: 'Thomas was not there. When the others say they have seen the Lord, he says: unless I see the nail marks and put my hand in his side, I will not believe.'
+  easy_to_miss: Thomas is the one who said earlier, “let us also go, that we may die with him” (John 11:16). He is brave, not weak.
+- verses: John 20:26–29
+  title: My Lord and my God
+  text: 'Eight days later, doors locked again, Jesus comes and says to Thomas: put your finger here; do not doubt, but believe. Thomas answers: my Lord and my God! Blessed are those who have not seen and yet believe, says Jesus.'
+  easy_to_miss: John never says Thomas actually touched the wounds. Seeing Jesus was enough.
+- verses: John 20:30–31
+  title: So that you may believe
+  text: Jesus did many other signs not written here. These are written so that you may believe that Jesus is the Christ, the Son of God, and have life in his name.
+  easy_to_miss: The blessing on “those who have not seen” is for every reader of this Gospel, including us.
+people:
+- name: Thomas
+  ml: തോമാ
+  role: One of the twelve, called the Twin. By tradition he brought the Gospel to India.
+  name_meaning: “Twin” (Aramaic; Didymus in Greek)
+- name: The disciples
+  ml: ശിഷ്യന്മാർ
+  role: Hiding behind locked doors on Easter evening.
+  name_meaning: —
+phrases:
+- term: New Sunday
+  explanation: The Sunday after Easter. In Malayalam it is called Puthunjayar.
+- term: Eight days later
+  explanation: 'Counting both Sundays, as people then did. It became the Church’s rhythm: meeting the risen Lord every Sunday.'
+- term: Didymus
+  explanation: Greek for “twin”, the name John gives Thomas.
+reflection:
+  title_en: Jesus came back for Thomas
+  title_ml: '[TITLE ML]'
+  read_time: A three-minute read
+  body: |-
+    Thomas has a bad name he does not deserve. He was the one who once told the others they should go to Jerusalem and die with Jesus. He was not a coward. He was a man who had seen his friend crucified and could not bear to hope again on someone else’s word.
+
+    Jesus does not scold him. He comes back, a week later, to the same locked room, and offers Thomas exactly what he asked for. Thomas does not need it. He sees Jesus and says more than anyone else in the Gospels has yet said: my Lord and my God.
+
+    On Youth Sunday this matters. Young people often have honest doubts and are told to stop asking. Thomas shows that doubt brought to the community, and kept there, can end in the deepest faith of all. Our Church traces its own faith to Thomas. We can be patient with those who, like him, need to see for themselves.
+  author: '[AUTHOR NAME]'
+  reviewer: '[REVIEWER NAME, PARISH]'
+week:
+  question: What is a doubt or question about faith that you have never said out loud?
+  question_note: Two minutes after the audio. Everyone gets a turn, and nobody is interrupted.
+  small_act: 'Young people: ask one older person in your parish how they came to believe. Older people: listen to a young person’s question without correcting them.'
+  prayer: My Lord and my God! Risen Jesus, you came back for Thomas. Come to us in our doubts, show us your wounds, and bless the young people of our Church with a faith that is truly their own. Amen.
+sources:
+  lectionary: https://mosc.in/lectionary/kyomtho-easter-to-koodosh-edtho/
+reviewed: false

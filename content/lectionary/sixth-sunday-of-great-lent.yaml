@@ -1,0 +1,151 @@
+# Reusable text for Sixth Sunday of Great Lent (Catholicate Day). Year-independent; a dated edition in content/sundays/ overrides any field.
+# Readings transcribed from https://mosc.in/lectionary/great-lent/. Everything else is a DRAFT for priest/editor review.
+sunday_slug: sixth-sunday-of-great-lent
+is_sunday: true
+name:
+  en: Sixth Sunday of Great Lent
+  ml: '[MALAYALAM NAME]'
+title_as_printed: Sixth Sunday of Great Lent (Catholicate Day)
+season:
+  en: Great Lent
+  gloss: The fifty days of fasting before Easter
+  syr: '[SYRIAC]'
+also_kept_as: Catholicate Day
+tagline: A man born blind sees, and is thrown out for it
+standfirst: Jesus heals a man who has never seen. Everyone around him argues about how it happened and who is to blame. The man himself sticks to one thing he knows.
+description: Readings for the Sixth Sunday of Great Lent, with John 9:1–41, the man born blind, explained in five scenes. A reflection and a family question.
+hero_quote:
+  text: While I am in the world, I am the light of the world.
+  ref: John 9:5
+readings:
+  evening:
+  - kind: Gospel
+    kind_ml: സുവിശേഷം
+    ref: Mark 10:46–52
+    ml: മർക്കൊസ് 10:46–52
+    note: Blind Bartimaeus shouts “Son of David, have mercy on me!” and receives his sight.
+    printed: St. Mark 10:46-52
+  morning:
+  - kind: Gospel
+    kind_ml: സുവിശേഷം
+    ref: Matthew 9:27–31
+    ml: മത്തായി 9:27–31
+    note: 'Two blind men follow Jesus: “Do you believe I can do this?”'
+    printed: St. Matthew 9:27-31
+  before_qurbana:
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: Deuteronomy 25:13–16; 26:1–13
+    ml: ആവർത്തനം 25:13–16; 26:1–13
+    note: Honest weights and measures, and the first fruits brought to God.
+    printed: Deuteronomy 25:13-16, 26:1-13
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: Job 42:1–10
+    ml: ഇയ്യോബ് 42:1–10
+    note: Job repents in dust and ashes and prays for his friends; God restores him.
+    printed: Job 42:1-10
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: Malachi 3:7–12
+    ml: മലാഖി 3:7–12
+    note: Return to me; bring the whole tithe and see if I will not open heaven’s windows.
+    printed: Malachi 3:7-12
+  holy_qurbana:
+  - kind: General Epistle
+    kind_ml: പൊതുലേഖനം
+    ref: 1 Peter 4:12–19
+    ml: 1 പത്രോസ് 4:12–19
+    note: Do not be surprised at the fiery trial; share in Christ’s sufferings.
+    printed: I Peter 4:12-19
+  - kind: Pauline Epistle
+    kind_ml: പൗലോസിന്റെ ലേഖനം
+    ref: 2 Corinthians 9:6–15
+    ml: 2 കൊരിന്ത്യർ 9:6–15
+    note: God loves a cheerful giver.
+    printed: II Corinthians 9:6-15
+    or:
+      kind: Pauline Epistle
+      kind_ml: പൗലോസിന്റെ ലേഖനം
+      ref: Ephesians 5:1–14
+      ml: എഫേസ്യർ 5:1–14
+      printed: Ephesians 5:1-14
+  - kind: Gospel
+    kind_ml: സുവിശേഷം
+    ref: John 9:1–41
+    ml: യോഹന്നാൻ 9:1–41
+    note: 'Jesus heals a man born blind: “I was blind, and now I see.” This is the Gospel of the day.'
+    printed: St. John 9:1-41
+    main: true
+one_minute:
+  what_happens: Jesus makes mud, puts it on a blind man’s eyes and sends him to wash in the pool of Siloam. He comes back seeing. Neighbours, Pharisees and even his parents argue about it. He is thrown out of the synagogue, and Jesus finds him.
+  why_this_sunday: On the sixth Sunday of Lent all three Gospels are about blind men receiving sight. The Church also keeps this Sunday as Catholicate Day.
+  take_with_you: 'The man did not have all the answers. He held on to one thing: I was blind, and now I see.'
+readings_thread: 'Deuteronomy asks for honest weights and the first fruits of the harvest, and Malachi says bring the whole tithe. Job is restored after his trials. Corinthians praises a cheerful giver, and Ephesians says: wake up, and Christ will shine on you.'
+key_verse:
+  ref: John 9:25
+  ml: '[ML VERSE: Sathyavedapusthakam 1910, John 9:25]'
+  ml_translation: Sathyavedapusthakam, 1910
+  en: 'He therefore answered, “I don’t know if he is a sinner. One thing I do know: that though I was blind, now I see.”'
+  en_translation: World English Bible
+scenes:
+- verses: John 9:1–7
+  title: Go and wash
+  text: The disciples ask whose sin made the man blind. Neither, says Jesus; this is so God’s works can be seen. He spits, makes mud, puts it on the man’s eyes and tells him to wash in the pool of Siloam. He comes back seeing.
+  easy_to_miss: John notes that Siloam means “Sent”. Jesus, the one sent by the Father, sends the man to the pool called Sent.
+- verses: John 9:8–17
+  title: Is this the same man?
+  text: 'The neighbours cannot agree if it is him. The Pharisees question him: Jesus made mud on the Sabbath, so he cannot be from God. Others ask how a sinner could do such signs. The man says: he is a prophet.'
+  easy_to_miss: 'Each time he is asked, the man’s view of Jesus grows: “the man called Jesus”, then “a prophet”.'
+- verses: John 9:18–23
+  title: Ask him, he is of age
+  text: The authorities call his parents. They confirm he was born blind but will not say how he sees. Ask him, they say, he is old enough. They are afraid of being put out of the synagogue.
+  easy_to_miss: His own parents step back from him. The healed man is left to stand alone.
+- verses: John 9:24–34
+  title: One thing I know
+  text: 'Questioned again, he says: I do not know if he is a sinner. One thing I know: I was blind, and now I see. He asks if they want to become his disciples too, and they throw him out.'
+  easy_to_miss: 'The man who has never been taught teaches the teachers: if this man were not from God, he could do nothing.'
+- verses: John 9:35–41
+  title: Lord, I believe
+  text: Jesus hears he has been thrown out and finds him. Do you believe in the Son of Man? Lord, I believe, he says, and worships him. Jesus says he came so the blind might see and those who claim to see might become blind.
+  easy_to_miss: The man who first saw Jesus as “a man” and then “a prophet” ends by worshipping him. His sight grows in two ways.
+people:
+- name: The man born blind
+  ml: '[ML NAME]'
+  role: A beggar in Jerusalem who has never seen. He is healed and then thrown out of the synagogue.
+  name_meaning: —
+- name: His parents
+  ml: '[ML NAME]'
+  role: They confirm he was born blind but are too afraid to say more.
+  name_meaning: —
+- name: The Pharisees
+  ml: പരീശന്മാർ
+  role: Religious leaders who question him and argue among themselves.
+  name_meaning: Probably “the separated ones”
+phrases:
+- term: Pool of Siloam
+  explanation: A pool in the south of Jerusalem fed by Hezekiah’s tunnel. Its name means “Sent”.
+- term: Put out of the synagogue
+  explanation: Excluded from the local Jewish community and its worship, a severe social punishment.
+- term: Catholicate Day
+  explanation: The Sunday on which the Malankara Church prays for the Catholicate and its work.
+reflection:
+  title_en: One thing I know
+  title_ml: '[TITLE ML]'
+  read_time: A three-minute read
+  body: |-
+    John 9 is a long chapter, and most of it is not about the healing. It is about what happens afterwards. The neighbours argue, the Pharisees interrogate, the parents back away. Everyone has a theory about Jesus. The man who was healed has only his experience.
+
+    He does not pretend to know more than he does. Asked if Jesus is a sinner, he says he does not know. What he knows is simple and cannot be taken away: I was blind, and now I see. Under pressure, his faith gets clearer, not weaker. He is thrown out for it, and Jesus comes looking for him.
+
+    We do not need to win every argument about faith. We do need to be honest about what God has done for us. A young person asked hard questions at college, or an adult mocked at work, can still say: this is what I know. That kind of witness is quiet, but it is very hard to argue with.
+  author: '[AUTHOR NAME]'
+  reviewer: '[REVIEWER NAME, PARISH]'
+week:
+  question: What is one thing you know God has done for you, even if you cannot explain it all?
+  question_note: Two minutes after the audio. Everyone gets a turn, and nobody is interrupted.
+  small_act: Tell one person this week a short story of something God has done in your life.
+  prayer: Lord Jesus, light of the world, you gave sight to the man born blind. Open the eyes of our hearts, give us courage to speak of what you have done, and come and find us when we are left alone. Amen.
+sources:
+  lectionary: https://mosc.in/lectionary/great-lent/
+reviewed: false

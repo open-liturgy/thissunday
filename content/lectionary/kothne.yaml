@@ -1,0 +1,151 @@
+# Reusable text for First Sunday of Great Lent (Kothine Sunday) (Pethurtha of the Great Lent). Year-independent; a dated edition in content/sundays/ overrides any field.
+# Readings transcribed from https://mosc.in/lectionary/421-2/. Everything else is a DRAFT for priest/editor review.
+sunday_slug: kothne
+is_sunday: true
+name:
+  en: Kothne Sunday
+  ml: '[MALAYALAM NAME]'
+title_as_printed: First Sunday of Great Lent (Kothine Sunday) (Pethurtha of the Great Lent)
+season:
+  en: Great Lent
+  gloss: The fifty days of fasting before Easter
+  syr: '[SYRIAC]'
+tagline: Great Lent begins at a wedding
+standfirst: The fast is about to begin, and the Church reads about a wedding where the wine ran out. Jesus’ first sign turns six jars of water into the best wine of the feast.
+description: Readings for Kothne Sunday, the start of Great Lent, with John 2:1–11, the wedding at Cana, explained in five scenes. Reflection and question.
+hero_quote:
+  text: This beginning of his signs Jesus did in Cana of Galilee, and revealed his glory; and his disciples believed in him.
+  ref: John 2:11
+readings:
+  evening:
+  - kind: Gospel
+    kind_ml: സുവിശേഷം
+    ref: John 3:1–6
+    ml: യോഹന്നാൻ 3:1–6
+    note: 'Nicodemus comes by night: you must be born of water and the Spirit.'
+    printed: St. John 3:1-6
+  morning:
+  - kind: Gospel
+    kind_ml: സുവിശേഷം
+    ref: Luke 16:1–18
+    ml: ലൂക്കോസ് 16:1–18
+    note: The shrewd manager; no one can serve two masters.
+    printed: St. Luke 16:1-18
+  before_qurbana:
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: Exodus 20:1–21
+    ml: പുറപ്പാട് 20:1–21
+    note: God gives the ten commandments from Mount Sinai.
+    printed: Exodus 20:1-21
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: Joel 2:12–20
+    ml: യോവേൽ 2:12–20
+    note: Return to me with all your heart; tear your hearts, not your garments.
+    printed: Joel 2:12-20
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: Isaiah 58:5–14
+    ml: യെശയ്യാവ് 58:5–14
+    note: 'The fast God chooses: loose the bonds of injustice and share your bread with the hungry.'
+    printed: Isaiah 58:5-14
+  holy_qurbana:
+  - kind: Acts of the Apostles
+    kind_ml: അപ്പൊസ്തലപ്രവൃത്തികൾ
+    ref: Acts 11:19–26
+    ml: അപ്പൊസ്തലപ്രവൃത്തികൾ 11:19–26
+    note: The church at Antioch, where believers were first called Christians.
+    printed: Acts 11:19-26
+    or:
+      kind: Revelation
+      kind_ml: വെളിപ്പാട്
+      ref: Revelation 2:1–7
+      ml: വെളിപ്പാട് 2:1–7
+      printed: Revelation 2:1-7
+  - kind: Pauline Epistle
+    kind_ml: പൗലോസിന്റെ ലേഖനം
+    ref: Colossians 3:1–17
+    ml: കൊലൊസ്സ്യർ 3:1–17
+    note: Set your minds on things above; clothe yourselves with compassion and love.
+    printed: Colossians 3:1-17
+  - kind: Gospel
+    kind_ml: സുവിശേഷം
+    ref: John 2:1–11
+    ml: യോഹന്നാൻ 2:1–11
+    note: 'At a wedding in Cana, Jesus turns water into wine: his first sign. This is the Gospel of the day.'
+    printed: St. John 2:1-11
+    main: true
+one_minute:
+  what_happens: At a wedding in Cana, the wine runs out. Mary tells Jesus, then tells the servants to do whatever he says. He has them fill six stone jars with water, which becomes excellent wine. It is his first sign.
+  why_this_sunday: Great Lent begins tomorrow. Every Sunday of the fast reads one of Jesus’ miracles, and the first is the first sign he ever did.
+  take_with_you: Lent begins with a feast, not a funeral. The fast is a road towards joy.
+readings_thread: God gives the ten commandments, Joel calls the people to tear their hearts and not their clothes, and Isaiah describes the fast God wants. Colossians says to put on compassion, kindness and patience.
+key_verse:
+  ref: John 2:5
+  ml: '[ML VERSE: Sathyavedapusthakam 1910, John 2:5]'
+  ml_translation: Sathyavedapusthakam, 1910
+  en: His mother said to the servants, “Whatever he says to you, do it.”
+  en_translation: World English Bible
+scenes:
+- verses: John 2:1–2
+  title: A wedding in Cana
+  text: On the third day there is a wedding in Cana in Galilee. Jesus’ mother is there, and Jesus and his disciples are invited.
+  easy_to_miss: '“On the third day”: John’s first sign and the resurrection share the same marker of time.'
+- verses: John 2:3–4
+  title: They have no wine
+  text: 'The wine runs out. Mary tells Jesus. He answers: woman, what is that to me? My hour has not yet come.'
+  easy_to_miss: Running out of wine would have shamed the family for years. Mary notices a problem nobody else has spoken of.
+- verses: John 2:5
+  title: Do whatever he tells you
+  text: 'His mother says to the servants: whatever he says to you, do it.'
+  easy_to_miss: These are Mary’s last recorded words in John’s Gospel. They are good advice for every Christian.
+- verses: John 2:6–8
+  title: Six stone jars
+  text: Six stone water jars stand there for Jewish washing rituals, each holding twenty or thirty gallons. Jesus has them filled to the brim with water, then drawn out and taken to the steward of the feast.
+  easy_to_miss: That is around 500 to 700 litres. The servants did all the work, and they are the only ones who know what happened.
+- verses: John 2:9–11
+  title: The best wine kept till now
+  text: 'The steward tastes it and tells the bridegroom: everyone serves the good wine first, but you have kept the best until now. This is the first of Jesus’ signs; he reveals his glory and his disciples believe.'
+  easy_to_miss: The jars for ritual washing are filled with the wine of a feast. Something old is not thrown away but filled with something new.
+people:
+- name: Mary
+  ml: മറിയം
+  role: The mother of Jesus, who notices the wine has run out.
+  name_meaning: Hebrew Miriam; the meaning is uncertain
+- name: The steward
+  ml: '[ML NAME]'
+  role: The master of the feast, who tastes the wine and praises the bridegroom.
+  name_meaning: —
+- name: The servants
+  ml: '[ML NAME]'
+  role: They fill the jars and carry the water, and they know where the wine came from.
+  name_meaning: —
+phrases:
+- term: Sign
+  explanation: John calls Jesus’ miracles signs. Each one points to who he is. This is the first of seven in the Gospel.
+- term: My hour
+  explanation: In John, Jesus’ “hour” is his death and glorification. It finally comes in John 12:23.
+- term: Great Lent
+  explanation: In the Malankara Church, the fifty-day fast from the Monday after Kothne Sunday to Easter.
+reflection:
+  title_en: Lent begins at a wedding
+  title_ml: '[TITLE ML]'
+  read_time: A three-minute read
+  body: |-
+    It might seem odd that the Church begins Great Lent with a wedding. Tomorrow we start fifty days of fasting, and today we read about Jesus making more than five hundred litres of wine for a party. The choice is deliberate. The fast is not the point. It is a road, and at the end of it is a feast.
+
+    At Cana, the people who know what Jesus did are the servants. They did the plain work of carrying water and filling heavy jars, without understanding why. Mary’s instruction was simple: do whatever he tells you. They did, and they saw the sign before anyone else.
+
+    Lent can be like that. We give up food, pray more, give alms, without always feeling anything change. Mary’s words are a good rule for the next fifty days. Do what he tells you, even when it feels like carrying water. The best wine is kept for later.
+  author: '[AUTHOR NAME]'
+  reviewer: '[REVIEWER NAME, PARISH]'
+week:
+  question: What will each of us take on or give up for Great Lent, and why?
+  question_note: Two minutes after the audio. Everyone gets a turn, and nobody is interrupted.
+  small_act: Agree as a family on one Lenten practice you will keep together, such as an evening prayer at a fixed time.
+  prayer: Lord Jesus, at Cana you turned water into wine. As we begin this fast, teach us to do whatever you tell us, and keep the best for the end. Amen.
+sources:
+  lectionary: https://mosc.in/lectionary/421-2/
+lectionary_note: The Great Lent starts by commemorating the first miracle performed by Jesus i.e. turning water into wine at the wedding feast at Cana of Galilee. The Gospel reading for each Sunday of the Great Lent is about a miracle performed by Jesus.
+reviewed: false

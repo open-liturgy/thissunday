@@ -1,0 +1,154 @@
+# Reusable text for Second Sunday of Great Lent (Lepers' Sunday). Year-independent; a dated edition in content/sundays/ overrides any field.
+# Readings transcribed from https://mosc.in/lectionary/great-lent/. Everything else is a DRAFT for priest/editor review.
+sunday_slug: lepers-sunday
+is_sunday: true
+name:
+  en: Lepers’ Sunday
+  ml: '[MALAYALAM NAME]'
+title_as_printed: Second Sunday of Great Lent (Lepers' Sunday)
+season:
+  en: Great Lent
+  gloss: The fifty days of fasting before Easter
+  syr: '[SYRIAC]'
+tagline: “If you want to, you can make me clean”
+standfirst: A man covered in leprosy throws himself at Jesus’ feet. He has no doubt that Jesus can heal him. What he does not know is whether Jesus wants to.
+description: Readings for Lepers’ Sunday, the second Sunday of Great Lent, with Luke 5:12–16 and 4:40–41 explained in five scenes. Reflection and question.
+hero_quote:
+  text: Lord, if you want to, you can make me clean.
+  ref: Luke 5:12
+readings:
+  evening:
+  - kind: Gospel
+    kind_ml: സുവിശേഷം
+    ref: Mark 1:32–45
+    ml: മർക്കൊസ് 1:32–45
+    note: At sunset the sick are brought to Jesus; a leper is made clean.
+    printed: St. Mark 1:32-45
+  morning:
+  - kind: Gospel
+    kind_ml: സുവിശേഷം
+    ref: Mark 9:14–29
+    ml: മർക്കൊസ് 9:14–29
+    note: 'A father cries: “I believe; help my unbelief!” and his son is healed.'
+    printed: St. Mark 9:14-29
+  before_qurbana:
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: Genesis 7:6–24
+    ml: ഉല്പത്തി 7:6–24
+    note: The flood rises, and Noah and his family are kept safe in the ark.
+    printed: Genesis 7:6-24
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: 2 Kings 5:1–14
+    ml: 2 രാജാക്കന്മാർ 5:1–14
+    note: Naaman the Syrian washes seven times in the Jordan and is healed of leprosy.
+    printed: II Kings 5:1-14
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: Isaiah 33:2–9
+    ml: യെശയ്യാവ് 33:2–9
+    note: Lord, be gracious to us; be our strength every morning.
+    printed: Isaiah 33:2-9
+  - kind: '[KIND]'
+    kind_ml: '[KIND ML]'
+    ref: '[CHECK SOURCE: Jeremiah 50 : 4- 7: 15 : 15 -21]'
+    ml: '[CHECK SOURCE: Jeremiah 50 : 4- 7: 15 : 15 -21]'
+    note: '[NOTE: add once the reference is checked]'
+    printed: 'Jeremiah 50 : 4- 7: 15 : 15 -21'
+    check: 'Printed as ''Jeremiah 50 : 4- 7: 15 : 15 -21''.'
+  holy_qurbana:
+  - kind: Acts of the Apostles
+    kind_ml: അപ്പൊസ്തലപ്രവൃത്തികൾ
+    ref: Acts 5:12–16; 19:8–12
+    ml: അപ്പൊസ്തലപ്രവൃത്തികൾ 5:12–16; 19:8–12
+    note: The sick are healed as Peter’s shadow passes, and through cloths Paul has touched.
+    printed: Acts 5:12-16 :19 :8-12
+    check: Printed as 'Acts 5:12-16 :19 :8-12'. Same pair is printed clearly on Palsy Sunday.
+  - kind: Acts of the Apostles
+    kind_ml: അപ്പൊസ്തലപ്രവൃത്തികൾ
+    ref: Acts 9:22–31
+    ml: അപ്പൊസ്തലപ്രവൃത്തികൾ 9:22–31
+    note: Saul escapes over the wall in a basket, and Barnabas brings him to the apostles.
+    printed: Acts 9:22-31
+  - kind: Pauline Epistle
+    kind_ml: പൗലോസിന്റെ ലേഖനം
+    ref: Romans 3:27–4:5
+    ml: റോമർ 3:27–4:5
+    note: We are made right with God by faith; Abraham believed and it was counted as righteousness.
+    printed: Romans 3:27-4:5
+  - kind: Gospel
+    kind_ml: സുവിശേഷം
+    ref: Luke 5:12–16; 4:40–41
+    ml: ലൂക്കോസ് 5:12–16; 4:40–41
+    note: 'Jesus lays hands on the sick at sunset, and touches a leper: “I want to. Be made clean.” This is the Gospel of the day.'
+    printed: St. Luke 5:12-16, 4:40-41
+    main: true
+one_minute:
+  what_happens: At sunset people bring all their sick to Jesus and he lays hands on each one. Later a man full of leprosy begs to be made clean. Jesus touches him and says, I want to. The man is healed and Jesus sends him to the priest.
+  why_this_sunday: Each Sunday of Great Lent reads one of Jesus’ miracles. The second is the cleansing of a leper, someone shut out from everyone else.
+  take_with_you: Jesus touched the man before he was clean. Nobody had touched him in years.
+readings_thread: Naaman, a foreign general, is healed of leprosy by washing in the Jordan, and Noah is shut in the ark while the flood rises. In Acts the sick are carried out so Peter’s shadow might fall on them, and Saul, once feared, is welcomed by Barnabas.
+key_verse:
+  ref: Luke 5:13
+  ml: '[ML VERSE: Sathyavedapusthakam 1910, Luke 5:13]'
+  ml_translation: Sathyavedapusthakam, 1910
+  en: He stretched out his hand, and touched him, saying, “I want to. Be made clean.” Immediately the leprosy left him.
+  en_translation: World English Bible
+scenes:
+- verses: Luke 4:40–41
+  title: At sunset
+  text: As the sun sets, everyone with sick friends brings them to Jesus. He lays his hands on each one and heals them.
+  easy_to_miss: Luke says Jesus laid hands on “each one”. Even in a crowd, he healed people one at a time.
+- verses: Luke 5:12
+  title: Full of leprosy
+  text: 'In one of the towns a man covered in leprosy sees Jesus, falls on his face and begs: Lord, if you want to, you can make me clean.'
+  easy_to_miss: Luke the physician says “full of” leprosy. This was an advanced case, not a small patch.
+- verses: Luke 5:13
+  title: I want to
+  text: 'Jesus stretches out his hand and touches him: I want to. Be made clean. At once the leprosy leaves him.'
+  easy_to_miss: 'Touching a leper made a person ritually unclean. Here the touch runs the other way: Jesus is not made unclean; the man is made clean.'
+- verses: Luke 5:14
+  title: Show yourself to the priest
+  text: Jesus tells him not to tell anyone, but to go to the priest and make the offering Moses commanded, as a testimony to them.
+  easy_to_miss: Only a priest could declare someone clean and let them back into the community (Leviticus 14). Jesus heals the body and then restores him to his people.
+- verses: Luke 5:15–16
+  title: He withdrew to pray
+  text: News about Jesus spreads further, and great crowds come to hear him and be healed. But he often withdraws to lonely places and prays.
+  easy_to_miss: The busier Jesus becomes, the more Luke notes that he went away to pray.
+people:
+- name: The leper
+  ml: '[ML NAME]'
+  role: A man with advanced leprosy, living outside the town as the law required.
+  name_meaning: —
+- name: Naaman
+  ml: നയമാൻ
+  role: Commander of the Syrian army, healed of leprosy in the Jordan (2 Kings 5).
+  name_meaning: “Pleasant”
+phrases:
+- term: Leprosy
+  explanation: In the Bible, a name for several skin diseases. Anyone with it had to live apart and cry “unclean” (Leviticus 13:45–46).
+- term: Clean
+  explanation: Fit to take part in worship and community life. Being made clean meant being allowed back home.
+- term: Testimony to them
+  explanation: The priest’s inspection would show the religious leaders what Jesus had done.
+reflection:
+  title_en: Touched before he was clean
+  title_ml: '[TITLE ML]'
+  read_time: A three-minute read
+  body: |-
+    The man with leprosy did not doubt Jesus’ power. He said so: you can make me clean. His question was whether Jesus would want to. People had kept their distance from him for years. He may have stopped believing that anyone wanted him near.
+
+    Jesus answers the real question before he heals the disease. He reaches out and touches him. Only then does he say the words: I want to. Be made clean. The touch comes first. For a man nobody had touched, that may have been as much of a healing as the clean skin.
+
+    Lent is a good time to ask who around us is kept at a distance. Some are lonely, some are ill, some have done something that others will not forget. We cannot heal like Jesus. But we can do the first thing he did, which is to come close, and let them know that someone wants them near.
+  author: '[AUTHOR NAME]'
+  reviewer: '[REVIEWER NAME, PARISH]'
+week:
+  question: Who in our school, workplace or parish is often left out, and how could we include them?
+  question_note: Two minutes after the audio. Everyone gets a turn, and nobody is interrupted.
+  small_act: Sit with, call or visit someone who is often alone. Stay long enough for a real conversation.
+  prayer: Lord Jesus, you touched the leper and made him clean. Touch what is unclean in us, give us the courage to come close to those who are left out, and bring us home to you this Lent. Amen.
+sources:
+  lectionary: https://mosc.in/lectionary/great-lent/
+reviewed: false

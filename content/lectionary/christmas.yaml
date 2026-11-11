@@ -1,0 +1,114 @@
+# Reusable text for Yeldho / Incarnation of our Lord (Christmas) (December 25). Year-independent; a dated edition in content/sundays/ overrides any field.
+# Readings transcribed from https://mosc.in/lectionary/421-2/. Everything else is a DRAFT for priest/editor review.
+sunday_slug: christmas
+is_sunday: false
+name:
+  en: Yeldho / Incarnation of our Lord (Christmas) (December 25)
+  ml: '[MALAYALAM NAME]'
+title_as_printed: Yeldho / Incarnation of our Lord (Christmas) (December 25)
+season:
+  en: '[SEASON]'
+  gloss: '[SEASON GLOSS]'
+  syr: '[SYRIAC]'
+tagline: '[TAGLINE]'
+standfirst: '[STANDFIRST]'
+description: '[DESCRIPTION naming Matthew 2:1–12]'
+hero_quote:
+  text: '[HERO QUOTE]'
+  ref: '[REF]'
+readings:
+  evening:
+  - kind: Gospel
+    kind_ml: സുവിശേഷം
+    ref: John 1:1–18
+    ml: യോഹന്നാൻ 1:1–18
+    note: In the beginning was the Word… and the Word became flesh.
+    printed: St. John 1:1-18
+  morning:
+  - kind: Gospel
+    kind_ml: സുവിശേഷം
+    ref: Luke 2:15–20
+    ml: ലൂക്കോസ് 2:15–20
+    note: '[NOTE: what to listen for in Luke 2:15–20]'
+    printed: St. Luke 2:15-20
+  before_qurbana:
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: Genesis 21:1–8
+    ml: ഉല്പത്തി 21:1–8
+    note: '[NOTE: what to listen for in Genesis 21:1–8]'
+    printed: Genesis 21:1-8
+  - kind: '[KIND]'
+    kind_ml: '[KIND ML]'
+    ref: '[CHECK SOURCE: Micah5:5 1- 4]'
+    ml: '[CHECK SOURCE: Micah5:5 1- 4]'
+    note: '[NOTE: add once the reference is checked]'
+    printed: Micah5:5 1- 4
+    check: Printed as 'Micah5:5 1- 4'.
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: Isaiah 9:1–7
+    ml: യെശയ്യാവ് 9:1–7
+    note: '[NOTE: what to listen for in Isaiah 9:1–7]'
+    printed: Isaiah 9:1-7
+  holy_qurbana:
+  - kind: General Epistle
+    kind_ml: പൊതുലേഖനം
+    ref: 1 John 1:1–10
+    ml: 1 യോഹന്നാൻ 1:1–10
+    note: '[NOTE: what to listen for in 1 John 1:1–10]'
+    printed: I John 1:1-10
+  - kind: Pauline Epistle
+    kind_ml: പൗലോസിന്റെ ലേഖനം
+    ref: Galatians 3:23–4:7
+    ml: ഗലാത്യർ 3:23–4:7
+    note: '[NOTE: what to listen for in Galatians 3:23–4:7]'
+    printed: Galatians 3:23-4:7
+  - kind: Gospel
+    kind_ml: സുവിശേഷം
+    ref: Matthew 2:1–12
+    ml: മത്തായി 2:1–12
+    note: '[NOTE: what to listen for in Matthew 2:1–12]'
+    printed: St. Matthew 2:1-12
+    main: true
+readings_other:
+  by_the_fire_pit:
+  - kind: Pauline Epistle
+    kind_ml: പൗലോസിന്റെ ലേഖനം
+    ref: Hebrews 1:1–12
+    ml: എബ്രായർ 1:1–12
+    note: '[NOTE: what to listen for in Hebrews 1:1–12]'
+    printed: Hebrews 1:1-12
+  - kind: Gospel
+    kind_ml: സുവിശേഷം
+    ref: Luke 2:1–14
+    ml: ലൂക്കോസ് 2:1–14
+    note: '[NOTE: what to listen for in Luke 2:1–14]'
+    printed: St. Luke 2:1-14
+one_minute:
+  what_happens: '[WHAT HAPPENS]'
+  why_this_sunday: '[WHY THIS SUNDAY]'
+  take_with_you: '[TAKE WITH YOU]'
+readings_thread: '[THREAD THROUGH THE READINGS]'
+key_verse:
+  ref: '[REF]'
+  ml: '[ML VERSE: Sathyavedapusthakam 1910]'
+  en: '[EN VERSE: World English Bible]'
+scenes: []
+people: []
+phrases: []
+reflection:
+  title_en: '[TITLE]'
+  title_ml: '[TITLE ML]'
+  body: '[REFLECTION]'
+  author: '[AUTHOR NAME]'
+  reviewer: '[REVIEWER NAME, PARISH]'
+  read_time: '[READ TIME]'
+week:
+  question: '[QUESTION]'
+  question_note: Two minutes after the audio. Everyone gets a turn, and nobody is interrupted.
+  small_act: '[SMALL ACT]'
+  prayer: '[PRAYER]'
+sources:
+  lectionary: https://mosc.in/lectionary/421-2/
+reviewed: false

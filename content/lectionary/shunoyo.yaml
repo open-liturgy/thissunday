@@ -1,0 +1,153 @@
+# Reusable text for The Festival of the Ascension of St. Mary (August 15) Martha Mariam Samajam Day. Year-independent; a dated edition in content/sundays/ overrides any field.
+# Readings transcribed from https://mosc.in/lectionary/kyomtho-easter-to-koodosh-edtho/. Everything else is a DRAFT for priest/editor review.
+sunday_slug: shunoyo
+is_sunday: false
+name:
+  en: 'Shunoyo: the Assumption of St. Mary'
+  ml: '[MALAYALAM NAME]'
+title_as_printed: The Festival of the Ascension of St. Mary (August 15) Martha Mariam Samajam Day
+season:
+  en: Pentecost
+  gloss: The season of the Holy Spirit
+  syr: '[SYRIAC]'
+also_kept_as: Martha Mariam Samajam Day
+tagline: The Mother of God, who heard the word and kept it
+standfirst: 'The Church celebrates the passing of St. Mary from this life. The Gospels it reads show her as Jesus himself saw her: the one who heard God’s word and kept it, and who stood by the cross.'
+description: Readings for Shunoyo, the feast of St. Mary’s Assumption, with Luke 11:27–28, Matthew 12:46–50 and John 19:25–27 explained. Reflection and question.
+hero_quote:
+  text: On the contrary, blessed are those who hear the word of God, and keep it.
+  ref: Luke 11:28
+readings:
+  evening:
+  - kind: Gospel
+    kind_ml: സുവിശേഷം
+    ref: Luke 1:39–56; 2:22–35
+    ml: ലൂക്കോസ് 1:39–56; 2:22–35
+    note: 'The Magnificat, and Simeon’s word to Mary: a sword will pierce your soul.'
+    printed: St. Luke 1:39-56, 2:22-35
+  morning:
+  - kind: Gospel
+    kind_ml: സുവിശേഷം
+    ref: Luke 2:42–51
+    ml: ലൂക്കോസ് 2:42–51
+    note: The boy Jesus in the Temple; his mother keeps all these things in her heart.
+    printed: St. Luke 2:42-51
+  before_qurbana:
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: Exodus 3:1–6; 19:16–23
+    ml: പുറപ്പാട് 3:1–6; 19:16–23
+    note: The bush that burns and is not consumed; God descends on Sinai.
+    printed: Exodus 3:1-6, 19:16-23
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: Ezekiel 44:1–3
+    ml: യെഹെസ്കേൽ 44:1–3
+    note: The east gate stays shut, because the Lord has entered by it.
+    printed: Ezekiel 44:1-3
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: Isaiah 45:11–19
+    ml: യെശയ്യാവ് 45:11–19
+    note: I made the earth; I did not create it to be empty.
+    printed: Isaiah 45:11-19
+  holy_qurbana:
+  - kind: Acts of the Apostles
+    kind_ml: അപ്പൊസ്തലപ്രവൃത്തികൾ
+    ref: Acts 1:12–14; 7:44–53
+    ml: അപ്പൊസ്തലപ്രവൃത്തികൾ 1:12–14; 7:44–53
+    note: Mary prays with the apostles in the upper room.
+    printed: Acts 1:12-14, 7:44-53
+  - kind: Pauline Epistle
+    kind_ml: പൗലോസിന്റെ ലേഖനം
+    ref: Hebrews 9:3–12; 2:14–18
+    ml: എബ്രായർ 9:3–12; 2:14–18
+    note: The ark of the covenant in the Holy of Holies, and Christ who shares our flesh.
+    printed: 'Hebrews9: 3-12, 2: 14 – 18'
+  - kind: Gospel
+    kind_ml: സുവിശേഷം
+    ref: Luke 11:22–28
+    ml: ലൂക്കോസ് 11:22–28
+    note: Blessed rather are those who hear the word of God and keep it.
+    printed: St. Luke 11:22-28
+  - kind: Gospel
+    kind_ml: സുവിശേഷം
+    ref: Matthew 12:46–50
+    ml: മത്തായി 12:46–50
+    note: Whoever does my Father’s will is my brother, sister and mother.
+    printed: St. Matthew 12:46-50
+  - kind: Gospel
+    kind_ml: സുവിശേഷം
+    ref: John 19:25–27
+    ml: യോഹന്നാൻ 19:25–27
+    note: At the cross, Jesus gives his mother to the beloved disciple. This is the Gospel of the day.
+    printed: St. John 19:25-27
+    main: true
+one_minute:
+  what_happens: Three short Gospel passages are read. A woman in the crowd blesses Jesus’ mother, and he says those who hear and keep God’s word are blessed. He says whoever does the Father’s will is his mother. On the cross he gives his mother to the beloved disciple.
+  why_this_sunday: 15 August is the feast of Shunoyo, the falling asleep and assumption of St. Mary. When it falls on a Sunday, it is kept that day. The Church prepares for it with a fifteen-day fast.
+  take_with_you: Mary is blessed because she bore Christ, and even more because she heard God’s word and kept it.
+readings_thread: Moses sees the bush that burns and is not consumed, and Ezekiel sees the gate the Lord enters that stays shut. The Church has long seen Mary in both. Acts shows her praying with the apostles, and Hebrews describes the ark that held God’s covenant.
+key_verse:
+  ref: John 19:27
+  ml: '[ML VERSE: Sathyavedapusthakam 1910, John 19:27]'
+  ml_translation: Sathyavedapusthakam, 1910
+  en: Then he said to the disciple, “Behold, your mother!” From that hour, the disciple took her to his own home.
+  en_translation: World English Bible
+scenes:
+- verses: Luke 11:27
+  title: Blessed is the womb
+  text: 'As Jesus teaches, a woman in the crowd calls out: blessed is the womb that bore you and the breasts that nursed you.'
+  easy_to_miss: 'This fulfils Mary’s own words: “all generations will call me blessed” (Luke 1:48).'
+- verses: Luke 11:28
+  title: Hear and keep
+  text: 'Jesus replies: blessed rather are those who hear the word of God and keep it.'
+  easy_to_miss: 'Jesus does not deny his mother’s blessing. He points to its source: Mary heard God’s word and said “let it be”.'
+- verses: Matthew 12:46–48
+  title: Your mother is outside
+  text: 'While Jesus is speaking, his mother and brothers stand outside wanting to speak to him. Someone tells him. He asks: who is my mother, and who are my brothers?'
+  easy_to_miss: The Church has understood “brothers” here as close relatives, as the word often meant.
+- verses: Matthew 12:49–50
+  title: Whoever does the Father’s will
+  text: 'Pointing to his disciples, he says: here are my mother and my brothers. Whoever does the will of my Father in heaven is my brother, sister and mother.'
+  easy_to_miss: Mary is the first and best example of doing the Father’s will. She belongs to Jesus’ family twice over.
+- verses: John 19:25–27
+  title: Behold your mother
+  text: 'Near the cross stand his mother and other women. Jesus sees his mother and the disciple he loves. Woman, here is your son, he says. To the disciple: here is your mother. From that hour the disciple takes her into his home.'
+  easy_to_miss: Jesus calls her “woman” here and at Cana (John 2:4). The wedding and the cross frame her place in John’s Gospel.
+people:
+- name: Mary, Mother of God
+  ml: ദൈവമാതാവായ മറിയം
+  role: The mother of Jesus, honoured by the Church on this feast.
+  name_meaning: Hebrew Miriam; the meaning is uncertain
+- name: The beloved disciple
+  ml: യേശു സ്നേഹിച്ച ശിഷ്യൻ
+  role: Traditionally John, who took Mary into his home.
+  name_meaning: —
+phrases:
+- term: Shunoyo
+  explanation: Syriac name for the feast of St. Mary’s passing from this life and her assumption, kept on 15 August.
+- term: Fifteen-day fast
+  explanation: The Malankara Church fasts from 1 to 15 August in preparation for this feast.
+- term: Martha Mariam Samajam
+  explanation: The women’s organisation of the Malankara Orthodox Church, which keeps this day as its own.
+reflection:
+  title_en: She heard the word and kept it
+  title_ml: '[TITLE ML]'
+  read_time: A three-minute read
+  body: |-
+    The woman in the crowd says what many of us feel about Mary: how blessed must the mother of such a son be. Jesus agrees, and then points deeper. Blessed are those who hear God’s word and keep it. Nobody did that more completely than his mother.
+
+    Mary heard the word from Gabriel and said yes. She kept what she did not understand in her heart. She stood by the cross when most of the disciples had run. Jesus, dying, gave her to the beloved disciple as his mother, and the Church has received her as mother ever since.
+
+    On Shunoyo we celebrate her passing from this life into the presence of her Son. She goes ahead of us where we hope to follow. The way she took is open to all: hearing God’s word, keeping it, and staying near Jesus even at the cross. That is how we become his family too.
+  author: '[AUTHOR NAME]'
+  reviewer: '[REVIEWER NAME, PARISH]'
+week:
+  question: What is one thing God has said to you that you want to keep, like Mary did?
+  question_note: Two minutes after the audio. Everyone gets a turn, and nobody is interrupted.
+  small_act: Learn one verse from this week’s readings by heart as a family, and say it together before meals.
+  prayer: Holy Mother of God, who heard the word and kept it, pray for us. Lord Jesus, as you gave your mother to the beloved disciple, let us also take her into our home and follow her example of faith. Amen.
+sources:
+  lectionary: https://mosc.in/lectionary/kyomtho-easter-to-koodosh-edtho/
+reviewed: false

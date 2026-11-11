@@ -1,0 +1,136 @@
+# Reusable text for Fourth Sunday after the Feast of Holy Cross. Year-independent; a dated edition in content/sundays/ overrides any field.
+# Readings transcribed from https://mosc.in/lectionary/kyomtho-easter-to-koodosh-edtho/. Everything else is a DRAFT for priest/editor review.
+sunday_slug: fourth-sunday-after-holy-cross
+is_sunday: true
+name:
+  en: Fourth Sunday after Holy Cross
+  ml: '[MALAYALAM NAME]'
+title_as_printed: Fourth Sunday after the Feast of Holy Cross
+season:
+  en: Sleeba
+  gloss: The season of the Cross
+  syr: '[SYRIAC]'
+tagline: Faithful in little things, and no one can serve two masters
+standfirst: 'Jesus says that whoever is faithful in small things will be faithful in large ones. Then he says what everyone already suspected: you cannot serve God and money.'
+description: Readings for the Fourth Sunday after Holy Cross, with Luke 16:9–18, God and money, explained in five scenes. A reflection and a family question.
+hero_quote:
+  text: He who is faithful in a very little is faithful also in much.
+  ref: Luke 16:10
+readings:
+  evening:
+  - kind: Gospel
+    kind_ml: സുവിശേഷം
+    ref: Mark 10:1–16
+    ml: മർക്കൊസ് 10:1–16
+    note: What God has joined together; let the children come to me.
+    printed: St. Mark 10:1-16
+  morning:
+  - kind: Gospel
+    kind_ml: സുവിശേഷം
+    ref: Luke 9:37–45
+    ml: ലൂക്കോസ് 9:37–45
+    note: Jesus heals a boy his disciples could not, and foretells his betrayal.
+    printed: St. Luke 9:37-45
+  before_qurbana:
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: Numbers 29:35–40
+    ml: സംഖ്യാപുസ്തകം 29:35–40
+    note: The offerings for the eighth day, the closing assembly of the feast of Tabernacles.
+    printed: Numbers 29:35-40
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: 1 Kings 8:22–30
+    ml: 1 രാജാക്കന്മാർ 8:22–30
+    note: 'Solomon prays: heaven cannot contain you, much less this house I have built.'
+    printed: I Kings 8:22-30
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: Psalm 42
+    ml: സങ്കീർത്തനങ്ങൾ 42
+    note: As a deer longs for streams of water, so my soul longs for you, O God.
+    printed: Psalms 42
+  holy_qurbana:
+  - kind: Acts of the Apostles
+    kind_ml: അപ്പൊസ്തലപ്രവൃത്തികൾ
+    ref: Acts 21:17–26
+    ml: അപ്പൊസ്തലപ്രവൃത്തികൾ 21:17–26
+    note: Paul meets James and the elders in Jerusalem and takes part in a Temple vow.
+    printed: Acts 21:17-26
+  - kind: Pauline Epistle
+    kind_ml: പൗലോസിന്റെ ലേഖനം
+    ref: 1 Corinthians 1:21–29
+    ml: 1 കൊരിന്ത്യർ 1:21–29
+    note: God chose what is foolish in the world to shame the wise.
+    printed: I Corinthians 1:21-29
+  - kind: Gospel
+    kind_ml: സുവിശേഷം
+    ref: Luke 16:9–18
+    ml: ലൂക്കോസ് 16:9–18
+    note: Faithful in little things; no one can serve two masters. This is the Gospel of the day.
+    printed: St. Luke 16:9-18
+    main: true
+one_minute:
+  what_happens: After the parable of the shrewd manager, Jesus tells his disciples to use worldly wealth to make friends for eternity. Whoever is faithful in little is faithful in much. No one can serve two masters. The money-loving Pharisees scoff, and Jesus says God knows their hearts.
+  why_this_sunday: The morning Gospel is the parable of the shrewd manager, and this passage draws its lessons.
+  take_with_you: Money makes a good servant and a terrible master.
+readings_thread: Israel keeps the last day of the feast of Tabernacles, and Solomon prays at the dedication of the Temple. The psalm cries “as a deer longs for streams of water”. Paul says God chose what the world thinks foolish to shame the wise.
+key_verse:
+  ref: Luke 16:13
+  ml: '[ML VERSE: Sathyavedapusthakam 1910, Luke 16:13]'
+  ml_translation: Sathyavedapusthakam, 1910
+  en: No servant can serve two masters, for either he will hate the one, and love the other; or else he will hold to one, and despise the other. You aren’t able to serve God and Mammon.”
+  en_translation: World English Bible
+scenes:
+- verses: Luke 16:9
+  title: Friends for eternity
+  text: Make friends for yourselves by means of worldly wealth, so that when it runs out they will welcome you into eternal homes.
+  easy_to_miss: Money will run out, Jesus says. The friendships made by generosity will not.
+- verses: Luke 16:10–12
+  title: Faithful in little
+  text: Whoever is faithful in a very little is faithful in much. If you have not been trustworthy with worldly wealth, who will trust you with true riches?
+  easy_to_miss: Jesus calls money “a very little”. Compared with true riches, it is.
+- verses: Luke 16:13
+  title: Two masters
+  text: No servant can serve two masters. You cannot serve God and money.
+  easy_to_miss: Jesus uses the Aramaic word Mammon, almost as if money were a rival god.
+- verses: Luke 16:14–15
+  title: God knows your hearts
+  text: 'The Pharisees, who love money, hear this and sneer. Jesus says: you justify yourselves before others, but God knows your hearts. What people prize is detestable to God.'
+  easy_to_miss: They laugh because they think wealth shows God’s blessing. Jesus says God looks at the heart, not the bank balance.
+- verses: Luke 16:16–18
+  title: The law still stands
+  text: The law and the prophets were until John; since then the kingdom is preached. It is easier for heaven and earth to pass than for one stroke of the law to fall. Whoever divorces and remarries commits adultery.
+  easy_to_miss: Jesus does not loosen God’s law. He applies it more deeply, here to faithfulness in marriage.
+people:
+- name: The Pharisees
+  ml: പരീശന്മാർ
+  role: Luke says they loved money and scoffed at Jesus’ teaching.
+  name_meaning: Probably “the separated ones”
+phrases:
+- term: Mammon
+  explanation: An Aramaic word for wealth or possessions, used by Jesus as if it were a master demanding service.
+- term: Eternal homes
+  explanation: The dwellings of God’s kingdom, where friends made by generosity will welcome us.
+- term: One stroke of the law
+  explanation: The smallest mark of a Hebrew letter. Not even that will fail.
+reflection:
+  title_en: Two masters
+  title_ml: '[TITLE ML]'
+  read_time: A three-minute read
+  body: |-
+    Jesus talks about money more than almost anything else in Luke’s Gospel. He knows how it grips people. In this passage he does not say money is evil. He says it is small, temporary, and a test. How we handle it shows whether we can be trusted with things that matter more.
+
+    Then he draws a line. No one can serve two masters. Money is a fine servant, but when it becomes a master it demands everything: our time, our worries, our relationships, our souls. The Pharisees laughed at this. Many people still do.
+
+    Families make money decisions every week. What we buy, what we save, what we give. Jesus suggests a simple test: is our money making friends for eternity? Generosity to the poor, support for the Church, kindness to people in need are how money serves God instead of ruling us.
+  author: '[AUTHOR NAME]'
+  reviewer: '[REVIEWER NAME, PARISH]'
+week:
+  question: Does money serve our family, or does it sometimes feel like our master?
+  question_note: Two minutes after the audio. Everyone gets a turn, and nobody is interrupted.
+  small_act: Agree as a family on one gift you will give this month to someone in need.
+  prayer: Lord, you alone are our master. Free us from the love of money, make us faithful in little things, and teach us to use what we have to make friends for eternity. Amen.
+sources:
+  lectionary: https://mosc.in/lectionary/kyomtho-easter-to-koodosh-edtho/
+reviewed: false

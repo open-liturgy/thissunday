@@ -1,0 +1,99 @@
+# Reusable text for Feast of the Twelve Apostles (June 30). Year-independent; a dated edition in content/sundays/ overrides any field.
+# Readings transcribed from https://mosc.in/lectionary/kyomtho-easter-to-koodosh-edtho/. Everything else is a DRAFT for priest/editor review.
+sunday_slug: twelve-apostles
+is_sunday: false
+name:
+  en: Feast of the Twelve Apostles (June 30)
+  ml: '[MALAYALAM NAME]'
+title_as_printed: Feast of the Twelve Apostles (June 30)
+season:
+  en: '[SEASON]'
+  gloss: '[SEASON GLOSS]'
+  syr: '[SYRIAC]'
+tagline: '[TAGLINE]'
+standfirst: '[STANDFIRST]'
+description: '[DESCRIPTION naming Luke 6:12–26]'
+hero_quote:
+  text: '[HERO QUOTE]'
+  ref: '[REF]'
+readings:
+  evening:
+  - kind: Gospel
+    kind_ml: സുവിശേഷം
+    ref: Matthew 9:36–10:5
+    ml: മത്തായി 9:36–10:5
+    note: '[NOTE: what to listen for in Matthew 9:36–10:5]'
+    printed: St. Matthew 9:36-10:5
+  morning:
+  - kind: Gospel
+    kind_ml: സുവിശേഷം
+    ref: Matthew 10:11–15; 19:27–30
+    ml: മത്തായി 10:11–15; 19:27–30
+    note: '[NOTE: what to listen for in Matthew 10:11–15; 19:27–30]'
+    printed: St. Matthew 10:11-15, 19:27-30
+  before_qurbana:
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: Genesis 12:1–9
+    ml: ഉല്പത്തി 12:1–9
+    note: '[NOTE: what to listen for in Genesis 12:1–9]'
+    printed: Genesis 12:1-9
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: Daniel 1:8–21
+    ml: ദാനീയേൽ 1:8–21
+    note: '[NOTE: what to listen for in Daniel 1:8–21]'
+    printed: Daniel 1:8-21
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: Isaiah 43:1–7
+    ml: യെശയ്യാവ് 43:1–7
+    note: '[NOTE: what to listen for in Isaiah 43:1–7]'
+    printed: Isaiah 43:1-7
+  holy_qurbana:
+  - kind: Acts of the Apostles
+    kind_ml: അപ്പൊസ്തലപ്രവൃത്തികൾ
+    ref: Acts 1:12–14
+    ml: അപ്പൊസ്തലപ്രവൃത്തികൾ 1:12–14
+    note: '[NOTE: what to listen for in Acts 1:12–14]'
+    printed: Acts 1:12-14
+  - kind: Pauline Epistle
+    kind_ml: പൗലോസിന്റെ ലേഖനം
+    ref: 1 Corinthians 12:28–13:10
+    ml: 1 കൊരിന്ത്യർ 12:28–13:10
+    note: '[NOTE: what to listen for in 1 Corinthians 12:28–13:10]'
+    printed: I Corinthians 12:28-13:10
+  - kind: Gospel
+    kind_ml: സുവിശേഷം
+    ref: Luke 6:12–26
+    ml: ലൂക്കോസ് 6:12–26
+    note: '[NOTE: what to listen for in Luke 6:12–26]'
+    printed: St. Luke 6:12-26
+    main: true
+one_minute:
+  what_happens: '[WHAT HAPPENS]'
+  why_this_sunday: '[WHY THIS SUNDAY]'
+  take_with_you: '[TAKE WITH YOU]'
+readings_thread: '[THREAD THROUGH THE READINGS]'
+key_verse:
+  ref: '[REF]'
+  ml: '[ML VERSE: Sathyavedapusthakam 1910]'
+  en: '[EN VERSE: World English Bible]'
+scenes: []
+people: []
+phrases: []
+reflection:
+  title_en: '[TITLE]'
+  title_ml: '[TITLE ML]'
+  body: '[REFLECTION]'
+  author: '[AUTHOR NAME]'
+  reviewer: '[REVIEWER NAME, PARISH]'
+  read_time: '[READ TIME]'
+week:
+  question: '[QUESTION]'
+  question_note: Two minutes after the audio. Everyone gets a turn, and nobody is interrupted.
+  small_act: '[SMALL ACT]'
+  prayer: '[PRAYER]'
+sources:
+  lectionary: https://mosc.in/lectionary/kyomtho-easter-to-koodosh-edtho/
+reviewed: false

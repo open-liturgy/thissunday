@@ -1,0 +1,165 @@
+# Reusable text for St. Mary's visit to Elizabeth (Womens' day). Year-independent; a dated edition in content/sundays/ overrides any field.
+# Readings transcribed from https://mosc.in/lectionary/421-2/. Everything else is a DRAFT for priest/editor review.
+sunday_slug: visitation-to-elizabeth
+is_sunday: true
+name:
+  en: St. Mary’s Visit to Elizabeth
+  ml: '[MALAYALAM NAME]'
+title_as_printed: St. Mary's visit to Elizabeth (Womens' day)
+season:
+  en: Suboro
+  gloss: The Annunciation season
+  syr: ܣܘܒܪܐ
+also_kept_as: Women’s Day
+also_kept_as_note: See Proverbs 31:10–31
+tagline: Two expectant mothers meet, and Mary sings
+standfirst: Mary hurries into the hill country to see her relative Elizabeth. Before Mary can say much, the child in Elizabeth’s womb leaps, and Mary answers with a song the Church has sung ever since.
+description: Readings for St. Mary’s visit to Elizabeth, with Luke 1:39–56 and the Magnificat explained, a reflection and one question for the family.
+hero_quote:
+  text: My soul magnifies the Lord. My spirit has rejoiced in God my Savior
+  ref: Luke 1:46–47
+readings:
+  evening:
+  - kind: Gospel
+    kind_ml: സുവിശേഷം
+    ref: Luke 8:1–3
+    ml: ലൂക്കോസ് 8:1–3
+    note: Women who followed Jesus and supported his work from their own means.
+    printed: St. Luke 8:1-3
+  morning:
+  - kind: Gospel
+    kind_ml: സുവിശേഷം
+    ref: Luke 10:38–42
+    ml: ലൂക്കോസ് 10:38–42
+    note: Martha is busy serving while Mary sits and listens.
+    printed: St. Luke 10:38-42
+  before_qurbana:
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: Genesis 1:24–31; 24:15–38
+    ml: ഉല്പത്തി 1:24–31; 24:15–38
+    note: Man and woman made in God’s image; Rebekah’s kindness at the well.
+    printed: Genesis 1:24-31, 24:15-38
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: Judges 4:4–16
+    ml: ന്യായാധിപന്മാർ 4:4–16
+    note: Deborah, prophet and judge, leads Israel to victory.
+    printed: Judges 4:4-16
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: 1 Samuel 25:1–35
+    ml: 1 ശമൂവേൽ 25:1–35
+    note: Abigail’s wisdom stops David from taking revenge.
+    printed: 1 Samuel 25:1-35
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: 2 Kings 5:1–5
+    ml: 2 രാജാക്കന്മാർ 5:1–5
+    note: A captive Israelite girl points Naaman to the prophet who can heal him.
+    printed: II Kings 5:1-5
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: Esther 4:1–17
+    ml: എസ്ഥേർ 4:1–17
+    note: 'Esther risks her life for her people: “who knows, you may have come for such a time as this.”'
+    printed: Esther 4:1-17
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: Proverbs 14:1; 19:14; 31:10–31
+    ml: സദൃശവാക്യങ്ങൾ 14:1; 19:14; 31:10–31
+    note: A wise woman builds her house; the capable wife is worth more than jewels.
+    printed: 'Proverbs14: 1 : 19 : 14 : 31 : 10 -31'
+    check: 'Printed as ''Proverbs14: 1 : 19 : 14 : 31 : 10 -31''. Read here as 14:1; 19:14; 31:10-31.'
+  holy_qurbana:
+  - kind: General Epistle
+    kind_ml: പൊതുലേഖനം
+    ref: 1 Peter 3:1–7
+    ml: 1 പത്രോസ് 3:1–7
+    note: 'Wives and husbands: a gentle and quiet spirit, and honour for one another.'
+    printed: I Peter 3:1-7
+  - kind: Pauline Epistle
+    kind_ml: പൗലോസിന്റെ ലേഖനം
+    ref: 1 Timothy 2:9–15; 3:11–13
+    ml: 1 തിമൊഥെയൊസ് 2:9–15; 3:11–13
+    note: Modesty and good works, and the character asked of women who serve.
+    printed: I Timothy 2:9-15, 3:11-13
+  - kind: Gospel
+    kind_ml: സുവിശേഷം
+    ref: Luke 1:39–56
+    ml: ലൂക്കോസ് 1:39–56
+    note: Mary visits Elizabeth, the child leaps, and Mary sings the Magnificat. This is the Gospel of the day.
+    printed: St. Luke 1:39-56
+    main: true
+one_minute:
+  what_happens: Mary travels to Judea to visit Elizabeth. When Elizabeth hears her greeting, the baby leaps in her womb and she blesses Mary. Mary replies with the Magnificat and stays about three months.
+  why_this_sunday: After two announcements come two women who believed them. The Church also keeps this Sunday as Women’s Day.
+  take_with_you: Mary’s first act after hearing the news was to go and be with someone else. Joy was meant to be shared.
+readings_thread: Deborah judges Israel, Abigail stops a massacre with wisdom, Esther risks her life for her people, and a servant girl points her mistress to healing. Proverbs praises a capable woman, and the epistles speak to women in the Church.
+key_verse:
+  ref: Luke 1:45
+  ml: '[ML VERSE: Sathyavedapusthakam 1910, Luke 1:45]'
+  ml_translation: Sathyavedapusthakam, 1910
+  en: Blessed is she who believed, for there will be a fulfillment of the things which have been spoken to her from the Lord!
+  en_translation: World English Bible
+scenes:
+- verses: Luke 1:39–40
+  title: Mary goes in a hurry
+  text: Mary sets out quickly for a town in the hill country of Judah, enters Zechariah’s house and greets Elizabeth.
+  easy_to_miss: The journey from Nazareth was several days on foot. Mary makes it as soon as she hears the news.
+- verses: Luke 1:41–42
+  title: The child leaps
+  text: 'At Mary’s greeting the baby leaps in Elizabeth’s womb. Elizabeth is filled with the Holy Spirit and cries out: blessed are you among women, and blessed is the fruit of your womb.'
+  easy_to_miss: Gabriel said John would be filled with the Holy Spirit even before birth (Luke 1:15). Here it happens.
+- verses: Luke 1:43–45
+  title: The mother of my Lord
+  text: Elizabeth asks why she should be so honoured that the mother of her Lord comes to her. She blesses Mary for believing.
+  easy_to_miss: Elizabeth is the older woman and the wife of a priest. She honours the younger one without any trace of envy.
+- verses: Luke 1:46–50
+  title: My soul magnifies the Lord
+  text: Mary sings. God has looked on his servant in her lowliness, and all generations will call her blessed. His mercy is on those who fear him.
+  easy_to_miss: Mary’s song closely follows Hannah’s prayer after Samuel was born (1 Samuel 2:1–10).
+- verses: Luke 1:51–56
+  title: The mighty and the lowly
+  text: God scatters the proud, brings down the mighty and lifts up the lowly. He fills the hungry and sends the rich away empty. Mary stays about three months and goes home.
+  easy_to_miss: Mary sings about these things as if they have already happened. Nothing has changed in the world yet, except that God has come.
+people:
+- name: Mary
+  ml: മറിയം
+  role: Newly pregnant, travelling from Nazareth to Judea.
+  name_meaning: Hebrew Miriam; the meaning is uncertain
+- name: Elizabeth
+  ml: എലീശബെത്ത്
+  role: In her sixth month, the first person to call Mary the mother of the Lord.
+  name_meaning: “My God is an oath”
+- name: John
+  ml: യോഹന്നാൻ
+  role: Still unborn, he leaps for joy at the sound of Mary’s voice.
+  name_meaning: “The Lord is gracious”
+phrases:
+- term: Magnificat
+  explanation: The Latin first word of Mary’s song, “magnifies”. It is sung in the prayers of the Church in many traditions.
+- term: Hill country of Judah
+  explanation: The hills around Jerusalem. Tradition places Zechariah’s home at Ein Karem, a village west of the city.
+- term: Fruit of your womb
+  explanation: A Hebrew way of saying “your child”. Elizabeth blesses the baby as well as the mother.
+reflection:
+  title_en: Joy that goes looking for someone
+  title_ml: '[TITLE ML]'
+  read_time: A three-minute read
+  body: |-
+    Mary has just heard the most astonishing news anyone has ever received. She does not stay home to think about it alone. She packs and goes, quickly, to the one other woman who will understand. Elizabeth is old and pregnant for the first time. Mary is young and pregnant in a way nobody will believe.
+
+    When they meet, neither competes. Elizabeth, older and more respected, honours Mary. Mary, honoured, gives all the glory to God. Their meeting turns into a song about a God who notices the lowly and fills the hungry. It begins in an ordinary house with two women talking.
+
+    On Women’s Day the Church remembers Deborah, Abigail, Esther and the unnamed girl who pointed Naaman to healing. Many of us also remember the women in our own families who held things together and handed on the faith. Mary and Elizabeth show what they often did: they made room for each other, and God was praised in the middle of it.
+  author: '[AUTHOR NAME]'
+  reviewer: '[REVIEWER NAME, PARISH]'
+week:
+  question: Which woman in your life has passed on faith to you, and how?
+  question_note: Two minutes after the audio. Everyone gets a turn, and nobody is interrupted.
+  small_act: Visit or call an older woman in your family or parish and ask her to tell you about her life.
+  prayer: Lord, you looked on the lowliness of your servant Mary. Bless the mothers, grandmothers, sisters and daughters of our homes and our Church, and let our souls magnify you together. Amen.
+sources:
+  lectionary: https://mosc.in/lectionary/421-2/
+reviewed: false

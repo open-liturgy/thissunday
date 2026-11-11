@@ -1,0 +1,9 @@
+# Edition for Sunday 24 January 2027. Merged over content/lectionary/all-departed-priests.yaml (edition wins).
+date: 2027-01-24
+sunday_slug: all-departed-priests
+week_of_year: 13
+date_status: computed
+date_source: '[CONFIRM DATE against the MOSC 2027 liturgical calendar]'
+date_question: Assumed the Sundays of Departed Priests and Departed Faithful are the two Sundays before Kothne, after the Three Days Lent (18-21 Jan 2027).
+prepared: 2026-11-11
+reviewed: false

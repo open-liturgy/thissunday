@@ -1,0 +1,9 @@
+# Edition for Sunday 8 August 2027. Merged over content/lectionary/first-sunday-after-transfiguration.yaml (edition wins).
+date: 2027-08-08
+sunday_slug: first-sunday-after-transfiguration
+week_of_year: 41
+date_status: computed
+date_source: '[CONFIRM DATE against the MOSC 2027 liturgical calendar]'
+date_question: Transfiguration falls on Friday 6 Aug 2027. Assumed this Sunday is kept as the First Sunday after Transfiguration rather than the Twelfth Sunday after Pentecost.
+prepared: 2026-11-11
+reviewed: false

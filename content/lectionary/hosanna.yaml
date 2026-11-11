@@ -1,0 +1,222 @@
+# Reusable text for Hosanna/Palm Sunday – (Boys' and Girl's Day). Year-independent; a dated edition in content/sundays/ overrides any field.
+# Readings transcribed from https://mosc.in/lectionary/great-lent/. Everything else is a DRAFT for priest/editor review.
+sunday_slug: hosanna
+is_sunday: true
+name:
+  en: Hosanna Sunday
+  ml: '[MALAYALAM NAME]'
+title_as_printed: Hosanna/Palm Sunday – (Boys' and Girl's Day)
+season:
+  en: Great Lent
+  gloss: The fifty days of fasting before Easter
+  syr: '[SYRIAC]'
+also_kept_as: Boys’ and Girls’ Day
+also_kept_as_note: See Matthew 21:15–16
+tagline: The King rides into Jerusalem on a donkey
+standfirst: A huge crowd hears that Jesus is coming to Jerusalem. They cut palm branches and run out to meet him, shouting Hosanna. He comes riding on a young donkey.
+description: Readings for Hosanna (Palm) Sunday, with John 12:12–19, Jesus’ entry into Jerusalem, explained in five scenes. A reflection and a family question.
+hero_quote:
+  text: Don’t be afraid, daughter of Zion. Behold, your King comes, sitting on a donkey’s colt.
+  ref: John 12:15
+readings:
+  evening:
+  - kind: Gospel
+    kind_ml: സുവിശേഷം
+    ref: Matthew 21:1–17
+    ml: മത്തായി 21:1–17
+    note: The entry into Jerusalem, the Temple cleansed, and children shouting Hosanna.
+    printed: St. Matthew 21:1-17
+  morning:
+  - kind: Gospel
+    kind_ml: സുവിശേഷം
+    ref: Luke 19:28–44
+    ml: ലൂക്കോസ് 19:28–44
+    note: Jesus rides down the Mount of Olives and weeps over Jerusalem.
+    printed: St. Luke 19:28-44
+  before_qurbana:
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: Genesis 49:8–15
+    ml: ഉല്പത്തി 49:8–15
+    note: 'Jacob blesses Judah: the sceptre will not depart from him; he ties his donkey to the vine.'
+    printed: Genesis 49:8-15
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: 1 Samuel 2:18–26; 16:1
+    ml: 1 ശമൂവേൽ 2:18–26; 16:1
+    note: The boy Samuel grows in God’s favour; Samuel is sent to anoint a new king.
+    printed: I Samuel 2:18-26, 16:1
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: Daniel 1:16–20
+    ml: ദാനീയേൽ 1:16–20
+    note: Daniel and his friends, faithful young men, are found ten times wiser than the rest.
+    printed: Daniel 1:16-20
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: Micah 4:1–5
+    ml: മീഖാ 4:1–5
+    note: Nations will beat their swords into ploughshares.
+    printed: Micah 4:1-5
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: 1 Kings 3:4–14
+    ml: 1 രാജാക്കന്മാർ 3:4–14
+    note: Young Solomon asks God for an understanding heart.
+    printed: I Kings 3:4-14
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: Zephaniah 3:11–20
+    ml: സെഫന്യാവ് 3:11–20
+    note: Sing aloud, daughter of Zion; the Lord your God is in your midst.
+    printed: Zephaniah 3:11-20
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: Jeremiah 30:18–22
+    ml: യിരെമ്യാവ് 30:18–22
+    note: I will restore Jerusalem; you will be my people and I will be your God.
+    printed: Jeremiah 30:18-22
+  holy_qurbana:
+  - kind: General Epistle
+    kind_ml: പൊതുലേഖനം
+    ref: 1 John 5:1–12
+    ml: 1 യോഹന്നാൻ 5:1–12
+    note: Everyone born of God overcomes the world; this is our faith.
+    printed: I John 5:1-12
+  - kind: Pauline Epistle
+    kind_ml: പൗലോസിന്റെ ലേഖനം
+    ref: Romans 8:18–25
+    ml: റോമർ 8:18–25
+    note: All creation waits with eager longing for the children of God to be revealed.
+    printed: Romans 8:18-25
+  - kind: Pauline Epistle
+    kind_ml: പൗലോസിന്റെ ലേഖനം
+    ref: Ephesians 6:1–24
+    ml: എഫേസ്യർ 6:1–24
+    note: Children and parents, and the whole armour of God.
+    printed: Ephesians:6:1-24
+  - kind: Gospel
+    kind_ml: സുവിശേഷം
+    ref: John 12:12–19
+    ml: യോഹന്നാൻ 12:12–19
+    note: The crowd waves palm branches as the King comes in on a young donkey. This is the Gospel of the day.
+    printed: St. John 12:12-19
+    main: true
+readings_other:
+  midnight:
+  - kind: Gospel
+    kind_ml: സുവിശേഷം
+    ref: Mark 11:1–11
+    ml: മർക്കൊസ് 11:1–11
+    note: Jesus sends for a colt and rides into Jerusalem to shouts of Hosanna.
+    printed: St. Mark 11:1-11
+  procession:
+  - kind: Gospel
+    kind_ml: സുവിശേഷം
+    ref: Luke 19:28–40
+    ml: ലൂക്കോസ് 19:28–40
+    note: If these were silent, the stones would cry out.
+    printed: St. Luke 19:28-40
+  blessing_of_the_palms:
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: Zechariah 9:9–12
+    ml: സെഖര്യാവ് 9:9–12
+    note: 'Rejoice, daughter of Zion: your king comes to you, humble and riding on a donkey.'
+    printed: Zechariah 9:9-12
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: Isaiah 51:9–11
+    ml: യെശയ്യാവ് 51:9–11
+    note: The ransomed of the Lord will return with singing.
+    printed: Isaiah 51:9-11
+  - kind: General Epistle
+    kind_ml: പൊതുലേഖനം
+    ref: 1 John 2:7–14
+    ml: 1 യോഹന്നാൻ 2:7–14
+    note: I write to you, little children, young people and fathers.
+    printed: I John 2:7-14
+  - kind: Pauline Epistle
+    kind_ml: പൗലോസിന്റെ ലേഖനം
+    ref: Romans 11:13–24
+    ml: റോമർ 11:13–24
+    note: Wild olive branches grafted into the cultivated tree.
+    printed: Romans 11:13-24
+  - kind: Gospel
+    kind_ml: സുവിശേഷം
+    ref: Mark 11:1–11
+    ml: മർക്കൊസ് 11:1–11
+    note: Jesus sends for a colt and rides into Jerusalem to shouts of Hosanna.
+    printed: St. Mark 11:1-11
+one_minute:
+  what_happens: Five days before Passover, a great crowd takes palm branches and goes out to meet Jesus, shouting Hosanna. He sits on a young donkey, fulfilling Zechariah’s prophecy. People who saw Lazarus raised keep telling the story, and the Pharisees despair.
+  why_this_sunday: Hosanna Sunday begins Holy Week. The Church also keeps it as Boys’ and Girls’ Day, remembering the children who shouted Hosanna in the Temple.
+  take_with_you: The same city that shouts Hosanna will shout Crucify within a week. Praise is easy in a crowd; faithfulness is tested later.
+readings_thread: Jacob blesses Judah, whose ruler will tie his donkey to the vine. The boy Samuel serves the Lord, young Solomon asks for wisdom, and Daniel and his friends stay faithful as young men. Zephaniah and Zechariah call the daughter of Zion to rejoice.
+key_verse:
+  ref: John 12:13
+  ml: '[ML VERSE: Sathyavedapusthakam 1910, John 12:13]'
+  ml_translation: Sathyavedapusthakam, 1910
+  en: they took the branches of the palm trees and went out to meet him, and cried out, “Hosanna! Blessed is he who comes in the name of the Lord, the King of Israel!”
+  en_translation: World English Bible
+scenes:
+- verses: John 12:12–13
+  title: Palm branches
+  text: 'The next day the great crowd that had come for the feast hears that Jesus is coming. They take palm branches, go out to meet him and shout: Hosanna! Blessed is he who comes in the name of the Lord, the King of Israel!'
+  easy_to_miss: Palm branches were a symbol of national victory. The crowd is welcoming a king.
+- verses: John 12:14–15
+  title: On a young donkey
+  text: 'Jesus finds a young donkey and sits on it, as Zechariah wrote: do not be afraid, daughter of Zion; your king is coming, sitting on a donkey’s colt.'
+  easy_to_miss: Kings rode horses to war. A donkey was the animal of a king coming in peace.
+- verses: John 12:16
+  title: They understood later
+  text: His disciples do not understand this at first. Only after Jesus is glorified do they remember that this was written about him.
+  easy_to_miss: John admits the disciples missed the meaning at the time. Understanding often comes after Easter.
+- verses: John 12:17–18
+  title: Because of Lazarus
+  text: The crowd that was with him when he called Lazarus out of the tomb keeps telling what they saw. That is why so many come out to meet him.
+  easy_to_miss: John links this day directly to the raising of Lazarus, read on the Saturday before.
+- verses: John 12:19
+  title: The whole world goes after him
+  text: 'The Pharisees say to one another: you see, you are getting nowhere. Look, the whole world has gone after him.'
+  easy_to_miss: In the very next verses, some Greeks come asking to see Jesus. The “whole world” starts arriving at once.
+people:
+- name: The crowd
+  ml: പുരുഷാരം
+  role: Pilgrims in Jerusalem for Passover, many of whom had heard about Lazarus.
+  name_meaning: —
+- name: Lazarus
+  ml: ലാസർ
+  role: Raised from the dead at Bethany, and the reason many came to see Jesus.
+  name_meaning: “God has helped”
+- name: The Pharisees
+  ml: പരീശന്മാർ
+  role: They watch the welcome and feel they have lost control.
+  name_meaning: Probably “the separated ones”
+phrases:
+- term: Hosanna
+  explanation: Hebrew for “save us, please”, from Psalm 118:25. By Jesus’ time it was also a shout of praise.
+- term: Daughter of Zion
+  explanation: A poetic name for Jerusalem and its people (Zechariah 9:9).
+- term: Glorified
+  explanation: John’s word for Jesus’ death, resurrection and return to the Father.
+reflection:
+  title_en: A king on a donkey
+  title_ml: '[TITLE ML]'
+  read_time: A three-minute read
+  body: |-
+    The crowd on Hosanna Sunday knew exactly what kind of king they wanted. They waved palm branches, the symbol of victory over enemies. They expected someone who would drive out Rome and make Israel great again. Jesus came riding on a young donkey.
+
+    He was a king, but not that kind. He came in peace, on the way to a cross. Within the week the same city would turn against him. Even his disciples did not understand what they were seeing until after the resurrection.
+
+    On Boys’ and Girls’ Day, the Church remembers that children were among those who shouted Hosanna in the Temple, and Jesus defended them. Children often see more clearly than adults what kind of king Jesus is. Holy Week begins today. The question for all of us is whether we will still be with him on Friday.
+  author: '[AUTHOR NAME]'
+  reviewer: '[REVIEWER NAME, PARISH]'
+week:
+  question: If Jesus came to our town this week, what would we want him to do? What do you think he would actually do?
+  question_note: Two minutes after the audio. Everyone gets a turn, and nobody is interrupted.
+  small_act: Plan as a family which Holy Week services you will attend together, and keep the palm from today somewhere you will see it.
+  prayer: Hosanna to the Son of David! Lord Jesus, you came to Jerusalem humble and riding on a donkey. Walk with us through this Holy Week, and keep us faithful to you all the way to the cross and the empty tomb. Amen.
+sources:
+  lectionary: https://mosc.in/lectionary/great-lent/
+reviewed: false

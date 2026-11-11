@@ -1,0 +1,146 @@
+# Reusable text for First Sunday after New Sunday. Year-independent; a dated edition in content/sundays/ overrides any field.
+# Readings transcribed from https://mosc.in/lectionary/kyomtho-easter-to-koodosh-edtho/. Everything else is a DRAFT for priest/editor review.
+sunday_slug: first-sunday-after-new-sunday
+is_sunday: true
+name:
+  en: First Sunday after New Sunday
+  ml: '[MALAYALAM NAME]'
+title_as_printed: First Sunday after New Sunday
+season:
+  en: Kyomtho
+  gloss: The Resurrection season
+  syr: '[SYRIAC]'
+tagline: Breakfast on the beach with the risen Lord
+standfirst: Peter goes back to fishing and catches nothing all night. At dawn a stranger on the shore tells them where to cast the net, and then cooks them breakfast.
+description: Readings for the First Sunday after New Sunday, with John 21:1–14, breakfast by the Sea of Galilee, explained in five scenes. Reflection and question.
+hero_quote:
+  text: That disciple therefore whom Jesus loved said to Peter, “It’s the Lord!”
+  ref: John 21:7
+readings:
+  evening:
+  - kind: Gospel
+    kind_ml: സുവിശേഷം
+    ref: John 21:15–25
+    ml: യോഹന്നാൻ 21:15–25
+    note: Jesus asks Peter three times “do you love me?” and tells him to follow.
+    printed: St. John 21:15-25
+  morning:
+  - kind: Gospel
+    kind_ml: സുവിശേഷം
+    ref: John 21:1–14
+    ml: യോഹന്നാൻ 21:1–14
+    note: The risen Jesus fills the disciples’ nets and cooks them breakfast on the beach.
+    printed: St. John 21:1-14
+  before_qurbana:
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: Exodus 14:26–31
+    ml: പുറപ്പാട് 14:26–31
+    note: The sea returns over Pharaoh’s army, and Israel believes the Lord.
+    printed: Exodus 14:26-31
+  - kind: '[KIND]'
+    kind_ml: '[KIND ML]'
+    ref: '[CHECK SOURCE: Joshua6, 9 – 21]'
+    ml: '[CHECK SOURCE: Joshua6, 9 – 21]'
+    note: '[NOTE: add once the reference is checked]'
+    printed: Joshua6, 9 – 21
+    check: Printed as 'Joshua6, 9 – 21'. Possibly Joshua 6:9-21.
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: Wisdom 1:1–8
+    ml: '[ML BOOK NAME: Wisdom] 1:1–8'
+    note: Love righteousness and seek the Lord with a sincere heart.
+    printed: 'GreatWisdom 1: 1-8'
+    check: 'Printed as ''GreatWisdom 1: 1-8'' (Wisdom of Solomon).'
+  holy_qurbana:
+  - kind: Acts of the Apostles
+    kind_ml: അപ്പൊസ്തലപ്രവൃത്തികൾ
+    ref: Acts 13:26–39
+    ml: അപ്പൊസ്തലപ്രവൃത്തികൾ 13:26–39
+    note: Paul preaches that God raised Jesus and did not let him see decay.
+    printed: Acts 13:26-39
+  - kind: Pauline Epistle
+    kind_ml: പൗലോസിന്റെ ലേഖനം
+    ref: Ephesians 6:10–20
+    ml: എഫേസ്യർ 6:10–20
+    note: Put on the whole armour of God.
+    printed: Ephesians 6:10-20
+  - kind: Gospel
+    kind_ml: സുവിശേഷം
+    ref: John 21:1–14
+    ml: യോഹന്നാൻ 21:1–14
+    note: The risen Jesus fills the disciples’ nets and cooks them breakfast on the beach. This is the Gospel of the day.
+    printed: St. John 21:1-14
+    main: true
+one_minute:
+  what_happens: Seven disciples go fishing on the Sea of Galilee and catch nothing. At dawn Jesus, unrecognised, tells them to cast on the right side. The net fills with 153 fish. John recognises him, Peter jumps into the water, and Jesus gives them bread and fish for breakfast.
+  why_this_sunday: The Sundays after Easter read the appearances of the risen Jesus. This is the third time he showed himself to the disciples.
+  take_with_you: The risen Lord meets his friends at work, after a failed night, and feeds them before he asks anything of them.
+readings_thread: Israel walks through the sea while the Egyptians drown, and the walls of Jericho fall. Paul preaches that God raised Jesus and did not let him see decay. Ephesians says to put on the whole armour of God.
+key_verse:
+  ref: John 21:12
+  ml: '[ML VERSE: Sathyavedapusthakam 1910, John 21:12]'
+  ml_translation: Sathyavedapusthakam, 1910
+  en: Jesus said to them, “Come and eat breakfast!” None of the disciples dared inquire of him, “Who are you?” knowing that it was the Lord.
+  en_translation: World English Bible
+scenes:
+- verses: John 21:1–3
+  title: I am going fishing
+  text: 'Peter, Thomas, Nathanael, the sons of Zebedee and two others are by the Sea of Tiberias. Peter says: I am going fishing. They go with him and catch nothing all night.'
+  easy_to_miss: After everything that has happened, Peter goes back to what he knows. Grief and confusion often send us home.
+- verses: John 21:4–6
+  title: Cast on the right side
+  text: At dawn Jesus stands on the shore, but they do not know it is him. Children, have you any fish? No. Cast the net on the right side of the boat. They do, and cannot haul it in for the number of fish.
+  easy_to_miss: He calls these grown fishermen “children”. It is a tender word.
+- verses: John 21:7–8
+  title: It is the Lord
+  text: 'The disciple whom Jesus loved says to Peter: it is the Lord! Peter throws on his outer garment and jumps into the sea. The others follow in the boat, dragging the net.'
+  easy_to_miss: John recognises him first; Peter reaches him first. Each disciple has his own gift.
+- verses: John 21:9–11
+  title: A charcoal fire
+  text: 'On shore there is a charcoal fire with fish on it, and bread. Bring some of the fish you caught, says Jesus. Peter hauls the net ashore: 153 large fish, and the net is not torn.'
+  easy_to_miss: The last charcoal fire in John was in the high priest’s courtyard, where Peter denied Jesus (John 18:18).
+- verses: John 21:12–14
+  title: Come and have breakfast
+  text: 'Jesus says: come and have breakfast. None of them dares ask who he is; they know it is the Lord. He takes the bread and gives it to them, and the fish too. This is the third time he appears to them after rising.'
+  easy_to_miss: He takes bread and gives it to them, the same actions as at the feeding of the five thousand (John 6:11).
+people:
+- name: Peter
+  ml: പത്രൊസ്
+  role: Leads the others back to fishing and jumps into the sea to reach Jesus.
+  name_meaning: “Rock”
+- name: The disciple whom Jesus loved
+  ml: യേശു സ്നേഹിച്ച ശിഷ്യൻ
+  role: Traditionally John, son of Zebedee. The first to recognise Jesus.
+  name_meaning: —
+- name: Nathanael
+  ml: നഥനയേൽ
+  role: From Cana, the doubter who came and saw (John 1:46).
+  name_meaning: “God has given”
+phrases:
+- term: Sea of Tiberias
+  explanation: Another name for the Sea of Galilee, after the city Herod Antipas built on its shore in honour of the emperor.
+- term: 153 fish
+  explanation: John records the exact number. Early Christian writers saw in it the fullness of all nations gathered into one unbroken net.
+- term: Charcoal fire
+  explanation: 'The Greek word appears only twice in the New Testament: here and at Peter’s denial.'
+reflection:
+  title_en: Breakfast after a long night
+  title_ml: '[TITLE ML]'
+  read_time: A three-minute read
+  body: |-
+    Peter has had a terrible few weeks. He denied Jesus three times, watched him die, and then saw him risen, without yet having a chance to put things right. So he does what many of us do when life is confusing: he goes back to work. He fishes all night and catches nothing.
+
+    At dawn, Jesus is waiting. He does not start with a lecture. He asks if they have eaten, tells them where to fish, and has a fire going with bread and fish already on it when they arrive. Before anything else is said, he feeds them.
+
+    There will be a hard conversation next Sunday. Jesus will ask Peter three times if he loves him. But it comes after breakfast. That is worth remembering in our own homes. When someone has had a long night, the first thing they may need is a warm meal and a kind word, and the rest can follow.
+  author: '[AUTHOR NAME]'
+  reviewer: '[REVIEWER NAME, PARISH]'
+week:
+  question: When have you worked hard and got nowhere? Did anyone help you see things differently?
+  question_note: Two minutes after the audio. Everyone gets a turn, and nobody is interrupted.
+  small_act: Make breakfast or a meal for someone in your family who has had a hard week, before asking them anything.
+  prayer: Risen Lord, you waited on the shore after a long night and fed your tired friends. Meet us when our nets are empty, show us where to cast them, and feed us at your table. Amen.
+sources:
+  lectionary: https://mosc.in/lectionary/kyomtho-easter-to-koodosh-edtho/
+reviewed: false

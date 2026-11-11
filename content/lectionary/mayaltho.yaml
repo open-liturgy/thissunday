@@ -1,0 +1,101 @@
+# Reusable text for Mayaltho (Entry of our Lord into the temple). Year-independent; a dated edition in content/sundays/ overrides any field.
+# Readings transcribed from https://mosc.in/lectionary/421-2/. Everything else is a DRAFT for priest/editor review.
+sunday_slug: mayaltho
+is_sunday: false
+name:
+  en: Mayaltho (Entry of our Lord into the temple)
+  ml: '[MALAYALAM NAME]'
+title_as_printed: Mayaltho (Entry of our Lord into the temple)
+season:
+  en: '[SEASON]'
+  gloss: '[SEASON GLOSS]'
+  syr: '[SYRIAC]'
+tagline: '[TAGLINE]'
+standfirst: '[STANDFIRST]'
+description: '[DESCRIPTION naming Luke 2:22–40]'
+hero_quote:
+  text: '[HERO QUOTE]'
+  ref: '[REF]'
+readings:
+  evening:
+  - kind: Gospel
+    kind_ml: സുവിശേഷം
+    ref: Luke 2:22–40
+    ml: ലൂക്കോസ് 2:22–40
+    note: '[NOTE: what to listen for in Luke 2:22–40]'
+    printed: St. Luke 2:22-40
+  morning:
+  - kind: Gospel
+    kind_ml: സുവിശേഷം
+    ref: Luke 2:22–40
+    ml: ലൂക്കോസ് 2:22–40
+    note: '[NOTE: what to listen for in Luke 2:22–40]'
+    printed: St. Luke 2:22-40
+  before_qurbana:
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: Leviticus 12:1–8; 19:30–37
+    ml: ലേവ്യപുസ്തകം 12:1–8; 19:30–37
+    note: '[NOTE: what to listen for in Leviticus 12:1–8; 19:30–37]'
+    printed: Leviticus 12:1-8, 19:30-37
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: Proverbs 6:20–24; 23:22–26
+    ml: സദൃശവാക്യങ്ങൾ 6:20–24; 23:22–26
+    note: '[NOTE: what to listen for in Proverbs 6:20–24; 23:22–26]'
+    printed: Proverbs 6:20-24, 23:22-26
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: Isaiah 11:1–10
+    ml: യെശയ്യാവ് 11:1–10
+    note: '[NOTE: what to listen for in Isaiah 11:1–10]'
+    printed: Isaiah 11:1-10
+  holy_qurbana:
+  - kind: Acts of the Apostles
+    kind_ml: അപ്പൊസ്തലപ്രവൃത്തികൾ
+    ref: Acts 24:10–23
+    ml: അപ്പൊസ്തലപ്രവൃത്തികൾ 24:10–23
+    note: '[NOTE: what to listen for in Acts 24:10–23]'
+    printed: Acts 24:10-23
+  - kind: Pauline Epistle
+    kind_ml: പൗലോസിന്റെ ലേഖനം
+    ref: Ephesians 3:13–21; 6:1–4
+    ml: എഫേസ്യർ 3:13–21; 6:1–4
+    note: '[NOTE: what to listen for in Ephesians 3:13–21; 6:1–4]'
+    printed: 'Ephesians3: 13-21 6: 1-4'
+    check: 'Printed as ''Ephesians3: 13-21 6: 1-4''.'
+  - kind: Gospel
+    kind_ml: സുവിശേഷം
+    ref: Luke 2:22–40
+    ml: ലൂക്കോസ് 2:22–40
+    note: '[NOTE: what to listen for in Luke 2:22–40]'
+    printed: St. Luke 2:22-40
+    main: true
+one_minute:
+  what_happens: '[WHAT HAPPENS]'
+  why_this_sunday: '[WHY THIS SUNDAY]'
+  take_with_you: '[TAKE WITH YOU]'
+readings_thread: '[THREAD THROUGH THE READINGS]'
+key_verse:
+  ref: '[REF]'
+  ml: '[ML VERSE: Sathyavedapusthakam 1910]'
+  en: '[EN VERSE: World English Bible]'
+scenes: []
+people: []
+phrases: []
+reflection:
+  title_en: '[TITLE]'
+  title_ml: '[TITLE ML]'
+  body: '[REFLECTION]'
+  author: '[AUTHOR NAME]'
+  reviewer: '[REVIEWER NAME, PARISH]'
+  read_time: '[READ TIME]'
+week:
+  question: '[QUESTION]'
+  question_note: Two minutes after the audio. Everyone gets a turn, and nobody is interrupted.
+  small_act: '[SMALL ACT]'
+  prayer: '[PRAYER]'
+sources:
+  lectionary: https://mosc.in/lectionary/421-2/
+lectionary_note: February 2nd is celebrated as the day when infant Jesus was presented in the temple. Also called the day of the old aged. Feast of St. Simon and St. Hanna.
+reviewed: false

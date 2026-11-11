@@ -1,0 +1,136 @@
+# Reusable text for Fourth Sunday after Pentecost. Year-independent; a dated edition in content/sundays/ overrides any field.
+# Readings transcribed from https://mosc.in/lectionary/kyomtho-easter-to-koodosh-edtho/. Everything else is a DRAFT for priest/editor review.
+sunday_slug: fourth-sunday-after-pentecost
+is_sunday: true
+name:
+  en: Fourth Sunday after Pentecost
+  ml: '[MALAYALAM NAME]'
+title_as_printed: Fourth Sunday after Pentecost
+season:
+  en: Pentecost
+  gloss: The season of the Holy Spirit
+  syr: '[SYRIAC]'
+tagline: 'Seventy sent out in pairs: the harvest is plentiful'
+standfirst: Jesus sends seventy followers ahead of him, two by two, into every town he plans to visit. The harvest is huge, he says, and the workers are few.
+description: Readings for the Fourth Sunday after Pentecost, with Luke 10:1–16, the sending of the seventy, explained in five scenes. Reflection and question.
+hero_quote:
+  text: The harvest is indeed plentiful, but the laborers are few. Pray therefore to the Lord of the harvest, that he may send out laborers into his harvest.
+  ref: Luke 10:2
+readings:
+  evening:
+  - kind: Gospel
+    kind_ml: സുവിശേഷം
+    ref: Matthew 14:14–23
+    ml: മത്തായി 14:14–23
+    note: Jesus has compassion on the crowd and feeds five thousand.
+    printed: St. Matthew 14:14-23
+  morning:
+  - kind: Gospel
+    kind_ml: സുവിശേഷം
+    ref: Luke 10:17–24
+    ml: ലൂക്കോസ് 10:17–24
+    note: The seventy return with joy; rejoice that your names are written in heaven.
+    printed: St. Luke 10:17-24
+  before_qurbana:
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: Deuteronomy 33:23–29
+    ml: ആവർത്തനം 33:23–29
+    note: The eternal God is your refuge, and underneath are the everlasting arms.
+    printed: Deuteronomy 33:23-29
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: Psalm 15
+    ml: സങ്കീർത്തനങ്ങൾ 15
+    note: Who may dwell on your holy hill? The one who walks blamelessly and speaks truth.
+    printed: Psalms 15
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: Isaiah 65:8–12
+    ml: യെശയ്യാവ് 65:8–12
+    note: As new wine is found in a cluster, I will not destroy them all.
+    printed: Isaiah 65:8-12
+  holy_qurbana:
+  - kind: Acts of the Apostles
+    kind_ml: അപ്പൊസ്തലപ്രവൃത്തികൾ
+    ref: Acts 6:1–7
+    ml: അപ്പൊസ്തലപ്രവൃത്തികൾ 6:1–7
+    note: Seven men full of the Spirit are chosen to serve the widows at table.
+    printed: Acts 6:1-7
+  - kind: Pauline Epistle
+    kind_ml: പൗലോസിന്റെ ലേഖനം
+    ref: 1 Corinthians 16:14–22
+    ml: 1 കൊരിന്ത്യർ 16:14–22
+    note: Let all you do be done in love; Maranatha, our Lord, come!
+    printed: I Corinthians 16:14-22
+  - kind: Gospel
+    kind_ml: സുവിശേഷം
+    ref: Luke 10:1–16
+    ml: ലൂക്കോസ് 10:1–16
+    note: 'Jesus sends seventy ahead of him: the harvest is plentiful, the workers few. This is the Gospel of the day.'
+    printed: St. Luke 10:1-16
+    main: true
+one_minute:
+  what_happens: Jesus appoints seventy others and sends them in pairs ahead of him. They are to pray for more workers, travel light, bring peace to each house, heal the sick and announce the kingdom. Towns that reject them reject him.
+  why_this_sunday: Two Sundays ago Jesus sent the twelve. Today he sends a much larger group, which shows that mission is not only for apostles.
+  take_with_you: The first thing Jesus tells the workers to do is pray for more workers.
+readings_thread: Moses blesses the tribes, and the psalm asks who may live on God’s holy hill. Isaiah says God will not destroy the whole vine for the sake of a few good grapes. In Acts seven are chosen to serve tables, and Paul ends a letter by greeting fellow workers.
+key_verse:
+  ref: Luke 10:2
+  ml: '[ML VERSE: Sathyavedapusthakam 1910, Luke 10:2]'
+  ml_translation: Sathyavedapusthakam, 1910
+  en: Then he said to them, “The harvest is indeed plentiful, but the laborers are few. Pray therefore to the Lord of the harvest, that he may send out laborers into his harvest.
+  en_translation: World English Bible
+scenes:
+- verses: Luke 10:1
+  title: Two by two
+  text: The Lord appoints seventy others and sends them ahead of him in pairs to every town and place he is about to go.
+  easy_to_miss: 'Some ancient manuscripts say seventy-two. Either way, the number recalls the seventy nations of Genesis 10: the whole world.'
+- verses: Luke 10:2–3
+  title: Few workers
+  text: The harvest is plentiful but the workers are few. Pray the Lord of the harvest to send workers. Go; I am sending you like lambs among wolves.
+  easy_to_miss: The ones told to pray for workers are the workers. Prayer and going belong together.
+- verses: Luke 10:4–7
+  title: Peace to this house
+  text: 'Carry no purse, bag or sandals, and do not stop to greet people on the road. In each house say: peace to this house. Stay there and eat what is given.'
+  easy_to_miss: “Do not move from house to house.” They are to stay with the family that receives them, not look for better lodging.
+- verses: Luke 10:8–12
+  title: The kingdom has come near
+  text: In a town that welcomes you, eat what is set before you, heal the sick and say the kingdom of God has come near. Where they do not welcome you, wipe off the dust and say the same thing.
+  easy_to_miss: 'The message is the same whether they are welcomed or not: the kingdom has come near.'
+- verses: Luke 10:13–16
+  title: Whoever listens to you
+  text: Jesus warns Chorazin, Bethsaida and Capernaum, towns that saw his works and did not repent. Whoever listens to you listens to me; whoever rejects you rejects me.
+  easy_to_miss: Jesus identifies completely with his messengers, however ordinary they are.
+people:
+- name: The seventy
+  ml: എഴുപതു പേർ
+  role: Followers of Jesus beyond the twelve. Church tradition lists their names.
+  name_meaning: —
+phrases:
+- term: Lord of the harvest
+  explanation: God, who owns the field and decides who works in it.
+- term: Chorazin and Bethsaida
+  explanation: Towns near Capernaum on the Sea of Galilee where Jesus did many miracles.
+- term: Son of peace
+  explanation: Luke’s phrase (10:6) for a person who welcomes God’s peace.
+reflection:
+  title_en: Pray, then go
+  title_ml: '[TITLE ML]'
+  read_time: A three-minute read
+  body: |-
+    The twelve were not enough. Jesus appoints seventy more, ordinary followers whose names Luke does not give us, and sends them out in pairs. The work was always meant to be shared. A Church where only the priest does the mission has misunderstood the Gospel.
+
+    Their first instruction is to pray for more workers. Then they are told to go. They bring peace into homes, eat what they are given, heal the sick and say that God’s kingdom has come near. Some towns welcome them and some do not. Either way, the message is the same.
+
+    Every parish needs people to teach Sunday School, visit the sick, sing, cook, organise and welcome. Many of these jobs fall on a few tired shoulders. This Gospel asks two things of the rest of us: pray that God will send workers, and be open to the possibility that he is sending you.
+  author: '[AUTHOR NAME]'
+  reviewer: '[REVIEWER NAME, PARISH]'
+week:
+  question: What is one way our family could help with the work of our parish?
+  question_note: Two minutes after the audio. Everyone gets a turn, and nobody is interrupted.
+  small_act: Offer to help with one parish task this month, and do it with a partner, as the seventy did.
+  prayer: Lord of the harvest, send workers into your field. Make us willing to go where you send us, to bring peace to every house, and to tell everyone that your kingdom has come near. Amen.
+sources:
+  lectionary: https://mosc.in/lectionary/kyomtho-easter-to-koodosh-edtho/
+reviewed: false

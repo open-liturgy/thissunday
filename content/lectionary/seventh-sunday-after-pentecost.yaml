@@ -1,0 +1,140 @@
+# Reusable text for Seventh Sunday after Pentecost. Year-independent; a dated edition in content/sundays/ overrides any field.
+# Readings transcribed from https://mosc.in/lectionary/kyomtho-easter-to-koodosh-edtho/. Everything else is a DRAFT for priest/editor review.
+sunday_slug: seventh-sunday-after-pentecost
+is_sunday: true
+name:
+  en: Seventh Sunday after Pentecost
+  ml: '[MALAYALAM NAME]'
+title_as_printed: Seventh Sunday after Pentecost
+season:
+  en: Pentecost
+  gloss: The season of the Holy Spirit
+  syr: '[SYRIAC]'
+tagline: A house divided cannot stand
+standfirst: Jesus’ family thinks he has lost his mind, and teachers from Jerusalem say he is working for the devil. He answers both with a story about a strong man and a divided house.
+description: Readings for the Seventh Sunday after Pentecost, with Mark 3:20–30, the house divided and the strong man, explained. Reflection and question.
+hero_quote:
+  text: If a kingdom is divided against itself, that kingdom cannot stand.
+  ref: Mark 3:24
+readings:
+  evening:
+  - kind: Gospel
+    kind_ml: സുവിശേഷം
+    ref: Matthew 12:30–37
+    ml: മത്തായി 12:30–37
+    note: A tree is known by its fruit; you will give account for every careless word.
+    printed: St. Matthew 12:30-37
+  morning:
+  - kind: Gospel
+    kind_ml: സുവിശേഷം
+    ref: Matthew 12:38–50
+    ml: മത്തായി 12:38–50
+    note: The sign of Jonah; whoever does my Father’s will is my brother, sister and mother.
+    printed: St. Matthew 12:38-50
+  before_qurbana:
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: Leviticus 16:29–34
+    ml: ലേവ്യപുസ്തകം 16:29–34
+    note: On the Day of Atonement you will be cleansed from all your sins.
+    printed: Leviticus 16:29-34
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: Hosea 5:1–5
+    ml: ഹോശേയ 5:1–5
+    note: 'Hear this, priests: you have been a snare to the people.'
+    printed: Hosea 5:1-5
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: Isaiah 57:15–19
+    ml: യെശയ്യാവ് 57:15–19
+    note: I live in the high and holy place, and also with the humble and contrite.
+    printed: Isaiah 57:15-19
+  holy_qurbana:
+  - kind: Acts of the Apostles
+    kind_ml: അപ്പൊസ്തലപ്രവൃത്തികൾ
+    ref: Acts 4:32–37
+    ml: അപ്പൊസ്തലപ്രവൃത്തികൾ 4:32–37
+    note: The believers are one in heart and soul; Barnabas sells a field and gives the money.
+    printed: Acts 4:32-37
+  - kind: Pauline Epistle
+    kind_ml: പൗലോസിന്റെ ലേഖനം
+    ref: Ephesians 2:11–22
+    ml: എഫേസ്യർ 2:11–22
+    note: Christ is our peace; he has broken down the wall of hostility.
+    printed: Ephesians 2:11-22
+  - kind: Gospel
+    kind_ml: സുവിശേഷം
+    ref: Mark 3:20–30
+    ml: മർക്കൊസ് 3:20–30
+    note: A house divided cannot stand; Jesus binds the strong man. This is the Gospel of the day.
+    printed: St. Mark 3:20-30
+    main: true
+one_minute:
+  what_happens: Crowds press in so that Jesus cannot even eat. His family comes to take him home, saying he is out of his mind. Scribes say he drives out demons by Beelzebul. Jesus says a divided house cannot stand, and that he has come to tie up the strong man.
+  why_this_sunday: This Sunday’s readings are about where real power lies. The morning Gospel follows on, with Jesus naming his true family.
+  take_with_you: Calling God’s work evil is the one thing that shuts the door on forgiveness, because it refuses the one who forgives.
+readings_thread: Leviticus describes the Day of Atonement, when the people’s sins are carried away. Hosea warns leaders who have led the people astray, and Isaiah says God lives with the humble. Acts shows a community of one heart, and Ephesians a wall broken down.
+key_verse:
+  ref: Mark 3:25
+  ml: '[ML VERSE: Sathyavedapusthakam 1910, Mark 3:25]'
+  ml_translation: Sathyavedapusthakam, 1910
+  en: If a house is divided against itself, that house cannot stand.
+  en_translation: World English Bible
+scenes:
+- verses: Mark 3:20–21
+  title: Out of his mind
+  text: 'Jesus goes home, and the crowd is so great they cannot even eat. When his family hears, they set out to seize him, saying: he is out of his mind.'
+  easy_to_miss: His own family misunderstands him before his enemies do.
+- verses: Mark 3:22
+  title: He has Beelzebul
+  text: 'Scribes who have come down from Jerusalem say: he is possessed by Beelzebul, and he casts out demons by the prince of demons.'
+  easy_to_miss: They do not deny the miracles. They argue about where the power comes from.
+- verses: Mark 3:23–26
+  title: A divided house
+  text: Jesus calls them over and speaks in parables. How can Satan cast out Satan? A kingdom divided against itself cannot stand, nor a house divided against itself.
+  easy_to_miss: This is the first time Mark says Jesus spoke “in parables”.
+- verses: Mark 3:27
+  title: Tying up the strong man
+  text: No one can enter a strong man’s house and plunder it unless he first ties up the strong man.
+  easy_to_miss: Jesus is describing himself as a burglar who breaks into the devil’s house to set the prisoners free.
+- verses: Mark 3:28–30
+  title: The sin that cannot be forgiven
+  text: 'All sins and blasphemies will be forgiven, but whoever blasphemes against the Holy Spirit never has forgiveness. He said this because they said: he has an unclean spirit.'
+  easy_to_miss: Mark explains the warning himself in verse 30. It is about calling the Spirit’s work evil, not about a sin people commit by accident.
+people:
+- name: Jesus’ family
+  ml: '[ML NAME]'
+  role: Relatives who come to take him home, thinking he is out of his mind.
+  name_meaning: —
+- name: The scribes from Jerusalem
+  ml: ശാസ്ത്രിമാർ
+  role: Teachers of the law sent to investigate him.
+  name_meaning: —
+phrases:
+- term: Beelzebul
+  explanation: A name for the prince of demons, possibly meaning “lord of the house”, which fits Jesus’ picture of a house.
+- term: Parable
+  explanation: A short story or comparison that makes the listener think. Mark uses the word for the first time here.
+- term: Blasphemy against the Holy Spirit
+  explanation: Deliberately calling the work of God’s Spirit evil, and so refusing the forgiveness the Spirit brings.
+reflection:
+  title_en: A house that stands
+  title_ml: '[TITLE ML]'
+  read_time: A three-minute read
+  body: |-
+    Jesus is surrounded by misunderstanding. His family thinks he has gone mad. Religious experts say he is in league with the devil. He is so busy healing people that he cannot eat. In the middle of it all, he tells a simple story: a house divided against itself cannot stand.
+
+    He means that Satan is not fighting himself. Something stronger has arrived. Jesus has come to tie up the strong man and set his captives free. Every healing and every demon driven out is a sign that the house of evil is being emptied.
+
+    The saying also applies to our homes. A family divided by grudges, silence or competition struggles to stand. So does a parish. Jesus’ power is not only for driving out demons. It is for healing divisions and bringing people back under one roof. That kind of house can stand.
+  author: '[AUTHOR NAME]'
+  reviewer: '[REVIEWER NAME, PARISH]'
+week:
+  question: Where are we divided at home? What would help us stand together?
+  question_note: Two minutes after the audio. Everyone gets a turn, and nobody is interrupted.
+  small_act: Settle one disagreement at home this week, even a small one, before the day ends.
+  prayer: Lord Jesus, you bound the strong man and set his captives free. Free us from what divides our home and our Church, and make us a house that stands. Amen.
+sources:
+  lectionary: https://mosc.in/lectionary/kyomtho-easter-to-koodosh-edtho/
+reviewed: false

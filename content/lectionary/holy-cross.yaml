@@ -1,0 +1,99 @@
+# Reusable text for The Feast of Holy Cross (September 14). Year-independent; a dated edition in content/sundays/ overrides any field.
+# Readings transcribed from https://mosc.in/lectionary/kyomtho-easter-to-koodosh-edtho/. Everything else is a DRAFT for priest/editor review.
+sunday_slug: holy-cross
+is_sunday: false
+name:
+  en: The Feast of Holy Cross (September 14)
+  ml: '[MALAYALAM NAME]'
+title_as_printed: The Feast of Holy Cross (September 14)
+season:
+  en: '[SEASON]'
+  gloss: '[SEASON GLOSS]'
+  syr: '[SYRIAC]'
+tagline: '[TAGLINE]'
+standfirst: '[STANDFIRST]'
+description: '[DESCRIPTION naming Luke 21:5–28]'
+hero_quote:
+  text: '[HERO QUOTE]'
+  ref: '[REF]'
+readings:
+  evening:
+  - kind: Gospel
+    kind_ml: സുവിശേഷം
+    ref: Matthew 24:1–35
+    ml: മത്തായി 24:1–35
+    note: '[NOTE: what to listen for in Matthew 24:1–35]'
+    printed: St. Matthew 24:1-35
+  morning:
+  - kind: Gospel
+    kind_ml: സുവിശേഷം
+    ref: Mark 13:1–33
+    ml: മർക്കൊസ് 13:1–33
+    note: '[NOTE: what to listen for in Mark 13:1–33]'
+    printed: St. Mark 13:1-33
+  before_qurbana:
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: Numbers 21:4–9
+    ml: സംഖ്യാപുസ്തകം 21:4–9
+    note: '[NOTE: what to listen for in Numbers 21:4–9]'
+    printed: Numbers 21:4-9
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: 1 Samuel 17:37–53
+    ml: 1 ശമൂവേൽ 17:37–53
+    note: '[NOTE: what to listen for in 1 Samuel 17:37–53]'
+    printed: I Samuel 17:37-53
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: Jeremiah 32:36–41
+    ml: യിരെമ്യാവ് 32:36–41
+    note: '[NOTE: what to listen for in Jeremiah 32:36–41]'
+    printed: Jeremiah 32:36-41
+  holy_qurbana:
+  - kind: Acts of the Apostles
+    kind_ml: അപ്പൊസ്തലപ്രവൃത്തികൾ
+    ref: Acts 13:26–39
+    ml: അപ്പൊസ്തലപ്രവൃത്തികൾ 13:26–39
+    note: Paul preaches that God raised Jesus and did not let him see decay.
+    printed: Acts 13:26-39
+  - kind: Pauline Epistle
+    kind_ml: പൗലോസിന്റെ ലേഖനം
+    ref: Galatians 2:17–3:14
+    ml: ഗലാത്യർ 2:17–3:14
+    note: '[NOTE: what to listen for in Galatians 2:17–3:14]'
+    printed: Galatians 2:17-3:14
+  - kind: Gospel
+    kind_ml: സുവിശേഷം
+    ref: Luke 21:5–28
+    ml: ലൂക്കോസ് 21:5–28
+    note: '[NOTE: what to listen for in Luke 21:5–28]'
+    printed: St. Luke 21:5-28
+    main: true
+one_minute:
+  what_happens: '[WHAT HAPPENS]'
+  why_this_sunday: '[WHY THIS SUNDAY]'
+  take_with_you: '[TAKE WITH YOU]'
+readings_thread: '[THREAD THROUGH THE READINGS]'
+key_verse:
+  ref: '[REF]'
+  ml: '[ML VERSE: Sathyavedapusthakam 1910]'
+  en: '[EN VERSE: World English Bible]'
+scenes: []
+people: []
+phrases: []
+reflection:
+  title_en: '[TITLE]'
+  title_ml: '[TITLE ML]'
+  body: '[REFLECTION]'
+  author: '[AUTHOR NAME]'
+  reviewer: '[REVIEWER NAME, PARISH]'
+  read_time: '[READ TIME]'
+week:
+  question: '[QUESTION]'
+  question_note: Two minutes after the audio. Everyone gets a turn, and nobody is interrupted.
+  small_act: '[SMALL ACT]'
+  prayer: '[PRAYER]'
+sources:
+  lectionary: https://mosc.in/lectionary/kyomtho-easter-to-koodosh-edtho/
+reviewed: false

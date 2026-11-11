@@ -1,0 +1,99 @@
+# Reusable text for Third Sunday after Baptism of our Lord. Year-independent; a dated edition in content/sundays/ overrides any field.
+# Readings transcribed from https://mosc.in/lectionary/421-2/. Everything else is a DRAFT for priest/editor review.
+sunday_slug: third-sunday-after-denha
+is_sunday: true
+name:
+  en: Third Sunday after Baptism of our Lord
+  ml: '[MALAYALAM NAME]'
+title_as_printed: Third Sunday after Baptism of our Lord
+season:
+  en: '[SEASON]'
+  gloss: '[SEASON GLOSS]'
+  syr: '[SYRIAC]'
+tagline: '[TAGLINE]'
+standfirst: '[STANDFIRST]'
+description: '[DESCRIPTION naming John 3:1–12]'
+hero_quote:
+  text: '[HERO QUOTE]'
+  ref: '[REF]'
+readings:
+  evening:
+  - kind: Gospel
+    kind_ml: സുവിശേഷം
+    ref: John 3:22–4:3
+    ml: യോഹന്നാൻ 3:22–4:3
+    note: '[NOTE: what to listen for in John 3:22–4:3]'
+    printed: St. John 3:22-4:3
+  morning:
+  - kind: Gospel
+    kind_ml: സുവിശേഷം
+    ref: John 5:30–47
+    ml: യോഹന്നാൻ 5:30–47
+    note: '[NOTE: what to listen for in John 5:30–47]'
+    printed: St. John 5:30-47
+  before_qurbana:
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: 2 Kings 2:19–22
+    ml: 2 രാജാക്കന്മാർ 2:19–22
+    note: '[NOTE: what to listen for in 2 Kings 2:19–22]'
+    printed: II Kings 2:19-22
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: Joel 2:21–32
+    ml: യോവേൽ 2:21–32
+    note: '[NOTE: what to listen for in Joel 2:21–32]'
+    printed: Joel 2:21-32
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: Jeremiah 31:1–12
+    ml: യിരെമ്യാവ് 31:1–12
+    note: '[NOTE: what to listen for in Jeremiah 31:1–12]'
+    printed: Jeremiah 31:1-12
+  holy_qurbana:
+  - kind: Acts of the Apostles
+    kind_ml: അപ്പൊസ്തലപ്രവൃത്തികൾ
+    ref: Acts 17:16–34
+    ml: അപ്പൊസ്തലപ്രവൃത്തികൾ 17:16–34
+    note: '[NOTE: what to listen for in Acts 17:16–34]'
+    printed: Acts 17:16-34
+  - kind: Pauline Epistle
+    kind_ml: പൗലോസിന്റെ ലേഖനം
+    ref: 1 Corinthians 3:16–4:5
+    ml: 1 കൊരിന്ത്യർ 3:16–4:5
+    note: '[NOTE: what to listen for in 1 Corinthians 3:16–4:5]'
+    printed: I Corinthians 3:16-4:5
+  - kind: Gospel
+    kind_ml: സുവിശേഷം
+    ref: John 3:1–12
+    ml: യോഹന്നാൻ 3:1–12
+    note: '[NOTE: what to listen for in John 3:1–12]'
+    printed: St. John 3:1-12
+    main: true
+one_minute:
+  what_happens: '[WHAT HAPPENS]'
+  why_this_sunday: '[WHY THIS SUNDAY]'
+  take_with_you: '[TAKE WITH YOU]'
+readings_thread: '[THREAD THROUGH THE READINGS]'
+key_verse:
+  ref: '[REF]'
+  ml: '[ML VERSE: Sathyavedapusthakam 1910]'
+  en: '[EN VERSE: World English Bible]'
+scenes: []
+people: []
+phrases: []
+reflection:
+  title_en: '[TITLE]'
+  title_ml: '[TITLE ML]'
+  body: '[REFLECTION]'
+  author: '[AUTHOR NAME]'
+  reviewer: '[REVIEWER NAME, PARISH]'
+  read_time: '[READ TIME]'
+week:
+  question: '[QUESTION]'
+  question_note: Two minutes after the audio. Everyone gets a turn, and nobody is interrupted.
+  small_act: '[SMALL ACT]'
+  prayer: '[PRAYER]'
+sources:
+  lectionary: https://mosc.in/lectionary/421-2/
+reviewed: false

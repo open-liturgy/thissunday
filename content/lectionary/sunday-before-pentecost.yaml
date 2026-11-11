@@ -1,0 +1,145 @@
+# Reusable text for Sunday before Pentecost (Sunday of the Monks). Year-independent; a dated edition in content/sundays/ overrides any field.
+# Readings transcribed from https://mosc.in/lectionary/kyomtho-easter-to-koodosh-edtho/. Everything else is a DRAFT for priest/editor review.
+sunday_slug: sunday-before-pentecost
+is_sunday: true
+name:
+  en: Sunday before Pentecost
+  ml: '[MALAYALAM NAME]'
+title_as_printed: Sunday before Pentecost (Sunday of the Monks)
+season:
+  en: Kyomtho
+  gloss: The Resurrection season
+  syr: '[SYRIAC]'
+also_kept_as: Sunday of the Monks
+tagline: Jesus prays for his friends, and for us
+standfirst: On the night before he dies, Jesus prays aloud for his disciples. Then he prays for everyone who will believe through them, which includes every reader of this page.
+description: Readings for the Sunday before Pentecost, with John 17:13–26, Jesus’ prayer for his disciples and for unity, explained. Reflection and question.
+hero_quote:
+  text: Sanctify them in your truth. Your word is truth.
+  ref: John 17:17
+readings:
+  evening:
+  - kind: Gospel
+    kind_ml: സുവിശേഷം
+    ref: Matthew 19:16–30
+    ml: മത്തായി 19:16–30
+    note: The rich young man; many who are first will be last.
+    printed: St. Matthew 19:16-30
+  morning:
+  - kind: Gospel
+    kind_ml: സുവിശേഷം
+    ref: Mark 10:17–22
+    ml: മർക്കൊസ് 10:17–22
+    note: 'Jesus looks at the rich man and loves him: go, sell, give, follow me.'
+    printed: St. Mark 10:17-22
+  before_qurbana:
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: Leviticus 25:1–13
+    ml: ലേവ്യപുസ്തകം 25:1–13
+    note: The Sabbath year and the year of jubilee, when the land rests and all return home.
+    printed: Leviticus 25:1-13
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: Joshua 1:5–9
+    ml: യോശുവ 1:5–9
+    note: Be strong and courageous; the Lord your God is with you wherever you go.
+    printed: Joshua 1:5-9
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: Isaiah 44:23–25
+    ml: യെശയ്യാവ് 44:23–25
+    note: Sing, heavens, for the Lord has redeemed Jacob.
+    printed: Isaiah 44:23-25
+  holy_qurbana:
+  - kind: Acts of the Apostles
+    kind_ml: അപ്പൊസ്തലപ്രവൃത്തികൾ
+    ref: Acts 21:7–9
+    ml: അപ്പൊസ്തലപ്രവൃത്തികൾ 21:7–9
+    note: Paul stays with Philip the evangelist, whose four unmarried daughters prophesied.
+    printed: Acts 21:7-9
+  - kind: Pauline Epistle
+    kind_ml: പൗലോസിന്റെ ലേഖനം
+    ref: 1 Corinthians 7:1–2, 25–34; 9:1–10
+    ml: 1 കൊരിന്ത്യർ 7:1–2, 25–34; 9:1–10
+    note: Paul on marriage and the undivided devotion of the unmarried.
+    printed: I Corinthians 7:1-2, 25-34, 9:1-10
+  - kind: Gospel
+    kind_ml: സുവിശേഷം
+    ref: John 17:13–26
+    ml: യോഹന്നാൻ 17:13–26
+    note: 'Jesus prays for his disciples and for all who will believe: that they may all be one. This is the Gospel of the day.'
+    printed: St. John 17:13-26
+    main: true
+one_minute:
+  what_happens: 'Jesus prays to the Father for his disciples: that they may have his joy, be kept from evil while they remain in the world, and be made holy in the truth. Then he prays for all future believers, that they may be one and see his glory.'
+  why_this_sunday: Between the Ascension and Pentecost the Church waits and prays. It reads Jesus’ own prayer for his Church, and also remembers the monks who give their lives to prayer.
+  take_with_you: 'Before he died, Jesus prayed for you by name in every way that mattered: “those who will believe in me through their word”.'
+readings_thread: Leviticus describes the Sabbath year when the land rests, and Joshua is told to be strong and courageous. Acts mentions Philip’s four daughters who prophesied. Paul writes about giving one’s life undivided to the Lord.
+key_verse:
+  ref: John 17:21
+  ml: '[ML VERSE: Sathyavedapusthakam 1910, John 17:21]'
+  ml_translation: Sathyavedapusthakam, 1910
+  en: that they may all be one; even as you, Father, are in me, and I in you, that they also may be one in us; that the world may believe that you sent me.
+  en_translation: World English Bible
+scenes:
+- verses: John 17:13–14
+  title: That they may have my joy
+  text: Now I am coming to you, Jesus prays, and I say these things so that they may have my joy complete in them. The world has hated them, because they are not of the world.
+  easy_to_miss: Jesus prays for joy on the night of his arrest. Joy is not the same as an easy life.
+- verses: John 17:15–16
+  title: Not out of the world
+  text: I do not ask you to take them out of the world, but to keep them from the evil one. They are not of the world, as I am not.
+  easy_to_miss: Even the monks remembered today are not taken out of the world. They pray for it from inside.
+- verses: John 17:17–19
+  title: Sanctify them
+  text: Make them holy in the truth; your word is truth. As you sent me into the world, I send them. For them I sanctify myself.
+  easy_to_miss: “Sanctify” is the word at the root of Koodosh Eetho, the first Sunday of the year. The year that began with it now returns to it.
+- verses: John 17:20–23
+  title: That they may all be one
+  text: I pray not only for these, but for those who will believe through their word, that they may all be one, as you, Father, are in me and I in you, so the world may believe you sent me.
+  easy_to_miss: Jesus links unity directly with mission. A divided Church makes it harder for the world to believe.
+- verses: John 17:24–26
+  title: Where I am
+  text: Father, I want those you have given me to be with me where I am, to see my glory. I have made your name known, so that the love you have for me may be in them.
+  easy_to_miss: The last thing Jesus asks for in this prayer is that the Father’s love may live in us.
+people:
+- name: Jesus
+  ml: യേശു
+  role: Praying aloud to the Father on the night before he dies.
+  name_meaning: “The Lord saves”
+- name: The disciples
+  ml: ശിഷ്യന്മാർ
+  role: Listening to Jesus pray for them.
+  name_meaning: —
+- name: Philip’s daughters
+  ml: '[ML NAME]'
+  role: Four unmarried daughters of Philip the evangelist who prophesied (Acts 21:9).
+  name_meaning: —
+phrases:
+- term: High Priestly Prayer
+  explanation: A traditional name for John 17, where Jesus intercedes for his people like a priest.
+- term: The world
+  explanation: In John, both the people God loves (John 3:16) and the human order that rejects him.
+- term: Sunday of the Monks
+  explanation: On this Sunday the Church remembers those who have given their lives to prayer in monasteries and dayaras.
+reflection:
+  title_en: Jesus prays for us
+  title_ml: '[TITLE ML]'
+  read_time: A three-minute read
+  body: |-
+    It is moving to overhear someone pray for you. A grandmother at night, a parent at a bedside, a friend in hospital. In John 17 we overhear Jesus praying, and at verse 20 he turns to us: not only for these, but for those who will believe through their word. That is every Christian since.
+
+    What does he ask for? Not that we be taken out of the world, but kept from evil within it. That we be made holy by the truth. That we be one, as he and the Father are one. That we see his glory and know the Father’s love. It is a prayer for a Church that is united, holy and full of love.
+
+    Our Church today is not always that. We know our divisions too well. But this prayer has not stopped. Between Ascension and Pentecost, the Church waits for the Spirit and prays with Jesus. It is a good week to pray for unity in our parish and our family, starting with one relationship that needs mending.
+  author: '[AUTHOR NAME]'
+  reviewer: '[REVIEWER NAME, PARISH]'
+week:
+  question: 'Where do we need unity most right now: in our family, our parish, or our Church?'
+  question_note: Two minutes after the audio. Everyone gets a turn, and nobody is interrupted.
+  small_act: Pray for unity every evening until Pentecost, and take one step to mend a relationship that has cooled.
+  prayer: Holy Father, keep us in your name, as your Son prayed. Make us holy in your truth, make us one as you are one, and let your love live in us, so the world may believe. Amen.
+sources:
+  lectionary: https://mosc.in/lectionary/kyomtho-easter-to-koodosh-edtho/
+reviewed: false

@@ -1,0 +1,136 @@
+# Reusable text for First Sunday after the Feast of Holy Cross. Year-independent; a dated edition in content/sundays/ overrides any field.
+# Readings transcribed from https://mosc.in/lectionary/kyomtho-easter-to-koodosh-edtho/. Everything else is a DRAFT for priest/editor review.
+sunday_slug: first-sunday-after-holy-cross
+is_sunday: true
+name:
+  en: First Sunday after Holy Cross
+  ml: '[MALAYALAM NAME]'
+title_as_printed: First Sunday after the Feast of Holy Cross
+season:
+  en: Sleeba
+  gloss: The season of the Cross
+  syr: '[SYRIAC]'
+tagline: Learn from the fig tree, and stay awake
+standfirst: 'Jesus tells his disciples that no one knows the day or hour of his return, not even the angels. So he gives them one word for everyone: watch.'
+description: Readings for the First Sunday after Holy Cross, with Mark 13:28–37, the fig tree and the call to watch, explained in five scenes. Reflection and question.
+hero_quote:
+  text: 'What I tell you, I tell all: Watch.'
+  ref: Mark 13:37
+readings:
+  evening:
+  - kind: Gospel
+    kind_ml: സുവിശേഷം
+    ref: Luke 17:20–37
+    ml: ലൂക്കോസ് 17:20–37
+    note: The kingdom of God is among you; remember Lot’s wife.
+    printed: St. Luke 17:20-37
+  morning:
+  - kind: Gospel
+    kind_ml: സുവിശേഷം
+    ref: Matthew 24:36–51
+    ml: മത്തായി 24:36–51
+    note: No one knows the day or hour; keep watch, like a faithful servant.
+    printed: St. Matthew 24:36-51
+  before_qurbana:
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: Psalm 34
+    ml: സങ്കീർത്തനങ്ങൾ 34
+    note: Taste and see that the Lord is good.
+    printed: Psalms 34
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: Genesis 42:1–28
+    ml: ഉല്പത്തി 42:1–28
+    note: Joseph’s brothers come to Egypt for grain and bow before him.
+    printed: Genesis 42:1-28
+  - kind: Old Testament
+    kind_ml: പഴയനിയമം
+    ref: Isaiah 1:10–20
+    ml: യെശയ്യാവ് 1:10–20
+    note: Wash yourselves, learn to do good; come, let us reason together.
+    printed: Isaiah 1:10-20
+  holy_qurbana:
+  - kind: Acts of the Apostles
+    kind_ml: അപ്പൊസ്തലപ്രവൃത്തികൾ
+    ref: Acts 3:21–26
+    ml: അപ്പൊസ്തലപ്രവൃത്തികൾ 3:21–26
+    note: Heaven must receive Christ until the time of restoring all things.
+    printed: Acts 3:21-26
+  - kind: Pauline Epistle
+    kind_ml: പൗലോസിന്റെ ലേഖനം
+    ref: 1 Corinthians 2:10–16
+    ml: 1 കൊരിന്ത്യർ 2:10–16
+    note: The Spirit searches all things; we have the mind of Christ.
+    printed: I Corinthians 2:10-16
+  - kind: Gospel
+    kind_ml: സുവിശേഷം
+    ref: Mark 13:28–37
+    ml: മർക്കൊസ് 13:28–37
+    note: Learn from the fig tree; no one knows the hour, so watch. This is the Gospel of the day.
+    printed: St. Mark 13:28-37
+    main: true
+one_minute:
+  what_happens: 'On the Mount of Olives, Jesus tells his disciples to learn from the fig tree: when its leaves appear, summer is near. His words will outlast heaven and earth. Nobody knows the day or hour, so they must stay awake, like servants whose master may return at any time.'
+  why_this_sunday: After the Feast of the Holy Cross on 14 September, the last weeks of the Church year look towards Christ’s return.
+  take_with_you: Jesus does not ask us to guess the date. He asks us to be found awake.
+readings_thread: Joseph’s brothers go down to Egypt for grain, not knowing who they will meet. Isaiah says wash yourselves, learn to do good. Peter says heaven must hold Jesus until all things are restored, and Paul says the Spirit searches the depths of God.
+key_verse:
+  ref: Mark 13:31
+  ml: '[ML VERSE: Sathyavedapusthakam 1910, Mark 13:31]'
+  ml_translation: Sathyavedapusthakam, 1910
+  en: Heaven and earth will pass away, but my words will not pass away.
+  en_translation: World English Bible
+scenes:
+- verses: Mark 13:28–29
+  title: The fig tree
+  text: Learn from the fig tree. When its branch becomes tender and puts out leaves, you know summer is near. So when you see these things, know that he is near, at the door.
+  easy_to_miss: Most trees in Israel stay green all year. The fig loses its leaves, so its new leaves are a clear sign of a new season.
+- verses: Mark 13:30–31
+  title: My words will not pass away
+  text: This generation will not pass away until all these things happen. Heaven and earth will pass away, but my words will not.
+  easy_to_miss: 'Jesus claims for his own words what Isaiah said of God’s word: it stands for ever (Isaiah 40:8).'
+- verses: Mark 13:32
+  title: No one knows
+  text: But about that day or hour no one knows, not the angels in heaven, nor the Son, but only the Father.
+  easy_to_miss: Jesus shares our human limits even here. Anyone who claims to know the date knows more than he chose to.
+- verses: Mark 13:33–34
+  title: The doorkeeper
+  text: Be on guard, stay awake. It is like a man going on a journey who leaves his servants in charge, each with work, and tells the doorkeeper to stay awake.
+  easy_to_miss: Each servant has their own work. Watching does not mean doing nothing; it means doing your job well.
+- verses: Mark 13:35–37
+  title: Watch
+  text: 'Watch, because you do not know when the master is coming: evening, midnight, cockcrow or morning. Do not let him find you asleep. What I say to you, I say to all: watch.'
+  easy_to_miss: 'Evening, midnight, cockcrow, morning: these become the hours of Jesus’ passion in Mark 14–15, when the disciples fall asleep.'
+people:
+- name: Peter, James, John and Andrew
+  ml: '[ML NAME]'
+  role: The four disciples who ask Jesus privately about the end (Mark 13:3).
+  name_meaning: —
+phrases:
+- term: Mount of Olives
+  explanation: A hill east of Jerusalem facing the Temple, where Jesus gave this teaching.
+- term: Doorkeeper
+  explanation: The servant who guards the house door and opens it when the master returns.
+- term: Sleeba
+  explanation: Syriac for “cross”. The Sundays after 14 September are counted from the Feast of the Holy Cross.
+reflection:
+  title_en: Awake at the door
+  title_ml: '[TITLE ML]'
+  read_time: A three-minute read
+  body: |-
+    People have always wanted to know when the world will end. Jesus refuses to tell us. Not even the Son knows, he says, only the Father. Instead of a date, he gives a single instruction for everyone: watch.
+
+    Watching in his picture is not staring at the sky. It is servants getting on with the work they have been given, while the doorkeeper stays alert. The house runs as the master would want, because any moment he might walk through the door.
+
+    The Church year is drawing to a close, and the readings turn to the end of all things. That can sound frightening. Jesus means it to make us faithful. If the master came tonight, would he find us doing what he asked: loving, forgiving, praying, serving? That is what it means to be awake.
+  author: '[AUTHOR NAME]'
+  reviewer: '[REVIEWER NAME, PARISH]'
+week:
+  question: If Jesus came back tonight, what would you want him to find you doing?
+  question_note: Two minutes after the audio. Everyone gets a turn, and nobody is interrupted.
+  small_act: Do one job you have been neglecting, at home or at church, as if the master were coming tomorrow.
+  prayer: Lord Jesus, your words will never pass away. Keep us awake and faithful at our work, so that whenever you come, you find us ready. Amen.
+sources:
+  lectionary: https://mosc.in/lectionary/kyomtho-easter-to-koodosh-edtho/
+reviewed: false
