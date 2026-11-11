@@ -11,6 +11,7 @@ import path from 'node:path';
 import { build as viteBuild, transformWithEsbuild } from 'vite';
 import { loadTradition } from '../src/lib/tradition';
 import { loadSite } from '../src/lib/content';
+import { loadPeople } from '../src/lib/people';
 import { renderRoute, renderShareCard, routes, ogPath, cardPath, type Assets } from '../src/render';
 import { buildFonts, htmlText } from './fonts';
 import { shoot, type Shot } from './og';
@@ -28,6 +29,9 @@ const tradition = await loadTradition();
 const site = loadSite(tradition, ROOT);
 for (const [k, v] of Object.entries(tradition.site)) if (typeof v === 'string' && /\[[A-Z]/.test(v)) site.warnings.push(`traditions/${tradition.id}/config.ts: placeholder ${v} at site.${k}`);
 if (!process.env.SITE_URL && tradition.site.url.includes('.example')) site.warnings.push('SITE_URL is not set; canonical URLs use the placeholder ' + tradition.site.url);
+const people = loadPeople(site, ROOT);
+site.warnings.push(...people.warnings);
+site.errors.push(...people.errors);
 for (const w of site.warnings) console.warn(yellow(`warn  ${w}`));
 if (site.errors.length) {
   for (const e of site.errors) console.error(red(`error ${e}`));

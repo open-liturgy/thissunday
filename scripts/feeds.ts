@@ -4,6 +4,7 @@ import { editionPath } from '../src/lib/content';
 import { gospelOf } from '../src/components/Sunday';
 import { ogPath, pageDescription } from '../src/render';
 import { longDate } from '../src/lib/i18n';
+import { loadPeople } from '../src/lib/people';
 
 const x = (s: string) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 
@@ -26,6 +27,10 @@ export function sitemap(site: Site, lastmod: Record<string, string>): string {
     const alts = Object.keys(p.alternates).length > 1 ? { ...(p.alternates as Record<string, string>), 'x-default': p.alternates.en! } : undefined;
     add(p.path, lastmod[p.edition.date], alts);
   }
+  const people = loadPeople(site);
+  const latest = (dates: string[]) => dates.map((d) => lastmod[d]).filter(Boolean).sort().at(-1);
+  if (people.list.length) add('/people/', latest(people.list.flatMap((c) => c.appearances.map((a) => a.edition.date))));
+  for (const c of people.list) add(c.path, latest(c.appearances.map((a) => a.edition.date)));
   return `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">\n${urls.join('\n')}\n</urlset>\n`;
 }
 

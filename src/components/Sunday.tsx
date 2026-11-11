@@ -17,6 +17,8 @@ export interface SundayProps {
   /** Public path of the portrait share card image. */
   cardImage?: string;
   homeHref: string;
+  /** Character pages for a people entry, if any (see src/lib/people.ts). */
+  personLinks?: (name: string) => { name: string; path: string }[];
 }
 
 const real = (v?: string): v is string => !!v && !isPlaceholder(v);
@@ -25,7 +27,7 @@ export function gospelOf(e: Edition): Reading {
   return Object.values(e.readings).flat().find((r) => r.main)!;
 }
 
-export function Sunday({ page, t, tradition, prev, next, canonical, cardImage, homeHref }: SundayProps) {
+export function Sunday({ page, t, tradition, prev, next, canonical, cardImage, homeHref, personLinks }: SundayProps) {
   const e = page.edition;
   const gospel = gospelOf(e);
   const services = tradition.services.filter((s) => e.readings[s.id]?.length);
@@ -299,16 +301,29 @@ export function Sunday({ page, t, tradition, prev, next, canonical, cardImage, h
               <div className="sub">
                 <h3>{t.peopleH}</h3>
                 <ul className="people">
-                  {e.people.map((p) => (
+                  {e.people.map((p) => {
+                    const links = personLinks?.(p.name) ?? [];
+                    return (
                     <li key={p.name} className="card person">
                       <p className="nm">
-                        <b>{p.name}</b>
+                        <b>{links.length === 1 ? <a href={links[0].path}>{p.name}</a> : p.name}</b>
                         {p.ml && <span lang="ml">{p.ml}</span>}
                       </p>
                       <p className="role">{p.role}</p>
+                      {links.length > 1 && (
+                        <p className="links">
+                          {links.map((l, i) => (
+                            <span key={l.path}>
+                              {i > 0 && ' · '}
+                              <a href={l.path}>{l.name}</a>
+                            </span>
+                          ))}
+                        </p>
+                      )}
                       <p className="mean">{`“${p.name_meaning}”`}</p>
                     </li>
-                  ))}
+                    );
+                  })}
                 </ul>
               </div>
             )}

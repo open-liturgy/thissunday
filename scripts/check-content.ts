@@ -1,9 +1,13 @@
 /** `npm run check`: validate every edition and list placeholders, without building. */
 import { loadTradition } from '../src/lib/tradition';
 import { loadSite } from '../src/lib/content';
+import { loadPeople } from '../src/lib/people';
 import { hasSundayArt } from '../src/components/SundayArt';
 
 const site = loadSite(await loadTradition());
+const people = loadPeople(site);
+site.warnings.push(...people.warnings);
+site.errors.push(...people.errors);
 for (const w of site.warnings) console.warn(`warn  ${w}`);
 for (const e of site.errors) console.error(`error ${e}`);
 
