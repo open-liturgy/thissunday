@@ -40,7 +40,7 @@ Objects merge key by key and the edition wins. Lists (readings, scenes, peopleâ€
 | `readings_thread` | text, optional | "The thread through all twelve". |
 | `key_verse.ref`, `.ml`, `.en` | text | "The verse to keep" and the share card. |
 | `scenes[]` | 1â€“8 items | `verses`, `title`, `text`, `easy_to_miss`. |
-| `people[]` | list | `name`, `ml`, `role`, `name_meaning`. |
+| `people[]` | list | `name`, `ml`, `role`, `name_meaning`. A name listed in `content/people.yaml` links to that character's page. |
 | `phrases[]` | list | `term`, `explanation`. |
 | `reflection.title_en`, `.title_ml`, `.read_time`, `.body`, `.author`, `.reviewer` | | `body` is a list of paragraphs or one string with blank lines between paragraphs. |
 | `week.question`, `.question_note`, `.small_act`, `.prayer` | text | Section 05. |
@@ -53,3 +53,9 @@ Objects merge key by key and the edition wins. Lists (readings, scenes, peopleâ€
 ## Publishing
 
 Editions are published up to and including the upcoming Sunday (in the tradition's time zone). Future editions can sit in the folder; they appear when their week comes. `BUILD_DATE=YYYY-MM-DD` overrides "today" for testing.
+
+## Character pages
+
+`content/people.yaml` lists the characters who get a page at `/people/{slug}/`, plus the index at `/people/`. Each entry has `slug`, `name`, optional `ml`, optional `kind` (`person`, `angel` or `group`) and `match`: the `people[].name` values that refer to this character. Write `"Peter"` to match that name on every Sunday, or `"koodhosh-eetho: Simon bar Jonah"` to match it on one Sunday only (use this when a name like John means different people). One entry such as `"Peter and Andrew"` can match several characters.
+
+A character page shows only what the editions already say: the `role` written for each Sunday, and the distinct `name_meaning` values given under the character's own name. It lists published Sundays only, so pages appear as their first Sunday comes round. The build warns when a `match` hits no edition. Names not listed stay plain text.

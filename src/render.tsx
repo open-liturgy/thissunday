@@ -8,6 +8,8 @@ import type { Lang } from './lib/tradition';
 import { longDate, strings } from './lib/i18n';
 import { Sunday, gospelOf } from './components/Sunday';
 import { Archive, NotFound, ShareCard, shareCardCss } from './components/Pages';
+import { PeopleIndex, PersonPage, peopleText } from './components/People';
+import { loadPeople, type Character } from './lib/people';
 
 export interface Assets {
   /** Minified site CSS, inlined. */
@@ -23,6 +25,8 @@ export interface Assets {
 export type Route =
   | { kind: 'sunday'; path: string; page: Page; isHome?: boolean }
   | { kind: 'archive'; path: string }
+  | { kind: 'people'; path: string }
+  | { kind: 'person'; path: string; character: Character }
   | { kind: 'notfound'; path: string };
 
 export function routes(site: Site): Route[] {
@@ -31,6 +35,11 @@ export function routes(site: Site): Route[] {
   if (home) out.push({ kind: 'sunday', path: '/', page: home, isHome: true });
   for (const p of site.pages) out.push({ kind: 'sunday', path: p.path, page: p });
   out.push({ kind: 'archive', path: '/archive/' });
+  const people = loadPeople(site);
+  if (people.list.length) {
+    out.push({ kind: 'people', path: '/people/' });
+    for (const c of people.list) out.push({ kind: 'person', path: c.path, character: c });
+  }
   out.push({ kind: 'notfound', path: '/404.html' });
   return out;
 }
@@ -72,6 +81,8 @@ function jsonLd(site: Site, page: Page, canonical: string): Graph {
   const reviewer = e.reviewed && r.reviewer && !isPlaceholder(r.reviewer) ? r.reviewer : undefined;
   const published = e.prepared ?? e.date;
   const audio = e.audio && !isPlaceholder(e.audio.src) ? e.audio : undefined;
+  const people = loadPeople(site);
+  const mentions = [...new Map(e.people.flatMap((p) => people.linksFor(e, p.name)).map((c) => [c.slug, c])).values()];
   const article: Thing = {
     '@type': 'Article',
     '@id': `${canonical}#article`,
@@ -86,6 +97,7 @@ function jsonLd(site: Site, page: Page, canonical: string): Graph {
     mainEntityOfPage: { '@id': canonical },
     about: { '@type': 'Thing', name: `${gospelOf(e).ref}` },
     articleSection: e.season.en,
+    ...(mentions.length ? { mentions: mentions.map((c) => ({ '@id': `${base}${c.path}#about` })) } : {}),
     ...(audio
       ? {
           audio: {
@@ -249,6 +261,7 @@ export function renderRoute(site: Site, route: Route, assets: Assets): string {
           canonical={canonical}
           cardImage={cardPath(e)}
           homeHref="/"
+          personLinks={(name) => loadPeople(site).linksFor(e, name)}
         />
       ),
     });
@@ -264,6 +277,78 @@ export function renderRoute(site: Site, route: Route, assets: Assets): string {
       assets: { ...assets, script: undefined },
       colours: coloursFor(site),
       body: <Archive site={site} t={t} colours={(e) => coloursFor(site, e)} />,
+    });
+  }
+  if (route.kind === 'people' || route.kind === 'person') {
+    const t = strings.en;
+    const people = loadPeople(site);
+    const canonical = base + route.path;
+    const crumbs = [
+      { name: tradition.site.name, item: `${base}/` },
+      { name: peopleText.index, item: `${base}/people/` },
+    ];
+    const ld = (extra: Thing[], name: string, page: Record<string, unknown> = {}) =>
+      `<script type="application/ld+json">${JSON.stringify({
+        '@context': 'https://schema.org',
+        '@graph': [
+          { '@type': 'WebPage', '@id': canonical, url: canonical, name, inLanguage: 'en', isPartOf: { '@id': `${base}/#website` }, breadcrumb: { '@id': `${canonical}#breadcrumb` }, ...page },
+          ...extra,
+        ],
+      }).replace(/</g, '\\u003c')}</script>`;
+    const og = site.upcoming ? `<meta property="og:image" content="${base}${ogPath(site.upcoming)}">` : '';
+    if (route.kind === 'people') {
+      const title = `${peopleText.indexTitle} | This Sunday`;
+      const description = `Who is who in the Sunday readings of the Malankara Orthodox Church: ${people.list.length} people and groups, with every Sunday they appear in.`;
+      const breadcrumb = { '@type': 'BreadcrumbList', '@id': `${canonical}#breadcrumb`, itemListElement: crumbs.map((c, i) => ({ '@type': 'ListItem', position: i + 1, ...c })) };
+      const list = { '@type': 'ItemList', itemListElement: people.list.map((c, i) => ({ '@type': 'ListItem', position: i + 1, name: c.name, url: base + c.path })) };
+      return doc({
+        lang: 'en',
+        title,
+        description,
+        canonical,
+        head: [`<meta property="og:title" content="${esc(peopleText.indexTitle)}">`, `<meta property="og:url" content="${canonical}">`, `<meta property="og:description" content="${esc(description)}">`, og, ld([breadcrumb as Thing, list as Thing], peopleText.indexTitle)],
+        assets: { ...assets, script: undefined },
+        colours: coloursFor(site),
+        body: <PeopleIndex site={site} people={people} t={t} />,
+      });
+    }
+    const c = route.character;
+    const n = c.appearances.length;
+    const sundays = c.appearances.map((a) => a.edition.name.en);
+    const title = `${c.name} in the Sunday readings | This Sunday`;
+    const description = (
+      n === 1
+        ? `${c.name} in the Malankara Orthodox Sunday readings: the ${sundays[0]}, ${gospelOf(c.appearances[0].edition).ref}. What the Gospel says and what the name means.`
+        : `${c.name} in the Malankara Orthodox Sunday readings: ${n} Sundays, including the ${sundays[0]} and the ${sundays.at(-1)}.`
+    ).slice(0, 155);
+    const breadcrumb = {
+      '@type': 'BreadcrumbList',
+      '@id': `${canonical}#breadcrumb`,
+      itemListElement: [...crumbs, { name: c.name, item: canonical }].map((x, i) => ({ '@type': 'ListItem', position: i + 1, ...x })),
+    };
+    const about = {
+      '@type': c.kind === 'person' ? 'Person' : 'Thing',
+      '@id': `${canonical}#about`,
+      name: c.name,
+      ...(c.ml ? { alternateName: c.ml } : {}),
+      subjectOf: c.appearances.map((a) => ({ '@id': `${base}${a.path}#article` })),
+    };
+    return doc({
+      lang: 'en',
+      title,
+      description,
+      canonical,
+      head: [
+        `<meta property="og:type" content="profile">`,
+        `<meta property="og:title" content="${esc(`${c.name} in the Sunday readings`)}">`,
+        `<meta property="og:description" content="${esc(description)}">`,
+        `<meta property="og:url" content="${canonical}">`,
+        og,
+        ld([breadcrumb as Thing, about as Thing], title, { about: { '@id': `${canonical}#about` } }),
+      ],
+      assets: { ...assets, script: undefined },
+      colours: coloursFor(site),
+      body: <PersonPage site={site} people={people} c={c} t={t} />,
     });
   }
   return doc({

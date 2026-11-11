@@ -68,7 +68,7 @@ export function Footer({ t, tradition, prepared, reviewer }: { t: Strings; tradi
         </p>
         <p>{s.about}</p>
         <p>
-          <a href="/archive/">{t.archive}</a> · <a href="/rss.xml">RSS</a>
+          <a href="/archive/">{t.archive}</a> · <a href="/people/">People</a> · <a href="/rss.xml">RSS</a>
         </p>
       </div>
       <div>

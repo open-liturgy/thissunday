@@ -1,0 +1,206 @@
+# Character pages: /people/{slug}/
+#
+# Each entry is one person (or group) with its own page. `match` lists the
+# `people[].name` values in the lectionary files that refer to them:
+#   - "Peter"                    any Sunday whose people list has that exact name
+#   - "koodhosh-eetho: Simon bar Jonah"   only on that sunday_slug
+# One people entry can match several characters (e.g. "Peter and Andrew").
+# Names not matched here stay plain text on the Sunday page; add them here to
+# give them a page.
+#
+# Only facts already in the editions are shown on a character page (the role
+# written for each Sunday, and the name meanings), so nothing here needs its
+# own review beyond the identifications below. `ml` is copied from the
+# editions; leave it out rather than guess.
+#
+# kind: person (default), angel or group.
+
+# The Lord and the Holy Family
+- slug: jesus
+  name: Jesus
+  ml: യേശു
+  match: [Jesus, Jesus of Nazareth]
+- slug: mary
+  name: Mary, Mother of God
+  ml: ദൈവമാതാവായ മറിയം
+  match: [Mary, "Mary, Mother of God"]
+- slug: joseph
+  name: Joseph
+  ml: യോസേഫ്
+  match: [Joseph]
+
+# Around the birth of Christ
+- slug: zechariah
+  name: Zechariah
+  ml: സെഖര്യാവ്
+  match: [Zechariah]
+- slug: elizabeth
+  name: Elizabeth
+  ml: എലീശബെത്ത്
+  match: [Elizabeth]
+- slug: john-the-baptist
+  name: John the Baptist
+  ml: യോഹന്നാൻ
+  match:
+    - "annunciation-to-zechariah: John"
+    - "birth-of-john-the-baptist: John"
+    - "visitation-to-elizabeth: John"
+- slug: gabriel
+  name: Gabriel
+  ml: ഗബ്രിയേൽ
+  kind: angel
+  match: [Gabriel]
+- slug: herod-the-great
+  name: Herod the Great
+  ml: ഹെരോദാവ്
+  match: [Herod the Great]
+- slug: archelaus
+  name: Archelaus
+  ml: അർക്കെലയൊസ്
+  match: [Archelaus]
+
+# The apostles and disciples
+- slug: peter
+  name: Peter
+  ml: പത്രൊസ്
+  match: [Peter, Simon Peter, Simon bar Jonah, Peter and Andrew, "Peter, James, John and Andrew"]
+- slug: andrew
+  name: Andrew
+  match: [Peter and Andrew, "Peter, James, John and Andrew"]
+- slug: james-son-of-zebedee
+  name: James, son of Zebedee
+  match: [James and John, "Peter, James, John and Andrew"]
+- slug: john-son-of-zebedee
+  name: John, son of Zebedee
+  match: [James and John, "Peter, James, John and Andrew"]
+- slug: beloved-disciple
+  name: The disciple whom Jesus loved
+  ml: യേശു സ്നേഹിച്ച ശിഷ്യൻ
+  match: [The disciple whom Jesus loved, The beloved disciple]
+- slug: zebedee
+  name: Zebedee
+  ml: സെബെദി
+  match: [Zebedee]
+- slug: philip
+  name: Philip
+  ml: ഫിലിപ്പൊസ്
+  match: ["second-sunday-after-denha: Philip"]
+- slug: nathanael
+  name: Nathanael
+  ml: നഥനയേൽ
+  match: [Nathanael]
+- slug: thomas
+  name: Thomas
+  ml: തോമാ
+  match: [Thomas]
+- slug: mary-magdalene
+  name: Mary Magdalene
+  ml: മഗ്ദലക്കാരത്തി മറിയ
+  match: [Mary Magdalene]
+- slug: cleopas
+  name: Cleopas
+  ml: ക്ലെയൊപ്പാവ്
+  match: [Cleopas]
+- slug: lazarus
+  name: Lazarus
+  ml: ലാസർ
+  match: [Lazarus]
+
+# People Jesus meets
+- slug: canaanite-woman
+  name: The Canaanite woman
+  ml: കനാന്യസ്ത്രീ
+  match: [The Canaanite woman]
+- slug: man-born-blind
+  name: The man born blind
+  match: [The man born blind]
+- slug: bent-woman
+  name: The bent woman
+  match: [The bent woman]
+- slug: leper
+  name: The leper
+  match: ["lepers-sunday: The leper"]
+- slug: paralysed-man
+  name: The paralysed man
+  match: [The paralysed man]
+- slug: rich-ruler
+  name: The rich ruler
+  match: [The rich ruler]
+- slug: mute-man
+  name: The mute man
+  match: [The mute man]
+
+# The Old Testament
+- slug: adam
+  name: Adam
+  ml: ആദാം
+  match: [Adam]
+- slug: abraham
+  name: Abraham
+  ml: അബ്രാഹാം
+  match: [Abraham]
+- slug: jacob
+  name: Jacob
+  ml: യാക്കോബ്
+  match: ["all-departed-faithful: Jacob"]
+- slug: moses
+  name: Moses
+  ml: മോശെ
+  match: [Moses]
+- slug: aaron
+  name: Aaron
+  ml: അഹരോൻ
+  match: [Aaron]
+- slug: david
+  name: David
+  ml: ദാവീദ്
+  match: [David]
+- slug: solomon
+  name: Solomon
+  ml: ശലോമോൻ
+  match: [Solomon]
+- slug: abiathar
+  name: Abiathar
+  ml: അബ്യാഥാർ
+  match: [Abiathar]
+- slug: naaman
+  name: Naaman
+  ml: നയമാൻ
+  match: [Naaman]
+
+# Groups
+- slug: the-twelve
+  name: The twelve apostles
+  ml: പന്ത്രണ്ട് അപ്പൊസ്തലന്മാർ
+  kind: group
+  match: [The twelve, The twelve apostles, The apostles, The eleven]
+- slug: disciples
+  name: The disciples
+  ml: ശിഷ്യന്മാർ
+  kind: group
+  match: [The disciples]
+- slug: the-seventy
+  name: The seventy
+  ml: എഴുപതു പേർ
+  kind: group
+  match: [The seventy]
+- slug: wise-men
+  name: The wise men
+  ml: വിദ്വാന്മാർ
+  kind: group
+  match: [The wise men]
+- slug: pharisees
+  name: The Pharisees
+  ml: പരീശന്മാർ
+  kind: group
+  match: [The Pharisees, The scribes and Pharisees]
+- slug: scribes
+  name: The scribes
+  ml: ശാസ്ത്രിമാർ
+  kind: group
+  match: [The scribes, The scribes from Jerusalem, The scribes and Pharisees]
+- slug: sadducees
+  name: The Sadducees
+  ml: സദൂക്യർ
+  kind: group
+  match: [The Sadducees]
