@@ -156,7 +156,7 @@ const b=q('.btn-glow');b.hidden=!a;if(a){b.href=d===now?'/':a.getAttribute('href
 let sel;for(const x of T){const on=x.dataset.d===d;x.tabIndex=on?0:-1;if(on){x.setAttribute('aria-current','true');sel=x}else x.removeAttribute('aria-current')}
 if(sel)r.scrollTo({left:sel.offsetLeft-r.clientWidth/2+sel.offsetWidth/2,behavior:first?'auto':'smooth'});
 if(!first){f.classList.remove('arc-swap');void f.offsetWidth;f.classList.add('arc-swap')}}
-r.addEventListener('click',e=>{const a=e.target.closest('a');if(!a)return;e.preventDefault();show(a.dataset.d);history.replaceState(null,'','#sun-'+a.dataset.d)});
+r.addEventListener('click',e=>{const a=e.target.closest('a');if(!a)return;e.preventDefault();show(a.dataset.d);history.replaceState(null,'','#sun-'+a.dataset.d);if(f.getBoundingClientRect().bottom>innerHeight-80)f.scrollIntoView({block:'start'})});
 r.addEventListener('keydown',e=>{const i=T.indexOf(document.activeElement);if(i<0)return;const j={ArrowLeft:i-1,ArrowRight:i+1,Home:0,End:T.length-1}[e.key];if(j==null||j<0||j>=T.length)return;e.preventDefault();T[j].focus();show(T[j].dataset.d);history.replaceState(null,'','#sun-'+T[j].dataset.d)});
 const h=location.hash.match(/^#sun-(\\d{4}-\\d{2}-\\d{2})$/);show(h?h[1]:now,true)})()`;
 

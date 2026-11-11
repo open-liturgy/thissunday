@@ -564,3 +564,28 @@ html[lang='ml'] .hero h1 { font-size: clamp(30px, 5.2vw, 76px); line-height: 1.1
   .topnav:not(:has(a[href^='#'])) { display: flex; gap: 0 18px; font-size: 15px; }
   .mini { left: 10px; right: 10px; bottom: calc(10px + env(safe-area-inset-bottom, 0px)); }
 }
+
+/* ---------- All Sundays on phones ---------- */
+/* The whole year fits the screen width: no sideways scrolling, no arches hidden past the edge. */
+@media (max-width: 720px) {
+  .arc-hero { padding-bottom: 32px; }
+  .arc-intro { gap: 10px; margin-top: 20px; }
+  .arc-intro h1 { font-size: clamp(38px, 11vw, 52px); }
+  .arc-intro > p:last-child { font-size: 16px; line-height: 1.5; }
+  .arc-ribbon { gap: 3px; margin: 22px 0 0; padding: 8px 0 0; overflow: visible; -webkit-mask-image: none; mask-image: none; }
+  .arc-seg { flex-basis: 0; flex-shrink: 1; min-width: 0; padding-bottom: 5px; }
+  .arc-seg a { flex: 1 1 0; min-width: 0; height: 36px; padding: 0 0.5px; border-radius: 2px; }
+  .arc-seg i { height: 14px; border-radius: 99px 99px 0 0; }
+  .arc-seg a:hover i { height: 14px; }
+  .arc-seg a.is-now i { height: 22px; }
+  .arc-seg a[aria-current] i { height: 30px; background: #fff; box-shadow: none; }
+  /* Season links wrap into a few compact rows instead of running off the edge. */
+  .arc-seasons ol { flex-wrap: wrap; gap: 6px; margin: 14px 0 0; padding: 0; overflow: visible; }
+  .arc-seasons a { gap: 6px; min-height: 34px; padding: 0 11px 0 9px; font-size: 13px; }
+  .arc-seasons .sw { width: 12px; height: 12px; box-shadow: inset 0 0 0 3.5px var(--glow); }
+  .arc-seasons .ct { display: none; }
+  .arc-feature { margin-top: 16px; scroll-margin-top: 12px; }
+  .arc-feature-text { padding-bottom: 20px; }
+  .arc-feature h2 { font-size: 34px; }
+  .arc-arch.big { width: 112px; }
+}
