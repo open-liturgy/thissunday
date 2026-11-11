@@ -114,7 +114,14 @@ function SundayCard({ e, href, state, colours }: { e: Edition; href?: string; st
     </>
   );
   return (
-    <li className={`arc-card is-${state}`} style={themeStyle(colours)}>
+    <li
+      id={`sun-${e.date}`}
+      className={`arc-card is-${state}`}
+      style={themeStyle(colours)}
+      data-full={fullDate(e.date)}
+      data-meta={metaLine(e)}
+      data-art={`#art-${artKey(e)}`}
+    >
       {href ? (
         <a href={href} aria-current={state === 'now' ? 'date' : undefined}>
           {inner}
@@ -127,6 +134,30 @@ function SundayCard({ e, href, state, colours }: { e: Edition; href?: string; st
 }
 
 type Colours = { ground: string; glow: string };
+
+const metaLine = (e: Edition) => `${e.season.en} · Week ${e.week_of_year} · Gospel: ${gospelOf(e).ref}`;
+
+/**
+ * Picking an arch in the ribbon shows that Sunday in the feature card. Without
+ * JavaScript each arch is a link to the Sunday's card further down the page.
+ * Inline because it is this page's only script (about 1 KB).
+ */
+const pickerScript = `(()=>{const f=document.getElementById('arc-feature'),r=document.querySelector('.arc-ribbon');if(!f||!r)return;
+const T=[...r.querySelectorAll('a')],q=s=>f.querySelector(s),now=f.dataset.now;
+function show(d,first){const li=document.getElementById('sun-'+d);if(!li)return;const a=li.querySelector('a');
+f.style.cssText=li.style.cssText;q('use').setAttribute('href',li.dataset.art);
+q('[data-k]').textContent=d===now?'This Sunday':d<now?'Earlier Sunday':'Coming Sunday';
+const t=q('time');t.dateTime=d;t.textContent=li.dataset.full;
+q('h2').textContent=li.querySelector('.arc-name').textContent;
+for(const k of['ml','tag']){const s=li.querySelector('.arc-'+k),p=q('.arc-'+k);p.hidden=!s;if(s)p.textContent=s.textContent}
+q('.arc-meta').textContent=li.dataset.meta;
+const b=q('.btn-glow');b.hidden=!a;if(a){b.href=d===now?'/':a.getAttribute('href');b.textContent=d===now?'Go to this Sunday':'Open this Sunday'}
+let sel;for(const x of T){const on=x.dataset.d===d;x.tabIndex=on?0:-1;if(on){x.setAttribute('aria-current','true');sel=x}else x.removeAttribute('aria-current')}
+if(sel)r.scrollTo({left:sel.offsetLeft-r.clientWidth/2+sel.offsetWidth/2,behavior:first?'auto':'smooth'});
+if(!first){f.classList.remove('arc-swap');void f.offsetWidth;f.classList.add('arc-swap')}}
+r.addEventListener('click',e=>{const a=e.target.closest('a');if(!a)return;e.preventDefault();show(a.dataset.d);history.replaceState(null,'','#sun-'+a.dataset.d)});
+r.addEventListener('keydown',e=>{const i=T.indexOf(document.activeElement);if(i<0)return;const j={ArrowLeft:i-1,ArrowRight:i+1,Home:0,End:T.length-1}[e.key];if(j==null||j<0||j>=T.length)return;e.preventDefault();T[j].focus();show(T[j].dataset.d);history.replaceState(null,'','#sun-'+T[j].dataset.d)});
+const h=location.hash.match(/^#sun-(\\d{4}-\\d{2}-\\d{2})$/);show(h?h[1]:now,true)})()`;
 
 export function Archive({ site, t, colours }: { site: Site; t: Strings; colours: (e: Edition) => Colours }) {
   const published = new Set(site.published.map((e) => e.date));
@@ -151,15 +182,24 @@ export function Archive({ site, t, colours }: { site: Site; t: Strings; colours:
           <h1>{t.archiveH}</h1>
           <p>{`${total} Sundays, from ${first ? longDate(first.date) : ''} to ${last ? longDate(last.date) : ''}, season by season. ${t.archiveIntro}`}</p>
         </div>
-        <div className="arc-ribbon" aria-hidden="true">
+        <nav className="arc-ribbon" aria-label="Pick a Sunday">
           {runs.map((r) => (
             <span key={r.id} className="arc-seg" style={{ ...themeStyle(r.colours), flexGrow: r.eds.length }}>
               {r.eds.map((e) => (
-                <i key={e.date} className={`is-${state(e)}`} />
+                <a
+                  key={e.date}
+                  href={`#sun-${e.date}`}
+                  className={`is-${state(e)}`}
+                  data-d={e.date}
+                  title={`${dayMonth(e.date)}: ${e.name.en}`}
+                  aria-label={`${dayMonth(e.date)}: ${e.name.en}`}
+                >
+                  <i />
+                </a>
               ))}
             </span>
           ))}
-        </div>
+        </nav>
         <nav className="arc-seasons" aria-label="Seasons">
           <ol>
             {runs.map((r) => (
@@ -177,17 +217,17 @@ export function Archive({ site, t, colours }: { site: Site; t: Strings; colours:
       <main className="paper arc-main" id="main">
         <div className="wrap">
           {up && (
-            <section className="arc-feature" aria-labelledby="arc-now-h" style={themeStyle(colours(up))}>
+            <section id="arc-feature" className="arc-feature" aria-labelledby="arc-now-h" style={themeStyle(colours(up))} data-now={up.date}>
               <ArchWindow e={up} big />
               <div className="arc-feature-text">
                 <p className="arc-kicker">
-                  <span>This Sunday</span>
+                  <span data-k="">This Sunday</span>
                   <time dateTime={up.date}>{fullDate(up.date)}</time>
                 </p>
-                <h2 id="arc-now-h">{up.name.en}</h2>
-                {upMl && <p className="arc-ml" lang="ml">{upMl}</p>}
-                {upTag && <p className="arc-tag">{upTag}</p>}
-                <p className="arc-meta">{`${up.season.en} · Week ${up.week_of_year} · Gospel: ${gospelOf(up).ref}`}</p>
+                <h2 id="arc-now-h" aria-live="polite">{up.name.en}</h2>
+                <p className="arc-ml" lang="ml" hidden={!upMl}>{upMl}</p>
+                <p className="arc-tag" hidden={!upTag}>{upTag}</p>
+                <p className="arc-meta">{metaLine(up)}</p>
                 <p>
                   <a className="pill-btn btn-glow" href="/">{t.goToThisSunday}</a>
                 </p>
@@ -218,6 +258,7 @@ export function Archive({ site, t, colours }: { site: Site; t: Strings; colours:
         </div>
       </main>
       <Footer t={t} tradition={site.tradition} />
+      {up && <script dangerouslySetInnerHTML={{ __html: pickerScript }} />}
     </>
   );
 }

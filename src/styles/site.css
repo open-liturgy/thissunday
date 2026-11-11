@@ -315,11 +315,20 @@ a.other:hover .nm { color: var(--red); }
 .arc-intro { display: flex; flex-direction: column; gap: 14px; margin-top: clamp(32px, 5vw, 64px); }
 .arc-intro h1 { margin: 0; font-size: clamp(44px, 7vw, 96px); line-height: 0.96; font-weight: 750; font-stretch: 84%; letter-spacing: -0.02em; text-wrap: balance; }
 .arc-intro > p:last-child { margin: 0; max-width: 620px; font-size: clamp(17px, 1.5vw, 20px); line-height: 1.55; color: var(--on-dark); text-wrap: pretty; }
-.arc-ribbon { display: flex; gap: 6px; margin-top: clamp(36px, 5vw, 56px); }
-.arc-seg { flex: 1 1 0; min-width: 0; display: flex; align-items: flex-end; gap: 2px; padding: 0 0 8px; border-bottom: 3px solid var(--glow); }
-.arc-seg i { flex: 1 1 0; height: 22px; border-radius: 99px 99px 1px 1px; background: var(--glow); opacity: 0.85; }
-.arc-seg i.is-soon { background: #fff; opacity: 0.22; }
-.arc-seg i.is-now { height: 38px; opacity: 1; box-shadow: 0 0 0 2px var(--ground), 0 0 0 4px var(--glow); }
+.arc-ribbon { position: relative; display: flex; gap: 6px; margin-top: clamp(28px, 4vw, 44px); padding-top: 6px; overflow-x: auto; scrollbar-width: none; overscroll-behavior-x: contain; }
+.arc-ribbon::-webkit-scrollbar { display: none; }
+.arc-seg { flex: 1 0 auto; display: flex; align-items: flex-end; padding: 0 0 8px; border-bottom: 3px solid var(--glow); }
+.arc-seg a { flex: 1 0 20px; display: flex; align-items: flex-end; justify-content: center; height: 52px; padding: 0 1px; border-radius: 6px; }
+.arc-seg a:focus-visible { outline-offset: 0; }
+.arc-seg i { flex: 1 1 auto; height: 22px; border-radius: 99px 99px 1px 1px; background: var(--glow); opacity: 0.85; }
+@media (prefers-reduced-motion: no-preference) { .arc-seg i { transition: height 0.18s ease, opacity 0.18s ease; } }
+.arc-seg a.is-soon i { background: #fff; opacity: 0.22; }
+.arc-seg a:hover i { height: 30px; opacity: 1; }
+.arc-seg a.is-now i { height: 34px; opacity: 1; }
+.arc-seg a[aria-current] i { height: 44px; opacity: 1; background: var(--glow); box-shadow: 0 0 0 2px var(--ground), 0 0 0 4px #fff; }
+.arc-feature [hidden] { display: none !important; }
+@keyframes arc-in { from { opacity: 0.35; transform: translateY(6px); } to { opacity: 1; transform: none; } }
+@media (prefers-reduced-motion: no-preference) { .arc-swap .arc-feature-text, .arc-swap .arc-arch.big { animation: arc-in 0.32s ease both; } .arc-feature { transition: background-color 0.3s ease; } }
 .arc-seasons ol { display: flex; flex-wrap: wrap; gap: 8px 10px; margin-top: 20px; }
 .arc-seasons a { display: inline-flex; align-items: center; gap: 10px; min-height: 44px; padding: 0 8px 0 10px; border: 1px solid rgba(255, 255, 255, 0.28); border-radius: 999px; color: #fff; font-size: 15px; font-weight: 600; text-decoration: none; }
 .arc-seasons a:hover { color: #fff; border-color: #fff; }
@@ -378,10 +387,12 @@ a.other:hover .nm { color: var(--red); }
 }
 
 @media (max-width: 720px) {
-  .arc-ribbon { gap: 3px; margin-top: 28px; }
-  .arc-seg { gap: 1px; padding-bottom: 6px; border-bottom-width: 2px; }
-  .arc-seg i { height: 14px; }
-  .arc-seg i.is-now { height: 24px; box-shadow: 0 0 0 1px var(--ground), 0 0 0 3px var(--glow); }
+  .arc-ribbon { gap: 4px; margin: 24px calc(-1 * var(--gutter)) 0; padding: 6px var(--gutter) 0; scroll-padding: 0 var(--gutter); -webkit-mask-image: linear-gradient(90deg, transparent, #000 var(--gutter), #000 calc(100% - var(--gutter)), transparent); mask-image: linear-gradient(90deg, transparent, #000 var(--gutter), #000 calc(100% - var(--gutter)), transparent); }
+  .arc-seg { padding-bottom: 6px; border-bottom-width: 2px; }
+  .arc-seg a { flex-basis: 24px; height: 46px; }
+  .arc-seg i { height: 18px; }
+  .arc-seg a.is-now i { height: 28px; }
+  .arc-seg a[aria-current] i { height: 38px; }
   .arc-seasons ol { flex-wrap: nowrap; overflow-x: auto; margin: 16px calc(-1 * var(--gutter)) 0; padding: 0 var(--gutter) 4px; scrollbar-width: none; }
   .arc-seasons a { white-space: nowrap; }
   .arc-feature { top: 0; margin: 20px 0 0; padding: 24px 20px 0; flex-direction: column; align-items: stretch; gap: 0; border-radius: 22px; }
