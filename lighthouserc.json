@@ -20,50 +20,71 @@
       }
     },
     "assert": {
-      "assertions": {
-        "categories:seo": [
-          "error",
-          {
-            "minScore": 1
+      "assertMatrix": [
+        {
+          "matchingUrlPattern": ".*",
+          "assertions": {
+            "categories:seo": [
+              "error",
+              {
+                "minScore": 1
+              }
+            ],
+            "categories:accessibility": [
+              "error",
+              {
+                "minScore": 1
+              }
+            ],
+            "categories:performance": [
+              "error",
+              {
+                "minScore": 0.95
+              }
+            ],
+            "largest-contentful-paint": [
+              "error",
+              {
+                "maxNumericValue": 1800
+              }
+            ],
+            "cumulative-layout-shift": [
+              "error",
+              {
+                "maxNumericValue": 0.02
+              }
+            ],
+            "resource-summary:script:size": [
+              "error",
+              {
+                "maxNumericValue": 15360
+              }
+            ]
           }
-        ],
-        "categories:accessibility": [
-          "error",
-          {
-            "minScore": 1
+        },
+        {
+          "matchingUrlPattern": "^https?://[^/]+/($|20)",
+          "assertions": {
+            "resource-summary:total:size": [
+              "error",
+              {
+                "maxNumericValue": 204800
+              }
+            ]
           }
-        ],
-        "categories:performance": [
-          "error",
-          {
-            "minScore": 0.95
+        },
+        {
+          "matchingUrlPattern": "/all-sundays/$",
+          "assertions": {
+            "resource-summary:total:size": [
+              "error",
+              {
+                "maxNumericValue": 225280
+              }
+            ]
           }
-        ],
-        "largest-contentful-paint": [
-          "error",
-          {
-            "maxNumericValue": 1800
-          }
-        ],
-        "cumulative-layout-shift": [
-          "error",
-          {
-            "maxNumericValue": 0.02
-          }
-        ],
-        "resource-summary:script:size": [
-          "error",
-          {
-            "maxNumericValue": 15360
-          }
-        ],
-        "resource-summary:total:size": [
-          "error",
-          {
-            "maxNumericValue": 204800
-          }
-        ]
-      }
+        }
+      ]
     },
     "upload": {
       "target": "filesystem",
