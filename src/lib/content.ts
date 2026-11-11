@@ -34,7 +34,10 @@ export interface Site {
 
 const PLACEHOLDER = /\[[A-Z][A-Z0-9 ,.'’/-]*\]/g;
 
-export const isPlaceholder = (v: unknown): boolean => typeof v === 'string' && /^\s*\[[A-Z][^\]]*\]\s*$/.test(v);
+/** PREVIEW_ALL=1: publish every edition and show placeholder blocks, for local review only. */
+export const PREVIEW_ALL = process.env.PREVIEW_ALL === '1';
+
+export const isPlaceholder = (v: unknown): boolean => !PREVIEW_ALL && typeof v === 'string' && /^\s*\[[A-Z][^\]]*\]\s*$/.test(v);
 
 export function editionPath(e: Pick<Edition, 'date' | 'sunday_slug'>, lang: Lang = 'en'): string {
   const year = e.date.slice(0, 4);
@@ -123,7 +126,7 @@ export function loadSite(tradition: TraditionConfig, root = process.cwd()): Site
   all.sort((a, b) => a.date.localeCompare(b.date));
   const now = today(tradition.site.timeZone);
   const upcoming = all.find((e) => e.date >= now) ?? all.at(-1);
-  const published = upcoming ? all.filter((e) => e.date <= upcoming.date) : [];
+  const published = PREVIEW_ALL ? all : upcoming ? all.filter((e) => e.date <= upcoming.date) : [];
 
   const pages: Page[] = [];
   for (const e of published) {
