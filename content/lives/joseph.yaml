@@ -1,0 +1,31 @@
+summary: Joseph of Nazareth, a righteous man of the house of David, betrothed to Mary. He obeyed the angel’s word in dreams, named the child Jesus, and protected the Holy Family on the flight into Egypt.
+born:
+  text: Not recorded. Matthew names his father Jacob; he was of the house and line of David
+  ref: Matthew 1:16; Luke 2:4
+family:
+  - { relation: "Father", name: "Jacob", ref: "Matthew 1:16" }
+  - { relation: "Wife", name: "Mary", ref: "Matthew 1:18–24" }
+  - { relation: "Son (by law)", name: "Jesus", ref: "Luke 3:23; John 6:42" }
+  - { relation: "Earlier family", name: "Tradition says he was an older widower with children from a first marriage", ref: "Protoevangelium of James", from: "tradition" }
+events:
+  - { text: "Finding Mary with child, he plans to send her away quietly, being a righteous man.", ref: "Matthew 1:18–19" }
+  - { text: "An angel in a dream tells him to take Mary as his wife and name the child Jesus; he obeys.", ref: "Matthew 1:20–25" }
+  - { text: "He goes with Mary from Nazareth to Bethlehem for the census.", ref: "Luke 2:1–5" }
+  - { text: "Warned in a dream, he takes the child and his mother to Egypt by night.", ref: "Matthew 2:13–15" }
+  - { text: "After Herod’s death he returns, and settles in Nazareth in Galilee.", ref: "Matthew 2:19–23" }
+  - { text: "Each year he goes to Jerusalem for Passover; with Mary he searches for the twelve-year-old Jesus.", ref: "Luke 2:41–51" }
+  - { text: "He worked as a craftsman (Greek tekton), usually rendered carpenter.", ref: "Matthew 13:55" }
+died:
+  text: Not recorded. He is not mentioned after Jesus is twelve, and tradition holds he died before Jesus’ public ministry
+  from: tradition
+remembered:
+  - { name: "Annunciation to St. Joseph" }
+  - { name: "First Sunday after Christmas (The Holy Family flee to Egypt)" }
+read:
+  - { ref: "Matthew 1:18–25", note: "The dream and the naming" }
+  - { ref: "Matthew 2:13–23", note: "Egypt and Nazareth" }
+  - { ref: "Luke 2:41–52", note: "The boy in the Temple" }
+sources:
+  - { label: "The Holy Bible (World English Bible)" }
+  - { label: "Protoevangelium of James (2nd century)", url: "https://www.newadvent.org/fathers/0847.htm" }
+reviewed: false

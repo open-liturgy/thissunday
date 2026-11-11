@@ -1,0 +1,25 @@
+summary: "The disciple whom Jesus loved: an apostle John’s Gospel never names, who leaned on Jesus at the Last Supper, stood at the cross and took Mary into his home. From the second century the Church has identified him with John, son of Zebedee."
+events:
+- text: At the Last Supper he reclines next to Jesus and asks who will betray him.
+  ref: "John 13:23–25"
+- text: At the cross Jesus says to him, “Behold, your mother,” and from that hour he takes Mary into his home.
+  ref: "John 19:26–27"
+- text: He runs with Peter to the tomb, arrives first, goes in, sees and believes.
+  ref: "John 20:2–8"
+- text: "Fishing on the Sea of Tiberias, he is first to recognise the risen Lord: “It’s the Lord!”"
+  ref: "John 21:7"
+- text: The Gospel says it rests on his testimony.
+  ref: "John 21:20–24"
+- text: Irenaeus and later writers identify him with John, son of Zebedee.
+  ref: Irenaeus, Against Heresies 3.1.1
+  from: tradition
+read:
+- ref: "John 13:21–26"
+  note: At the supper
+- ref: "John 19:25–27"
+  note: At the cross
+- ref: John 21
+  note: By the sea
+sources:
+- label: The Holy Bible (World English Bible)
+reviewed: false

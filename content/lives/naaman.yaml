@@ -1,0 +1,27 @@
+summary: The commander of the army of Aram (Syria), a great and honoured man who had leprosy. At the word of the prophet Elisha he washed seven times in the Jordan and was healed, and he came to worship the God of Israel.
+born:
+  text: An Aramean (Syrian), commander of the army of the king of Aram
+  ref: "2 Kings 5:1"
+events:
+- text: A young Israelite girl, taken captive and serving his wife, says the prophet in Samaria could heal him.
+  ref: "2 Kings 5:2–3"
+- text: The king of Israel, reading the letter from Aram, tears his clothes; Elisha sends for Naaman.
+  ref: "2 Kings 5:5–8"
+- text: "Elisha sends word: wash in the Jordan seven times. Naaman goes away angry."
+  ref: "2 Kings 5:10–12"
+- text: His servants persuade him; he washes, and his flesh becomes like a little child’s.
+  ref: "2 Kings 5:13–14"
+- text: He says, “Now I know that there is no God in all the earth, but in Israel.”
+  ref: "2 Kings 5:15"
+- text: Elisha refuses his gifts; Elisha’s servant Gehazi secretly takes them and is struck with Naaman’s leprosy.
+  ref: "2 Kings 5:16, 20–27"
+- text: Jesus in Nazareth recalls that of many lepers in Israel, only Naaman the Syrian was cleansed.
+  ref: "Luke 4:27"
+read:
+- ref: 2 Kings 5
+  note: The whole story
+- ref: "Luke 4:24–30"
+  note: Jesus at Nazareth
+sources:
+- label: The Holy Bible (World English Bible)
+reviewed: false

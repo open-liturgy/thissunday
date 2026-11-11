@@ -1,0 +1,54 @@
+summary: The shepherd boy from Bethlehem who became Israel’s greatest king. He defeated Goliath, made Jerusalem his capital, sang many of the Psalms, and received God’s promise that his throne would last for ever. Jesus is called the Son of David.
+born:
+  text: In Bethlehem, the youngest of the eight sons of Jesse
+  ref: "1 Samuel 16:10–11; 17:12"
+died:
+  text: After reigning forty years, he died and was buried in the city of David
+  ref: "1 Kings 2:10–11"
+family:
+- relation: Father
+  name: Jesse, grandson of Ruth and Boaz
+  ref: "Ruth 4:17"
+- relation: Wives
+  name: among them Michal, Abigail and Bathsheba
+  ref: "1 Samuel 18:27; 25:42; 2 Samuel 11:27"
+- relation: Sons
+  name: among them Absalom and Solomon
+  ref: "2 Samuel 3:3; 12:24"
+events:
+- text: Samuel anoints him while he is still a shepherd boy; the Spirit of the Lord comes on him.
+  ref: "1 Samuel 16:1–13"
+- text: He kills Goliath with a sling and a stone.
+  ref: 1 Samuel 17
+- text: Jonathan, Saul’s son, loves him as his own soul.
+  ref: "1 Samuel 18:1–3"
+- text: Fleeing Saul, he eats the holy bread at Nob; Jesus recalls this when his disciples pick grain on the Sabbath.
+  ref: "1 Samuel 21:1–6; Mark 2:25–26"
+- text: At 30 he becomes king, first at Hebron, then over all Israel.
+  ref: "2 Samuel 5:1–5"
+- text: He takes Jerusalem and brings the ark of God there with dancing.
+  ref: "2 Samuel 5:6–9; 6"
+- text: God promises through Nathan that his house and kingdom will be established for ever.
+  ref: "2 Samuel 7:12–16"
+- text: He takes Bathsheba and has Uriah killed; rebuked by Nathan, he repents.
+  ref: 2 Samuel 11–12
+- text: Psalm 51 is headed as his prayer of repentance after Nathan came to him.
+  ref: Psalm 51
+- text: His son Absalom rebels against him and is killed; David weeps for him.
+  ref: 2 Samuel 15–18
+- text: Gabriel tells Mary that God will give her son the throne of his father David.
+  ref: "Luke 1:32"
+- text: King of Israel roughly 1010–970 BC by common reckoning.
+  from: history
+read:
+- ref: 1 Samuel 16–17
+  note: Anointed; Goliath
+- ref: 2 Samuel 7
+  note: God’s promise
+- ref: Psalm 23
+  note: The Lord is my shepherd
+- ref: Psalm 51
+  note: Have mercy on me
+sources:
+- label: The Holy Bible (World English Bible)
+reviewed: false

@@ -1,0 +1,37 @@
+summary: Thomas, called Didymus, the Twin, one of the twelve. He doubted the resurrection until he saw the Lord, then confessed “My Lord and my God.” The Malankara Church traces its faith to his preaching in India.
+died:
+  text: Martyred at Mylapore, near Chennai, in AD 72, pierced with a spear
+  from: tradition
+events:
+- text: When Jesus goes to Judea to raise Lazarus, he says, “Let us also go, that we may die with him.”
+  ref: "John 11:16"
+- text: At the Last Supper he asks, “How can we know the way?” and Jesus answers, “I am the way, the truth, and the life.”
+  ref: "John 14:5–6"
+- text: Absent when the risen Jesus first appears, he says he will not believe unless he touches the wounds.
+  ref: "John 20:24–25"
+- text: Eight days later Jesus invites him to touch; he confesses, “My Lord and my God!”
+  ref: "John 20:26–29"
+- text: He is with the disciples by the Sea of Tiberias, and in the upper room before Pentecost.
+  ref: "John 21:2; Acts 1:13"
+- text: The Acts of Thomas, a Syriac work of the early third century, tells of his mission to India.
+  from: history
+- text: The Saint Thomas Christians of Kerala hold that he landed at Kodungallur (Muziris) in AD 52 and founded churches along the Malabar coast.
+  from: tradition
+- text: Ephrem the Syrian (4th century) writes of his relics at Edessa.
+  from: history
+remembered:
+- name: Dukharono of St. Thomas
+  date: 3 July
+- name: New Sunday (Sunday after Easter)
+- name: Feast of the Twelve Apostles
+  date: 30 June
+read:
+- ref: "John 20:19–31"
+  note: My Lord and my God
+- ref: "John 11:1–16"
+  note: Let us also go
+- ref: "John 14:1–7"
+  note: The way
+sources:
+- label: The Holy Bible (World English Bible)
+reviewed: false

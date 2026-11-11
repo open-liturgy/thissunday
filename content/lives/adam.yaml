@@ -1,0 +1,41 @@
+summary: Adam, the first man, formed from the dust of the ground and given the breath of life. He fell through disobedience, and the New Testament calls Christ the last Adam, who brings life where Adam brought death.
+born:
+  text: Formed by God from the dust of the ground
+  ref: "Genesis 2:7"
+died:
+  text: At 930 years old
+  ref: "Genesis 5:5"
+family:
+- relation: Wife
+  name: Eve
+  ref: "Genesis 2:21–23; 3:20"
+- relation: Sons
+  name: Cain, Abel and Seth, and other sons and daughters
+  ref: "Genesis 4:1–2, 25; 5:4"
+events:
+- text: God breathes into him the breath of life and places him in the garden of Eden to work it and keep it.
+  ref: "Genesis 2:7–15"
+- text: He names the animals.
+  ref: "Genesis 2:19–20"
+- text: God makes Eve from his side; he says, “This is now bone of my bones.”
+  ref: "Genesis 2:21–23"
+- text: He and Eve eat the forbidden fruit and hide from God.
+  ref: "Genesis 3:1–13"
+- text: They are sent out of the garden.
+  ref: "Genesis 3:22–24"
+- text: "Luke traces Jesus’ family back to him: “the son of Adam, the son of God.”"
+  ref: "Luke 3:38"
+- text: "Paul: “As in Adam all die, so also in Christ all will be made alive.”"
+  ref: "1 Corinthians 15:22, 45"
+- text: The icon of the Resurrection shows Christ raising Adam and Eve from the grave.
+  from: tradition
+read:
+- ref: Genesis 2–3
+  note: Creation and the fall
+- ref: "Romans 5:12–21"
+  note: Adam and Christ
+- ref: "Luke 3:23–38"
+  note: The genealogy
+sources:
+- label: The Holy Bible (World English Bible)
+reviewed: false

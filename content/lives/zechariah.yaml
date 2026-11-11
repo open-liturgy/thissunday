@@ -1,0 +1,27 @@
+summary: Zechariah, a priest of the division of Abijah and the father of John the Baptist. He doubted the angel’s promise, was struck silent, and spoke again in praise when his son was named.
+born:
+  text: Not recorded. A priest of the division of Abijah, living in the hill country of Judea in the days of Herod
+  ref: Luke 1:5, 39–40
+family:
+  - { relation: "Wife", name: "Elizabeth, of the daughters of Aaron", ref: "Luke 1:5" }
+  - { relation: "Son", name: "John the Baptist", ref: "Luke 1:13, 57–63" }
+events:
+  - { text: "He and Elizabeth are righteous before God, but childless and old.", ref: "Luke 1:6–7" }
+  - { text: "Chosen by lot to burn incense in the Temple, he sees the angel Gabriel beside the altar.", ref: "Luke 1:8–17" }
+  - { text: "He asks for a sign and is left unable to speak until the promise is fulfilled.", ref: "Luke 1:18–23" }
+  - { text: "At the naming of his son he writes, “His name is John,” and his speech returns.", ref: "Luke 1:59–64" }
+  - { text: "Filled with the Holy Spirit he prophesies the Benedictus: “Blessed be the Lord, the God of Israel.”", ref: "Luke 1:67–79" }
+died:
+  text: Not recorded in Scripture. An early tradition says he was killed in the Temple by Herod’s soldiers for refusing to reveal where his son was hidden
+  ref: Protoevangelium of James 23–24
+  from: tradition
+remembered:
+  - { name: "Annunciation to Zachariah (Parents’ day)" }
+  - { name: "Birth of John the Baptist (Children’s day)" }
+read:
+  - { ref: "Luke 1:5–25", note: "The angel in the Temple" }
+  - { ref: "Luke 1:57–80", note: "John’s birth and the Benedictus" }
+sources:
+  - { label: "The Holy Bible (World English Bible)" }
+  - { label: "Protoevangelium of James (2nd century)", url: "https://www.newadvent.org/fathers/0847.htm" }
+reviewed: false

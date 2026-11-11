@@ -1,0 +1,26 @@
+summary: Elizabeth, of the priestly family of Aaron, wife of Zechariah and mother of John the Baptist. Filled with the Holy Spirit, she was the first to greet Mary as the mother of the Lord.
+born:
+  text: Not recorded. One of the daughters of Aaron
+  ref: Luke 1:5
+family:
+  - { relation: "Husband", name: "Zechariah", ref: "Luke 1:5" }
+  - { relation: "Son", name: "John the Baptist", ref: "Luke 1:57–60" }
+  - { relation: "Relative", name: "Mary", ref: "Luke 1:36" }
+events:
+  - { text: "She is righteous before God, but barren and advanced in years.", ref: "Luke 1:6–7" }
+  - { text: "She conceives and keeps herself hidden five months, saying the Lord has taken away her reproach.", ref: "Luke 1:24–25" }
+  - { text: "When Mary greets her, the child leaps in her womb; she cries, “Blessed are you among women.”", ref: "Luke 1:39–45" }
+  - { text: "Mary stays with her about three months.", ref: "Luke 1:56" }
+  - { text: "She gives birth to a son and insists he be called John.", ref: "Luke 1:57–60" }
+  - { text: "During the massacre in Bethlehem, tradition says she fled with the infant John into the hills.", ref: "Protoevangelium of James 22", from: "tradition" }
+remembered:
+  - { name: "Annunciation to Zachariah (Parents’ day)" }
+  - { name: "St. Mary’s visit to Elizabeth (Women’s day)" }
+  - { name: "Birth of John the Baptist (Children’s day)" }
+read:
+  - { ref: "Luke 1:5–25", note: "The promise" }
+  - { ref: "Luke 1:39–60", note: "The visitation and John’s birth" }
+sources:
+  - { label: "The Holy Bible (World English Bible)" }
+  - { label: "Protoevangelium of James (2nd century)", url: "https://www.newadvent.org/fathers/0847.htm" }
+reviewed: false

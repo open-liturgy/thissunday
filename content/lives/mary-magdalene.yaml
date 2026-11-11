@@ -1,0 +1,29 @@
+summary: Mary of Magdala, from whom Jesus cast out seven demons. She followed and supported him, stood at the cross, and was the first to see the risen Lord and tell the disciples. The Orthodox Church honours her as a myrrh-bearer, equal to the apostles.
+born:
+  text: From Magdala, a town on the west shore of the Sea of Galilee
+  ref: "Luke 8:2"
+events:
+- text: Jesus casts seven demons out of her.
+  ref: "Luke 8:2; Mark 16:9"
+- text: With other women she travels with Jesus and the twelve and provides for them from her own means.
+  ref: "Luke 8:1–3"
+- text: She stands near the cross with the mother of Jesus.
+  ref: "John 19:25"
+- text: She watches where his body is laid.
+  ref: "Mark 15:47"
+- text: Early on the first day of the week she comes to the tomb and finds the stone rolled away.
+  ref: "John 20:1"
+- text: The risen Jesus calls her by name; she answers “Rabboni!” and is sent to tell the disciples.
+  ref: "John 20:11–18"
+- text: The Eastern Church does not identify her with the sinful woman of Luke 7; that was a later Western idea.
+  from: tradition
+- text: She later lived and died at Ephesus.
+  from: tradition
+read:
+- ref: "John 20:1–18"
+  note: At the empty tomb
+- ref: "Luke 8:1–3"
+  note: Among the followers
+sources:
+- label: The Holy Bible (World English Bible)
+reviewed: false

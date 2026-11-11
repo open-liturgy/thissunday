@@ -1,0 +1,43 @@
+summary: Andrew of Bethsaida, Peter’s brother, first a disciple of John the Baptist and among the first to follow Jesus. He brought his brother to Christ, and tradition says he preached around the Black Sea and was martyred at Patras in Greece.
+born:
+  text: In Bethsaida of Galilee
+  ref: "John 1:44"
+died:
+  text: Martyred by crucifixion at Patras in Achaia; later tradition says on an X-shaped cross
+  from: tradition
+family:
+- relation: Brother
+  name: Simon Peter
+  ref: "John 1:40"
+- relation: Father
+  name: Jonah (or John)
+  ref: "John 1:42"
+events:
+- text: A disciple of John the Baptist, he hears John call Jesus the Lamb of God and follows Jesus.
+  ref: "John 1:35–40"
+- text: "He finds his brother Simon: “We have found the Messiah,” and brings him to Jesus."
+  ref: "John 1:41–42"
+- text: "Jesus calls him and Peter from their nets: “Come after me, and I will make you fishers of men.”"
+  ref: "Matthew 4:18–20"
+- text: At the feeding of the five thousand he brings the boy with five loaves and two fish.
+  ref: "John 6:8–9"
+- text: With Philip he brings some Greeks who want to see Jesus.
+  ref: "John 12:20–22"
+- text: He asks Jesus privately, with Peter, James and John, about the signs of the end.
+  ref: "Mark 13:3–4"
+- text: He preached in Scythia, around the Black Sea.
+  ref: Eusebius, Church History 3.1
+  from: tradition
+remembered:
+- name: Feast of the Twelve Apostles
+  date: 30 June
+read:
+- ref: "John 1:35–42"
+  note: The first disciples
+- ref: "Matthew 4:18–22"
+  note: The call by the sea
+sources:
+- label: The Holy Bible (World English Bible)
+- label: Eusebius, Church History
+  url: "https://www.newadvent.org/fathers/2501.htm"
+reviewed: false

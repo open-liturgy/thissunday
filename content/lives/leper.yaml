@@ -1,0 +1,22 @@
+summary: A man full of leprosy who fell on his face before Jesus and said, “Lord, if you want to, you can make me clean.” Jesus touched him and he was healed.
+events:
+- text: In one of the towns, a man full of leprosy sees Jesus and falls on his face.
+  ref: "Luke 5:12"
+- text: He begs, “Lord, if you want to, you can make me clean.”
+  ref: "Luke 5:12"
+- text: "Jesus stretches out his hand and touches him: “I want to. Be made clean.” The leprosy leaves him at once."
+  ref: "Luke 5:13"
+- text: Jesus tells him to show himself to the priest and make the offering Moses commanded.
+  ref: "Luke 5:14; Leviticus 14:1–32"
+- text: The story is also told in Matthew and Mark; Mark adds that Jesus was moved with compassion.
+  ref: "Matthew 8:1–4; Mark 1:40–45"
+remembered:
+- name: Second Sunday of Great Lent (Lepers’ Sunday)
+read:
+- ref: "Luke 5:12–16"
+  note: The healing
+- ref: "Mark 1:40–45"
+  note: Moved with compassion
+sources:
+- label: The Holy Bible (World English Bible)
+reviewed: false

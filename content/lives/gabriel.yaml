@@ -1,0 +1,18 @@
+summary: Gabriel, the angel who stands in the presence of God, sent with messages to Daniel, to Zechariah and to Mary. The Church honours him as an archangel.
+family: []
+events:
+  - { text: "He explains Daniel’s vision to him.", ref: "Daniel 8:15–17" }
+  - { text: "He comes to Daniel at the time of the evening offering with the prophecy of the seventy weeks.", ref: "Daniel 9:21–27" }
+  - { text: "He appears to Zechariah beside the altar of incense and promises the birth of John.", ref: "Luke 1:11–20" }
+  - { text: "He says of himself, “I am Gabriel, who stands in the presence of God.”", ref: "Luke 1:19" }
+  - { text: "Sent to Nazareth, he greets Mary, “Rejoice, you highly favoured one,” and announces the birth of the Son of God.", ref: "Luke 1:26–38" }
+  - { text: "The Church calls him an archangel and honours him with Michael.", from: "tradition" }
+remembered:
+  - { name: "Annunciation to Zachariah (Parents’ day)" }
+  - { name: "Annunciation to St. Mary, Mother of God" }
+read:
+  - { ref: "Luke 1:11–38", note: "The two annunciations" }
+  - { ref: "Daniel 9:20–27", note: "Gabriel and Daniel" }
+sources:
+  - { label: "The Holy Bible (World English Bible)" }
+reviewed: false

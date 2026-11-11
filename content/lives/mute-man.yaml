@@ -1,0 +1,18 @@
+summary: A man possessed by a demon that kept him from speaking. When Jesus cast it out he spoke, and while the crowds marvelled, some claimed Jesus worked by Beelzebul.
+events:
+- text: Jesus casts out a demon that is mute; when it has gone out, the man speaks.
+  ref: "Luke 11:14"
+- text: The crowds marvel.
+  ref: "Luke 11:14"
+- text: Some say he casts out demons by Beelzebul; others test him by asking for a sign.
+  ref: "Luke 11:15–16"
+- text: "Jesus answers that a kingdom divided cannot stand: “If I by the finger of God cast out demons, then the Kingdom of God has come to you.”"
+  ref: "Luke 11:17–20"
+- text: Matthew tells of similar healings of a man who was mute, and of one blind and mute.
+  ref: "Matthew 9:32–34; 12:22–24"
+read:
+- ref: "Luke 11:14–28"
+  note: The finger of God
+sources:
+- label: The Holy Bible (World English Bible)
+reviewed: false

@@ -1,0 +1,21 @@
+summary: Zebedee, a fisherman on the Sea of Galilee and father of the apostles James and John. When Jesus called his sons, they left him in the boat with the hired men.
+family:
+- relation: Sons
+  name: James and John
+  ref: "Matthew 4:21"
+- relation: Wife
+  name: Followed Jesus and was at the cross
+  ref: "Matthew 20:20; 27:56"
+events:
+- text: He runs a fishing business on the Sea of Galilee with hired servants.
+  ref: "Mark 1:19–20"
+- text: His sons James and John leave him in the boat to follow Jesus.
+  ref: "Matthew 4:21–22; Mark 1:20"
+- text: His wife asks Jesus for places of honour for their sons in his kingdom.
+  ref: "Matthew 20:20–23"
+read:
+- ref: "Mark 1:16–20"
+  note: The call of the fishermen
+sources:
+- label: The Holy Bible (World English Bible)
+reviewed: false

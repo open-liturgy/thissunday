@@ -1,0 +1,32 @@
+summary: A priest in David’s time, the only one of the priests of Nob to escape Saul’s massacre. He served David faithfully for many years, but was sent away by Solomon. Jesus names him when recalling how David ate the holy bread.
+family:
+- relation: Father
+  name: Ahimelech, priest of Nob
+  ref: "1 Samuel 22:20"
+events:
+- text: David, fleeing Saul, is given the holy bread at Nob by the priest Ahimelech, Abiathar’s father.
+  ref: "1 Samuel 21:1–6"
+- text: Saul has Doeg kill the priests of Nob; Abiathar alone escapes and flees to David.
+  ref: "1 Samuel 22:17–20"
+- text: David tells him, “Stay with me, don’t be afraid.”
+  ref: "1 Samuel 22:23"
+- text: He brings the ephod, and David asks the Lord through it.
+  ref: "1 Samuel 23:6–9"
+- text: With Zadok he serves as priest under David, and carries the ark during Absalom’s revolt.
+  ref: "2 Samuel 15:24–29"
+- text: He supports Adonijah, not Solomon, as king.
+  ref: "1 Kings 1:7"
+- text: Solomon sends him away to his fields at Anathoth, ending his priesthood.
+  ref: "1 Kings 2:26–27"
+- text: Jesus says David ate the bread “when Abiathar was high priest.” 1 Samuel names the priest that day as Ahimelech; readers have long explained this in different ways.
+  ref: "Mark 2:26"
+read:
+- ref: "1 Samuel 21:1–6"
+  note: The holy bread
+- ref: "1 Samuel 22:6–23"
+  note: The escape from Nob
+- ref: "Mark 2:23–28"
+  note: Lord of the Sabbath
+sources:
+- label: The Holy Bible (World English Bible)
+reviewed: false

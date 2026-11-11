@@ -1,0 +1,43 @@
+summary: Son of David and Bathsheba, and king of Israel after him. He asked God for wisdom, built the first Temple in Jerusalem, and was famed for his riches, but in old age his many wives turned his heart to other gods.
+born:
+  text: In Jerusalem, to David and Bathsheba; the Lord loved him
+  ref: "2 Samuel 12:24–25"
+died:
+  text: After reigning forty years over all Israel; buried in the city of David
+  ref: "1 Kings 11:42–43"
+family:
+- relation: Parents
+  name: David and Bathsheba
+  ref: "2 Samuel 12:24"
+- relation: Son and successor
+  name: Rehoboam
+  ref: "1 Kings 11:43"
+events:
+- text: David has him anointed king at Gihon.
+  ref: "1 Kings 1:32–40"
+- text: At Gibeon God offers him anything; he asks for an understanding heart, and is given riches and honour too.
+  ref: "1 Kings 3:5–14"
+- text: He judges between two women who both claim the same baby.
+  ref: "1 Kings 3:16–28"
+- text: He builds the Temple in seven years and prays at its dedication.
+  ref: "1 Kings 6:37–38; 8"
+- text: The queen of Sheba comes to test him with hard questions.
+  ref: "1 Kings 10:1–13"
+- text: His many foreign wives turn his heart after other gods.
+  ref: "1 Kings 11:1–8"
+- text: Proverbs, Ecclesiastes and the Song of Songs are linked to his name.
+  ref: "Proverbs 1:1; Song of Songs 1:1"
+- text: Jesus says not even Solomon in all his glory was dressed like the lilies, and that one greater than Solomon is here.
+  ref: "Matthew 6:29; 12:42"
+- text: King roughly 970–931 BC by common reckoning.
+  from: history
+read:
+- ref: 1 Kings 3
+  note: The gift of wisdom
+- ref: "1 Kings 8:22–30"
+  note: The Temple prayer
+- ref: "Matthew 6:28–33"
+  note: Consider the lilies
+sources:
+- label: The Holy Bible (World English Bible)
+reviewed: false

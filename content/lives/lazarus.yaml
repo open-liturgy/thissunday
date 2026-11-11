@@ -1,0 +1,31 @@
+summary: Lazarus of Bethany, brother of Martha and Mary and friend of Jesus. He died and lay four days in the tomb before Jesus raised him to life, a sign that led many to believe.
+born:
+  text: Lived in Bethany, near Jerusalem
+  ref: "John 11:1, 18"
+family:
+- relation: Sisters
+  name: Martha and Mary
+  ref: "John 11:1–2"
+events:
+- text: "He falls ill; his sisters send word: “Lord, behold, he for whom you have great affection is sick.”"
+  ref: "John 11:1–3"
+- text: He dies and has been four days in the tomb when Jesus arrives.
+  ref: "John 11:17"
+- text: Jesus tells Martha, “I am the resurrection and the life,” and weeps.
+  ref: "John 11:25–35"
+- text: Jesus cries, “Lazarus, come out!” and he comes out bound in grave clothes.
+  ref: "John 11:43–44"
+- text: Six days before Passover he sits at table with Jesus in Bethany.
+  ref: "John 12:1–2"
+- text: The chief priests plan to kill him too, because many believe in Jesus on his account.
+  ref: "John 12:9–11"
+- text: He later went to Cyprus and became bishop of Kition (Larnaca).
+  from: tradition
+read:
+- ref: "John 11:1–44"
+  note: The raising of Lazarus
+- ref: "John 12:1–19"
+  note: Bethany and Hosanna
+sources:
+- label: The Holy Bible (World English Bible)
+reviewed: false

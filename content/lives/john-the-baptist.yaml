@@ -1,0 +1,35 @@
+summary: John the Baptist, the Forerunner, son of Zechariah and Elizabeth. He preached repentance in the wilderness, baptised Jesus in the Jordan, pointed to him as the Lamb of God, and was beheaded by Herod Antipas.
+born:
+  text: In the hill country of Judea, about six months before Jesus
+  ref: Luke 1:26, 36, 39–40, 57
+family:
+  - { relation: "Father", name: "Zechariah the priest", ref: "Luke 1:13" }
+  - { relation: "Mother", name: "Elizabeth", ref: "Luke 1:57" }
+  - { relation: "Relative", name: "Jesus, through Mary and Elizabeth", ref: "Luke 1:36" }
+events:
+  - { text: "Gabriel announces that he will go before the Lord in the spirit and power of Elijah.", ref: "Luke 1:13–17" }
+  - { text: "Still unborn, he leaps for joy when Mary greets Elizabeth.", ref: "Luke 1:41–44" }
+  - { text: "He grows up and lives in the wilderness until his public appearance.", ref: "Luke 1:80" }
+  - { text: "In the fifteenth year of Tiberius (about AD 28–29) he begins preaching a baptism of repentance.", ref: "Luke 3:1–3" }
+  - { text: "He wears camel’s hair and eats locusts and wild honey.", ref: "Matthew 3:4" }
+  - { text: "He baptises Jesus in the Jordan and sees the Spirit descend.", ref: "Matthew 3:13–17" }
+  - { text: "He points to Jesus: “Behold, the Lamb of God”; Andrew and another disciple follow Jesus.", ref: "John 1:29–40" }
+  - { text: "He rebukes Herod Antipas for taking his brother’s wife and is imprisoned.", ref: "Mark 6:17–18" }
+  - { text: "Jesus says no one born of women is greater than John.", ref: "Matthew 11:11" }
+  - { text: "The historian Josephus also records John’s preaching and his execution by Herod at the fortress of Machaerus.", ref: "Antiquities 18.5.2", from: "history" }
+died:
+  text: Beheaded in prison at the order of Herod Antipas
+  ref: Mark 6:21–29
+remembered:
+  - { name: "Annunciation to Zachariah (Parents’ day)" }
+  - { name: "Birth of John the Baptist (Children’s day)" }
+  - { name: "Denha, the Baptism of our Lord", date: "6 January" }
+read:
+  - { ref: "Luke 1:5–80", note: "His promise and birth" }
+  - { ref: "Matthew 3", note: "His preaching and Christ’s baptism" }
+  - { ref: "John 1:19–37", note: "The Lamb of God" }
+  - { ref: "Mark 6:14–29", note: "His death" }
+sources:
+  - { label: "The Holy Bible (World English Bible)" }
+  - { label: "Josephus, Antiquities of the Jews 18.5.2", url: "https://www.gutenberg.org/ebooks/2848" }
+reviewed: false

@@ -1,0 +1,38 @@
+summary: James, son of Zebedee and brother of John, a Galilean fisherman. With Peter and John he was one of the three closest to Jesus, and he was the first of the twelve apostles to die for Christ.
+died:
+  text: Killed with the sword by Herod Agrippa I in Jerusalem, about AD 44, the first apostle to be martyred
+  ref: "Acts 12:1–2"
+family:
+- relation: Father
+  name: Zebedee
+  ref: "Matthew 4:21"
+- relation: Brother
+  name: John
+  ref: "Matthew 4:21"
+- relation: Mother
+  name: Followed Jesus to the cross; comparing the Gospels, she may be Salome
+  ref: "Matthew 27:56; Mark 15:40"
+events:
+- text: Mending nets with his father and brother, he is called and leaves the boat to follow Jesus.
+  ref: "Matthew 4:21–22"
+- text: Jesus names him and John Boanerges, Sons of Thunder.
+  ref: "Mark 3:17"
+- text: With Peter and John he sees Jairus’s daughter raised, the Transfiguration, and Jesus praying in Gethsemane.
+  ref: "Mark 5:37; 9:2; 14:33"
+- text: When a Samaritan village refuses Jesus, he and John offer to call down fire from heaven; Jesus rebukes them.
+  ref: "Luke 9:51–56"
+- text: He and John ask for seats at Jesus’ right and left; Jesus asks if they can drink his cup.
+  ref: "Mark 10:35–40"
+- text: He waits in the upper room with the apostles before Pentecost.
+  ref: "Acts 1:13"
+remembered:
+- name: Feast of the Twelve Apostles
+  date: 30 June
+read:
+- ref: "Mark 10:35–45"
+  note: The cup and the baptism
+- ref: "Acts 12:1–2"
+  note: His death
+sources:
+- label: The Holy Bible (World English Bible)
+reviewed: false

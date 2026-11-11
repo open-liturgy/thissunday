@@ -1,0 +1,32 @@
+summary: Magi from the East who followed a star to find the newborn King of the Jews. They worshipped the child Jesus and offered gold, frankincense and myrrh, then went home another way to avoid Herod.
+born:
+  text: “Wise men from the east”; the Greek word is magi
+  ref: "Matthew 2:1"
+events:
+- text: They come to Jerusalem asking, “Where is he who is born King of the Jews? For we saw his star.”
+  ref: "Matthew 2:1–2"
+- text: Herod is troubled; the scribes point to Bethlehem from the prophet Micah.
+  ref: "Matthew 2:3–6; Micah 5:2"
+- text: Herod secretly asks them when the star appeared and sends them to search.
+  ref: "Matthew 2:7–8"
+- text: The star goes before them and stops over the place; they rejoice exceedingly.
+  ref: "Matthew 2:9–10"
+- text: Entering the house, they see the child with Mary his mother, fall down and worship him, and offer gold, frankincense and myrrh.
+  ref: "Matthew 2:11"
+- text: Warned in a dream not to return to Herod, they go home another way.
+  ref: "Matthew 2:12"
+- text: Scripture gives neither their number nor their names. Three is inferred from the three gifts; Western tradition later named them Caspar, Melchior and Balthasar, and Syriac writers gave other names.
+  from: tradition
+- text: The Fathers read the gifts as gold for a king, incense for God and myrrh for one who would die.
+  from: tradition
+remembered:
+- name: Yeldho (Christmas)
+  date: 25 December
+read:
+- ref: "Matthew 2:1–12"
+  note: The visit of the Magi
+- ref: "Isaiah 60:1–6"
+  note: Gold and frankincense
+sources:
+- label: The Holy Bible (World English Bible)
+reviewed: false

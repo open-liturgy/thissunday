@@ -1,0 +1,49 @@
+summary: Abraham, the father of Israel and father of all who believe. Called by God to leave his homeland, he trusted God’s promise of a son and a blessing for all nations, and was ready even to offer Isaac.
+born:
+  text: Born Abram, in Ur of the Chaldeans, son of Terah
+  ref: "Genesis 11:26–31"
+died:
+  text: At 175, buried by Isaac and Ishmael in the cave of Machpelah at Hebron
+  ref: "Genesis 25:7–10"
+family:
+- relation: Father
+  name: Terah
+  ref: "Genesis 11:26"
+- relation: Wife
+  name: Sarah (Sarai)
+  ref: "Genesis 11:29; 17:15"
+- relation: Sons
+  name: Ishmael, by Hagar, and Isaac, by Sarah
+  ref: "Genesis 16:15; 21:1–3"
+- relation: Nephew
+  name: Lot
+  ref: "Genesis 12:5"
+events:
+- text: "At 75, God calls him to leave Haran for a land he will be shown: “In you all of the families of the earth will be blessed.”"
+  ref: "Genesis 12:1–4"
+- text: He believes God, and it is counted to him as righteousness.
+  ref: "Genesis 15:6"
+- text: God makes a covenant with him and renames him Abraham, father of a multitude.
+  ref: "Genesis 17:1–8"
+- text: At the oaks of Mamre he welcomes three visitors, who promise that Sarah will have a son.
+  ref: "Genesis 18:1–15"
+- text: Isaac is born when Abraham is a hundred years old.
+  ref: "Genesis 21:1–5"
+- text: God tests him; he takes Isaac to Moriah, and God provides a ram instead.
+  ref: "Genesis 22:1–14"
+- text: The Church reads the three visitors at Mamre as a sign of the Holy Trinity, as in Rublev’s icon.
+  from: tradition
+- text: Luke lists him among Jesus’ ancestors.
+  ref: "Luke 3:34"
+read:
+- ref: "Genesis 12:1–9"
+  note: The call
+- ref: "Genesis 18:1–15"
+  note: Hospitality at Mamre
+- ref: "Genesis 22:1–19"
+  note: The binding of Isaac
+- ref: Romans 4
+  note: His faith
+sources:
+- label: The Holy Bible (World English Bible)
+reviewed: false

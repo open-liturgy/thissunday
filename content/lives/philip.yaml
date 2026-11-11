@@ -1,0 +1,38 @@
+summary: Philip of Bethsaida, one of the twelve apostles, whom Jesus called with the words “Follow me.” He brought Nathanael to Jesus and, at the Last Supper, asked to be shown the Father.
+born:
+  text: In Bethsaida of Galilee, the town of Andrew and Peter
+  ref: "John 1:44"
+died:
+  text: At Hierapolis in Phrygia, by tradition as a martyr
+  from: tradition
+events:
+- text: Jesus finds him and says, “Follow me.”
+  ref: "John 1:43"
+- text: He tells Nathanael, “We have found him of whom Moses wrote,” and answers his doubt with “Come and see.”
+  ref: "John 1:45–46"
+- text: "Before feeding the five thousand, Jesus tests him: “Where are we to buy bread?”"
+  ref: "John 6:5–7"
+- text: Greeks come to him asking to see Jesus; he brings them with Andrew.
+  ref: "John 12:20–22"
+- text: At the Last Supper he says, “Lord, show us the Father”; Jesus answers, “He who has seen me has seen the Father.”
+  ref: "John 14:8–9"
+- text: He is among the apostles praying in the upper room.
+  ref: "Acts 1:13"
+- text: He is not the same person as Philip the deacon and evangelist of Acts 6 and 8, whose four daughters prophesied.
+  ref: "Acts 21:8–9"
+- text: He preached in Phrygia in Asia Minor and was buried at Hierapolis.
+  ref: Eusebius, Church History 3.31
+  from: tradition
+remembered:
+- name: Feast of the Twelve Apostles
+  date: 30 June
+read:
+- ref: "John 1:43–51"
+  note: Come and see
+- ref: "John 14:1–14"
+  note: Show us the Father
+sources:
+- label: The Holy Bible (World English Bible)
+- label: Eusebius, Church History
+  url: "https://www.newadvent.org/fathers/2501.htm"
+reviewed: false

@@ -1,0 +1,41 @@
+summary: A Jewish movement devoted to keeping the Law of Moses and the traditions of the elders in everyday life. They often debated with Jesus, and he warned against their hypocrisy, yet Nicodemus, Gamaliel and the apostle Paul were Pharisees.
+born:
+  text: A party within Judaism known from the second century BC onwards
+  ref: Josephus, Antiquities 13.5.9
+  from: history
+died:
+  text: After the Temple fell in AD 70, their teaching shaped the rabbinic Judaism that followed
+  from: history
+events:
+- text: They keep the tradition of the elders, such as washing hands before eating.
+  ref: "Mark 7:1–5"
+- text: Unlike the Sadducees, they believe in the resurrection and in angels.
+  ref: "Acts 23:8"
+- text: They object when Jesus eats with tax collectors and sinners.
+  ref: "Luke 15:1–2"
+- text: They challenge his disciples for picking grain on the Sabbath.
+  ref: "Mark 2:23–24"
+- text: Jesus tells the parable of the Pharisee and the tax collector.
+  ref: "Luke 18:9–14"
+- text: Some Pharisees warn Jesus that Herod wants to kill him.
+  ref: "Luke 13:31"
+- text: Jesus pronounces woes on the scribes and Pharisees as hypocrites.
+  ref: Matthew 23
+- text: Nicodemus, a Pharisee, comes to Jesus by night.
+  ref: "John 3:1–2"
+- text: Gamaliel, a Pharisee, counsels the council to leave the apostles alone.
+  ref: "Acts 5:34–39"
+- text: Paul says he was “as touching the law, a Pharisee.”
+  ref: "Philippians 3:5"
+read:
+- ref: "Luke 18:9–14"
+  note: The Pharisee and the tax collector
+- ref: "John 3:1–21"
+  note: Nicodemus
+- ref: "Matthew 23:1–12"
+  note: Practise what they say
+sources:
+- label: The Holy Bible (World English Bible)
+- label: Josephus, Antiquities of the Jews
+  url: "https://www.gutenberg.org/ebooks/2848"
+reviewed: false

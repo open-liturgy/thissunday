@@ -1,0 +1,32 @@
+summary: A Jewish party linked with the priestly families who ran the Temple. They accepted only the written Law and denied the resurrection, and they tested Jesus with a question about a woman married seven times.
+born:
+  text: A party within Judaism known from the second century BC onwards, close to the high priests
+  ref: Josephus, Antiquities 13.10.6; 18.1.4
+  from: history
+died:
+  text: They disappear from history after the Temple was destroyed in AD 70
+  from: history
+events:
+- text: They say there is no resurrection, nor angel, nor spirit.
+  ref: "Acts 23:8"
+- text: With the Pharisees they ask Jesus for a sign from heaven.
+  ref: "Matthew 16:1"
+- text: Jesus warns his disciples against the leaven of the Pharisees and Sadducees.
+  ref: "Matthew 16:6, 12"
+- text: They ask about a woman married to seven brothers; Jesus answers that God is the God of the living, not of the dead.
+  ref: "Mark 12:18–27"
+- text: The high priest and the Sadducees arrest the apostles, but an angel opens the prison.
+  ref: "Acts 5:17–19"
+- text: According to Josephus they accepted only the written law, not the traditions of the elders.
+  ref: Josephus, Antiquities 13.10.6
+  from: history
+read:
+- ref: "Mark 12:18–27"
+  note: The question about the resurrection
+- ref: "Acts 23:6–10"
+  note: Divided over the resurrection
+sources:
+- label: The Holy Bible (World English Bible)
+- label: Josephus, Antiquities of the Jews
+  url: "https://www.gutenberg.org/ebooks/2848"
+reviewed: false

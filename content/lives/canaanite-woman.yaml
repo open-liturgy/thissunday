@@ -1,0 +1,32 @@
+summary: A Gentile mother from the region of Tyre and Sidon who begged Jesus to heal her daughter. When he spoke of bread for the children, she answered that even the dogs eat the crumbs, and Jesus praised her great faith.
+born:
+  text: "A Canaanite (Mark: a Greek, Syrophoenician by birth) from the region of Tyre and Sidon"
+  ref: "Matthew 15:21–22; Mark 7:26"
+family:
+- relation: Daughter
+  name: Severely troubled by a demon, healed from a distance
+  ref: "Matthew 15:22, 28"
+events:
+- text: She cries out, “Have mercy on me, Lord, you son of David!” but Jesus at first does not answer.
+  ref: "Matthew 15:22–23"
+- text: The disciples ask him to send her away; he says he was sent to the lost sheep of Israel.
+  ref: "Matthew 15:23–24"
+- text: "She kneels: “Lord, help me.”"
+  ref: "Matthew 15:25"
+- text: She answers, “Yes, Lord, but even the dogs eat the crumbs which fall from their masters’ table.”
+  ref: "Matthew 15:26–27"
+- text: Jesus says, “Woman, great is your faith,” and her daughter is healed from that hour.
+  ref: "Matthew 15:28"
+- text: Her name is not given; a later tradition calls her Justa.
+  ref: Pseudo-Clementine Homilies 2.19
+  from: tradition
+remembered:
+- name: Fourth Sunday of Great Lent (Canaanite woman)
+read:
+- ref: "Matthew 15:21–28"
+  note: Crumbs from the table
+- ref: "Mark 7:24–30"
+  note: The same story in Mark
+sources:
+- label: The Holy Bible (World English Bible)
+reviewed: false

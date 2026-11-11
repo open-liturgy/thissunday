@@ -36,6 +36,29 @@ const Entry = z.object({
     .optional(),
 });
 const Registry = z.array(Entry);
+
+/** Where a statement comes from. Scripture is cited by reference; tradition and history name their source. */
+const From = z.enum(['scripture', 'tradition', 'history']);
+const Line = z.object({ text: text, ref: text.optional(), from: From.default('scripture') });
+
+/**
+ * A life history, in content/lives/{slug}.yaml. Every line says where it comes
+ * from. Drafted text stays `reviewed: false` until a priest or editor signs off.
+ */
+export const Life = z.object({
+  summary: text,
+  born: Line.optional(),
+  died: Line.optional(),
+  family: z.array(z.object({ relation: text, name: text, ref: text.optional(), from: From.default('scripture') })).default([]),
+  events: z.array(Line).min(1),
+  /** Days the MOSC lectionary keeps that remember them. */
+  remembered: z.array(z.object({ name: text, date: text.optional() })).default([]),
+  /** Passages to read, most important first. */
+  read: z.array(z.object({ ref: text, note: text })).default([]),
+  sources: z.array(z.object({ label: text, url: z.string().url().optional() })).default([]),
+  reviewed: z.boolean().default(false),
+});
+export type Life = z.infer<typeof Life>;
 export type PersonEntry = z.infer<typeof Entry>;
 type EditionPerson = Edition['people'][number];
 
@@ -54,6 +77,8 @@ export interface Character extends PersonEntry {
   appearances: Appearance[];
   /** Distinct name meanings given under the character's own name(s). */
   meanings: { text: string; sunday: string }[];
+  /** Life history from content/lives/{slug}.yaml, if written. */
+  life?: Life;
 }
 
 export interface People {
@@ -147,7 +172,16 @@ export function loadPeople(site: Site, root = process.cwd()): People {
         const t = as.name_meaning.trim();
         if (!meanings.some((m) => m.text === t)) meanings.push({ text: t, sunday: a.edition.name.en });
       }
-    bySlug.set(p.slug, { ...p, path: peoplePath(p.slug), appearances, meanings });
+    let life: Life | undefined;
+    const lifeFile = path.resolve(root, site.tradition.contentDir, 'lives', `${p.slug}.yaml`);
+    if (fs.existsSync(lifeFile)) {
+      const res = Life.safeParse(YAML.parse(fs.readFileSync(lifeFile, 'utf8'), { schema: 'core' }));
+      if (res.success) {
+        life = res.data;
+        if (!life.reviewed) warnings.push(`${path.relative(root, lifeFile)}: reviewed is false; the life history shows a "not yet reviewed" note`);
+      } else for (const i of res.error.issues) errors.push(`${path.relative(root, lifeFile)}: ${i.path.join('.')}: ${i.message}`);
+    }
+    bySlug.set(p.slug, { ...p, path: peoplePath(p.slug), appearances, meanings, life });
   }
   const list = [...bySlug.values()].sort((a, b) => sortKey(a.name).localeCompare(sortKey(b.name)));
 

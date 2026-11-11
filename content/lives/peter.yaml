@@ -1,0 +1,64 @@
+summary: Simon Peter, a fisherman of Galilee whom Jesus named Kepha, the Rock. First to confess Jesus as the Christ, he denied him three times and was restored after the resurrection, led the apostles at Pentecost, and by tradition died a martyr in Rome.
+born:
+  text: In Bethsaida of Galilee; he later lived in Capernaum
+  ref: "John 1:44; Mark 1:21, 29"
+died:
+  text: Martyred in Rome under Nero, about AD 64–67, crucified, by tradition upside down at his own request
+  ref: "Eusebius, Church History 2.25; 3.1; see John 21:18–19"
+  from: tradition
+family:
+- relation: Father
+  name: Jonah (or John)
+  ref: "Matthew 16:17; John 1:42"
+- relation: Brother
+  name: Andrew
+  ref: "John 1:40"
+- relation: Wife
+  name: Married; Jesus healed his mother-in-law
+  ref: "Mark 1:30–31; 1 Corinthians 9:5"
+events:
+- text: Andrew brings him to Jesus, who names him Cephas, which means Peter, rock.
+  ref: "John 1:40–42"
+- text: After a night of catching nothing, he lets down the nets at Jesus’ word, then leaves everything to follow him.
+  ref: "Luke 5:1–11"
+- text: He walks on the water towards Jesus and begins to sink when he doubts.
+  ref: "Matthew 14:28–31"
+- text: At Caesarea Philippi he confesses, “You are the Christ, the Son of the living God,” and receives the keys of the kingdom.
+  ref: "Matthew 16:13–19"
+- text: He sees Jesus transfigured on the mountain, with James and John.
+  ref: "Matthew 17:1–8"
+- text: On the night of the arrest he denies Jesus three times, then weeps bitterly.
+  ref: "Mark 14:66–72"
+- text: He runs to the empty tomb, and the risen Lord appears to him.
+  ref: "John 20:2–8; Luke 24:34"
+- text: By the Sea of Tiberias Jesus asks him three times, “Do you love me?” and tells him, “Feed my sheep.”
+  ref: "John 21:15–19"
+- text: At Pentecost he preaches and about three thousand are baptised.
+  ref: "Acts 2:14–41"
+- text: He heals a lame man at the Temple gate, and is arrested and released.
+  ref: Acts 3–4
+- text: He baptises the Roman centurion Cornelius, the first Gentile convert.
+  ref: Acts 10
+- text: Imprisoned by Herod Agrippa, he is freed by an angel.
+  ref: "Acts 12:1–17"
+- text: The Syriac Orthodox tradition, to which the Malankara Church belongs, honours Peter as the first bishop of Antioch.
+  from: tradition
+- text: Two letters in the New Testament bear his name.
+  ref: "1 Peter 1:1; 2 Peter 1:1"
+remembered:
+- name: Feast of St. Peter and St. Paul
+  date: 29 June
+- name: Feast of the Twelve Apostles
+  date: 30 June
+read:
+- ref: "Matthew 16:13–23"
+  note: His confession
+- ref: "John 21:1–19"
+  note: Breakfast by the sea
+- ref: Acts 2
+  note: Pentecost
+sources:
+- label: The Holy Bible (World English Bible)
+- label: Eusebius, Church History
+  url: "https://www.newadvent.org/fathers/2501.htm"
+reviewed: false

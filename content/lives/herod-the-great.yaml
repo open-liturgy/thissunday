@@ -1,0 +1,26 @@
+summary: Herod the Great, king of Judea under Rome when Jesus was born. A great builder who rebuilt the Temple in Jerusalem, he was also ruthless, and Matthew tells how he ordered the killing of the infant boys of Bethlehem.
+born:
+  text: About 73 BC, of an Idumean family
+  ref: Josephus
+  from: history
+family:
+  - { relation: "Sons", name: "Archelaus", ref: "Matthew 2:22" }
+  - { relation: "Sons", name: "Herod Antipas and Philip, later rulers in Galilee and the north", ref: "Luke 3:1" }
+events:
+  - { text: "Named king of Judea by the Roman Senate in 40 BC, he took Jerusalem in 37 BC.", ref: "Josephus, Antiquities 14", from: "history" }
+  - { text: "He began rebuilding the Temple in Jerusalem, work still going on in Jesus’ time.", ref: "John 2:20; Josephus, Antiquities 15.11", from: "history" }
+  - { text: "Troubled by the wise men’s question about a newborn king, he asks where the Christ is to be born.", ref: "Matthew 2:1–8" }
+  - { text: "Deceived by the wise men, he orders the killing of all boys two years old and under in Bethlehem.", ref: "Matthew 2:16–18" }
+  - { text: "He also put to death members of his own family, including his wife Mariamne and three of his sons.", ref: "Josephus, Antiquities 15–17", from: "history" }
+died:
+  text: At Jericho in 4 BC, after which Joseph brought the Holy Family back from Egypt
+  ref: Matthew 2:19; Josephus, Antiquities 17.8
+  from: history
+remembered:
+  - { name: "Massacre of the Infants", date: "27 December" }
+read:
+  - { ref: "Matthew 2", note: "The wise men and the flight into Egypt" }
+sources:
+  - { label: "The Holy Bible (World English Bible)" }
+  - { label: "Josephus, Antiquities of the Jews 14–17", url: "https://www.gutenberg.org/ebooks/2848" }
+reviewed: false

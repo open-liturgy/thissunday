@@ -1,0 +1,26 @@
+summary: A wider circle of disciples whom Jesus sent out two by two ahead of him to every town he was about to visit. They came back rejoicing that even the demons obeyed them in his name.
+events:
+- text: The Lord appoints seventy others and sends them two by two. (Some early manuscripts read seventy-two.)
+  ref: "Luke 10:1"
+- text: “The harvest is indeed plentiful, but the laborers are few.”
+  ref: "Luke 10:2"
+- text: He sends them as lambs among wolves, without purse or sandals, to say, “Peace be to this house.”
+  ref: "Luke 10:3–9"
+- text: They return with joy; Jesus tells them to rejoice rather that their names are written in heaven.
+  ref: "Luke 10:17–20"
+- text: Eusebius says no list of the seventy survives, but names Barnabas, Sosthenes, Matthias and Thaddaeus among them.
+  ref: Eusebius, Church History 1.12
+  from: history
+- text: Eusebius records that Thomas sent Thaddaeus, one of the seventy, to heal King Abgar of Edessa.
+  ref: Eusebius, Church History 1.13
+  from: tradition
+- text: Later Church lists give names for all seventy; these lists differ.
+  from: tradition
+read:
+- ref: "Luke 10:1–20"
+  note: Sent two by two
+sources:
+- label: The Holy Bible (World English Bible)
+- label: Eusebius, Church History
+  url: "https://www.newadvent.org/fathers/2501.htm"
+reviewed: false

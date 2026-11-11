@@ -1,0 +1,39 @@
+summary: Mary of Nazareth, the Virgin who gave birth to Jesus Christ and whom the Church honours as the Mother of God. Scripture shows her at the Annunciation, at Christ’s birth, at Cana, at the cross and praying with the apostles before Pentecost.
+born:
+  text: Not recorded in Scripture. Tradition names her parents Joachim and Anna
+  ref: Protoevangelium of James
+  from: tradition
+family:
+  - { relation: "Parents", name: "Joachim and Anna", ref: "Protoevangelium of James", from: "tradition" }
+  - { relation: "Betrothed", name: "Joseph, of the house of David", ref: "Luke 1:27" }
+  - { relation: "Son", name: "Jesus", ref: "Luke 1:31; 2:7" }
+  - { relation: "Relative", name: "Elizabeth, mother of John the Baptist", ref: "Luke 1:36" }
+events:
+  - { text: "In Nazareth, betrothed to Joseph, she hears Gabriel’s greeting and answers, “Let it be to me according to your word.”", ref: "Luke 1:26–38" }
+  - { text: "She visits Elizabeth, who calls her the mother of my Lord, and sings the Magnificat.", ref: "Luke 1:39–56" }
+  - { text: "She gives birth to Jesus in Bethlehem and keeps all these things in her heart.", ref: "Luke 2:1–19" }
+  - { text: "In the Temple, Simeon tells her that a sword will pierce her own soul.", ref: "Luke 2:22–35" }
+  - { text: "She flees with Joseph and the child to Egypt, and returns to Nazareth.", ref: "Matthew 2:13–23" }
+  - { text: "She finds the twelve-year-old Jesus in the Temple after three days of searching.", ref: "Luke 2:41–51" }
+  - { text: "At the wedding in Cana she tells the servants, “Whatever he says to you, do it.”", ref: "John 2:1–11" }
+  - { text: "She stands by the cross; Jesus gives her into the care of the beloved disciple.", ref: "John 19:25–27" }
+  - { text: "She prays with the apostles in the upper room before Pentecost.", ref: "Acts 1:14" }
+  - { text: "The Council of Ephesus (431) confirmed the title Theotokos, Mother of God.", from: "history" }
+died:
+  text: Not recorded in Scripture. The Church keeps her falling asleep and her being taken up into heaven (Shunoyo)
+  ref: Feast of 15 August
+  from: tradition
+remembered:
+  - { name: "Annunciation to St. Mary, Mother of God" }
+  - { name: "St. Mary’s visit to Elizabeth" }
+  - { name: "Feast of the glory of St. Mary, Mother of God" }
+  - { name: "The Festival of the Ascension of St. Mary (Shunoyo)", date: "15 August" }
+read:
+  - { ref: "Luke 1:26–56", note: "The Annunciation and the Magnificat" }
+  - { ref: "Luke 2", note: "The birth and the Temple" }
+  - { ref: "John 2:1–11", note: "Cana" }
+  - { ref: "John 19:25–27", note: "At the cross" }
+sources:
+  - { label: "The Holy Bible (World English Bible)" }
+  - { label: "Protoevangelium of James (2nd century)", url: "https://www.newadvent.org/fathers/0847.htm" }
+reviewed: false

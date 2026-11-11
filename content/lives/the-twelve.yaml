@@ -1,0 +1,42 @@
+summary: The twelve men Jesus chose from among his disciples to be with him and to be sent out as apostles. They witnessed his ministry, death and resurrection, and after Pentecost carried the Gospel to the nations.
+family:
+- relation: The twelve
+  name: Simon Peter, Andrew, James and John (sons of Zebedee), Philip, Bartholomew, Thomas, Matthew, James son of Alphaeus, Thaddaeus, Simon the Zealot, and Judas Iscariot
+  ref: "Matthew 10:2–4"
+- relation: Chosen in place of Judas
+  name: Matthias
+  ref: "Acts 1:26"
+events:
+- text: After a night of prayer on the mountain, Jesus chooses twelve and names them apostles.
+  ref: "Luke 6:12–16"
+- text: He appoints them to be with him and to be sent out to preach.
+  ref: "Mark 3:14"
+- text: He sends them out two by two with authority over unclean spirits.
+  ref: "Mark 6:7–13"
+- text: At the Last Supper he gives them the bread and the cup.
+  ref: "Luke 22:14–20"
+- text: Judas betrays him; the rest flee.
+  ref: "Mark 14:43–50"
+- text: The risen Lord appears to them and sends them to make disciples of all nations.
+  ref: "Matthew 28:16–20"
+- text: Matthias is chosen to take Judas’ place.
+  ref: "Acts 1:15–26"
+- text: At Pentecost the Holy Spirit comes on them.
+  ref: "Acts 2:1–4"
+- text: Tradition says they went to many lands and most died as martyrs; Thomas came to India, as the Malankara Church holds.
+  from: tradition
+remembered:
+- name: Feast of the Twelve Apostles
+  date: 30 June
+read:
+- ref: "Luke 6:12–16"
+  note: The choosing
+- ref: "Mark 6:7–13"
+  note: Sent out
+- ref: "Acts 1:12–26"
+  note: Waiting and Matthias
+sources:
+- label: The Holy Bible (World English Bible)
+- label: Eusebius, Church History
+  url: "https://www.newadvent.org/fathers/2501.htm"
+reviewed: false

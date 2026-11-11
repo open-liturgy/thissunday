@@ -1,0 +1,24 @@
+summary: A rich and devout ruler who asked Jesus what he must do to inherit eternal life. Told to sell all he had and follow Jesus, he went away very sad.
+events:
+- text: He asks, “Good Teacher, what shall I do to inherit eternal life?”
+  ref: "Luke 18:18"
+- text: Jesus lists the commandments; he says he has kept them all from his youth.
+  ref: "Luke 18:20–21"
+- text: Mark says Jesus, looking at him, loved him.
+  ref: "Mark 10:21"
+- text: Jesus tells him, “Sell all that you have and distribute it to the poor… then come, follow me.”
+  ref: "Luke 18:22"
+- text: He becomes very sad, for he is very rich.
+  ref: "Luke 18:23"
+- text: Jesus says it is easier for a camel to go through a needle’s eye than for a rich man to enter the kingdom, but what is impossible with men is possible with God.
+  ref: "Luke 18:24–27"
+- text: Matthew calls him a young man.
+  ref: "Matthew 19:20, 22"
+read:
+- ref: "Luke 18:18–30"
+  note: The rich ruler
+- ref: "Mark 10:17–31"
+  note: Jesus loved him
+sources:
+- label: The Holy Bible (World English Bible)
+reviewed: false

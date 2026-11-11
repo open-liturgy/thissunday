@@ -392,8 +392,9 @@ export function renderRoute(site: Site, route: Route, assets: Assets): string {
     const c = route.character;
     const n = c.appearances.length;
     const sundays = c.appearances.map((a) => a.edition.name.en);
-    const title = `${c.name} in the Sunday readings | This Sunday`;
-    const description = (
+    const title = c.life ? `${c.name}: life, Bible passages and Sundays | This Sunday` : `${c.name} in the Sunday readings | This Sunday`;
+    const fromLife = c.life && (c.life.summary.length <= 155 ? c.life.summary : c.life.summary.slice(0, 154).replace(/\s+\S*$/, '') + '…');
+    const description = fromLife || (
       n === 1
         ? `${c.name} in the Malankara Orthodox Sunday readings: the ${sundays[0]}, ${gospelOf(c.appearances[0].edition).ref}. What the Gospel says and what the name means.`
         : `${c.name} in the Malankara Orthodox Sunday readings: ${n} Sundays, including the ${sundays[0]} and the ${sundays.at(-1)}.`

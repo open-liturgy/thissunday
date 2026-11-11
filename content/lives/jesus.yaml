@@ -1,0 +1,46 @@
+summary: Jesus of Nazareth, the Son of God made man, born of the Virgin Mary in Bethlehem. He taught and healed in Galilee and Judea, was crucified in Jerusalem under Pontius Pilate, rose on the third day and ascended into heaven.
+born:
+  text: In Bethlehem of Judea, in the days of King Herod, laid in a manger
+  ref: Matthew 2:1; Luke 2:4–7
+family:
+  - { relation: "Mother", name: "Mary", ref: "Luke 1:31" }
+  - { relation: "Guardian", name: "Joseph, husband of Mary, of the house of David", ref: "Matthew 1:16–20" }
+  - { relation: "Relatives", name: "James, Joses, Simon and Judas, called his brothers", ref: "Mark 6:3" }
+  - { relation: "Relatives", name: "The Church has long understood these as kinsmen or as Joseph’s children from an earlier marriage, not as children of Mary", from: "tradition" }
+events:
+  - { text: "The angel Gabriel announces his birth to Mary in Nazareth.", ref: "Luke 1:26–38" }
+  - { text: "He is born in Bethlehem; shepherds come to see him.", ref: "Luke 2:1–20" }
+  - { text: "He is circumcised and named Jesus on the eighth day, then presented in the Temple, where Simeon and Anna recognise him.", ref: "Luke 2:21–38" }
+  - { text: "Wise men from the east worship him; Joseph takes the family to Egypt to escape Herod, then settles in Nazareth.", ref: "Matthew 2:1–23" }
+  - { text: "At twelve he stays behind in the Temple, listening to the teachers and asking them questions.", ref: "Luke 2:41–52" }
+  - { text: "About thirty years old, he is baptised by John in the Jordan; the Spirit descends and the Father’s voice is heard.", ref: "Luke 3:21–23" }
+  - { text: "He fasts forty days in the wilderness and is tempted.", ref: "Matthew 4:1–11" }
+  - { text: "He calls fishermen to follow him and begins preaching that the kingdom of God is near.", ref: "Mark 1:14–20" }
+  - { text: "His first sign: water becomes wine at a wedding in Cana.", ref: "John 2:1–11" }
+  - { text: "He teaches the Sermon on the Mount, heals the sick and forgives sins.", ref: "Matthew 5–7" }
+  - { text: "He is transfigured on the mountain before Peter, James and John, with Moses and Elijah.", ref: "Matthew 17:1–8" }
+  - { text: "He raises Lazarus, then enters Jerusalem on a donkey to cries of Hosanna.", ref: "John 11:1–44; 12:12–19" }
+  - { text: "At the Last Supper he gives the bread and the cup as his body and blood, and washes his disciples’ feet.", ref: "Luke 22:14–20; John 13:1–15" }
+  - { text: "He is arrested, condemned under Pontius Pilate and crucified at Golgotha.", ref: "John 18–19" }
+  - { text: "On the third day he rises from the dead and appears to his disciples.", ref: "Matthew 28; 1 Corinthians 15:3–8" }
+  - { text: "After forty days he ascends into heaven from the Mount of Olives.", ref: "Acts 1:3–11" }
+died:
+  text: Crucified at Golgotha outside Jerusalem under Pontius Pilate, probably about AD 30 to 33; rose on the third day
+  ref: John 19:16–30
+remembered:
+  - { name: "Yeldho, the Nativity of our Lord", date: "25 December" }
+  - { name: "Circumcision of our Lord", date: "1 January" }
+  - { name: "Denha, the Baptism of our Lord", date: "6 January" }
+  - { name: "Mayaltho, the Entry of our Lord into the Temple" }
+  - { name: "Koodaara, the Transfiguration", date: "6 August" }
+  - { name: "Hosanna, Easter and the Ascension" }
+  - { name: "The Feast of the Holy Cross", date: "14 September" }
+read:
+  - { ref: "Luke 1–2", note: "His birth and childhood" }
+  - { ref: "Matthew 5–7", note: "The Sermon on the Mount" }
+  - { ref: "John 1:1–18", note: "The Word made flesh" }
+  - { ref: "Mark 14–16", note: "His passion and resurrection" }
+sources:
+  - { label: "The Holy Bible (World English Bible)" }
+  - { label: "Josephus, Antiquities of the Jews 17–18 (for Herod and Pilate)", url: "https://www.gutenberg.org/ebooks/2848" }
+reviewed: false

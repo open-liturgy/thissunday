@@ -1,0 +1,47 @@
+summary: Jacob, son of Isaac and grandson of Abraham, renamed Israel. The father of the twelve tribes, he saw a ladder reaching to heaven, wrestled with God, and died in Egypt blessing his sons.
+born:
+  text: Twin of Esau, born holding his brother’s heel
+  ref: "Genesis 25:24–26"
+died:
+  text: In Egypt at 147, after blessing his sons; buried in the cave of Machpelah
+  ref: "Genesis 47:28; 49:29–33; 50:13"
+family:
+- relation: Parents
+  name: Isaac and Rebekah
+  ref: "Genesis 25:20–26"
+- relation: Brother
+  name: Esau
+  ref: "Genesis 25:25"
+- relation: Wives
+  name: Leah and Rachel, and Bilhah and Zilpah
+  ref: Genesis 29–30
+- relation: Sons
+  name: Twelve, fathers of the tribes of Israel, including Judah and Joseph
+  ref: "Genesis 35:22–26"
+events:
+- text: He buys Esau’s birthright for a bowl of stew.
+  ref: "Genesis 25:29–34"
+- text: He receives his father’s blessing by deceit and flees from Esau.
+  ref: Genesis 27
+- text: At Bethel he dreams of a ladder reaching to heaven, with angels going up and down.
+  ref: "Genesis 28:10–22"
+- text: He serves his uncle Laban twenty years and marries Leah and Rachel.
+  ref: Genesis 29–31
+- text: He wrestles through the night and is renamed Israel.
+  ref: "Genesis 32:24–30"
+- text: Reconciled with Esau, he returns to Canaan.
+  ref: Genesis 33
+- text: In famine he goes down to Egypt, where his son Joseph is governor.
+  ref: Genesis 46
+- text: Jesus tells Nathanael he will see angels ascending and descending on the Son of Man, recalling Jacob’s dream.
+  ref: "John 1:51"
+read:
+- ref: "Genesis 28:10–22"
+  note: The ladder
+- ref: "Genesis 32:22–32"
+  note: Wrestling with God
+- ref: Genesis 49
+  note: His blessing and death
+sources:
+- label: The Holy Bible (World English Bible)
+reviewed: false

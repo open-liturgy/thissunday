@@ -1,5 +1,5 @@
 import type { Site } from '../lib/content';
-import { iconPath, type Character, type People } from '../lib/people';
+import { iconPath, type Character, type Life, type People } from '../lib/people';
 import { longDate, type Strings } from '../lib/i18n';
 import { Footer, TopBar } from './Chrome';
 import { gospelOf } from './Sunday';
@@ -33,7 +33,122 @@ export const peopleText = {
   credit: (c: NonNullable<Character['icon']>) => [c.artist, c.date].filter(Boolean).join(', '),
   caption: (c: NonNullable<Character['icon']>) => [c.artist ?? c.title, c.date].filter(Boolean).join(', '),
   source: 'Wikimedia Commons',
+  lifeH: (name: string) => `The life of ${name}`,
+  aboutH: (name: string) => `Who ${name.replace(/^The /, 'the ')} were`,
+  born: 'Born',
+  died: 'Died',
+  origin: 'Origins',
+  after: 'Afterwards',
+  family: 'Family',
+  remembered: 'Remembered in the Church year',
+  readH: 'Read it in the Bible',
+  sourcesH: 'Sources',
+  from: { scripture: 'Scripture', tradition: 'Tradition', history: 'History' } as Record<string, string>,
+  lifeNote: 'Drafted from the Bible and Church tradition. Each line says where it comes from; anything marked Tradition or History is not in Scripture itself. Waiting for review by a priest or editor.',
 };
+
+function Src({ from, refText }: { from: string; refText?: string }) {
+  return (
+    <span className={`pp-src pp-src-${from}`}>
+      {peopleText.from[from]}
+      {refText && <span className="r">{refText}</span>}
+    </span>
+  );
+}
+
+function LifeSection({ c, life }: { c: Character; life: Life }) {
+  const group = c.kind === 'group';
+  return (
+    <section className="section" aria-labelledby="pp-life">
+      <h2 id="pp-life" className="pp-h2">{group ? peopleText.aboutH(c.name) : peopleText.lifeH(c.name)}</h2>
+      <p className="pp-summary">{life.summary}</p>
+      {(life.born || life.died || life.family.length > 0) && (
+        <dl className="pp-facts pp-vitals">
+          {life.born && (
+            <div>
+              <dt>{group ? peopleText.origin : peopleText.born}</dt>
+              <dd>
+                {life.born.text} <Src from={life.born.from} refText={life.born.ref} />
+              </dd>
+            </div>
+          )}
+          {life.died && (
+            <div>
+              <dt>{group ? peopleText.after : peopleText.died}</dt>
+              <dd>
+                {life.died.text} <Src from={life.died.from} refText={life.died.ref} />
+              </dd>
+            </div>
+          )}
+          {life.family.length > 0 && (
+            <div>
+              <dt>{peopleText.family}</dt>
+              <dd>
+                <ul className="pp-family">
+                  {life.family.map((f) => (
+                    <li key={f.relation + f.name}>
+                      <b>{f.relation}:</b> {f.name} <Src from={f.from} refText={f.ref} />
+                    </li>
+                  ))}
+                </ul>
+              </dd>
+            </div>
+          )}
+        </dl>
+      )}
+      <ol className="pp-timeline">
+        {life.events.map((ev, i) => (
+          <li key={i}>
+            <p>{ev.text}</p>
+            <Src from={ev.from} refText={ev.ref} />
+          </li>
+        ))}
+      </ol>
+      {(life.remembered.length > 0 || life.read.length > 0) && (
+        <div className="pp-life-more">
+          {life.remembered.length > 0 && (
+            <div>
+              <h3>{peopleText.remembered}</h3>
+              <ul>
+                {life.remembered.map((r) => (
+                  <li key={r.name}>
+                    {r.name}
+                    {r.date && <span className="d">{r.date}</span>}
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
+          {life.read.length > 0 && (
+            <div>
+              <h3>{peopleText.readH}</h3>
+              <ul>
+                {life.read.map((r) => (
+                  <li key={r.ref}>
+                    <b>{r.ref}</b> <span className="d">{r.note}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
+        </div>
+      )}
+      {life.sources.length > 0 && (
+        <p className="pp-fine">
+          {`${peopleText.sourcesH}: `}
+          {life.sources.map((s, i) => (
+            <span key={s.label}>
+              {i > 0 && '; '}
+              {s.url ? <a href={s.url}>{s.label}</a> : s.label}
+            </span>
+          ))}
+          .
+        </p>
+      )}
+      {!life.reviewed && <p className="pp-note">{peopleText.lifeNote}</p>}
+    </section>
+  );
+}
 
 /** Arched icon, or the first letter on the season colour when there is none yet. */
 function Icon({ c, size, eager }: { c: Character; size: 'hero' | 'thumb'; eager?: boolean }) {
@@ -184,6 +299,7 @@ export function PersonPage({ site, people, c, t }: { site: Site; people: People;
             </dl>
             {unreviewed && <p className="pp-note">{peopleText.meaningNote}</p>}
           </section>
+          {c.life && <LifeSection c={c} life={c.life} />}
           <section className="section" aria-labelledby="pp-sundays">
             <h2 id="pp-sundays" className="pp-h2">{peopleText.appearances(c.name)}</h2>
             <ol className="pp-apps" reversed>

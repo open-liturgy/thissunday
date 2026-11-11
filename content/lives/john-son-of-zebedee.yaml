@@ -1,0 +1,45 @@
+summary: John, son of Zebedee and brother of James, a Galilean fisherman called by Jesus. One of the three closest to the Lord, he became a pillar of the Church in Jerusalem; the Church honours him as John the Theologian, writer of the fourth Gospel.
+died:
+  text: At Ephesus in old age, the only one of the twelve said not to have died a martyr
+  from: tradition
+family:
+- relation: Father
+  name: Zebedee
+  ref: "Matthew 4:21"
+- relation: Brother
+  name: James
+  ref: "Matthew 4:21"
+events:
+- text: He leaves the boat and his father to follow Jesus.
+  ref: "Matthew 4:21–22"
+- text: Jesus calls him and James Sons of Thunder.
+  ref: "Mark 3:17"
+- text: With Peter and James he sees Jairus’s daughter raised, the Transfiguration, and the agony in Gethsemane.
+  ref: "Mark 5:37; 9:2; 14:33"
+- text: With Peter he prepares the Passover meal.
+  ref: "Luke 22:8"
+- text: "With Peter he heals a lame man at the Temple and stands trial before the council: “We can’t help telling the things which we saw and heard.”"
+  ref: "Acts 3:1–4:20"
+- text: Paul names him with Peter and James as a pillar of the Church in Jerusalem.
+  ref: "Galatians 2:9"
+- text: Early writers identify him with the beloved disciple and as author of the Gospel of John, three letters and Revelation, which was written on the island of Patmos.
+  ref: "Irenaeus, Against Heresies 3.1; Revelation 1:9"
+  from: tradition
+- text: He lived and taught in Ephesus into old age.
+  ref: Eusebius, Church History 3.23
+  from: tradition
+remembered:
+- name: Feast of the Twelve Apostles
+  date: 30 June
+read:
+- ref: "John 1:1–18"
+  note: The prologue of his Gospel
+- ref: "1 John 4:7–21"
+  note: God is love
+- ref: Acts 3–4
+  note: With Peter in Jerusalem
+sources:
+- label: The Holy Bible (World English Bible)
+- label: Eusebius, Church History
+  url: "https://www.newadvent.org/fathers/2501.htm"
+reviewed: false

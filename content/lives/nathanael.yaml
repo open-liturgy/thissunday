@@ -1,0 +1,34 @@
+summary: Nathanael of Cana in Galilee, brought to Jesus by Philip. At first he doubted that anything good could come from Nazareth, then confessed Jesus as the Son of God. Tradition identifies him with the apostle Bartholomew.
+born:
+  text: In Cana of Galilee
+  ref: "John 21:2"
+events:
+- text: Philip tells him about Jesus of Nazareth; he asks, “Can any good thing come out of Nazareth?”
+  ref: "John 1:45–46"
+- text: Jesus calls him an Israelite in whom there is no deceit, and says he saw him under the fig tree.
+  ref: "John 1:47–48"
+- text: He confesses, “Rabbi, you are the Son of God! You are King of Israel!” and is promised greater things.
+  ref: "John 1:49–51"
+- text: He is with Peter and the others when the risen Lord appears by the Sea of Tiberias.
+  ref: "John 21:1–2"
+- text: Because John pairs him with Philip, as the other Gospels pair Philip and Bartholomew, the Church identifies him with Bartholomew.
+  ref: "Matthew 10:3"
+  from: tradition
+- text: Eusebius records that Pantaenus found in India a Gospel of Matthew in Hebrew left there by Bartholomew.
+  ref: Eusebius, Church History 5.10
+  from: tradition
+- text: He also preached in Armenia, where he was martyred.
+  from: tradition
+remembered:
+- name: Feast of the Twelve Apostles
+  date: 30 June
+read:
+- ref: "John 1:43–51"
+  note: Under the fig tree
+- ref: "John 21:1–14"
+  note: By the sea
+sources:
+- label: The Holy Bible (World English Bible)
+- label: Eusebius, Church History
+  url: "https://www.newadvent.org/fathers/2501.htm"
+reviewed: false

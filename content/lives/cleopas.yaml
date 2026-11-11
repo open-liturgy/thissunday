@@ -1,0 +1,29 @@
+summary: "Cleopas, one of two disciples walking to Emmaus on the evening of the resurrection. A stranger explained the Scriptures to them and was made known in the breaking of the bread: it was the risen Lord."
+family:
+- relation: Possibly
+  name: The same as Clopas, whose wife Mary stood at the cross
+  ref: "John 19:25"
+  from: tradition
+- relation: Possibly
+  name: Hegesippus says Clopas was Joseph’s brother, and his son Simeon became the second bishop of Jerusalem
+  ref: Eusebius, Church History 3.11
+  from: tradition
+events:
+- text: On the day of the resurrection he and another disciple walk to Emmaus, about sixty stadia (11 km) from Jerusalem.
+  ref: "Luke 24:13"
+- text: Jesus joins them unrecognised; Cleopas asks, “Are you the only stranger in Jerusalem who doesn’t know?”
+  ref: "Luke 24:15–24"
+- text: Jesus explains the Scriptures from Moses and the prophets; their hearts burn within them.
+  ref: "Luke 24:25–32"
+- text: They recognise him in the breaking of the bread, and he vanishes.
+  ref: "Luke 24:30–31"
+- text: They return that hour to Jerusalem to tell the eleven.
+  ref: "Luke 24:33–35"
+read:
+- ref: "Luke 24:13–35"
+  note: The road to Emmaus
+sources:
+- label: The Holy Bible (World English Bible)
+- label: Eusebius, Church History
+  url: "https://www.newadvent.org/fathers/2501.htm"
+reviewed: false

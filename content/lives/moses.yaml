@@ -1,0 +1,60 @@
+summary: The great prophet and lawgiver of Israel. Saved as a baby from Pharaoh, he met God at the burning bush, led the people out of slavery in Egypt, received the Law at Sinai, and guided Israel through forty years in the wilderness.
+born:
+  text: In Egypt, to a Levite family, at a time when Pharaoh ordered every Hebrew baby boy thrown into the Nile
+  ref: "Exodus 1:22–2:2"
+died:
+  text: At 120, on Mount Nebo in Moab, after seeing the promised land from afar; no one knows where his grave is
+  ref: "Deuteronomy 34:1–7"
+family:
+- relation: Parents
+  name: Amram and Jochebed
+  ref: "Exodus 6:20"
+- relation: Brother and sister
+  name: Aaron and Miriam
+  ref: "Exodus 7:7; 15:20"
+- relation: Wife
+  name: Zipporah, daughter of Jethro (Reuel), priest of Midian
+  ref: "Exodus 2:21; 3:1"
+- relation: Sons
+  name: Gershom and Eliezer
+  ref: "Exodus 18:3–4"
+events:
+- text: Hidden for three months, then placed in a basket among the reeds of the Nile; Pharaoh’s daughter finds him, adopts him and names him Moses.
+  ref: "Exodus 2:2–10"
+- text: Grown up, he kills an Egyptian who is beating a Hebrew and flees to Midian, where he marries and keeps sheep.
+  ref: "Exodus 2:11–22"
+- text: "At Horeb God speaks to him from a bush that burns but is not consumed: “I AM WHO I AM.”"
+  ref: "Exodus 3:1–14"
+- text: With Aaron he stands before Pharaoh; after the plagues and the first Passover, Israel leaves Egypt.
+  ref: "Exodus 7:7; 12:1–42"
+- text: God parts the Red Sea and the people cross on dry ground.
+  ref: "Exodus 14:21–31"
+- text: God feeds the people with manna in the wilderness.
+  ref: Exodus 16
+- text: On Mount Sinai he receives the Ten Commandments and the covenant law.
+  ref: Exodus 19–20
+- text: While he is on the mountain the people make a golden calf; he pleads with God for them.
+  ref: Exodus 32
+- text: He lifts up a bronze serpent so that those bitten may look and live; Jesus later compares his own lifting up to it.
+  ref: "Numbers 21:8–9; John 3:14"
+- text: At Meribah he strikes the rock instead of speaking to it, and is told he will not enter the land.
+  ref: "Numbers 20:1–12"
+- text: He appears with Elijah, talking with Jesus at the Transfiguration.
+  ref: "Matthew 17:1–3"
+- text: Jewish and Christian tradition has long held that Moses wrote the five books of the Law.
+  from: tradition
+remembered:
+- name: Transfiguration (with Elijah)
+  date: 6 August
+read:
+- ref: Exodus 2–3
+  note: Birth and the burning bush
+- ref: Exodus 14
+  note: The Red Sea
+- ref: "Exodus 20:1–17"
+  note: The Ten Commandments
+- ref: Deuteronomy 34
+  note: His death
+sources:
+- label: The Holy Bible (World English Bible)
+reviewed: false

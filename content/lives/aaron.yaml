@@ -1,0 +1,52 @@
+summary: The brother of Moses and the first high priest of Israel. He spoke for Moses before Pharaoh, and his sons served as priests after him. Elizabeth, the mother of John the Baptist, was descended from him.
+born:
+  text: In Egypt, of the tribe of Levi, three years older than Moses
+  ref: "Exodus 6:16–20; 7:7"
+died:
+  text: At 123, on Mount Hor, after his priestly robes were put on his son Eleazar; Israel mourned him for thirty days
+  ref: "Numbers 20:22–29; 33:39"
+family:
+- relation: Parents
+  name: Amram and Jochebed
+  ref: "Exodus 6:20"
+- relation: Brother and sister
+  name: Moses and Miriam
+  ref: "Exodus 15:20"
+- relation: Wife
+  name: Elisheba
+  ref: "Exodus 6:23"
+- relation: Sons
+  name: Nadab, Abihu, Eleazar and Ithamar
+  ref: "Exodus 6:23"
+- relation: Descendant
+  name: Elizabeth, mother of John the Baptist
+  ref: "Luke 1:5"
+events:
+- text: "God appoints him to speak for Moses: “He will be your spokesman to the people.”"
+  ref: "Exodus 4:14–16"
+- text: Before Pharaoh his staff becomes a serpent.
+  ref: "Exodus 7:8–12"
+- text: With Hur he holds up Moses’ hands during the battle with Amalek.
+  ref: "Exodus 17:10–12"
+- text: He is consecrated high priest, with his sons as priests.
+  ref: "Exodus 28:1; Leviticus 8"
+- text: While Moses is on Sinai he gives in to the people and makes the golden calf.
+  ref: "Exodus 32:1–6, 21–24"
+- text: His sons Nadab and Abihu die after offering unauthorized fire.
+  ref: "Leviticus 10:1–2"
+- text: His staff buds, blossoms and bears almonds, showing God’s choice of him.
+  ref: "Numbers 17:1–8"
+- text: Hebrews names him as one called by God to be high priest.
+  ref: "Hebrews 5:4"
+- text: The Church sees his budding staff as an image of the Virgin Mary, who bore Christ.
+  from: tradition
+read:
+- ref: "Exodus 4:10–17"
+  note: Spokesman for Moses
+- ref: "Numbers 6:22–27"
+  note: The priestly blessing
+- ref: Numbers 17
+  note: The rod that budded
+sources:
+- label: The Holy Bible (World English Bible)
+reviewed: false
