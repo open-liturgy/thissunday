@@ -6,6 +6,7 @@ import { dayMonth, fullDate, longDate, shortDate, type Strings } from '../lib/i1
 import { SundayArt } from './Art';
 import { Footer, TopBar } from './Chrome';
 import { gospelOf } from './Sunday';
+import { quoted } from '../lib/quote';
 
 /* ---------- All Sundays (/all-sundays/) ---------- */
 
@@ -301,8 +302,8 @@ export function ShareCard({ e, siteHost, variant }: { e: Edition; siteHost: stri
         </div>
         <div className="sc-words">
           <div className="sc-name">{e.name.en}</div>
-          {e.key_verse.ml && <div className="sc-ml" lang="ml">{`“${e.key_verse.ml}”`}</div>}
-          <div className="sc-en">{`“${e.key_verse.en}”`}</div>
+          {e.key_verse.ml && <div className="sc-ml" lang="ml">{quoted(e.key_verse.ml)}</div>}
+          <div className="sc-en">{quoted(e.key_verse.en)}</div>
         </div>
         <div className="sc-foot">
           <span><b>{e.key_verse.ref}</b><span>Five minutes before Qurbana</span></span>
@@ -323,8 +324,8 @@ export function ShareCard({ e, siteHost, variant }: { e: Edition; siteHost: stri
         </div>
         <div className="sc-words">
           <div className="sc-name">{e.name.en}</div>
-          {e.key_verse.ml && <div className="sc-ml" lang="ml">{`“${e.key_verse.ml}”`}</div>}
-          <div className="sc-en">{`“${e.key_verse.en}”`}</div>
+          {e.key_verse.ml && <div className="sc-ml" lang="ml">{quoted(e.key_verse.ml)}</div>}
+          <div className="sc-en">{quoted(e.key_verse.en)}</div>
         </div>
         <div className="sc-foot">
           <span><b>{`Gospel: ${gospelOf(e).ref}`}</b><span>Readings, the Gospel explained and a question for the family</span></span>

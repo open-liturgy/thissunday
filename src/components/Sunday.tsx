@@ -5,6 +5,7 @@ import type { TraditionConfig } from '../lib/tradition';
 import { dayMonth, fullDate, longDate, shortDate, type Strings } from '../lib/i18n';
 import { ArchLogo, PlayIcon, ShareIcon, SundayArt } from './Art';
 import { Footer, SectionHead, TopBar, correctionUrl } from './Chrome';
+import { quoted } from '../lib/quote';
 
 export interface SundayProps {
   page: Page;
@@ -110,7 +111,7 @@ export function Sunday({ page, t, tradition, prev, next, canonical, cardImage, h
             </div>
             {e.hero_quote && (
               <figcaption className="hero-quote">
-                <em>{`“${e.hero_quote.text}”`}</em> <cite>{e.hero_quote.ref}</cite>
+                <em>{quoted(e.hero_quote.text)}</em> <cite>{e.hero_quote.ref}</cite>
               </figcaption>
             )}
           </figure>
@@ -296,8 +297,8 @@ export function Sunday({ page, t, tradition, prev, next, canonical, cardImage, h
 
             <figure className="verse">
               <p className="label">{t.verseToKeep}</p>
-              {e.key_verse.ml && <blockquote lang="ml">{`“${e.key_verse.ml}”`}</blockquote>}
-              <blockquote className="en">{`“${e.key_verse.en}”`}</blockquote>
+              {e.key_verse.ml && <blockquote lang="ml">{quoted(e.key_verse.ml)}</blockquote>}
+              <blockquote className="en">{quoted(e.key_verse.en)}</blockquote>
               <figcaption>
                 <span>{e.key_verse.ref}</span>
                 {e.key_verse.ml && <span lang="ml">{tradition.bible.ml}</span>}
@@ -328,7 +329,7 @@ export function Sunday({ page, t, tradition, prev, next, canonical, cardImage, h
                           ))}
                         </p>
                       )}
-                      <p className="mean">{`“${p.name_meaning}”`}</p>
+                      <p className="mean">{quoted(p.name_meaning)}</p>
                     </li>
                     );
                   })}
