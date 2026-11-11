@@ -82,6 +82,10 @@ const en = {
   reuse: 'Code, calendar and reading data are free to reuse:',
   licence: 'Licence',
   archive: 'All Sundays',
+  allLabel: 'The whole year',
+  allText: 'Every Sunday of the Church year, season by season: readings, the Gospel and a question for the family.',
+  allCta: (n: number) => `See all ${n} Sundays`,
+  allWhere: (k: number, n: number, season: string) => `Sunday ${k} of ${n} in ${season}`,
   archiveH: 'Every edition of This Sunday',
   archiveIntro: 'Each page stays at its own address, so you can go back to any Sunday.',
   home: 'This Sunday',
@@ -138,6 +142,10 @@ const ml: Strings = {
   nextSunday: 'അടുത്ത ഞായർ',
   sources: 'ഉറവിടങ്ങൾ',
   archive: 'എല്ലാ ഞായറുകളും',
+  allLabel: 'സഭാവർഷം മുഴുവൻ',
+  allText: 'സഭാവർഷത്തിലെ എല്ലാ ഞായറുകളും, കാലം തിരിച്ച്: വായനകൾ, സുവിശേഷം, കുടുംബത്തിനുള്ള ഒരു ചോദ്യം.',
+  allCta: (n: number) => `എല്ലാ ${n} ഞായറുകളും കാണുക`,
+  allWhere: (k: number, n: number, season: string) => `${season} · ${k} / ${n}`,
 };
 
 export const strings: Record<Lang, Strings> = { en, ml };

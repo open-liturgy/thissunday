@@ -20,7 +20,7 @@ Static, SEO-first, and complete with JavaScript turned off.
 | `/` | The upcoming Sunday. Canonical points to its permanent page. |
 | `/{year}/{sunday_slug}/` | Permanent page for one edition. |
 | `/ml/{year}/{sunday_slug}/` | Malayalam edition, only when the edition has `translations.ml`. |
-| `/archive/` | Every published edition. |
+| `/all-sundays/` | All Sundays: every edition, season by season. Linked from the top nav, the phone section bar and the end of every Sunday page. `/archive/` redirects here. |
 | `/og/{date}.jpg`, `/og/{date}-card.jpg` | Social image and share card. |
 
 ## Commands

@@ -4,7 +4,7 @@
       "staticDistDir": "./dist",
       "url": [
         "http://localhost/",
-        "http://localhost/archive/"
+        "http://localhost/all-sundays/"
       ],
       "numberOfRuns": 3,
       "settings": {

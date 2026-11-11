@@ -22,7 +22,7 @@ export function sitemap(site: Site, lastmod: Record<string, string>): string {
       }</url>`,
     );
   // '/' is left out: it duplicates the upcoming edition and canonicalises to it.
-  add('/archive/', site.upcoming && lastmod[site.upcoming.date]);
+  add('/all-sundays/', site.upcoming && lastmod[site.upcoming.date]);
   for (const p of site.pages) {
     const alts = Object.keys(p.alternates).length > 1 ? { ...(p.alternates as Record<string, string>), 'x-default': p.alternates.en! } : undefined;
     add(p.path, lastmod[p.edition.date], alts);

@@ -25,6 +25,7 @@ export interface Assets {
 export type Route =
   | { kind: 'sunday'; path: string; page: Page; isHome?: boolean }
   | { kind: 'archive'; path: string }
+  | { kind: 'redirect'; path: string; to: string }
   | { kind: 'people'; path: string }
   | { kind: 'person'; path: string; character: Character }
   | { kind: 'notfound'; path: string };
@@ -34,7 +35,9 @@ export function routes(site: Site): Route[] {
   const home = site.pages.find((p) => p.lang === 'en' && p.edition.date === site.upcoming?.date);
   if (home) out.push({ kind: 'sunday', path: '/', page: home, isHome: true });
   for (const p of site.pages) out.push({ kind: 'sunday', path: p.path, page: p });
-  out.push({ kind: 'archive', path: '/archive/' });
+  out.push({ kind: 'archive', path: '/all-sundays/' });
+  // The page used to live at /archive/; keep that address working.
+  out.push({ kind: 'redirect', path: '/archive/', to: '/all-sundays/' });
   const people = loadPeople(site);
   if (people.list.length) {
     out.push({ kind: 'people', path: '/people/' });
@@ -135,7 +138,7 @@ function jsonLd(site: Site, page: Page, canonical: string): Graph {
         '@id': `${canonical}#breadcrumb`,
         itemListElement: [
           { '@type': 'ListItem', position: 1, name: site.tradition.site.name, item: `${base}/` },
-          { '@type': 'ListItem', position: 2, name: strings.en.archive, item: `${base}/archive/` },
+          { '@type': 'ListItem', position: 2, name: strings.en.archive, item: `${base}/all-sundays/` },
           { '@type': 'ListItem', position: 3, name: e.name.en, item: canonical },
         ],
       },
@@ -205,6 +208,18 @@ ${html}
 `;
 }
 
+/** Where an edition sits in the year: its place in its season's run of Sundays, and the total. */
+function yearPlace(site: Site, e: Edition): { total: number; k: number; n: number; season: string } {
+  // Runs are found on the English editions; `e` may be a translation, so only its season label is used.
+  const i = site.all.findIndex((x) => x.date === e.date);
+  const s = site.all[i].season.en;
+  let a = i;
+  let b = i;
+  while (a > 0 && site.all[a - 1].season.en === s) a--;
+  while (b < site.all.length - 1 && site.all[b + 1].season.en === s) b++;
+  return { total: site.all.length, k: i - a + 1, n: b - a + 1, season: isPlaceholder(s) ? s : e.season.en };
+}
+
 export function renderRoute(site: Site, route: Route, assets: Assets): string {
   const { tradition } = site;
   const base = tradition.site.url;
@@ -262,18 +277,37 @@ export function renderRoute(site: Site, route: Route, assets: Assets): string {
           cardImage={cardPath(e)}
           homeHref="/"
           personLinks={(name) => loadPeople(site).linksFor(e, name)}
+          year={yearPlace(site, e)}
         />
       ),
     });
+  }
+  if (route.kind === 'redirect') {
+    const to = `${base}${route.to}`;
+    return `<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Moved to All Sundays | This Sunday</title>
+<meta name="robots" content="noindex">
+<link rel="canonical" href="${to}">
+<meta http-equiv="refresh" content="0; url=${route.to}">
+</head>
+<body>
+<p>This page has moved to <a href="${route.to}">All Sundays</a>.</p>
+</body>
+</html>
+`;
   }
   if (route.kind === 'archive') {
     const t = strings.en;
     return doc({
       lang: 'en',
-      title: `All Sundays: Malankara Orthodox readings by week | This Sunday`,
+      title: `All Sundays: Malankara Orthodox readings for the whole year | This Sunday`,
       description: `Every edition of This Sunday: the readings, the Gospel explained and a family question for each Sunday of the Malankara Orthodox Church year.`,
-      canonical: `${base}/archive/`,
-      head: [`<meta property="og:title" content="All Sundays | This Sunday">`, `<meta property="og:url" content="${base}/archive/">`, site.upcoming ? `<meta property="og:image" content="${base}${ogPath(site.upcoming)}">` : ''],
+      canonical: `${base}/all-sundays/`,
+      head: [`<meta property="og:title" content="All Sundays | This Sunday">`, `<meta property="og:url" content="${base}/all-sundays/">`, site.upcoming ? `<meta property="og:image" content="${base}${ogPath(site.upcoming)}">` : ''],
       assets: { ...assets, script: undefined },
       colours: coloursFor(site),
       body: <Archive site={site} t={t} colours={(e) => coloursFor(site, e)} />,

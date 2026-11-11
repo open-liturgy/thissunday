@@ -19,6 +19,8 @@ export interface SundayProps {
   homeHref: string;
   /** Character pages for a people entry, if any (see src/lib/people.ts). */
   personLinks?: (name: string) => { name: string; path: string }[];
+  /** Where this Sunday sits in the year, for the closing All Sundays card. */
+  year?: { total: number; k: number; n: number; season: string };
 }
 
 const real = (v?: string): v is string => !!v && !isPlaceholder(v);
@@ -27,7 +29,7 @@ export function gospelOf(e: Edition): Reading {
   return Object.values(e.readings).flat().find((r) => r.main)!;
 }
 
-export function Sunday({ page, t, tradition, prev, next, canonical, cardImage, homeHref, personLinks }: SundayProps) {
+export function Sunday({ page, t, tradition, prev, next, canonical, cardImage, homeHref, personLinks, year }: SundayProps) {
   const e = page.edition;
   const gospel = gospelOf(e);
   const services = tradition.services.filter((s) => e.readings[s.id]?.length);
@@ -129,6 +131,7 @@ export function Sunday({ page, t, tradition, prev, next, canonical, cardImage, h
             <li><a href="#gospel" data-spy>{t.navGospelShort}</a></li>
             <li><a href="#reflection" data-spy>{t.navReflection}</a></li>
             <li><a href="#week" data-spy>{t.navWeekShort}</a></li>
+            <li><a href="/all-sundays/">{t.archive}</a></li>
           </ul>
         </nav>
       </div>
@@ -431,6 +434,20 @@ export function Sunday({ page, t, tradition, prev, next, canonical, cardImage, h
               {prev ? <Other n={prev} side="prev" t={t} from={e.date} /> : <span />}
               {next && <Other n={next} side="next" t={t} from={e.date} />}
             </nav>
+          )}
+
+          {year && (
+            <section className="all-sundays" aria-labelledby="h-all">
+              <div>
+                <p className="label">{t.allLabel}</p>
+                <h2 id="h-all">{t.archive}</h2>
+                <p>{t.allText}</p>
+                {real(year.season) && <p className="where">{t.allWhere(year.k, year.n, year.season)}</p>}
+              </div>
+              <a className="pill-btn btn-glow" href="/all-sundays/">
+                {t.allCta(year.total)}
+              </a>
+            </section>
           )}
         </div>
       </div>

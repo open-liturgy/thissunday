@@ -35,11 +35,12 @@ export function TopBar({
           <a href="#gospel">{t.navGospel}</a>
           <a href="#reflection">{t.navReflection}</a>
           <a href="#week">{t.navWeek}</a>
+          <a href="/all-sundays/">{t.archive}</a>
         </nav>
       ) : (
         <nav className="topnav" aria-label={t.sections}>
           <a href={homeHref}>{t.home}</a>
-          <a href="/archive/">{t.archive}</a>
+          <a href="/all-sundays/">{t.archive}</a>
         </nav>
       )}
       {langs.length > 1 && (
@@ -68,7 +69,7 @@ export function Footer({ t, tradition, prepared, reviewer }: { t: Strings; tradi
         </p>
         <p>{s.about}</p>
         <p>
-          <a href="/archive/">{t.archive}</a> · <a href="/people/">People</a> · <a href="/rss.xml">RSS</a>
+          <a href="/all-sundays/">{t.archive}</a> · <a href="/people/">People</a> · <a href="/rss.xml">RSS</a>
         </p>
       </div>
       <div>

@@ -7,7 +7,7 @@ import { SundayArt } from './Art';
 import { Footer, TopBar } from './Chrome';
 import { gospelOf } from './Sunday';
 
-/* ---------- All Sundays (/archive/) ---------- */
+/* ---------- All Sundays (/all-sundays/) ---------- */
 
 /** A drafted "[LIKE THIS]" value is never shown in the archive, even in preview. */
 const real = (v?: string) => (v && !/^\s*\[[^\]]*\]\s*$/.test(v) ? v : undefined);
