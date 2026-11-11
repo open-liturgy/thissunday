@@ -47,7 +47,7 @@ Set `SITE_URL` (for example `https://thissunday.in`) for canonical and Open Grap
 4. Run `npm run check`, fix errors, and resolve each placeholder warning or leave it for review.
 5. Set `reviewed: true` once a priest or editor has checked it. Open a pull request.
 
-The page goes live automatically in the week of that Sunday.
+Every edition is published as soon as it is merged; the home page shows the upcoming Sunday. Build with `PUBLISH_UPCOMING_ONLY=1` to restore week-by-week release, where each page goes live in the week of its Sunday.
 
 ## Add another church tradition
 

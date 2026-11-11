@@ -51,7 +51,9 @@ export function rss(site: Site): string {
     feedLinks: { rss: `${base}/rss.xml` },
     updated: site.upcoming ? new Date(`${site.upcoming.prepared ?? site.upcoming.date}T00:00:00Z`) : undefined,
   });
-  for (const e of [...site.published].reverse().slice(0, 30)) {
+  // Every edition is published, but the feed only carries Sundays up to the upcoming one.
+  const due = site.published.filter((e) => !site.upcoming || e.date <= site.upcoming.date);
+  for (const e of [...due].reverse().slice(0, 30)) {
     const url = base + editionPath(e);
     feed.addItem({
       title: `${e.name.en} (${longDate(e.date)})`,

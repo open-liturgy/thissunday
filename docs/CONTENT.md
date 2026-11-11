@@ -52,10 +52,12 @@ Objects merge key by key and the edition wins. Lists (readings, scenes, peopleâ€
 
 ## Publishing
 
-Editions are published up to and including the upcoming Sunday (in the tradition's time zone). Future editions can sit in the folder; they appear when their week comes. `BUILD_DATE=YYYY-MM-DD` overrides "today" for testing.
+Every edition in the folder is published, past and future. The home page `/` shows the upcoming Sunday (in the tradition's time zone), with its canonical URL pointing at that Sunday's permanent page. To release week by week instead, build with `PUBLISH_UPCOMING_ONLY=1`: only editions up to and including the upcoming Sunday are published, and later ones show as "Coming soon" in the archive. `BUILD_DATE=YYYY-MM-DD` overrides "today" for testing.
+
+Placeholder blocks stay hidden in a normal build. `PREVIEW_ALL=1` (or `npm run preview:all`) shows them, for local review only.
 
 ## Character pages
 
 `content/people.yaml` lists the characters who get a page at `/people/{slug}/`, plus the index at `/people/`. Each entry has `slug`, `name`, optional `ml`, optional `kind` (`person`, `angel` or `group`) and `match`: the `people[].name` values that refer to this character. Write `"Peter"` to match that name on every Sunday, or `"koodhosh-eetho: Simon bar Jonah"` to match it on one Sunday only (use this when a name like John means different people). One entry such as `"Peter and Andrew"` can match several characters.
 
-A character page shows only what the editions already say: the `role` written for each Sunday, and the distinct `name_meaning` values given under the character's own name. It lists published Sundays only, so pages appear as their first Sunday comes round. The build warns when a `match` hits no edition. Names not listed stay plain text.
+A character page shows only what the editions already say: the `role` written for each Sunday, and the distinct `name_meaning` values given under the character's own name. It lists published Sundays only: with `PUBLISH_UPCOMING_ONLY=1`, pages appear as their first Sunday comes round. The build warns when a `match` hits no edition. Names not listed stay plain text.
