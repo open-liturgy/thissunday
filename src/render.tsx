@@ -248,7 +248,7 @@ export function renderRoute(site: Site, route: Route, assets: Assets): string {
       head: [`<meta property="og:title" content="All Sundays | This Sunday">`, `<meta property="og:url" content="${base}/archive/">`, site.upcoming ? `<meta property="og:image" content="${base}${ogPath(site.upcoming)}">` : ''],
       assets: { ...assets, script: undefined },
       colours: coloursFor(site),
-      body: <Archive site={site} t={t} />,
+      body: <Archive site={site} t={t} colours={(e) => coloursFor(site, e)} />,
     });
   }
   return doc({

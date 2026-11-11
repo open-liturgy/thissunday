@@ -1,38 +1,217 @@
+import type { CSSProperties } from 'react';
 import type { Site } from '../lib/content';
 import { editionPath } from '../lib/content';
 import type { Edition } from '../lib/schema';
-import { fullDate, longDate, shortDate, type Strings } from '../lib/i18n';
+import { dayMonth, fullDate, longDate, shortDate, type Strings } from '../lib/i18n';
 import { AltarArt } from './Art';
 import { Footer, TopBar } from './Chrome';
 import { gospelOf } from './Sunday';
 
-export function Archive({ site, t }: { site: Site; t: Strings }) {
-  const eds = [...site.published].reverse();
-  const years = [...new Set(eds.map((e) => e.date.slice(0, 4)))];
+/* ---------- All Sundays (/archive/) ---------- */
+
+/** A drafted "[LIKE THIS]" value is never shown in the archive, even in preview. */
+const real = (v?: string) => (v && !/^\s*\[[^\]]*\]\s*$/.test(v) ? v : undefined);
+
+interface SeasonRun {
+  id: string;
+  en: string;
+  gloss?: string;
+  syr?: string;
+  colours: { ground: string; glow: string };
+  eds: Edition[];
+}
+
+/** Consecutive editions that share a season, in calendar order. */
+function seasonRuns(eds: Edition[], colours: (e: Edition) => { ground: string; glow: string }): SeasonRun[] {
+  const runs: SeasonRun[] = [];
+  const used = new Map<string, number>();
+  for (const e of eds) {
+    const last = runs.at(-1);
+    if (last && last.en === e.season.en) {
+      last.eds.push(e);
+      continue;
+    }
+    const base = e.season.en.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+    const n = (used.get(base) ?? 0) + 1;
+    used.set(base, n);
+    runs.push({
+      id: n === 1 ? base : `${base}-${n}`,
+      en: e.season.en,
+      gloss: real(e.season.gloss),
+      syr: real(e.season.syr),
+      colours: colours(e),
+      eds: [e],
+    });
+  }
+  return runs;
+}
+
+const themeStyle = (c: { ground: string; glow: string }) => ({ '--ground': c.ground, '--glow': c.glow }) as CSSProperties;
+
+/**
+ * Each drawing is emitted once as a <symbol>, and every arch window points at
+ * it with <use>, so a drawing shared by several Sundays costs one copy.
+ * When per-Sunday art lands, key by sunday_slug and draw that Sunday's art.
+ */
+const artKey = (_e: Edition) => 'altar';
+const drawArt = (_e: Edition) => <AltarArt detail="small" label="" />;
+
+function ArtSymbols({ eds }: { eds: Edition[] }) {
+  const byKey = new Map<string, Edition>();
+  for (const e of eds) if (!byKey.has(artKey(e))) byKey.set(artKey(e), e);
+  return (
+    <svg width="0" height="0" style={{ position: 'absolute' }} aria-hidden="true" focusable="false">
+      {[...byKey].map(([k, e]) => (
+        <symbol key={k} id={`art-${k}`} viewBox="0 0 440 580">
+          {drawArt(e)}
+        </symbol>
+      ))}
+    </svg>
+  );
+}
+
+function ArchWindow({ e, big }: { e: Edition; big?: boolean }) {
+  return (
+    <span className={big ? 'arc-arch big' : 'arc-arch'} aria-hidden="true">
+      <svg viewBox="0 0 440 580" preserveAspectRatio="xMidYMid slice" focusable="false">
+        <use href={`#art-${artKey(e)}`} />
+      </svg>
+    </span>
+  );
+}
+
+function rangeLabel(eds: Edition[]) {
+  const a = eds[0].date;
+  const b = eds.at(-1)!.date;
+  if (a === b) return dayMonth(a);
+  const [ya, ma] = a.split('-');
+  const [yb, mb] = b.split('-');
+  if (ya === yb && ma === mb) return `${Number(a.slice(8))}–${dayMonth(b)}`;
+  return ya === yb ? `${dayMonth(a)} – ${dayMonth(b)}` : `${dayMonth(a)} ${ya} – ${dayMonth(b)} ${yb}`;
+}
+
+function SundayCard({ e, href, state, colours }: { e: Edition; href?: string; state: 'past' | 'now' | 'soon'; colours: { ground: string; glow: string } }) {
+  const tagline = real(e.tagline);
+  const ml = real(e.name.ml);
+  const inner = (
+    <>
+      <span className="arc-top">
+        <ArchWindow e={e} />
+        <span className="arc-week">{`Week ${e.week_of_year}`}</span>
+        {state === 'now' && <span className="arc-now">This Sunday</span>}
+      </span>
+      <span className="arc-body">
+        <time className="arc-date" dateTime={e.date}>{dayMonth(e.date)}</time>
+        <span className="arc-name">{e.name.en}</span>
+        {ml && <span className="arc-ml" lang="ml">{ml}</span>}
+        {tagline && <span className="arc-tag">{tagline}</span>}
+        <span className="arc-g">
+          <span className="sr-only">Gospel: </span>
+          {gospelOf(e).ref}
+        </span>
+        {!href && <span className="arc-soon">Coming soon</span>}
+      </span>
+    </>
+  );
+  return (
+    <li className={`arc-card is-${state}`} style={themeStyle(colours)}>
+      {href ? (
+        <a href={href} aria-current={state === 'now' ? 'date' : undefined}>
+          {inner}
+        </a>
+      ) : (
+        <div>{inner}</div>
+      )}
+    </li>
+  );
+}
+
+type Colours = { ground: string; glow: string };
+
+export function Archive({ site, t, colours }: { site: Site; t: Strings; colours: (e: Edition) => Colours }) {
+  const published = new Set(site.published.map((e) => e.date));
+  const up = site.upcoming;
+  // Show the whole church year around the upcoming Sunday: everything published, plus what is still to come.
+  const runs = seasonRuns(site.all, colours);
+  const total = site.all.length;
+  const first = site.all[0];
+  const last = site.all.at(-1);
+  const yearLabel = first && last ? (first.date.slice(0, 4) === last.date.slice(0, 4) ? first.date.slice(0, 4) : `${first.date.slice(0, 4)}–${last.date.slice(2, 4)}`) : '';
+  const state = (e: Edition): 'past' | 'now' | 'soon' => (e.date === up?.date ? 'now' : up && e.date > up.date ? 'soon' : 'past');
+  const upTag = up && real(up.tagline);
+  const upMl = up && real(up.name.ml);
+
   return (
     <>
-      <header className="wrap hero simple-hero">
+      <ArtSymbols eds={site.all} />
+      <header className="wrap hero simple-hero arc-hero">
         <TopBar t={t} tradition={site.tradition} lang="en" homeHref="/" />
-        <h1>{t.archiveH}</h1>
-        <p>{t.archiveIntro}</p>
+        <div className="arc-intro">
+          <p className="hero-date">{`The Church year ${yearLabel}`}</p>
+          <h1>{t.archiveH}</h1>
+          <p>{`${total} Sundays, from ${first ? longDate(first.date) : ''} to ${last ? longDate(last.date) : ''}, season by season. ${t.archiveIntro}`}</p>
+        </div>
+        <div className="arc-ribbon" aria-hidden="true">
+          {runs.map((r) => (
+            <span key={r.id} className="arc-seg" style={{ ...themeStyle(r.colours), flexGrow: r.eds.length }}>
+              {r.eds.map((e) => (
+                <i key={e.date} className={`is-${state(e)}`} />
+              ))}
+            </span>
+          ))}
+        </div>
+        <nav className="arc-seasons" aria-label="Seasons">
+          <ol>
+            {runs.map((r) => (
+              <li key={r.id}>
+                <a href={`#${r.id}`} style={themeStyle(r.colours)}>
+                  <span className="sw" aria-hidden="true" />
+                  {r.en}
+                  <span className="ct">{r.eds.length}</span>
+                </a>
+              </li>
+            ))}
+          </ol>
+        </nav>
       </header>
-      <main className="paper" id="main" style={{ borderRadius: '28px' }}>
+      <main className="paper arc-main" id="main">
         <div className="wrap">
-          {years.map((y) => (
-            <section key={y} className="section year first" aria-labelledby={`y${y}`}>
-              <h2 id={`y${y}`}>{y}</h2>
-              <ol className="ed-list" reversed>
-                {eds
-                  .filter((e) => e.date.startsWith(y))
-                  .map((e) => (
-                    <li key={e.date}>
-                      <a href={editionPath(e)}>
-                        <time className="d" dateTime={e.date}>{longDate(e.date)}</time>
-                        <span className="nm">{e.name.en}</span>
-                        <span className="g">{`Gospel: ${gospelOf(e).ref}`}</span>
-                      </a>
-                    </li>
-                  ))}
+          {up && (
+            <section className="arc-feature" aria-labelledby="arc-now-h" style={themeStyle(colours(up))}>
+              <ArchWindow e={up} big />
+              <div className="arc-feature-text">
+                <p className="arc-kicker">
+                  <span>This Sunday</span>
+                  <time dateTime={up.date}>{fullDate(up.date)}</time>
+                </p>
+                <h2 id="arc-now-h">{up.name.en}</h2>
+                {upMl && <p className="arc-ml" lang="ml">{upMl}</p>}
+                {upTag && <p className="arc-tag">{upTag}</p>}
+                <p className="arc-meta">{`${up.season.en} · Week ${up.week_of_year} · Gospel: ${gospelOf(up).ref}`}</p>
+                <p>
+                  <a className="pill-btn btn-glow" href="/">{t.goToThisSunday}</a>
+                </p>
+              </div>
+            </section>
+          )}
+          {runs.map((r) => (
+            <section key={r.id} id={r.id} className="arc-season" aria-labelledby={`${r.id}-h`} style={themeStyle(r.colours)}>
+              <div className="arc-season-head">
+                <h2 id={`${r.id}-h`}>
+                  {r.en}
+                  {r.syr && (
+                    <span lang="syr" className="syr">
+                      {r.syr}
+                    </span>
+                  )}
+                </h2>
+                {r.gloss && <p className="gloss">{r.gloss}</p>}
+                <p className="range">{`${rangeLabel(r.eds)} · ${r.eds.length} ${r.eds.length === 1 ? 'Sunday' : 'Sundays'}`}</p>
+              </div>
+              <ol className="arc-grid">
+                {r.eds.map((e) => (
+                  <SundayCard key={e.date} e={e} href={published.has(e.date) ? editionPath(e) : undefined} state={state(e)} colours={colours(e)} />
+                ))}
               </ol>
             </section>
           ))}
