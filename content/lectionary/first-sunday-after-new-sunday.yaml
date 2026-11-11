@@ -219,18 +219,21 @@ translations:
         kind_ml: സുവിശേഷം
         ref: John 21:15–25
         ml: യോഹന്നാൻ 21:15–25
+        note: നീ എന്നെ സ്നേഹിക്കുന്നുവോ എന്നു യേശു മൂന്നു പ്രാവശ്യം പത്രൊസിനോടു ചോദിച്ച്, തന്നെ അനുഗമിക്കാൻ പറയുന്നു.
         printed: St. John 21:15-25
       morning:
       - kind: Gospel
         kind_ml: സുവിശേഷം
         ref: John 21:1–14
         ml: യോഹന്നാൻ 21:1–14
+        note: ഉയിർത്തെഴുന്നേറ്റ യേശു ശിഷ്യന്മാരുടെ വല നിറയ്ക്കുന്നു; കടപ്പുറത്ത് അവർക്കു പ്രാതൽ ഒരുക്കുന്നു.
         printed: St. John 21:1-14
       before_qurbana:
       - kind: Old Testament
         kind_ml: പഴയനിയമം
         ref: Exodus 14:26–31
         ml: പുറപ്പാട് 14:26–31
+        note: കടൽ ഫറവോന്റെ സൈന്യത്തിന്മേൽ മടങ്ങിവരുന്നു; യിസ്രായേൽ യഹോവയിൽ വിശ്വസിക്കുന്നു.
         printed: Exodus 14:26-31
       - kind: '[KIND]'
         kind_ml: '[KIND ML]'
@@ -242,6 +245,7 @@ translations:
         kind_ml: പഴയനിയമം
         ref: Wisdom 1:1–8
         ml: '[ML BOOK NAME: Wisdom] 1:1–8'
+        note: നീതിയെ സ്നേഹിച്ച്, നിഷ്കപടഹൃദയത്തോടെ കർത്താവിനെ അന്വേഷിക്കുക.
         printed: 'GreatWisdom 1: 1-8'
         check: 'Printed as ''GreatWisdom 1: 1-8'' (Wisdom of Solomon).'
       holy_qurbana:
@@ -249,16 +253,19 @@ translations:
         kind_ml: അപ്പൊസ്തലപ്രവൃത്തികൾ
         ref: Acts 13:26–39
         ml: അപ്പൊസ്തലപ്രവൃത്തികൾ 13:26–39
+        note: ദൈവം യേശുവിനെ ഉയിർപ്പിച്ചു, അവൻ ദ്രവത്വം കാണാൻ ഇടവരുത്തിയില്ല എന്നു പൌലൊസ് പ്രസംഗിക്കുന്നു.
         printed: Acts 13:26-39
       - kind: Pauline Epistle
         kind_ml: പൗലോസിന്റെ ലേഖനം
         ref: Ephesians 6:10–20
         ml: എഫെസ്യർ 6:10–20
+        note: ദൈവത്തിന്റെ സർവ്വായുധവർഗ്ഗം ധരിച്ചുകൊൾവിൻ.
         printed: Ephesians 6:10-20
       - kind: Gospel
         kind_ml: സുവിശേഷം
         ref: John 21:1–14
         ml: യോഹന്നാൻ 21:1–14
+        note: ഉയിർത്തെഴുന്നേറ്റ യേശു ശിഷ്യന്മാരുടെ വല നിറയ്ക്കുന്നു; കടപ്പുറത്ത് അവർക്കു പ്രാതൽ ഒരുക്കുന്നു. ഇതാണ് ഇന്നത്തെ സുവിശേഷം.
         printed: St. John 21:1-14
         main: true
     key_verse:

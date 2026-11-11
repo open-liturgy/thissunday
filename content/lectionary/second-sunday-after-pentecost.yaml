@@ -201,44 +201,52 @@ translations:
         kind_ml: സുവിശേഷം
         ref: Luke 6:12–23
         ml: ലൂക്കൊസ് 6:12–23
+        note: യേശു രാത്രി മുഴുവൻ പ്രാർത്ഥിക്കുന്നു, പന്ത്രണ്ടു പേരെ തിരഞ്ഞെടുക്കുന്നു, ഭാഗ്യവചനങ്ങൾ പറയുന്നു.
         printed: St. Luke 6:12-23
       morning:
       - kind: Gospel
         kind_ml: സുവിശേഷം
         ref: Mark 3:7–19
         ml: മർക്കൊസ് 3:7–19
+        note: എല്ലാ ദിക്കുകളിൽനിന്നും പുരുഷാരം തിങ്ങിവരുന്നു; യേശു പന്ത്രണ്ടു പേരെ നിയമിക്കുന്നു.
         printed: St. Mark 3:7-19
       before_qurbana:
       - kind: Old Testament
         kind_ml: പഴയനിയമം
         ref: Leviticus 19:1–8
         ml: ലേവ്യപുസ്തകം 19:1–8
+        note: നിങ്ങളുടെ ദൈവമായ യഹോവയായ ഞാൻ വിശുദ്ധനാകയാൽ നിങ്ങളും വിശുദ്ധരായിരിക്കേണം.
         printed: Leviticus 19:1-8
       - kind: Old Testament
         kind_ml: പഴയനിയമം
         ref: 2 Samuel 5:1–10
         ml: 2 ശമൂവേൽ 5:1–10
+        note: ദാവീദ് എല്ലാ യിസ്രായേലിനും രാജാവായി അഭിഷേകം ചെയ്യപ്പെട്ട് യെരൂശലേം പിടിക്കുന്നു.
         printed: II Samuel 5:1-10
       - kind: Old Testament
         kind_ml: പഴയനിയമം
         ref: Daniel 6:25–28
         ml: ദാനീയേൽ 6:25–28
+        note: സിംഹങ്ങളിൽനിന്നു ദാനീയേലിനെ രക്ഷിച്ച ദൈവത്തെ ദാര്യാവേശ് രാജാവു സ്തുതിക്കുന്നു.
         printed: Daniel 6:25-28
       holy_qurbana:
       - kind: Acts of the Apostles
         kind_ml: അപ്പൊസ്തലപ്രവൃത്തികൾ
         ref: Acts 4:23–31
         ml: അപ്പൊസ്തലപ്രവൃത്തികൾ 4:23–31
+        note: വിശ്വാസികൾ ധൈര്യത്തിനായി പ്രാർത്ഥിക്കുന്നു; അവർ കൂടിയിരുന്ന സ്ഥലം കുലുങ്ങുന്നു.
         printed: Acts 4:23-31
       - kind: Pauline Epistle
         kind_ml: പൗലോസിന്റെ ലേഖനം
         ref: Ephesians 2:11–22
         ml: എഫെസ്യർ 2:11–22
+        note: ക്രിസ്തു നമ്മുടെ സമാധാനം; അവൻ വേർപാടിന്റെ നടുച്ചുവർ ഇടിച്ചുകളഞ്ഞു.
         printed: Ephesians 2:11-22
       - kind: Gospel
         kind_ml: സുവിശേഷം
         ref: Matthew 10:5–16
         ml: മത്തായി 10:5–16
+        note: 'യേശു പന്ത്രണ്ടു പേരെ അയയ്ക്കുന്നു: സൌജന്യമായി നിങ്ങൾക്കു ലഭിച്ചു, സൌജന്യമായി കൊടുപ്പിൻ. ഇതാണ് ഇന്നത്തെ സുവിശേഷം.'
         printed: St. Matthew 10:5-16
         main: true
     key_verse:

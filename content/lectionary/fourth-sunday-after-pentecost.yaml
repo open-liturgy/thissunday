@@ -201,44 +201,52 @@ translations:
         kind_ml: സുവിശേഷം
         ref: Matthew 14:14–23
         ml: മത്തായി 14:14–23
+        note: യേശുവിനു പുരുഷാരത്തോട് അലിവു തോന്നുന്നു; അയ്യായിരം പേരെ പോഷിപ്പിക്കുന്നു.
         printed: St. Matthew 14:14-23
       morning:
       - kind: Gospel
         kind_ml: സുവിശേഷം
         ref: Luke 10:17–24
         ml: ലൂക്കൊസ് 10:17–24
+        note: എഴുപതു പേർ സന്തോഷത്തോടെ മടങ്ങിവരുന്നു; നിങ്ങളുടെ പേർ സ്വർഗ്ഗത്തിൽ എഴുതിയിരിക്കുന്നതിനാൽ സന്തോഷിപ്പിൻ.
         printed: St. Luke 10:17-24
       before_qurbana:
       - kind: Old Testament
         kind_ml: പഴയനിയമം
         ref: Deuteronomy 33:23–29
         ml: ആവർത്തനം 33:23–29
+        note: നിത്യനായ ദൈവം നിന്റെ സങ്കേതം; താഴെ നിത്യഭുജങ്ങൾ ഉണ്ട്.
         printed: Deuteronomy 33:23-29
       - kind: Old Testament
         kind_ml: പഴയനിയമം
         ref: Psalm 15
         ml: സങ്കീർത്തനങ്ങൾ 15
+        note: നിന്റെ വിശുദ്ധപർവ്വതത്തിൽ ആർ വസിക്കും? നിഷ്കളങ്കനായി നടന്നു സത്യം സംസാരിക്കുന്നവൻ.
         printed: Psalms 15
       - kind: Old Testament
         kind_ml: പഴയനിയമം
         ref: Isaiah 65:8–12
         ml: യെശയ്യാവ് 65:8–12
+        note: മുന്തിരിക്കുലയിൽ പുതുവീഞ്ഞു കാണുന്നതുപോലെ, ഞാൻ അവരെ എല്ലാം നശിപ്പിക്കയില്ല.
         printed: Isaiah 65:8-12
       holy_qurbana:
       - kind: Acts of the Apostles
         kind_ml: അപ്പൊസ്തലപ്രവൃത്തികൾ
         ref: Acts 6:1–7
         ml: അപ്പൊസ്തലപ്രവൃത്തികൾ 6:1–7
+        note: മേശകളിൽ വിധവമാരെ ശുശ്രൂഷിക്കാൻ ആത്മാവു നിറഞ്ഞ ഏഴു പേരെ തിരഞ്ഞെടുക്കുന്നു.
         printed: Acts 6:1-7
       - kind: Pauline Epistle
         kind_ml: പൗലോസിന്റെ ലേഖനം
         ref: 1 Corinthians 16:14–22
         ml: 1 കൊരിന്ത്യർ 16:14–22
+        note: നിങ്ങൾ ചെയ്യുന്നതൊക്കെയും സ്നേഹത്തിൽ ചെയ്‌വിൻ; മാറാനാഥാ, നമ്മുടെ കർത്താവേ, വരേണമേ.
         printed: I Corinthians 16:14-22
       - kind: Gospel
         kind_ml: സുവിശേഷം
         ref: Luke 10:1–16
         ml: ലൂക്കൊസ് 10:1–16
+        note: 'യേശു തനിക്കു മുമ്പായി എഴുപതു പേരെ അയയ്ക്കുന്നു: കൊയ്ത്തു വളരെ, വേലക്കാരോ ചുരുക്കം. ഇതാണ് ഇന്നത്തെ സുവിശേഷം.'
         printed: St. Luke 10:1-16
         main: true
     key_verse:

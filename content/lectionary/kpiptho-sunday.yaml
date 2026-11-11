@@ -215,49 +215,58 @@ translations:
         kind_ml: സുവിശേഷം
         ref: Luke 10:25–37
         ml: ലൂക്കൊസ് 10:25–37
+        note: 'നല്ല ശമര്യക്കാരൻ: ആരാണ് അയൽക്കാരനായിത്തീർന്നത്?'
         printed: St. Luke 10:25-37
       morning:
       - kind: Gospel
         kind_ml: സുവിശേഷം
         ref: Luke 7:11–17
         ml: ലൂക്കൊസ് 7:11–17
+        note: നയിനിൽ ഒരു വിധവയുടെ ഏകമകനെ യേശു ഉയിർപ്പിച്ച് അവന്റെ അമ്മയെ ഏല്പിക്കുന്നു.
         printed: St. Luke 7:11-17
       before_qurbana:
       - kind: Old Testament
         kind_ml: പഴയനിയമം
         ref: Genesis 9:1–7
         ml: ഉല്പത്തി 9:1–7
+        note: 'ദൈവം നോഹയെ അനുഗ്രഹിക്കുന്നു: ഓരോ മനുഷ്യജീവനും വിലയേറിയതാണ്, കാരണം മനുഷ്യൻ ദൈവസ്വരൂപത്തിൽ ഉണ്ടാക്കപ്പെട്ടിരിക്കുന്നു.'
         printed: Genesis 9:1-7
       - kind: Old Testament
         kind_ml: പഴയനിയമം
         ref: Jeremiah 51:1–9
         ml: യിരെമ്യാവ് 51:1–9
+        note: ബാബേൽ വീഴുന്നു; ഞങ്ങൾ അവളെ സൗഖ്യമാക്കാൻ നോക്കി, അവൾക്കു സൗഖ്യം വന്നില്ല.
         printed: Jeremiah 51:1-9
       - kind: Old Testament
         kind_ml: പഴയനിയമം
         ref: Isaiah 50:1–5
         ml: യെശയ്യാവ് 50:1–5
+        note: തളർന്നിരിക്കുന്നവനെ വാക്കുകൊണ്ടു താങ്ങുവാൻ യഹോവ എനിക്കു ശിഷ്യന്മാരുടെ നാവു തന്നിരിക്കുന്നു.
         printed: Isaiah 50:1-5
       - kind: Old Testament
         kind_ml: പഴയനിയമം
         ref: Sirach 51:13–30
         ml: '[ML BOOK NAME: Sirach / Ben Sira] 51:13–30'
+        note: ബാല്യംമുതൽ താൻ ജ്ഞാനം അന്വേഷിച്ചതെങ്ങനെ എന്ന് ഒരു ഗുരു പറയുന്നു.
         printed: Barazeera 51:13-30
       holy_qurbana:
       - kind: General Epistle
         kind_ml: പൊതുലേഖനം
         ref: 1 Peter 3:8–16
         ml: 1 പത്രൊസ് 3:8–16
+        note: മനസ്സലിവുള്ളവരായിരിപ്പിൻ; തിന്മെക്കു പകരം തിന്മ ചെയ്യാതെ അനുഗ്രഹിപ്പിൻ.
         printed: I Peter 3:8-16
       - kind: Pauline Epistle
         kind_ml: പൗലോസിന്റെ ലേഖനം
         ref: Romans 12:1–15
         ml: റോമർ 12:1–15
+        note: നിങ്ങളെത്തന്നേ ജീവനുള്ള യാഗമായി സമർപ്പിപ്പിൻ; സന്തോഷിക്കുന്നവരോടുകൂടെ സന്തോഷിപ്പിൻ, കരയുന്നവരോടുകൂടെ കരവിൻ.
         printed: Romans 12:1-15
       - kind: Gospel
         kind_ml: സുവിശേഷം
         ref: Luke 13:10–17
         ml: ലൂക്കൊസ് 13:10–17
+        note: പതിനെട്ടു വർഷം കൂനിയായിരുന്ന ഒരു സ്ത്രീയെ യേശു ശബ്ബത്തിൽ സ്വതന്ത്രയാക്കുന്നു. ഇതാണ് ഇന്നത്തെ സുവിശേഷം.
         printed: St. Luke 13:10-17
         main: true
     key_verse:

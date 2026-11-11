@@ -201,44 +201,52 @@ translations:
         kind_ml: സുവിശേഷം
         ref: Luke 9:10–17
         ml: ലൂക്കൊസ് 9:10–17
+        note: അഞ്ചു അപ്പവും രണ്ടു മീനും അയ്യായിരം പേരെ പോഷിപ്പിക്കുന്നു; പന്ത്രണ്ടു കൊട്ട ശേഷിക്കുന്നു.
         printed: St. Luke 9:10-17
       morning:
       - kind: Gospel
         kind_ml: സുവിശേഷം
         ref: Matthew 17:20–28
         ml: മത്തായി 17:20–28
+        note: കടുകുമണിയോളം വിശ്വാസം പർവ്വതങ്ങളെ നീക്കും.
         printed: St. Matthew 17:20-28
       before_qurbana:
       - kind: Old Testament
         kind_ml: പഴയനിയമം
         ref: Exodus 23:14–19
         ml: പുറപ്പാട് 23:14–19
+        note: ആണ്ടിൽ മൂന്നു പെരുന്നാൾ; നിന്റെ ആദ്യഫലങ്ങളിൽ ഉത്തമമായതു യഹോവയുടെ ആലയത്തിലേക്കു കൊണ്ടുവരിക.
         printed: Exodus 23:14-19
       - kind: Old Testament
         kind_ml: പഴയനിയമം
         ref: Psalm 16
         ml: സങ്കീർത്തനങ്ങൾ 16
+        note: നീ എന്നെ പാതാളത്തിനു വിട്ടുകളകയില്ല; നിന്റെ സന്നിധിയിൽ സന്തോഷപരിപൂർണ്ണത ഉണ്ട്.
         printed: Psalms 16
       - kind: Old Testament
         kind_ml: പഴയനിയമം
         ref: Isaiah 40:27–31
         ml: യെശയ്യാവ് 40:27–31
+        note: യഹോവയെ കാത്തിരിക്കുന്നവർ ശക്തിയെ പുതുക്കും; അവർ കഴുകന്മാരെപ്പോലെ ചിറകടിച്ചു കയറും.
         printed: Isaiah 40:27-31
       holy_qurbana:
       - kind: Acts of the Apostles
         kind_ml: അപ്പൊസ്തലപ്രവൃത്തികൾ
         ref: Acts 9:10–18
         ml: അപ്പൊസ്തലപ്രവൃത്തികൾ 9:10–18
+        note: ശൌലിന്റെമേൽ കൈവെക്കാൻ അനന്യാസിനെ അയയ്ക്കുന്നു; അവന്റെ കണ്ണിൽനിന്നു ചെതുമ്പൽപോലെ ഏതോ വീഴുന്നു.
         printed: Acts 9:10-18
       - kind: Pauline Epistle
         kind_ml: പൗലോസിന്റെ ലേഖനം
         ref: 2 Corinthians 5:14–20
         ml: 2 കൊരിന്ത്യർ 5:14–20
+        note: 'ഞങ്ങൾ ക്രിസ്തുവിന്നുവേണ്ടി സ്ഥാനാപതികൾ ആകുന്നു: ദൈവത്തോടു നിരന്നുകൊൾവിൻ.'
         printed: II Corinthians 5:14-20
       - kind: Gospel
         kind_ml: സുവിശേഷം
         ref: Luke 9:10–17
         ml: ലൂക്കൊസ് 9:10–17
+        note: അഞ്ചു അപ്പവും രണ്ടു മീനും അയ്യായിരം പേരെ പോഷിപ്പിക്കുന്നു; പന്ത്രണ്ടു കൊട്ട ശേഷിക്കുന്നു. ഇതാണ് ഇന്നത്തെ സുവിശേഷം.
         printed: St. Luke 9:10-17
         main: true
     key_verse:

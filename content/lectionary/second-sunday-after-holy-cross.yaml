@@ -215,49 +215,58 @@ translations:
         kind_ml: സുവിശേഷം
         ref: Matthew 14:34–36; 15:1–11
         ml: മത്തായി 14:34–36; 15:1–11
+        note: അവന്റെ വസ്ത്രത്തിന്റെ തൊങ്ങൽ തൊട്ടവർ സൗഖ്യം പ്രാപിക്കുന്നു; വായിൽനിന്നു പുറപ്പെടുന്നതാണ് മനുഷ്യനെ അശുദ്ധമാക്കുന്നത്.
         printed: St. Matthew 14:34-36, 15:1-11
       morning:
       - kind: Gospel
         kind_ml: സുവിശേഷം
         ref: Matthew 15:12–20
         ml: മത്തായി 15:12–20
+        note: എന്റെ പിതാവു നടാത്ത നടുതല ഒക്കെയും വേരോടെ പറിഞ്ഞുപോകും; ദോഷം ഹൃദയത്തിൽനിന്നു പുറപ്പെടുന്നു.
         printed: St. Matthew 15:12-20
       before_qurbana:
       - kind: Old Testament
         kind_ml: പഴയനിയമം
         ref: Genesis 42:9–17
         ml: ഉല്പത്തി 42:9–17
+        note: യോസേഫ് സഹോദരന്മാരെ ഒറ്റുകാർ എന്നു കുറ്റം ചുമത്തി കാവലിൽ ആക്കുന്നു.
         printed: Genesis 42:9-17
       - kind: Old Testament
         kind_ml: പഴയനിയമം
         ref: 1 Kings 3:5–9
         ml: 1 രാജാക്കന്മാർ 3:5–9
+        note: തന്റെ ജനത്തെ ഭരിക്കാൻ വിവേകമുള്ള ഒരു ഹൃദയം ശലോമോൻ ദൈവത്തോടു ചോദിക്കുന്നു.
         printed: I Kings 3:5-9
       - kind: Old Testament
         kind_ml: പഴയനിയമം
         ref: Wisdom 6:1–9
         ml: '[ML BOOK NAME: Wisdom] 6:1–9'
+        note: 'രാജാക്കന്മാരേ, കേൾപ്പിൻ: നിങ്ങളുടെ അധികാരം കർത്താവിൽനിന്നു ലഭിച്ചതാണ്.'
         printed: Wisdom 6:1-9
       - kind: Old Testament
         kind_ml: പഴയനിയമം
         ref: Isaiah 48:12–16
         ml: യെശയ്യാവ് 48:12–16
+        note: ഞാൻ ആദ്യനും ഞാൻ അന്ത്യനും ആകുന്നു; എന്റെ കൈ ഭൂമിക്ക് അടിസ്ഥാനമിട്ടു.
         printed: Isaiah 48:12-16
       holy_qurbana:
       - kind: Acts of the Apostles
         kind_ml: അപ്പൊസ്തലപ്രവൃത്തികൾ
         ref: Acts 5:17–32
         ml: അപ്പൊസ്തലപ്രവൃത്തികൾ 5:17–32
+        note: 'ഒരു ദൂതൻ അപ്പൊസ്തലന്മാരെ കാരാഗൃഹത്തിൽനിന്നു വിടുവിക്കുന്നു: മനുഷ്യരെക്കാൾ ദൈവത്തെ അനുസരിക്കേണ്ടതാകുന്നു.'
         printed: Acts 5:17-32
       - kind: Pauline Epistle
         kind_ml: പൗലോസിന്റെ ലേഖനം
         ref: 1 Corinthians 2:14–3:9
         ml: 1 കൊരിന്ത്യർ 2:14–3:9
+        note: ഞാൻ നിങ്ങൾക്കു കട്ടിയായ ആഹാരമല്ല, പാലാണ് തന്നത്; ഞങ്ങൾ ദൈവത്തിന്റെ കൂട്ടുവേലക്കാർ.
         printed: I Corinthians 2:14-3:9
       - kind: Gospel
         kind_ml: സുവിശേഷം
         ref: Matthew 16:5–12
         ml: മത്തായി 16:5–12
+        note: പരീശരുടെയും സദൂക്യരുടെയും പുളിച്ചമാവു സൂക്ഷിച്ചുകൊൾവിൻ. ഇതാണ് ഇന്നത്തെ സുവിശേഷം.
         printed: St. Matthew 16:5-12
         main: true
     key_verse:

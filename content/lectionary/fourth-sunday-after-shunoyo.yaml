@@ -201,44 +201,52 @@ translations:
         kind_ml: സുവിശേഷം
         ref: Matthew 18:1–11
         ml: മത്തായി 18:1–11
+        note: നിങ്ങൾ ശിശുക്കളെപ്പോലെ ആകുന്നില്ല എങ്കിൽ…; ഈ ചെറിയവരിൽ ഒരുത്തനെ തുച്ഛീകരിക്കരുത്.
         printed: St. Matthew 18:1-11
       morning:
       - kind: Gospel
         kind_ml: സുവിശേഷം
         ref: Matthew 18:12–22
         ml: മത്തായി 18:12–22
+        note: കാണാതെപോയ ആട്, തെറ്റു പരിഹരിക്കൽ, ഏഴു എഴുപതു വട്ടം ക്ഷമിക്കൽ.
         printed: St. Matthew 18:12-22
       before_qurbana:
       - kind: Old Testament
         kind_ml: പഴയനിയമം
         ref: Exodus 3:1–6, 11–14
         ml: പുറപ്പാട് 3:1–6, 11–14
+        note: 'എരിയുന്ന മുൾപ്പടർപ്പ്: നിന്റെ കാലിൽനിന്നു ചെരിപ്പ് അഴിക്ക; ഞാൻ ആകുന്നവൻ ഞാൻ ആകുന്നു.'
         printed: Exodus 3:1-6, 11-14
       - kind: Old Testament
         kind_ml: പഴയനിയമം
         ref: Job 1:1–5
         ml: ഇയ്യോബ് 1:1–5
+        note: നിഷ്കളങ്കനും നേരുള്ളവനുമായ ഇയ്യോബ് അതികാലത്ത് എഴുന്നേറ്റു മക്കൾക്കുവേണ്ടി യാഗം കഴിക്കുന്നു.
         printed: Job 1:1-5
       - kind: Old Testament
         kind_ml: പഴയനിയമം
         ref: Isaiah 1:15–20
         ml: യെശയ്യാവ് 1:15–20
+        note: നിങ്ങളുടെ പാപങ്ങൾ കടുഞ്ചുവപ്പായിരുന്നാലും ഹിമംപോലെ വെളുക്കും.
         printed: Isaiah 1:15-20
       holy_qurbana:
       - kind: General Epistle
         kind_ml: പൊതുലേഖനം
         ref: 1 Peter 2:1–5
         ml: 1 പത്രൊസ് 2:1–5
+        note: ഇപ്പോൾ ജനിച്ച ശിശുക്കളെപ്പോലെ മായമില്ലാത്ത ആത്മീയപാൽ കുടിപ്പാൻ വാഞ്ഛിപ്പിൻ; ജീവനുള്ള കല്ലുകളായി പണിയപ്പെടുവിൻ.
         printed: I Peter 2:1-5
       - kind: Pauline Epistle
         kind_ml: പൗലോസിന്റെ ലേഖനം
         ref: 1 Corinthians 3:16–23
         ml: 1 കൊരിന്ത്യർ 3:16–23
+        note: നിങ്ങൾ ദൈവത്തിന്റെ മന്ദിരം; സകലവും നിങ്ങൾക്കുള്ളത്, നിങ്ങളോ ക്രിസ്തുവിനുള്ളവർ.
         printed: I Corinthians 3:16-23
       - kind: Gospel
         kind_ml: സുവിശേഷം
         ref: Matthew 5:38–48
         ml: മത്തായി 5:38–48
+        note: മറ്റേ കവിളും തിരിച്ചുകാണിക്ക; ശത്രുക്കളെ സ്നേഹിപ്പിൻ, നിങ്ങളെ ഉപദ്രവിക്കുന്നവർക്കുവേണ്ടി പ്രാർത്ഥിപ്പിൻ. ഇതാണ് ഇന്നത്തെ സുവിശേഷം.
         printed: St. Matthew 5:38-48
         main: true
     key_verse:

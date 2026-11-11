@@ -201,44 +201,52 @@ translations:
         kind_ml: സുവിശേഷം
         ref: Luke 17:20–37
         ml: ലൂക്കൊസ് 17:20–37
+        note: ദൈവരാജ്യം നിങ്ങളുടെ ഇടയിൽ തന്നേ ഉണ്ട്; ലോത്തിന്റെ ഭാര്യയെ ഓർത്തുകൊൾവിൻ.
         printed: St. Luke 17:20-37
       morning:
       - kind: Gospel
         kind_ml: സുവിശേഷം
         ref: Matthew 24:36–51
         ml: മത്തായി 24:36–51
+        note: ആ നാളും നാഴികയും ആരും അറിയുന്നില്ല; വിശ്വസ്തനായ ദാസനെപ്പോലെ ഉണർന്നിരിപ്പിൻ.
         printed: St. Matthew 24:36-51
       before_qurbana:
       - kind: Old Testament
         kind_ml: പഴയനിയമം
         ref: Psalm 34
         ml: സങ്കീർത്തനങ്ങൾ 34
+        note: യഹോവ നല്ലവൻ എന്നു രുചിച്ചറിവിൻ.
         printed: Psalms 34
       - kind: Old Testament
         kind_ml: പഴയനിയമം
         ref: Genesis 42:1–28
         ml: ഉല്പത്തി 42:1–28
+        note: യോസേഫിന്റെ സഹോദരന്മാർ ധാന്യം വാങ്ങാൻ മിസ്രയീമിൽ വന്ന് അവനെ നമസ്കരിക്കുന്നു.
         printed: Genesis 42:1-28
       - kind: Old Testament
         kind_ml: പഴയനിയമം
         ref: Isaiah 1:10–20
         ml: യെശയ്യാവ് 1:10–20
+        note: നിങ്ങളെത്തന്നേ കഴുകി, നന്മ ചെയ്‌വാൻ പഠിപ്പിൻ; വരുവിൻ, നമുക്കു തമ്മിൽ വാദിക്കാം.
         printed: Isaiah 1:10-20
       holy_qurbana:
       - kind: Acts of the Apostles
         kind_ml: അപ്പൊസ്തലപ്രവൃത്തികൾ
         ref: Acts 3:21–26
         ml: അപ്പൊസ്തലപ്രവൃത്തികൾ 3:21–26
+        note: സകലത്തിന്റെയും യഥാസ്ഥാനത്വത്തിന്റെ കാലംവരെ സ്വർഗ്ഗം ക്രിസ്തുവിനെ കൈക്കൊള്ളേണ്ടതാകുന്നു.
         printed: Acts 3:21-26
       - kind: Pauline Epistle
         kind_ml: പൗലോസിന്റെ ലേഖനം
         ref: 1 Corinthians 2:10–16
         ml: 1 കൊരിന്ത്യർ 2:10–16
+        note: ആത്മാവു സകലത്തെയും ആരായുന്നു; നമുക്കോ ക്രിസ്തുവിന്റെ മനസ്സ് ഉണ്ട്.
         printed: I Corinthians 2:10-16
       - kind: Gospel
         kind_ml: സുവിശേഷം
         ref: Mark 13:28–37
         ml: മർക്കൊസ് 13:28–37
+        note: അത്തിയിൽനിന്ന് ഉപമ പഠിപ്പിൻ; ആ നാഴിക ആരും അറിയായ്കകൊണ്ട് ഉണർന്നിരിപ്പിൻ. ഇതാണ് ഇന്നത്തെ സുവിശേഷം.
         printed: St. Mark 13:28-37
         main: true
     key_verse:

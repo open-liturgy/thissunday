@@ -209,44 +209,52 @@ translations:
         kind_ml: സുവിശേഷം
         ref: Matthew 19:1–12
         ml: മത്തായി 19:1–12
+        note: 'വിവാഹത്തെക്കുറിച്ചു യേശു: ദൈവം യോജിപ്പിച്ചതിനെ മനുഷ്യൻ വേർപിരിക്കരുത്.'
         printed: St. Matthew 19:1-12
       morning:
       - kind: Gospel
         kind_ml: സുവിശേഷം
         ref: Luke 19:11–27
         ml: ലൂക്കൊസ് 19:11–27
+        note: 'റാത്തലിന്റെ ഉപമ: നന്ന്, നല്ല ദാസനേ, നീ അത്യല്പത്തിൽ വിശ്വസ്തനായി.'
         printed: St. Luke 19:11-27
       before_qurbana:
       - kind: Old Testament
         kind_ml: പഴയനിയമം
         ref: Exodus 24:12–18
         ml: പുറപ്പാട് 24:12–18
+        note: നാല്പതു രാവും പകലും മോശെ സീനായിലെ മേഘത്തിനുള്ളിലേക്കു കയറുന്നു.
         printed: Exodus 24:12-18
       - kind: Old Testament
         kind_ml: പഴയനിയമം
         ref: 1 Samuel 3:16–21
         ml: 1 ശമൂവേൽ 3:16–21
+        note: ശമൂവേൽ ഏലിയോട് എല്ലാം അറിയിക്കുന്നു; അവൻ യഹോവയുടെ പ്രവാചകൻ എന്നു യിസ്രായേൽ മുഴുവനും അറിയുന്നു.
         printed: I Samuel 3:16-21
       - kind: Old Testament
         kind_ml: പഴയനിയമം
         ref: Ezekiel 18:21–24
         ml: യെഹെസ്കേൽ 18:21–24
+        note: ദുഷ്ടൻ തന്റെ പാപങ്ങളെ വിട്ടുതിരിഞ്ഞാൽ അവൻ ജീവിക്കും, നിശ്ചയം.
         printed: Ezekiel 18:21-24
       holy_qurbana:
       - kind: General Epistle
         kind_ml: പൊതുലേഖനം
         ref: James 5:1–6
         ml: യാക്കോബ് 5:1–6
+        note: 'ധനവാന്മാരേ, കരവിൻ: നിങ്ങൾ പിടിച്ചുവെച്ച കൂലി നിലവിളിക്കുന്നു.'
         printed: James 5:1-6
       - kind: Pauline Epistle
         kind_ml: പൗലോസിന്റെ ലേഖനം
         ref: 2 Corinthians 10:1–7
         ml: 2 കൊരിന്ത്യർ 10:1–7
+        note: ക്രിസ്തുവിന്റെ സൗമ്യതയും ശാന്തതയുംകൊണ്ടു പൌലൊസ് അപേക്ഷിക്കുന്നു.
         printed: II Corinthians 10:1-7
       - kind: Gospel
         kind_ml: സുവിശേഷം
         ref: Matthew 17:22–27
         ml: മത്തായി 17:22–27
+        note: യേശു തന്റെ മരണം മുൻകൂട്ടി പറയുന്നു; ദൈവാലയനികുതി പത്രൊസ് ഒരു മീനിന്റെ വായിൽ കണ്ടെത്തുന്നു. ഇതാണ് ഇന്നത്തെ സുവിശേഷം.
         printed: St. Matthew 17:22-27
         main: true
     key_verse:

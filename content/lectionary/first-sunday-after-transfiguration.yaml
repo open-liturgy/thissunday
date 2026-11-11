@@ -209,44 +209,52 @@ translations:
         kind_ml: സുവിശേഷം
         ref: Mark 4:21–34
         ml: മർക്കൊസ് 4:21–34
+        note: തണ്ടിന്മേൽ വെക്കുന്ന വിളക്ക്; താനേ വളരുന്ന വിത്ത്; കടുകുമണി.
         printed: St. Mark 4:21-34
       morning:
       - kind: Gospel
         kind_ml: സുവിശേഷം
         ref: Matthew 13:44–52
         ml: മത്തായി 13:44–52
+        note: നിലത്തു മറഞ്ഞിരിക്കുന്ന നിധി, വിലയേറിയ മുത്ത്, വല.
         printed: St. Matthew 13:44-52
       before_qurbana:
       - kind: Old Testament
         kind_ml: പഴയനിയമം
         ref: Deuteronomy 25:13–16
         ml: ആവർത്തനം 25:13–16
+        note: നിന്റെ സഞ്ചിയിൽ ഒരു വലിയതും ഒരു ചെറിയതുമായി രണ്ടു തരം തൂക്കം ഉണ്ടാകരുത്.
         printed: Deuteronomy 25:13-16
       - kind: Old Testament
         kind_ml: പഴയനിയമം
         ref: Psalm 27
         ml: സങ്കീർത്തനങ്ങൾ 27
+        note: യഹോവ എന്റെ വെളിച്ചവും എന്റെ രക്ഷയും ആകുന്നു; ഞാൻ ആരെ ഭയപ്പെടും?
         printed: Psalms 27
       - kind: Old Testament
         kind_ml: പഴയനിയമം
         ref: Ezekiel 7:1–4
         ml: യെഹെസ്കേൽ 7:1–4
+        note: അവസാനം വന്നിരിക്കുന്നു; നിന്റെ നടപ്പിന്നു തക്കവണ്ണം ഞാൻ നിന്നെ ന്യായം വിധിക്കും.
         printed: Ezekiel 7:1-4
       holy_qurbana:
       - kind: General Epistle
         kind_ml: പൊതുലേഖനം
         ref: James 4:7–5:6
         ml: യാക്കോബ് 4:7–5:6
+        note: ദൈവത്തോടു അടുത്തു ചെല്ലുവിൻ, എന്നാൽ അവൻ നിങ്ങളോട് അടുത്തുവരും; നാളെ എന്തു സംഭവിക്കും എന്നു നിങ്ങൾ അറിയുന്നില്ല.
         printed: James 4:7-5:6
       - kind: Pauline Epistle
         kind_ml: പൗലോസിന്റെ ലേഖനം
         ref: Philippians 4:8–20
         ml: ഫിലിപ്പിയർ 4:8–20
+        note: സത്യവും രമ്യവുമായതു ചിന്തിപ്പിൻ; ഉള്ള അവസ്ഥയിൽ അലംഭാവത്തോടിരിപ്പാൻ ഞാൻ പഠിച്ചിരിക്കുന്നു.
         printed: Philippians 4:8-20
       - kind: Gospel
         kind_ml: സുവിശേഷം
         ref: Matthew 21:28–32
         ml: മത്തായി 21:28–32
+        note: 'രണ്ടു മക്കൾ: ഒരുവൻ ഇല്ല എന്നു പറഞ്ഞിട്ടു പോകുന്നു; മറ്റവൻ ഉവ്വ് എന്നു പറഞ്ഞിട്ടു പോകുന്നില്ല. ഇതാണ് ഇന്നത്തെ സുവിശേഷം.'
         printed: St. Matthew 21:28-32
         main: true
     key_verse:

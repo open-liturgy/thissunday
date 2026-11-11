@@ -201,44 +201,52 @@ translations:
         kind_ml: സുവിശേഷം
         ref: Matthew 18:15–35
         ml: മത്തായി 18:15–35
+        note: ഒരു തെറ്റ് എങ്ങനെ പരിഹരിക്കാം; ഏഴു എഴുപതു വട്ടം ക്ഷമിക്ക; കരുണയില്ലാത്ത ദാസൻ.
         printed: St. Matthew 18:15-35
       morning:
       - kind: Gospel
         kind_ml: സുവിശേഷം
         ref: Mark 9:33–50
         ml: മർക്കൊസ് 9:33–50
+        note: ഒന്നാമൻ ആകുവാൻ ഇച്ഛിക്കുന്നവൻ എല്ലാവർക്കും ശുശ്രൂഷക്കാരൻ ആകേണം; ഒരു ശിശു അവന്റെ കൈകളിൽ.
         printed: St. Mark 9:33-50
       before_qurbana:
       - kind: Old Testament
         kind_ml: പഴയനിയമം
         ref: Leviticus 19:13–18
         ml: ലേവ്യപുസ്തകം 19:13–18
+        note: കൂലി പിടിച്ചുവെക്കരുത്; കൂട്ടുകാരനെ നിന്നെപ്പോലെ തന്നേ സ്നേഹിക്കേണം.
         printed: Leviticus 19:13-18
       - kind: Old Testament
         kind_ml: പഴയനിയമം
         ref: Joshua 23:7–14
         ml: യോശുവ 23:7–14
+        note: യഹോവയോടു പറ്റിനില്പിൻ; അവൻ അരുളിച്ചെയ്ത നല്ല വാഗ്ദാനങ്ങളിൽ ഒന്നും വീണുപോയിട്ടില്ല.
         printed: Joshua 23:7-14
       - kind: Old Testament
         kind_ml: പഴയനിയമം
         ref: Malachi 4:1–6
         ml: മലാഖി 4:1–6
+        note: ഏലീയാവ് അപ്പന്മാരുടെ ഹൃദയം മക്കളിലേക്കു തിരിക്കും.
         printed: Malachi 4:1-6
       holy_qurbana:
       - kind: General Epistle
         kind_ml: പൊതുലേഖനം
         ref: James 2:14–26
         ml: യാക്കോബ് 2:14–26
+        note: പ്രവൃത്തിയില്ലാത്ത വിശ്വാസം നിർജ്ജീവമാകുന്നു.
         printed: James 2:14-26
       - kind: Pauline Epistle
         kind_ml: പൗലോസിന്റെ ലേഖനം
         ref: 1 Corinthians 14:34–39
         ml: 1 കൊരിന്ത്യർ 14:34–39
+        note: 'ആരാധനയിലെ ക്രമത്തെക്കുറിച്ചു പൌലൊസ്: സകലവും ഉചിതമായും ക്രമമായും നടക്കട്ടെ.'
         printed: I Corinthians 14:34-39
       - kind: Gospel
         kind_ml: സുവിശേഷം
         ref: Mark 6:7–13
         ml: മർക്കൊസ് 6:7–13
+        note: പന്ത്രണ്ടു പേർ ഈരണ്ടായി പുറപ്പെട്ട് രോഗികളെ എണ്ണ പൂശുന്നു. ഇതാണ് ഇന്നത്തെ സുവിശേഷം.
         printed: St. Mark 6:7-13
         main: true
     key_verse:

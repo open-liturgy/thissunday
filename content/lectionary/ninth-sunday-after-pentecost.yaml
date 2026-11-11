@@ -215,49 +215,58 @@ translations:
         kind_ml: സുവിശേഷം
         ref: Matthew 13:24–35
         ml: മത്തായി 13:24–35
+        note: കോതമ്പിന്റെ ഇടയിലെ കള, കടുകുമണി, മാവിലെ പുളിമാവ്.
         printed: St. Matthew 13:24-35
       morning:
       - kind: Gospel
         kind_ml: സുവിശേഷം
         ref: Matthew 13:36–43
         ml: മത്തായി 13:36–43
+        note: 'യേശു കളയുടെ ഉപമ വിശദീകരിക്കുന്നു: നീതിമാന്മാർ സൂര്യനെപ്പോലെ പ്രകാശിക്കും.'
         printed: St. Matthew 13:36-43
       before_qurbana:
       - kind: Old Testament
         kind_ml: പഴയനിയമം
         ref: Psalm 22:1–21
         ml: സങ്കീർത്തനങ്ങൾ 22:1–21
+        note: എന്റെ ദൈവമേ, എന്റെ ദൈവമേ, നീ എന്നെ ഉപേക്ഷിച്ചതു എന്ത്?
         printed: Psalms 22:1-21
       - kind: Old Testament
         kind_ml: പഴയനിയമം
         ref: Deuteronomy 4:1–6
         ml: ആവർത്തനം 4:1–6
+        note: ഈ ചട്ടങ്ങൾ പ്രമാണിപ്പിൻ; ജാതികളുടെ ദൃഷ്ടിയിൽ ഇതു നിങ്ങളുടെ ജ്ഞാനമായിരിക്കും.
         printed: Deuteronomy 4:1-6
       - kind: Old Testament
         kind_ml: പഴയനിയമം
         ref: Proverbs 13:1–7
         ml: സദൃശവാക്യങ്ങൾ 13:1–7
+        note: ജ്ഞാനമുള്ള മകൻ അപ്പന്റെ പ്രബോധനം കേൾക്കുന്നു.
         printed: Proverbs 13:1-7
       - kind: Old Testament
         kind_ml: പഴയനിയമം
         ref: Isaiah 24:1–5
         ml: യെശയ്യാവ് 24:1–5
+        note: നിവാസികൾ നിത്യനിയമം ലംഘിച്ചതുകൊണ്ടു ഭൂമി അശുദ്ധമായിരിക്കുന്നു.
         printed: Isaiah 24:1-5
       holy_qurbana:
       - kind: Acts of the Apostles
         kind_ml: അപ്പൊസ്തലപ്രവൃത്തികൾ
         ref: Acts 28:11–22
         ml: അപ്പൊസ്തലപ്രവൃത്തികൾ 28:11–22
+        note: പൌലൊസ് റോമയിൽ എത്തി അവിടത്തെ യെഹൂദപ്രമാണികളെ കാണുന്നു.
         printed: Acts 28:11-22
       - kind: Pauline Epistle
         kind_ml: പൗലോസിന്റെ ലേഖനം
         ref: 1 Corinthians 6:1–11
         ml: 1 കൊരിന്ത്യർ 6:1–11
+        note: തമ്മിൽ തമ്മിൽ വ്യവഹാരത്തിനു പോകുന്നത് എന്തിന്? നിങ്ങൾ കഴുകപ്പെട്ടു, വിശുദ്ധീകരിക്കപ്പെട്ടു.
         printed: I Corinthians 6:1-11
       - kind: Gospel
         kind_ml: സുവിശേഷം
         ref: Luke 14:7–11
         ml: ലൂക്കൊസ് 14:7–11
+        note: കല്യാണവിരുന്നിൽ ഒടുക്കത്തെ സ്ഥലത്തു ചെന്നിരിക്ക. ഇതാണ് ഇന്നത്തെ സുവിശേഷം.
         printed: St. Luke 14:7-11
         main: true
     key_verse:

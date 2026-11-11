@@ -209,44 +209,52 @@ translations:
         kind_ml: സുവിശേഷം
         ref: Mark 6:4–13
         ml: മർക്കൊസ് 6:4–13
+        note: സ്വന്തനാട്ടിൽ പ്രവാചകനു മാനമില്ല; പന്ത്രണ്ടു പേരെ ഈരണ്ടായി അയയ്ക്കുന്നു.
         printed: St. Mark 6:4-13
       morning:
       - kind: Gospel
         kind_ml: സുവിശേഷം
         ref: Luke 9:1–11
         ml: ലൂക്കൊസ് 9:1–11
+        note: ദൈവരാജ്യം പ്രസംഗിപ്പാനും സൗഖ്യമാക്കുവാനും യേശു പന്ത്രണ്ടു പേരെ അയയ്ക്കുന്നു.
         printed: St. Luke 9:1-11
       before_qurbana:
       - kind: Old Testament
         kind_ml: പഴയനിയമം
         ref: Genesis 42:18–25
         ml: ഉല്പത്തി 42:18–25
+        note: യോസേഫ് തങ്ങളെ മനസ്സിലാക്കുന്നു എന്നറിയാതെ, സഹോദരന്മാർ തങ്ങളുടെ കുറ്റം സമ്മതിക്കുന്നു.
         printed: Genesis 42:18-25
       - kind: Old Testament
         kind_ml: പഴയനിയമം
         ref: Jeremiah 3:1–5
         ml: യിരെമ്യാവ് 3:1–5
+        note: എന്റെ പിതാവേ എന്നു നീ എന്നെ വിളിക്കയില്ലയോ?
         printed: Jeremiah 3:1-5
       - kind: Old Testament
         kind_ml: പഴയനിയമം
         ref: Daniel 3:21–30
         ml: ദാനീയേൽ 3:21–30
+        note: തീച്ചൂളയിൽ മൂന്നു യുവാക്കൾ, അവരോടുകൂടെ നടക്കുന്ന നാലാമതൊരുവൻ.
         printed: Daniel 3:21-30
       holy_qurbana:
       - kind: Acts of the Apostles
         kind_ml: അപ്പൊസ്തലപ്രവൃത്തികൾ
         ref: Acts 13:26–39
         ml: അപ്പൊസ്തലപ്രവൃത്തികൾ 13:26–39
+        note: ദൈവം യേശുവിനെ ഉയിർപ്പിച്ചു, അവൻ ദ്രവത്വം കാണാൻ ഇടവരുത്തിയില്ല എന്നു പൌലൊസ് പ്രസംഗിക്കുന്നു.
         printed: Acts 13:26-39
       - kind: Pauline Epistle
         kind_ml: പൗലോസിന്റെ ലേഖനം
         ref: Galatians 6:10–18
         ml: ഗലാത്യർ 6:10–18
+        note: എല്ലാവർക്കും നന്മ ചെയ്ക; പുതിയ സൃഷ്ടിയത്രേ കാര്യം.
         printed: Galatians 6:10-18
       - kind: Gospel
         kind_ml: സുവിശേഷം
         ref: John 6:35–46
         ml: യോഹന്നാൻ 6:35–46
+        note: എന്റെ അടുക്കൽ വരുന്നവനെ ഞാൻ ഒരുനാളും തള്ളിക്കളകയില്ല. ഇതാണ് ഇന്നത്തെ സുവിശേഷം.
         printed: St. John 6:35-46
         main: true
     key_verse:

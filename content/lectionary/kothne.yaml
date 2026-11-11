@@ -223,34 +223,40 @@ translations:
         kind_ml: സുവിശേഷം
         ref: John 3:1–6
         ml: യോഹന്നാൻ 3:1–6
+        note: 'നിക്കോദേമൊസ് രാത്രിയിൽ വരുന്നു: വെള്ളത്താലും ആത്മാവിനാലും ജനിക്കേണം.'
         printed: St. John 3:1-6
       morning:
       - kind: Gospel
         kind_ml: സുവിശേഷം
         ref: Luke 16:1–18
         ml: ലൂക്കൊസ് 16:1–18
+        note: അനീതിയുള്ള കാര്യവിചാരകൻ; രണ്ടു യജമാനന്മാരെ സേവിപ്പാൻ ആർക്കും കഴികയില്ല.
         printed: St. Luke 16:1-18
       before_qurbana:
       - kind: Old Testament
         kind_ml: പഴയനിയമം
         ref: Exodus 20:1–21
         ml: പുറപ്പാട് 20:1–21
+        note: സീനായി പർവ്വതത്തിൽനിന്നു ദൈവം പത്തു കല്പനകൾ നല്കുന്നു.
         printed: Exodus 20:1-21
       - kind: Old Testament
         kind_ml: പഴയനിയമം
         ref: Joel 2:12–20
         ml: യോവേൽ 2:12–20
+        note: പൂർണ്ണഹൃദയത്തോടെ എങ്കലേക്കു തിരിവിൻ; വസ്ത്രമല്ല, ഹൃദയം കീറുവിൻ.
         printed: Joel 2:12-20
       - kind: Old Testament
         kind_ml: പഴയനിയമം
         ref: Isaiah 58:5–14
         ml: യെശയ്യാവ് 58:5–14
+        note: 'ദൈവം തിരഞ്ഞെടുക്കുന്ന ഉപവാസം: അന്യായബന്ധനങ്ങളെ അഴിക്കുക, വിശപ്പുള്ളവന്നു അപ്പം പകുത്തുകൊടുക്കുക.'
         printed: Isaiah 58:5-14
       holy_qurbana:
       - kind: Acts of the Apostles
         kind_ml: അപ്പൊസ്തലപ്രവൃത്തികൾ
         ref: Acts 11:19–26
         ml: അപ്പൊസ്തലപ്രവൃത്തികൾ 11:19–26
+        note: അന്ത്യൊക്ക്യയിലെ സഭ; അവിടെയാണ് ശിഷ്യന്മാർക്ക് ആദ്യം ക്രിസ്ത്യാനികൾ എന്നു പേർ ഉണ്ടായത്.
         printed: Acts 11:19-26
         or:
           kind: Revelation
@@ -262,11 +268,13 @@ translations:
         kind_ml: പൗലോസിന്റെ ലേഖനം
         ref: Colossians 3:1–17
         ml: കൊലൊസ്സ്യർ 3:1–17
+        note: ഉയരത്തിലുള്ളതു ചിന്തിപ്പിൻ; മനസ്സലിവും സ്നേഹവും ധരിച്ചുകൊൾവിൻ.
         printed: Colossians 3:1-17
       - kind: Gospel
         kind_ml: സുവിശേഷം
         ref: John 2:1–11
         ml: യോഹന്നാൻ 2:1–11
+        note: 'കാനാവിലെ കല്യാണത്തിൽ യേശു വെള്ളം വീഞ്ഞാക്കുന്നു: അവന്റെ ആദ്യത്തെ അടയാളം. ഇതാണ് ഇന്നത്തെ സുവിശേഷം.'
         printed: St. John 2:1-11
         main: true
     key_verse:

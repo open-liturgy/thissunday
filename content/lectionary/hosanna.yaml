@@ -297,69 +297,82 @@ translations:
         kind_ml: സുവിശേഷം
         ref: Matthew 21:1–17
         ml: മത്തായി 21:1–17
+        note: യെരൂശലേമിലേക്കുള്ള പ്രവേശനം, ദൈവാലയശുദ്ധീകരണം, ഹോശന്നാ എന്ന് ആർക്കുന്ന കുട്ടികൾ.
         printed: St. Matthew 21:1-17
       morning:
       - kind: Gospel
         kind_ml: സുവിശേഷം
         ref: Luke 19:28–44
         ml: ലൂക്കൊസ് 19:28–44
+        note: യേശു ഒലിവുമലയിൽനിന്ന് ഇറങ്ങിവരുന്നു; യെരൂശലേമിനെക്കുറിച്ചു കരയുന്നു.
         printed: St. Luke 19:28-44
       before_qurbana:
       - kind: Old Testament
         kind_ml: പഴയനിയമം
         ref: Genesis 49:8–15
         ml: ഉല്പത്തി 49:8–15
+        note: 'യാക്കോബ് യെഹൂദയെ അനുഗ്രഹിക്കുന്നു: ചെങ്കോൽ അവനിൽനിന്നു നീങ്ങിപ്പോകയില്ല; അവൻ തന്റെ കഴുതയെ മുന്തിരിവള്ളിയിൽ കെട്ടുന്നു.'
         printed: Genesis 49:8-15
       - kind: Old Testament
         kind_ml: പഴയനിയമം
         ref: 1 Samuel 2:18–26; 16:1
         ml: 1 ശമൂവേൽ 2:18–26; 16:1
+        note: ബാലനായ ശമൂവേൽ ദൈവപ്രീതിയിൽ വളരുന്നു; ഒരു പുതിയ രാജാവിനെ അഭിഷേകം ചെയ്യാൻ ശമൂവേലിനെ അയയ്ക്കുന്നു.
         printed: I Samuel 2:18-26, 16:1
       - kind: Old Testament
         kind_ml: പഴയനിയമം
         ref: Daniel 1:16–20
         ml: ദാനീയേൽ 1:16–20
+        note: ദാനീയേലും സ്നേഹിതന്മാരും, വിശ്വസ്തരായ യുവാക്കൾ, മറ്റുള്ളവരെക്കാൾ പത്തിരട്ടി ജ്ഞാനികളായി കാണപ്പെടുന്നു.
         printed: Daniel 1:16-20
       - kind: Old Testament
         kind_ml: പഴയനിയമം
         ref: Micah 4:1–5
         ml: മീഖാ 4:1–5
+        note: ജാതികൾ തങ്ങളുടെ വാളുകളെ കൊഴുക്കളായി അടിച്ചുതീർക്കും.
         printed: Micah 4:1-5
       - kind: Old Testament
         kind_ml: പഴയനിയമം
         ref: 1 Kings 3:4–14
         ml: 1 രാജാക്കന്മാർ 3:4–14
+        note: യുവാവായ ശലോമോൻ ദൈവത്തോടു വിവേകമുള്ള ഒരു ഹൃദയം ചോദിക്കുന്നു.
         printed: I Kings 3:4-14
       - kind: Old Testament
         kind_ml: പഴയനിയമം
         ref: Zephaniah 3:11–20
         ml: സെഫന്യാവ് 3:11–20
+        note: സീയോൻപുത്രിയേ, ഘോഷിച്ചുല്ലസിക്ക; നിന്റെ ദൈവമായ യഹോവ നിന്റെ മദ്ധ്യേ ഉണ്ട്.
         printed: Zephaniah 3:11-20
       - kind: Old Testament
         kind_ml: പഴയനിയമം
         ref: Jeremiah 30:18–22
         ml: യിരെമ്യാവ് 30:18–22
+        note: ഞാൻ യെരൂശലേമിനെ പുനഃസ്ഥാപിക്കും; നിങ്ങൾ എനിക്കു ജനമായും ഞാൻ നിങ്ങൾക്കു ദൈവമായും ഇരിക്കും.
         printed: Jeremiah 30:18-22
       holy_qurbana:
       - kind: General Epistle
         kind_ml: പൊതുലേഖനം
         ref: 1 John 5:1–12
         ml: 1 യോഹന്നാൻ 5:1–12
+        note: ദൈവത്തിൽനിന്നു ജനിച്ചതൊക്കെയും ലോകത്തെ ജയിക്കുന്നു; ഇതാണ് നമ്മുടെ വിശ്വാസം.
         printed: I John 5:1-12
       - kind: Pauline Epistle
         kind_ml: പൗലോസിന്റെ ലേഖനം
         ref: Romans 8:18–25
         ml: റോമർ 8:18–25
+        note: ദൈവമക്കളുടെ വെളിപ്പാടിനായി സർവ്വസൃഷ്ടിയും ആകാംക്ഷയോടെ കാത്തിരിക്കുന്നു.
         printed: Romans 8:18-25
       - kind: Pauline Epistle
         kind_ml: പൗലോസിന്റെ ലേഖനം
         ref: Ephesians 6:1–24
         ml: എഫെസ്യർ 6:1–24
+        note: മക്കളും മാതാപിതാക്കളും, ദൈവത്തിന്റെ സർവ്വായുധവർഗ്ഗവും.
         printed: Ephesians:6:1-24
       - kind: Gospel
         kind_ml: സുവിശേഷം
         ref: John 12:12–19
         ml: യോഹന്നാൻ 12:12–19
+        note: രാജാവു ഒരു കഴുതക്കുട്ടിമേൽ വരുമ്പോൾ പുരുഷാരം കുരുത്തോലകൾ വീശുന്നു. ഇതാണ് ഇന്നത്തെ സുവിശേഷം.
         printed: St. John 12:12-19
         main: true
     key_verse:

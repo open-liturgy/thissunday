@@ -209,44 +209,52 @@ translations:
         kind_ml: സുവിശേഷം
         ref: Matthew 12:30–37
         ml: മത്തായി 12:30–37
+        note: ഫലംകൊണ്ടു വൃക്ഷത്തെ അറിയുന്നു; പറയുന്ന ഓരോ നിസ്സാരവാക്കിനും കണക്കു ബോധിപ്പിക്കേണ്ടിവരും.
         printed: St. Matthew 12:30-37
       morning:
       - kind: Gospel
         kind_ml: സുവിശേഷം
         ref: Matthew 12:38–50
         ml: മത്തായി 12:38–50
+        note: യോനയുടെ അടയാളം; എന്റെ പിതാവിന്റെ ഇഷ്ടം ചെയ്യുന്നവൻ എന്റെ സഹോദരനും സഹോദരിയും അമ്മയും ആകുന്നു.
         printed: St. Matthew 12:38-50
       before_qurbana:
       - kind: Old Testament
         kind_ml: പഴയനിയമം
         ref: Leviticus 16:29–34
         ml: ലേവ്യപുസ്തകം 16:29–34
+        note: പാപപരിഹാരദിവസത്തിൽ നിങ്ങളുടെ സകലപാപങ്ങളിൽനിന്നും നിങ്ങൾ ശുദ്ധരാകും.
         printed: Leviticus 16:29-34
       - kind: Old Testament
         kind_ml: പഴയനിയമം
         ref: Hosea 5:1–5
         ml: ഹോശേയ 5:1–5
+        note: പുരോഹിതന്മാരേ, ഇതു കേൾപ്പിൻ; നിങ്ങൾ ജനത്തിന് ഒരു കെണിയായിരുന്നു.
         printed: Hosea 5:1-5
       - kind: Old Testament
         kind_ml: പഴയനിയമം
         ref: Isaiah 57:15–19
         ml: യെശയ്യാവ് 57:15–19
+        note: ഞാൻ ഉയരത്തിലും വിശുദ്ധസ്ഥലത്തിലും, മനസ്താപവും മനോവിനയവുമുള്ളവരോടുകൂടെയും വസിക്കുന്നു.
         printed: Isaiah 57:15-19
       holy_qurbana:
       - kind: Acts of the Apostles
         kind_ml: അപ്പൊസ്തലപ്രവൃത്തികൾ
         ref: Acts 4:32–37
         ml: അപ്പൊസ്തലപ്രവൃത്തികൾ 4:32–37
+        note: വിശ്വാസികൾ ഏകഹൃദയവും ഏകമനസ്സും ഉള്ളവർ; ബർന്നബാസ് ഒരു നിലം വിറ്റ് പണം കൊടുക്കുന്നു.
         printed: Acts 4:32-37
       - kind: Pauline Epistle
         kind_ml: പൗലോസിന്റെ ലേഖനം
         ref: Ephesians 2:11–22
         ml: എഫെസ്യർ 2:11–22
+        note: ക്രിസ്തു നമ്മുടെ സമാധാനം; അവൻ വേർപാടിന്റെ നടുച്ചുവർ ഇടിച്ചുകളഞ്ഞു.
         printed: Ephesians 2:11-22
       - kind: Gospel
         kind_ml: സുവിശേഷം
         ref: Mark 3:20–30
         ml: മർക്കൊസ് 3:20–30
+        note: തന്നിൽതന്നേ ഛിദ്രിച്ച ഭവനം നില്പാൻ കഴിയില്ല; യേശു ബലവാനെ പിടിച്ചുകെട്ടുന്നു. ഇതാണ് ഇന്നത്തെ സുവിശേഷം.
         printed: St. Mark 3:20-30
         main: true
     key_verse:

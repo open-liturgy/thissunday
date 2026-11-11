@@ -201,44 +201,52 @@ translations:
         kind_ml: സുവിശേഷം
         ref: Luke 20:27–40
         ml: ലൂക്കൊസ് 20:27–40
+        note: അവൻ മരിച്ചവരുടെ ദൈവമല്ല, ജീവനുള്ളവരുടെ ദൈവമത്രേ.
         printed: St. Luke 20:27-40
       morning:
       - kind: Gospel
         kind_ml: സുവിശേഷം
         ref: Matthew 22:34–44
         ml: മത്തായി 22:34–44
+        note: 'ഏറ്റവും വലിയ കല്പന: ദൈവത്തെ സ്നേഹിക്ക, കൂട്ടുകാരനെ നിന്നെപ്പോലെ തന്നേ സ്നേഹിക്ക.'
         printed: St. Matthew 22:34-44
       before_qurbana:
       - kind: Old Testament
         kind_ml: പഴയനിയമം
         ref: Leviticus 2:1–3
         ml: ലേവ്യപുസ്തകം 2:1–3
+        note: എണ്ണയും കുന്തുരുക്കവും ചേർത്ത നേരിയ മാവുകൊണ്ടുള്ള ഭോജനയാഗം.
         printed: Leviticus 2:1-3
       - kind: Old Testament
         kind_ml: പഴയനിയമം
         ref: Psalm 46
         ml: സങ്കീർത്തനങ്ങൾ 46
+        note: ദൈവം നമ്മുടെ സങ്കേതവും ബലവും ആകുന്നു; മിണ്ടാതിരുന്നു, ഞാൻ ദൈവം എന്ന് അറിഞ്ഞുകൊൾവിൻ.
         printed: Psalms 46
       - kind: Old Testament
         kind_ml: പഴയനിയമം
         ref: Isaiah 40:27–31
         ml: യെശയ്യാവ് 40:27–31
+        note: യഹോവയെ കാത്തിരിക്കുന്നവർ ശക്തിയെ പുതുക്കും; അവർ കഴുകന്മാരെപ്പോലെ ചിറകടിച്ചു കയറും.
         printed: Isaiah 40:27-31
       holy_qurbana:
       - kind: Acts of the Apostles
         kind_ml: അപ്പൊസ്തലപ്രവൃത്തികൾ
         ref: Acts 22:22–29
         ml: അപ്പൊസ്തലപ്രവൃത്തികൾ 22:22–29
+        note: പുരുഷാരം പൌലൊസിനെതിരെ തിരിയുന്നു; അവൻ റോമപൌരൻ എന്ന നിലയിലുള്ള അവകാശം ഉന്നയിക്കുന്നു.
         printed: Acts 22:22-29
       - kind: Pauline Epistle
         kind_ml: പൗലോസിന്റെ ലേഖനം
         ref: 1 Timothy 6:13–21
         ml: 1 തിമൊഥെയൊസ് 6:13–21
+        note: ധനവാന്മാരോട് ഉന്നതഭാവം കൂടാതെ സൽപ്രവൃത്തികളിൽ സമ്പന്നരാകുവാൻ ആജ്ഞാപിക്ക.
         printed: I Timothy 6:13-21
       - kind: Gospel
         kind_ml: സുവിശേഷം
         ref: Matthew 23:1–12
         ml: മത്തായി 23:1–12
+        note: അവർ ഉപദേശിക്കുന്നതു ചെയ്‌വിൻ, അവർ ചെയ്യുന്നതുപോലെ ചെയ്യരുത്; നിങ്ങളിൽ ഏറ്റവും വലിയവൻ നിങ്ങളുടെ ശുശ്രൂഷക്കാരൻ ആകേണം. ഇതാണ് ഇന്നത്തെ സുവിശേഷം.
         printed: St. Matthew 23:1-12
         main: true
     key_verse:

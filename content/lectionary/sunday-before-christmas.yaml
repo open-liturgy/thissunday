@@ -224,50 +224,59 @@ translations:
         kind_ml: സുവിശേഷം
         ref: Matthew 1:1–18
         ml: മത്തായി 1:1–18
+        note: അബ്രാഹാംമുതൽ ദാവീദിലൂടെ യോസേഫ് വരെ യേശുവിന്റെ വംശാവലി.
         printed: St. Matthew 1:1-18
       morning:
       - kind: Gospel
         kind_ml: സുവിശേഷം
         ref: John 1:1–18
         ml: യോഹന്നാൻ 1:1–18
+        note: ആദിയിൽ വചനം ഉണ്ടായിരുന്നു… വചനം ജഡമായിത്തീർന്നു.
         printed: St. John 1:1-18
       before_qurbana:
       - kind: Old Testament
         kind_ml: പഴയനിയമം
         ref: Genesis 46:8–27
         ml: ഉല്പത്തി 46:8–27
+        note: മിസ്രയീമിലേക്കു പോയ യാക്കോബിന്റെ കുടുംബത്തിലുള്ളവരുടെ പേരുകൾ.
         printed: Genesis 46:8-27
       - kind: Old Testament
         kind_ml: പഴയനിയമം
         ref: 1 Kings 9:3–7
         ml: 1 രാജാക്കന്മാർ 9:3–7
+        note: വിശ്വസ്തരായിരുന്നാൽ ദാവീദിന്റെ വംശം നിലനില്ക്കും എന്നു ദൈവം ശലോമോനോടു വാഗ്ദാനം ചെയ്യുന്നു.
         printed: I Kings 9:3-7
       - kind: Old Testament
         kind_ml: പഴയനിയമം
         ref: Isaiah 7:14–15; 11:1–9
         ml: യെശയ്യാവ് 7:14–15; 11:1–9
+        note: കന്യക ഗർഭംധരിച്ചു ഒരു മകനെ പ്രസവിക്കും, ഇമ്മാനൂവേൽ; യിശ്ശായിയുടെ കുറ്റിയിൽനിന്ന് ഒരു മുള പൊട്ടിപ്പുറപ്പെടും.
         printed: Isaiah 7:14-15, 11:1-9
       holy_qurbana:
       - kind: Acts of the Apostles
         kind_ml: അപ്പൊസ്തലപ്രവൃത്തികൾ
         ref: Acts 3:16–26
         ml: അപ്പൊസ്തലപ്രവൃത്തികൾ 3:16–26
+        note: പ്രവാചകന്മാർ ക്രിസ്തുവിനെ മുൻകൂട്ടി പറഞ്ഞു എന്നും അബ്രാഹാമിന്റെ സന്തതിയിലൂടെ സകല ജാതികളും അനുഗ്രഹിക്കപ്പെടും എന്നും പത്രൊസ് പറയുന്നു.
         printed: Acts 3:16-26
       - kind: Pauline Epistle
         kind_ml: പൗലോസിന്റെ ലേഖനം
         ref: Romans 4:13–25
         ml: റോമർ 4:13–25
+        note: ആശെക്കു വിരോധമായി അബ്രാഹാം ദൈവവാഗ്ദാനം വിശ്വസിച്ചു.
         printed: Romans 4:13-25
       - kind: Pauline Epistle
         kind_ml: പൗലോസിന്റെ ലേഖനം
         ref: Galatians 4:18–20
         ml: ഗലാത്യർ 4:18–20
+        note: ക്രിസ്തു തന്റെ മക്കളിൽ ഉരുവാകുവോളം പൌലൊസ് പിന്നെയും ഈറ്റുനോവു കിടക്കുന്നു.
         printed: Galatians 4;18-20
         check: 'Printed with a semicolon: ''Galatians 4 ;18-20''.'
       - kind: Gospel
         kind_ml: സുവിശേഷം
         ref: Luke 3:23–38
         ml: ലൂക്കൊസ് 3:23–38
+        note: ദാവീദിലൂടെയും അബ്രാഹാമിലൂടെയും, ദൈവത്തിന്റെ മകനായ ആദാം വരെ, യേശുവിന്റെ വംശാവലി. ഇതാണ് ഇന്നത്തെ സുവിശേഷം.
         printed: St. Luke 3:23-38
         main: true
     key_verse:

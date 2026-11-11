@@ -209,44 +209,52 @@ translations:
         kind_ml: സുവിശേഷം
         ref: Matthew 25:13–30
         ml: മത്തായി 25:13–30
+        note: 'താലന്തുകളുടെ ഉപമ: നന്നു, നല്ലവനും വിശ്വസ്തനുമായ ദാസനേ.'
         printed: St. Matthew 25:13-30
       morning:
       - kind: Gospel
         kind_ml: സുവിശേഷം
         ref: Luke 19:11–28
         ml: ലൂക്കൊസ് 19:11–28
+        note: ഒരു കുലീനൻ തന്റെ ദാസന്മാരെ പണം ഏല്പിച്ചു യാത്രയാകുന്നു; മടങ്ങിവന്ന് അവർ അതുകൊണ്ട് എന്തു ചെയ്തു എന്നു നോക്കുന്നു.
         printed: St. Luke 19:11-28
       before_qurbana:
       - kind: Old Testament
         kind_ml: പഴയനിയമം
         ref: Numbers 20:23–29
         ml: സംഖ്യാപുസ്തകം 20:23–29
+        note: ഹോർ പർവ്വതത്തിൽ അഹരോൻ മരിക്കുന്നു; അവന്റെ പൌരോഹിത്യവസ്ത്രങ്ങൾ മകനായ എലെയാസാരിനു കൈമാറുന്നു.
         printed: Numbers 20:23-29
       - kind: Old Testament
         kind_ml: പഴയനിയമം
         ref: Deuteronomy 34:1–8
         ml: ആവർത്തനം 34:1–8
+        note: നെബോ പർവ്വതത്തിൽനിന്നു മോശെ വാഗ്ദത്തദേശം കാണുന്നു; അവിടെ മരിക്കുന്നു.
         printed: Deuteronomy 34:1-8
       - kind: Old Testament
         kind_ml: പഴയനിയമം
         ref: Isaiah 65:13–20
         ml: യെശയ്യാവ് 65:13–20
+        note: ഞാൻ പുതിയ ആകാശവും പുതിയ ഭൂമിയും സൃഷ്ടിക്കുന്നു; ഇനി കരച്ചലിന്റെ ശബ്ദം കേൾക്കയില്ല.
         printed: Isaiah 65:13-20
       holy_qurbana:
       - kind: Acts of the Apostles
         kind_ml: അപ്പൊസ്തലപ്രവൃത്തികൾ
         ref: Acts 20:26–38
         ml: അപ്പൊസ്തലപ്രവൃത്തികൾ 20:26–38
+        note: 'എഫെസൊസിലെ മൂപ്പന്മാരോടു പൌലൊസിന്റെ യാത്രാമൊഴി: ആട്ടിൻകൂട്ടത്തെ സൂക്ഷിച്ചുകൊൾവിൻ.'
         printed: Acts 20:26-38
       - kind: Pauline Epistle
         kind_ml: പൗലോസിന്റെ ലേഖനം
         ref: 1 Thessalonians 4:13–5:11
         ml: 1 തെസ്സലൊനീക്യർ 4:13–5:11
+        note: പ്രത്യാശയില്ലാത്തവരെപ്പോലെ ദുഃഖിക്കരുത്; കർത്താവിന്റെ ദിവസം കള്ളനെപ്പോലെ വരുന്നു.
         printed: I Thessalonians 4:13-5:11
       - kind: Gospel
         kind_ml: സുവിശേഷം
         ref: Matthew 24:42–51
         ml: മത്തായി 24:42–51
+        note: 'ഉണർന്നിരിപ്പിൻ: വിശ്വസ്തനായ ദാസൻ തക്കസമയത്തു വീട്ടുകാർക്കു ഭക്ഷണം കൊടുക്കുന്നു. ഇതാണ് ഇന്നത്തെ സുവിശേഷം.'
         printed: St. Matthew 24:42-51
         main: true
     key_verse:

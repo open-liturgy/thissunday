@@ -201,44 +201,52 @@ translations:
         kind_ml: സുവിശേഷം
         ref: Mark 4:1–23
         ml: മർക്കൊസ് 4:1–23
+        note: വിതെക്കുന്നവൻ; പറയിൻകീഴിൽ മറെച്ചുവെക്കാനുള്ളതല്ലാത്ത വിളക്ക്.
         printed: St. Mark 4:1-23
       morning:
       - kind: Gospel
         kind_ml: സുവിശേഷം
         ref: Matthew 13:10–23
         ml: മത്തായി 13:10–23
+        note: യേശു ഉപമകളിൽ സംസാരിക്കുന്നത് എന്തുകൊണ്ട്, വിതെക്കുന്നവന്റെ ഉപമയുടെ അർത്ഥം.
         printed: St. Matthew 13:10-23
       before_qurbana:
       - kind: Old Testament
         kind_ml: പഴയനിയമം
         ref: Exodus 3:9–15
         ml: പുറപ്പാട് 3:9–15
+        note: 'ദൈവം മോശെയോടു തന്റെ നാമം പറയുന്നു: ഞാൻ ആകുന്നവൻ ഞാൻ ആകുന്നു.'
         printed: Exodus 3:9-15
       - kind: Old Testament
         kind_ml: പഴയനിയമം
         ref: Jeremiah 7:21–25
         ml: യിരെമ്യാവ് 7:21–25
+        note: എന്റെ വാക്കു കേട്ടനുസരിപ്പിൻ; എന്നാൽ ഞാൻ നിങ്ങൾക്കു ദൈവമായിരിക്കും.
         printed: Jeremiah 7:21-25
       - kind: Old Testament
         kind_ml: പഴയനിയമം
         ref: Isaiah 52:1–6
         ml: യെശയ്യാവ് 52:1–6
+        note: സീയോനേ, ഉണരുക, ഉണരുക; നിന്റെ ബലം ധരിച്ചുകൊൾക.
         printed: Isaiah 52:1-6
       holy_qurbana:
       - kind: General Epistle
         kind_ml: പൊതുലേഖനം
         ref: 1 Peter 2:4–10
         ml: 1 പത്രൊസ് 2:4–10
+        note: ജീവനുള്ള കല്ലിന്റെ അടുക്കൽ വന്ന്, ആത്മീയഗൃഹമായി പണിയപ്പെടുവിൻ.
         printed: I Peter 2:4-10
       - kind: Pauline Epistle
         kind_ml: പൗലോസിന്റെ ലേഖനം
         ref: Hebrews 4:14–5:5
         ml: എബ്രായർ 4:14–5:5
+        note: നമ്മുടെ ബലഹീനതകളിൽ സഹതാപം കാണിക്കുന്ന ഒരു മഹാപുരോഹിതൻ നമുക്കുണ്ട്; കൃപാസനത്തിന്നു അടുത്തുചെല്ലുക.
         printed: Hebrews 4:14-5:5
       - kind: Gospel
         kind_ml: സുവിശേഷം
         ref: John 6:47–59
         ml: യോഹന്നാൻ 6:47–59
+        note: എന്റെ മാംസം സാക്ഷാൽ ഭക്ഷണവും എന്റെ രക്തം സാക്ഷാൽ പാനീയവും ആകുന്നു. ഇതാണ് ഇന്നത്തെ സുവിശേഷം.
         printed: St. John 6:47-59
         main: true
     key_verse:

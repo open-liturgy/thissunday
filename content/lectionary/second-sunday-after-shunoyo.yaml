@@ -209,44 +209,52 @@ translations:
         kind_ml: സുവിശേഷം
         ref: Luke 18:1–8
         ml: ലൂക്കൊസ് 18:1–8
+        note: 'മടുത്തുപോകാതെ എപ്പോഴും പ്രാർത്ഥിക്കുക: ഒരു വിധവയും നീതികെട്ട ന്യായാധിപനും.'
         printed: St. Luke 18:1-8
       morning:
       - kind: Gospel
         kind_ml: സുവിശേഷം
         ref: Luke 18:9–17
         ml: ലൂക്കൊസ് 18:9–17
+        note: പരീശനും ചുങ്കക്കാരനും; ശിശുക്കളെ എന്റെ അടുക്കൽ വരുവാൻ വിടുവിൻ.
         printed: St. Luke 18:9-17
       before_qurbana:
       - kind: Old Testament
         kind_ml: പഴയനിയമം
         ref: Genesis 6:3–12
         ml: ഉല്പത്തി 6:3–12
+        note: ഭൂമി സാഹസംകൊണ്ടു നിറഞ്ഞിരിക്കുന്നു; എന്നാൽ നോഹെക്കു ദൈവത്തിന്റെ കൃപ ലഭിക്കുന്നു.
         printed: Genesis 6:3-12
       - kind: Old Testament
         kind_ml: പഴയനിയമം
         ref: Ecclesiastes 7:1–7
         ml: സഭാപ്രസംഗി 7:1–7
+        note: നല്ല പേർ സുഗന്ധതൈലത്തെക്കാൾ നല്ലത്; വിലാപഭവനം ഹൃദയത്തെ പഠിപ്പിക്കുന്നു.
         printed: Ecclesiastes 7:1-7
       - kind: Old Testament
         kind_ml: പഴയനിയമം
         ref: Psalm 12:1–7
         ml: സങ്കീർത്തനങ്ങൾ 12:1–7
+        note: യഹോവയുടെ വചനങ്ങൾ ഏഴു പ്രാവശ്യം ശോധന കഴിച്ച വെള്ളിപോലെ നിർമ്മലം.
         printed: Psalms 12:1-7
       holy_qurbana:
       - kind: General Epistle
         kind_ml: പൊതുലേഖനം
         ref: 2 Peter 3:8–14
         ml: 2 പത്രൊസ് 3:8–14
+        note: കർത്താവിന് ഒരു ദിവസം ആയിരം സംവത്സരംപോലെ; ആരും നശിച്ചുപോകാതെ എല്ലാവരും മാനസാന്തരപ്പെടുവാൻ അവൻ ദീർഘക്ഷമ കാണിക്കുന്നു.
         printed: II Peter 3:8-14
       - kind: Pauline Epistle
         kind_ml: പൗലോസിന്റെ ലേഖനം
         ref: 1 Thessalonians 5:1–11
         ml: 1 തെസ്സലൊനീക്യർ 5:1–11
+        note: നിങ്ങൾ വെളിച്ചത്തിന്റെ മക്കൾ; ഉണർന്നിരുന്ന് അന്യോന്യം പ്രബോധിപ്പിൻ.
         printed: I Thessalonians 5:1-11
       - kind: Gospel
         kind_ml: സുവിശേഷം
         ref: Luke 11:9–20
         ml: ലൂക്കൊസ് 11:9–20
+        note: യാചിപ്പിൻ, അന്വേഷിപ്പിൻ, മുട്ടുവിൻ; ചോദിക്കുന്നവർക്കു പിതാവു പരിശുദ്ധാത്മാവിനെ കൊടുക്കും. ഇതാണ് ഇന്നത്തെ സുവിശേഷം.
         printed: St. Luke 11:9-20
         main: true
     key_verse:

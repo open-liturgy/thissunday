@@ -326,34 +326,40 @@ translations:
         kind_ml: സുവിശേഷം
         ref: John 14:15–31
         ml: യോഹന്നാൻ 14:15–31
+        note: ഞാൻ പിതാവിനോടു ചോദിക്കും; അവൻ മറ്റൊരു കാര്യസ്ഥനെ, സത്യത്തിന്റെ ആത്മാവിനെ, നിങ്ങൾക്കു തരും.
         printed: St. John 14:15-31
       morning:
       - kind: Gospel
         kind_ml: സുവിശേഷം
         ref: John 15:20–25
         ml: യോഹന്നാൻ 15:20–25
+        note: ദാസൻ യജമാനനെക്കാൾ വലിയവനല്ല; അവർ കാരണം കൂടാതെ എന്നെ പകെച്ചു.
         printed: St. John 15:20-25
       before_qurbana:
       - kind: Old Testament
         kind_ml: പഴയനിയമം
         ref: Numbers 11:16–35
         ml: സംഖ്യാപുസ്തകം 11:16–35
+        note: ദൈവം തന്റെ ആത്മാവിനെ എഴുപതു മൂപ്പന്മാരുടെമേൽ പകരുന്നു; അവർ പ്രവചിക്കുന്നു.
         printed: Numbers 11:16-35
       - kind: Old Testament
         kind_ml: പഴയനിയമം
         ref: 1 Samuel 10:9–15
         ml: 1 ശമൂവേൽ 10:9–15
+        note: ദൈവം ശൌലിനു വേറൊരു ഹൃദയം കൊടുക്കുന്നു; ആത്മാവ് അവന്റെമേൽ വരുന്നു.
         printed: I Samuel 10:9-15
       - kind: Old Testament
         kind_ml: പഴയനിയമം
         ref: 2 Kings 2:14–17
         ml: 2 രാജാക്കന്മാർ 2:14–17
+        note: 'ഏലീയാവിന്റെ പുതപ്പുകൊണ്ട് എലീശാ യോർദ്ദാനെ അടിക്കുന്നു: ഏലീയാവിന്റെ ദൈവമായ യഹോവ എവിടെ?'
         printed: 'II Kings 2:14 -17 , 12: 1-27'
         check: 'Printed as ''II Kings 2:14 -17 , 12: 1-27''. The second part cannot be right as printed (2 Kings 12 has 21 verses), so only 2:14-17 is kept.'
       - kind: Old Testament
         kind_ml: പഴയനിയമം
         ref: Ezekiel 11:17–20; 36:25–27
         ml: യെഹെസ്കേൽ 11:17–20; 36:25–27
+        note: ഞാൻ നിങ്ങൾക്കു പുതിയോരു ഹൃദയം തരും; പുതിയോരു ആത്മാവിനെ നിങ്ങളുടെ ഉള്ളിൽ ആക്കും.
         printed: Ezekiel 11:17-20, 36:25-27
       - kind: '[KIND]'
         kind_ml: '[KIND ML]'
@@ -366,16 +372,19 @@ translations:
         kind_ml: അപ്പൊസ്തലപ്രവൃത്തികൾ
         ref: Acts 2:1–13
         ml: അപ്പൊസ്തലപ്രവൃത്തികൾ 2:1–13
+        note: പരിശുദ്ധാത്മാവു കാറ്റുപോലെയും അഗ്നിപോലെയും വരുന്നു; അപ്പൊസ്തലന്മാർ പല ഭാഷകളിൽ സംസാരിക്കുന്നു.
         printed: Acts 2:1-13
       - kind: Pauline Epistle
         kind_ml: പൗലോസിന്റെ ലേഖനം
         ref: Galatians 5:16–26
         ml: ഗലാത്യർ 5:16–26
+        note: ആത്മാവിന്റെ ഫലമോ സ്നേഹം, സന്തോഷം, സമാധാനം, ദീർഘക്ഷമ, ദയ.
         printed: Galatians 5:16-26
       - kind: Gospel
         kind_ml: സുവിശേഷം
         ref: John 15:1–14
         ml: യോഹന്നാൻ 15:1–14
+        note: ഞാൻ മുന്തിരിവള്ളിയും നിങ്ങൾ കൊമ്പുകളും ആകുന്നു; എന്നിൽ വസിപ്പിൻ. ഇതാണ് ഇന്നത്തെ സുവിശേഷം.
         printed: St. John 15:1-14
         main: true
     key_verse:

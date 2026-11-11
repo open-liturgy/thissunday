@@ -202,12 +202,14 @@ translations:
         kind_ml: സുവിശേഷം
         ref: Luke 17:1–10
         ml: ലൂക്കൊസ് 17:1–10
+        note: ഏഴു പ്രാവശ്യം ക്ഷമിക്ക; കടുകുമണിയോളം വിശ്വാസം; ഞങ്ങൾ ദാസന്മാർ മാത്രം.
         printed: St. Luke 17:1-10
       morning:
       - kind: Gospel
         kind_ml: സുവിശേഷം
         ref: Mark 6:30–52
         ml: മർക്കൊസ് 6:30–52
+        note: യേശു അയ്യായിരം പേരെ പോഷിപ്പിച്ച് കടലിന്മീതെ നടക്കുന്നു.
         printed: St. Mark 6:30-52
       before_qurbana:
       - kind: '[KIND]'
@@ -220,27 +222,32 @@ translations:
         kind_ml: പഴയനിയമം
         ref: Psalm 20
         ml: സങ്കീർത്തനങ്ങൾ 20
+        note: ചിലർ രഥങ്ങളിലും ചിലർ കുതിരകളിലും ആശ്രയിക്കുന്നു; നാമോ നമ്മുടെ ദൈവമായ യഹോവയുടെ നാമത്തിൽ ആശ്രയിക്കുന്നു.
         printed: Psalms 20
       - kind: Old Testament
         kind_ml: പഴയനിയമം
         ref: Isaiah 14:22–27
         ml: യെശയ്യാവ് 14:22–27
+        note: യഹോവ ഒരു കാര്യം നിർണ്ണയിച്ചിരിക്കുന്നു; അതിനെ ദുർബ്ബലമാക്കുന്നതു ആർ?
         printed: Isaiah 14:22-27
       holy_qurbana:
       - kind: Acts of the Apostles
         kind_ml: അപ്പൊസ്തലപ്രവൃത്തികൾ
         ref: Acts 1:15–20
         ml: അപ്പൊസ്തലപ്രവൃത്തികൾ 1:15–20
+        note: യൂദയ്ക്കു പകരം ഒരാളെ തിരഞ്ഞെടുക്കാൻ പത്രൊസ് വിശ്വാസികളെ നയിക്കുന്നു.
         printed: Acts 1:15-20
       - kind: Pauline Epistle
         kind_ml: പൗലോസിന്റെ ലേഖനം
         ref: 1 Corinthians 8:1–6
         ml: 1 കൊരിന്ത്യർ 8:1–6
+        note: അറിവു ചീർപ്പിക്കുന്നു, സ്നേഹമോ ആത്മികവർദ്ധന വരുത്തുന്നു; പിതാവായ ഏകദൈവമേ നമുക്കുള്ളു.
         printed: I Corinthians 8:1-6
       - kind: Gospel
         kind_ml: സുവിശേഷം
         ref: Matthew 15:32–39
         ml: മത്തായി 15:32–39
+        note: യേശുവിനു പുരുഷാരത്തോട് അലിവു തോന്നുന്നു; നാലായിരം പേരെ പോഷിപ്പിക്കുന്നു. ഇതാണ് ഇന്നത്തെ സുവിശേഷം.
         printed: St. Matthew 15:32-39
         main: true
     key_verse:

@@ -218,34 +218,40 @@ translations:
         kind_ml: സുവിശേഷം
         ref: John 1:26–34
         ml: യോഹന്നാൻ 1:26–34
+        note: 'യോഹന്നാൻ യേശുവിനെ ചൂണ്ടിക്കാണിക്കുന്നു: ഇതാ, ലോകത്തിന്റെ പാപം ചുമക്കുന്ന ദൈവത്തിന്റെ കുഞ്ഞാട്.'
         printed: St. John 1:26-34
       morning:
       - kind: Gospel
         kind_ml: സുവിശേഷം
         ref: John 1:35–42
         ml: യോഹന്നാൻ 1:35–42
+        note: അന്ത്രെയാസ് യേശുവിനെ അനുഗമിക്കുന്നു; ഞങ്ങൾ മശീഹയെ കണ്ടെത്തിയിരിക്കുന്നു എന്നു പറഞ്ഞ് സഹോദരനായ ശിമോനെ കൊണ്ടുവരുന്നു.
         printed: St. John 1:35-42
       before_qurbana:
       - kind: Old Testament
         kind_ml: പഴയനിയമം
         ref: Leviticus 22:26–33
         ml: ലേവ്യപുസ്തകം 22:26–33
+        note: 'യാഗങ്ങൾക്കുള്ള ചട്ടങ്ങൾ: നിങ്ങളെ ശുദ്ധീകരിക്കുന്ന യഹോവ ഞാൻ ആകുന്നു.'
         printed: Leviticus 22:26-33
       - kind: Old Testament
         kind_ml: പഴയനിയമം
         ref: Proverbs 9:1–9
         ml: സദൃശവാക്യങ്ങൾ 9:1–9
+        note: ജ്ഞാനം തന്റെ വീടു പണിതു, അല്പബുദ്ധികളെ തന്റെ മേശയിലേക്കു ക്ഷണിക്കുന്നു.
         printed: Proverbs 9:1-9
       - kind: Old Testament
         kind_ml: പഴയനിയമം
         ref: Isaiah 51:1–8
         ml: യെശയ്യാവ് 51:1–8
+        note: നിങ്ങളെ വെട്ടിയെടുത്ത പാറയിലേക്ക്, നിങ്ങളുടെ പിതാവായ അബ്രാഹാമിലേക്ക്, നോക്കുവിൻ.
         printed: Isaiah 51:1-8
       holy_qurbana:
       - kind: General Epistle
         kind_ml: പൊതുലേഖനം
         ref: 1 Peter 3:7–15
         ml: 1 പത്രൊസ് 3:7–15
+        note: നിങ്ങളിലുള്ള പ്രത്യാശയെക്കുറിച്ചു സൗമ്യതയോടെ ഉത്തരം പറവാൻ ഒരുങ്ങിയിരിപ്പിൻ.
         printed: I Peter 3:7-15
       - kind: '[KIND]'
         kind_ml: '[KIND ML]'
@@ -257,6 +263,7 @@ translations:
         kind_ml: സുവിശേഷം
         ref: John 1:43–51
         ml: യോഹന്നാൻ 1:43–51
+        note: 'ഫിലിപ്പൊസ് നഥനയേലിനെ കൊണ്ടുവരുന്നു: വന്നു കാൺക. ഇതാണ് ഇന്നത്തെ സുവിശേഷം.'
         printed: St. John 1:43-51
         main: true
     key_verse:

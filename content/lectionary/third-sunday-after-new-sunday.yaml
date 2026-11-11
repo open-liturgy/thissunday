@@ -215,49 +215,58 @@ translations:
         kind_ml: സുവിശേഷം
         ref: Luke 5:27–39
         ml: ലൂക്കൊസ് 5:27–39
+        note: യേശു ചുങ്കക്കാരനായ ലേവിയെ വിളിച്ച് പാപികളോടുകൂടെ ഭക്ഷിക്കുന്നു.
         printed: St. Luke 5:27-39
       morning:
       - kind: Gospel
         kind_ml: സുവിശേഷം
         ref: John 6:47–58
         ml: യോഹന്നാൻ 6:47–58
+        note: ഞാൻ ജീവനുള്ള അപ്പം ആകുന്നു; ഈ അപ്പം തിന്നുന്നവൻ എന്നേക്കും ജീവിക്കും.
         printed: St. John 6:47-58
       before_qurbana:
       - kind: Old Testament
         kind_ml: പഴയനിയമം
         ref: Exodus 34:4–12
         ml: പുറപ്പാട് 34:4–12
+        note: 'യഹോവ മോശെയുടെ മുമ്പിലൂടെ കടന്നുപോകുന്നു: കരുണയും കൃപയുമുള്ളവൻ, ദീർഘക്ഷമയുള്ളവൻ.'
         printed: Exodus 34:4-12
       - kind: Old Testament
         kind_ml: പഴയനിയമം
         ref: Micah 4:1–7
         ml: മീഖാ 4:1–7
+        note: അനേകം ജാതികൾ യഹോവയുടെ പർവ്വതത്തിലേക്കു വരും.
         printed: Micah 4:1-7
       - kind: Old Testament
         kind_ml: പഴയനിയമം
         ref: Zechariah 8:4–9
         ml: സെഖര്യാവ് 8:4–9
+        note: വൃദ്ധന്മാരും വൃദ്ധമാരും യെരൂശലേമിന്റെ വീഥികളിൽ ഇരിക്കും; ബാലന്മാരും ബാലമാരും അവിടെ കളിക്കും.
         printed: Zechariah 8:4-9
       - kind: Old Testament
         kind_ml: പഴയനിയമം
         ref: Isaiah 37:8–17
         ml: യെശയ്യാവ് 37:8–17
+        note: ശത്രുവിന്റെ എഴുത്ത് ഹിസ്കീയാവു യഹോവയുടെ സന്നിധിയിൽ വിരിച്ചു പ്രാർത്ഥിക്കുന്നു.
         printed: Isaiah 37:8-17
       holy_qurbana:
       - kind: General Epistle
         kind_ml: പൊതുലേഖനം
         ref: 1 John 5:13–21
         ml: 1 യോഹന്നാൻ 5:13–21
+        note: നിങ്ങൾക്കു നിത്യജീവൻ ഉണ്ട് എന്നു നിങ്ങൾ അറിയേണ്ടതിനു ഞാൻ എഴുതുന്നു.
         printed: I John 5:13-21
       - kind: Pauline Epistle
         kind_ml: പൗലോസിന്റെ ലേഖനം
         ref: Hebrews 11:3–6
         ml: എബ്രായർ 11:3–6
+        note: വിശ്വാസം കൂടാതെ ദൈവത്തെ പ്രസാദിപ്പിപ്പാൻ കഴിയുന്നതല്ല.
         printed: Hebrews 11:3-6
       - kind: Gospel
         kind_ml: സുവിശേഷം
         ref: Luke 24:13–35
         ml: ലൂക്കൊസ് 24:13–35
+        note: എമ്മവുസിലേക്കുള്ള വഴിയിൽ, അപ്പം നുറുക്കുന്നതിൽ ഉയിർത്തെഴുന്നേറ്റ കർത്താവിനെ തിരിച്ചറിയുന്നു. ഇതാണ് ഇന്നത്തെ സുവിശേഷം.
         printed: St. Luke 24:13-35
         main: true
     key_verse:

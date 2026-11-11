@@ -219,49 +219,58 @@ translations:
         kind_ml: സുവിശേഷം
         ref: John 20:19–31
         ml: യോഹന്നാൻ 20:19–31
+        note: 'യേശു ശിഷ്യന്മാർക്കു പ്രത്യക്ഷനാകുന്നു; എട്ടു ദിവസം കഴിഞ്ഞ് തോമാസ് പറയുന്നു: എന്റെ കർത്താവും എന്റെ ദൈവവുമായുള്ളോവേ.'
         printed: St. John 20:19-31
       morning:
       - kind: Gospel
         kind_ml: സുവിശേഷം
         ref: John 4:31–38
         ml: യോഹന്നാൻ 4:31–38
+        note: തല പൊക്കി നോക്കുവിൻ; വയലുകൾ കൊയ്ത്തിന്നു വെളുത്തിരിക്കുന്നു.
         printed: St. John 4:31-38
       before_qurbana:
       - kind: Old Testament
         kind_ml: പഴയനിയമം
         ref: Genesis 41:41–46
         ml: ഉല്പത്തി 41:41–46
+        note: മുപ്പതാം വയസ്സിൽ യോസേഫിനെ മിസ്രയീംദേശത്തിനു മുഴുവൻ മേലധികാരിയാക്കുന്നു.
         printed: Genesis 41:41-46
       - kind: Old Testament
         kind_ml: പഴയനിയമം
         ref: Ecclesiastes 12:1–8
         ml: സഭാപ്രസംഗി 12:1–8
+        note: നിന്റെ യൌവനകാലത്തു നിന്റെ സ്രഷ്ടാവിനെ ഓർത്തുകൊൾക.
         printed: Ecclesiastes 12:1-8
       - kind: Old Testament
         kind_ml: പഴയനിയമം
         ref: Jeremiah 1:4–12
         ml: യിരെമ്യാവ് 1:4–12
+        note: ഞാൻ ബാലൻ എന്നു നീ പറയരുത്; ഞാൻ നിന്നോടുകൂടെ ഉണ്ട്.
         printed: Jeremiah 1:4-12
       - kind: Old Testament
         kind_ml: പഴയനിയമം
         ref: Isaiah 40:9–15
         ml: യെശയ്യാവ് 40:9–15
+        note: ഒരു ഇടയനെപ്പോലെ അവൻ തന്റെ ആട്ടിൻകൂട്ടത്തെ മേയിച്ച് കുഞ്ഞാടുകളെ ഭുജത്തിൽ എടുക്കും.
         printed: Isaiah 40:9-15
       holy_qurbana:
       - kind: General Epistle
         kind_ml: പൊതുലേഖനം
         ref: 1 Peter 2:19–25
         ml: 1 പത്രൊസ് 2:19–25
+        note: അവന്റെ അടിപ്പിണരാൽ നിങ്ങൾക്കു സൗഖ്യം വന്നിരിക്കുന്നു; നിങ്ങളുടെ ആത്മാക്കളുടെ ഇടയന്റെ അടുക്കലേക്കു നിങ്ങൾ തിരിഞ്ഞിരിക്കുന്നു.
         printed: I Peter 2:19-25
       - kind: Pauline Epistle
         kind_ml: പൗലോസിന്റെ ലേഖനം
         ref: 2 Timothy 2:1–13
         ml: 2 തിമൊഥെയൊസ് 2:1–13
+        note: എന്റെ മകനേ, കൃപയിൽ ശക്തിപ്പെടുക; നാം അവനോടുകൂടെ മരിച്ചു എങ്കിൽ അവനോടുകൂടെ ജീവിക്കും.
         printed: II Timothy 2:1-13
       - kind: Gospel
         kind_ml: സുവിശേഷം
         ref: John 20:19–31
         ml: യോഹന്നാൻ 20:19–31
+        note: 'യേശു ശിഷ്യന്മാർക്കു പ്രത്യക്ഷനാകുന്നു; എട്ടു ദിവസം കഴിഞ്ഞ് തോമാസ് പറയുന്നു: എന്റെ കർത്താവും എന്റെ ദൈവവുമായുള്ളോവേ. ഇതാണ് ഇന്നത്തെ സുവിശേഷം.'
         printed: St. John 20:19-31
         main: true
     key_verse:

@@ -209,44 +209,52 @@ translations:
         kind_ml: സുവിശേഷം
         ref: Matthew 18:23–35
         ml: മത്തായി 18:23–35
+        note: വലിയ കടം ഇളെച്ചുകിട്ടിയിട്ടും ചെറിയ കടം ഇളെച്ചുകൊടുക്കാത്ത കരുണയില്ലാത്ത ദാസൻ.
         printed: St. Matthew 18:23-35
       morning:
       - kind: Gospel
         kind_ml: സുവിശേഷം
         ref: Luke 16:1–13
         ml: ലൂക്കൊസ് 16:1–13
+        note: അനീതിയുള്ള കാര്യവിചാരകൻ; ദൈവത്തെയും മമ്മോനെയും സേവിപ്പാൻ കഴികയില്ല.
         printed: St. Luke 16:1-13
       before_qurbana:
       - kind: Old Testament
         kind_ml: പഴയനിയമം
         ref: Genesis 42:18–35
         ml: ഉല്പത്തി 42:18–35
+        note: യോസേഫ് ശിമെയോനെ പിടിച്ചുവെക്കുന്നു; ചാക്കുകളിൽ പണവുമായി സഹോദരന്മാരെ നാട്ടിലേക്ക് അയയ്ക്കുന്നു.
         printed: Genesis 42:18-35
       - kind: Old Testament
         kind_ml: പഴയനിയമം
         ref: Proverbs 1:2–9
         ml: സദൃശവാക്യങ്ങൾ 1:2–9
+        note: യഹോവാഭക്തി പരിജ്ഞാനത്തിന്റെ ആരംഭം.
         printed: Proverbs 1:2-9
       - kind: Old Testament
         kind_ml: പഴയനിയമം
         ref: Isaiah 48:12–16
         ml: യെശയ്യാവ് 48:12–16
+        note: ഞാൻ ആദ്യനും ഞാൻ അന്ത്യനും ആകുന്നു; എന്റെ കൈ ഭൂമിക്ക് അടിസ്ഥാനമിട്ടു.
         printed: Isaiah 48:12-16
       holy_qurbana:
       - kind: Acts of the Apostles
         kind_ml: അപ്പൊസ്തലപ്രവൃത്തികൾ
         ref: Acts 7:2–5
         ml: അപ്പൊസ്തലപ്രവൃത്തികൾ 7:2–5
+        note: സ്വന്തദേശം വിട്ടുപോകാൻ ദൈവം അബ്രാഹാമിനെ വിളിച്ചതു സ്തെഫാനൊസ് വിവരിക്കുന്നു.
         printed: Acts 7:2-5
       - kind: Pauline Epistle
         kind_ml: പൗലോസിന്റെ ലേഖനം
         ref: Romans 8:1–11
         ml: റോമർ 8:1–11
+        note: ക്രിസ്തുയേശുവിലുള്ളവർക്ക് ഇപ്പോൾ ശിക്ഷാവിധി ഇല്ല.
         printed: Romans 8:1-11
       - kind: Gospel
         kind_ml: സുവിശേഷം
         ref: Mark 2:23–28
         ml: മർക്കൊസ് 2:23–28
+        note: ശബ്ബത്ത് മനുഷ്യൻ നിമിത്തമത്രേ ഉണ്ടായത്, മനുഷ്യൻ ശബ്ബത്ത് നിമിത്തമല്ല. ഇതാണ് ഇന്നത്തെ സുവിശേഷം.
         printed: St. Mark 2:23-28
         main: true
     key_verse:
