@@ -11,7 +11,7 @@ export default defineTradition({
   site: {
     name: 'This Sunday',
     nameMl: 'ഈ ഞായറാഴ്ച',
-    url: 'https://thissunday.example', // [SITE ADDRESS] set SITE_URL in CI
+    url: 'https://sunday.palli.site',
     about: 'One Sunday at a time, for the Malankara Orthodox Church. A new edition every week.',
     publisher: 'This Sunday',
     repository: 'https://github.com/open-liturgy/thissunday',

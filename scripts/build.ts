@@ -28,7 +28,6 @@ const red = (s: string) => `\x1b[31m${s}\x1b[0m`;
 const tradition = await loadTradition();
 const site = loadSite(tradition, ROOT);
 for (const [k, v] of Object.entries(tradition.site)) if (typeof v === 'string' && /\[[A-Z]/.test(v)) site.warnings.push(`traditions/${tradition.id}/config.ts: placeholder ${v} at site.${k}`);
-if (!process.env.SITE_URL && tradition.site.url.includes('.example')) site.warnings.push('SITE_URL is not set; canonical URLs use the placeholder ' + tradition.site.url);
 const people = loadPeople(site, ROOT);
 site.warnings.push(...people.warnings);
 site.errors.push(...people.errors);

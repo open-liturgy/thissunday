@@ -19,8 +19,8 @@ concurrency:
   cancel-in-progress: true
 
 env:
-  # Set this repository variable to the live address, e.g. https://thissunday.in
-  SITE_URL: ${{ vars.SITE_URL }}
+  # The live address. Set the repository variable SITE_URL to override it.
+  SITE_URL: ${{ vars.SITE_URL || 'https://sunday.palli.site' }}
 
 jobs:
   build:

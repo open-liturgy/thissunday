@@ -40,7 +40,7 @@ npm run lhci       # Lighthouse CI with the budgets in lighthouserc.json
 
 Social images need Chromium. The build looks for `CHROME_PATH`, then Playwright's Chromium, then system Chrome. Run `npx playwright-core install chromium` if none is found.
 
-Set `SITE_URL` (for example `https://thissunday.in`) for canonical and Open Graph URLs.
+The site lives at https://sunday.palli.site, set as `site.url` in `traditions/mosc/config.ts`. Set `SITE_URL` to build for another address (canonical, Open Graph and feed URLs all follow it).
 
 ## Add a Sunday
 
@@ -66,7 +66,15 @@ Interface wording lives in `src/lib/i18n.ts`. Add a language there and to the co
 
 `dist/` is plain static files; any static host works (GitHub Pages, Cloudflare Pages, Netlify, S3). Serve `404.html` for missing pages.
 
-`.github/workflows/site.yml` builds on every push and pull request, runs Lighthouse CI (fails below SEO 100, Accessibility 100, Performance 95, or over the LCP, CLS, JS and page-weight budgets) and deploys `main` to GitHub Pages. A weekly schedule (Monday 00:05 India time) rebuilds so `/` moves to the next Sunday. Set the repository variable `SITE_URL`, and enable Pages with "GitHub Actions" as the source.
+`.github/workflows/site.yml` builds on every push and pull request, runs Lighthouse CI (fails below SEO 100, Accessibility 100, Performance 95, or over the LCP, CLS, JS and page-weight budgets) and deploys `main` to GitHub Pages. A weekly schedule (Monday 00:05 India time) rebuilds so `/` moves to the next Sunday. `SITE_URL` defaults to https://sunday.palli.site (override it with a repository variable), `public/CNAME` points Pages at that domain, and Pages must be enabled with "GitHub Actions" as the source.
+
+### Deploy on Cloudflare Pages
+
+- Build command: `npm run build`
+- Output directory: `dist`
+- Environment variables: `SITE_URL=https://sunday.palli.site`, `NODE_VERSION=22`
+
+Social images need Chromium. If the Cloudflare build image lacks it, use `npx playwright-core install chromium && npm run build` as the build command, or `npm run build:fast` to skip social images; nothing else needs to change. `public/_headers` gives fonts, scripts and social images a one-year immutable cache.
 
 ## Contributing
 
