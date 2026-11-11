@@ -4,6 +4,8 @@ One page for the coming Sunday in the Malankara Orthodox Syrian Church: the read
 
 Static, SEO-first, and complete with JavaScript turned off.
 
+This Sunday is open source and welcomes help: fix a reading note, translate a Sunday, or improve the site. Start with [CONTRIBUTING.md](CONTRIBUTING.md). Found a mistake on a page? [Report a correction](https://github.com/open-liturgy/thissunday/issues/new?template=content-correction.yml).
+
 ## How it works
 
 - **Vite + React, rendered at build time.** `scripts/build.ts` renders every page to full HTML with `react-dom/server`. No React ships to the browser.
@@ -32,6 +34,7 @@ npm run check      # validate content and list placeholders
 npm run build      # typecheck + full static build into dist/
 npm run build:fast # skip social images
 npm run preview    # serve dist/ on :4173
+npm run preview:all # build with placeholder blocks shown, then serve, for local review
 npm run lhci       # Lighthouse CI with the budgets in lighthouserc.json
 ```
 
@@ -65,6 +68,13 @@ Interface wording lives in `src/lib/i18n.ts`. Add a language there and to the co
 
 `.github/workflows/site.yml` builds on every push and pull request, runs Lighthouse CI (fails below SEO 100, Accessibility 100, Performance 95, or over the LCP, CLS, JS and page-weight budgets) and deploys `main` to GitHub Pages. A weekly schedule (Monday 00:05 India time) rebuilds so `/` moves to the next Sunday. Set the repository variable `SITE_URL`, and enable Pages with "GitHub Actions" as the source.
 
+## Contributing
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for how to run the site, add or fix a Sunday, translate, and get a change reviewed. Everyone taking part follows the [Code of Conduct](CODE_OF_CONDUCT.md).
+
 ## Licence
 
-Code: [CODE LICENCE]. Content: [CONTENT LICENCE]. Fonts: SIL Open Font License (Anek Malayalam, Newsreader, Noto Sans Syriac Western).
+- **Code** (everything outside `content/`): [MIT](LICENSE).
+- **Content** (everything under `content/`: reading notes, reflections, questions, translations): [CC BY-SA 4.0](LICENSE-CONTENT.md).
+- **Bible text** quoted on the pages is public domain: the 1910 Sathyavedapusthakam (Malayalam) and the World English Bible.
+- **Fonts**: SIL Open Font License (Anek Malayalam, Newsreader, Noto Sans Syriac Western).

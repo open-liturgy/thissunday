@@ -1,0 +1,27 @@
+name: New Sunday or translation
+description: Offer to write a Sunday, add a missing one, or translate one.
+labels: [content]
+body:
+  - type: dropdown
+    id: kind
+    attributes:
+      label: What would you like to do
+      options:
+        - Write or complete a Sunday
+        - Translate a Sunday into Malayalam
+        - Review a draft as a priest or editor
+        - Something else
+    validations:
+      required: true
+  - type: input
+    id: sundays
+    attributes:
+      label: Which Sundays
+      description: Dates or names, for example 2026-12-06 or "Annunciation to St. Mary".
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      description: Sources you plan to use, or anything we should know. See CONTRIBUTING.md for the ground rules.

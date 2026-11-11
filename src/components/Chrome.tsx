@@ -57,6 +57,16 @@ export function TopBar({
   );
 }
 
+const LICENCE_URLS: Record<string, string> = {
+  MIT: 'https://opensource.org/license/mit',
+  'CC BY-SA 4.0': 'https://creativecommons.org/licenses/by-sa/4.0/',
+};
+
+/** New issue from the content-correction form, optionally with a prefilled title. */
+export function correctionUrl(repo: string, title?: string): string {
+  return `${repo.replace(/\/$/, '')}/issues/new?template=content-correction.yml${title ? `&title=${encodeURIComponent(title)}` : ''}`;
+}
+
 export function Footer({ t, tradition, prepared, reviewer }: { t: Strings; tradition: TraditionConfig; prepared?: string; reviewer?: string }) {
   const s = tradition.site;
   const repo = !isPlaceholder(s.repository) ? s.repository : undefined;
@@ -83,13 +93,26 @@ export function Footer({ t, tradition, prepared, reviewer }: { t: Strings; tradi
       </div>
       {(repo || lic.length > 0) && (
         <div>
-          <h2>{t.openSource}</h2>
+          <h2>{t.contribute}</h2>
           {repo && (
+            <>
+              <p>{t.contributeText}</p>
+              <p>
+                <a href={repo}>{t.contributeLink}</a> · <a href={correctionUrl(repo)}>{t.reportCorrection}</a>
+              </p>
+            </>
+          )}
+          {lic.length > 0 && (
             <p>
-              {t.reuse} <a href={repo}>{repo.replace(/^https?:\/\//, '')}</a>
+              {`${t.licence}: `}
+              {lic.map((l, i) => (
+                <span key={l}>
+                  {i > 0 && ' · '}
+                  {LICENCE_URLS[l] ? <a href={LICENCE_URLS[l]}>{l}</a> : l}
+                </span>
+              ))}
             </p>
           )}
-          {lic.length > 0 && <p>{`${t.licence}: ${lic.join(' · ')}`}</p>}
         </div>
       )}
     </footer>

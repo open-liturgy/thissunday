@@ -2,9 +2,9 @@ import type { Page, Neighbour } from '../lib/content';
 import { isPlaceholder } from '../lib/content';
 import type { Edition, Reading } from '../lib/schema';
 import type { TraditionConfig } from '../lib/tradition';
-import { dayMonth, fullDate, shortDate, type Strings } from '../lib/i18n';
+import { dayMonth, fullDate, longDate, shortDate, type Strings } from '../lib/i18n';
 import { ArchLogo, PlayIcon, ShareIcon, SundayArt } from './Art';
-import { Footer, SectionHead, TopBar } from './Chrome';
+import { Footer, SectionHead, TopBar, correctionUrl } from './Chrome';
 
 export interface SundayProps {
   page: Page;
@@ -251,6 +251,11 @@ export function Sunday({ page, t, tradition, prev, next, canonical, cardImage, h
                   <a href={e.sources.lectionary}>{tradition.lectionary.label}</a>
                   {t.sourceText(tradition.lectionary.label, tradition.lectionary.publisher)[2]}
                 </p>
+                {real(tradition.site.repository) && (
+                  <p className="fix">
+                    <a href={correctionUrl(tradition.site.repository, `Correction: ${e.name.en} (${longDate(e.date)})`)}>{t.suggestCorrection}</a>
+                  </p>
+                )}
               </div>
             </div>
           </section>

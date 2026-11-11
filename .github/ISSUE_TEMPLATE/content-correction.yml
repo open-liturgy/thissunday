@@ -1,0 +1,40 @@
+name: Content correction
+description: Something on a Sunday page is wrong, such as a reading, a note, a translation or a date.
+title: "Correction: "
+labels: [content, correction]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for helping. Please tell us which Sunday, what is wrong, and where the right version comes from.
+  - type: input
+    id: sunday
+    attributes:
+      label: Sunday date or page link
+      description: For example 2026-11-15 or https://…/2026/annunciation-to-zechariah/
+    validations:
+      required: true
+  - type: textarea
+    id: wrong
+    attributes:
+      label: What is wrong
+      description: Quote the text from the page if you can.
+    validations:
+      required: true
+  - type: textarea
+    id: fix
+    attributes:
+      label: Suggested fix
+      description: What it should say instead.
+  - type: textarea
+    id: source
+    attributes:
+      label: Source or reference
+      description: The lectionary, a Bible reference, a service book or another source for the correction.
+  - type: checkboxes
+    id: role
+    attributes:
+      label: About you (optional)
+      options:
+        - label: I am a priest or editor
+          required: false

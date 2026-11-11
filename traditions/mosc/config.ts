@@ -14,9 +14,9 @@ export default defineTradition({
     url: 'https://thissunday.example', // [SITE ADDRESS] set SITE_URL in CI
     about: 'One Sunday at a time, for the Malankara Orthodox Church. A new edition every week.',
     publisher: 'This Sunday',
-    repository: '[REPOSITORY LINK]',
-    codeLicence: '[CODE LICENCE]',
-    contentLicence: '[CONTENT LICENCE]',
+    repository: 'https://github.com/open-liturgy/thissunday',
+    codeLicence: 'MIT',
+    contentLicence: 'CC BY-SA 4.0',
     timeZone: 'Asia/Kolkata',
   },
   services: [

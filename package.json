@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "description": "One page for the coming Sunday: readings, the Gospel explained, a reflection and a question for the family.",
-  "license": "SEE LICENSE IN README.md",
+  "license": "MIT",
   "type": "module",
   "engines": {
     "node": ">=20"

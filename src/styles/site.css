@@ -283,6 +283,7 @@ a.other:hover .nm { color: var(--red); }
 .footer h2 { font-size: 13px; font-weight: 650; letter-spacing: 0.12em; text-transform: uppercase; color: var(--on-dark-2); }
 .footer a { color: #fff; }
 .footer a:hover { color: var(--glow); }
+.note-box .fix { margin-top: 8px; font-size: 15px; }
 
 /* Sticky phone bar + mini player */
 .stickybar { display: none; }
