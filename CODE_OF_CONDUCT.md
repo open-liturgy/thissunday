@@ -8,7 +8,7 @@ This applies to issues, pull requests, reviews and every other project space. Ma
 
 ## Reporting
 
-If you see or experience unacceptable behaviour, write to [CONTACT EMAIL]. Reports are read by the maintainers and kept confidential. Maintainers may remove comments, commits or contributions, and may ban anyone whose behaviour is harmful, following the enforcement guidelines of the Contributor Covenant.
+If you see or experience unacceptable behaviour, write to bodhish@gmail.com. Reports are read by the maintainers and kept confidential. Maintainers may remove comments, commits or contributions, and may ban anyone whose behaviour is harmful, following the enforcement guidelines of the Contributor Covenant.
 
 ## Attribution
 
