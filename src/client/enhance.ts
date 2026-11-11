@@ -5,6 +5,19 @@
 const $ = <T extends Element = HTMLElement>(sel: string, root: ParentNode = document) => root.querySelector<T>(sel);
 const $$ = <T extends Element = HTMLElement>(sel: string, root: ParentNode = document) => Array.from(root.querySelectorAll<T>(sel));
 
+/**
+ * Centre an item inside its own horizontal scroller (chip rows, the phone
+ * scene strip) without touching the page scroll. scrollIntoView also moves the
+ * page, which cancels a tap-to-section scroll halfway and fights momentum
+ * scrolling on phones.
+ */
+function reveal(el: Element, row: Element | null) {
+  if (!row || row.scrollWidth <= row.clientWidth) return;
+  const r = el.getBoundingClientRect();
+  const u = row.getBoundingClientRect();
+  row.scrollTo({ left: row.scrollLeft + r.left - u.left - (u.width - r.width) / 2, behavior: 'smooth' });
+}
+
 /** Roving-focus tabs over existing markup. */
 function tabs(tabsEls: HTMLElement[], panels: HTMLElement[], onSelect?: (i: number) => void) {
   const select = (i: number, focus = false, user = true) => {
@@ -55,10 +68,16 @@ if (sceneWrap) {
     scenes[i].setAttribute('role', 'tabpanel');
     scenes[i].setAttribute('aria-labelledby', p.id);
   });
-  const select = tabs(picks, scenes, (i) => history.replaceState(null, '', `#${scenes[i].id}`));
+  const select = tabs(picks, scenes, (i) => {
+    history.replaceState(null, '', `#${scenes[i].id}`);
+    reveal(picks[i], list);
+  });
   const fromHash = () => {
     const m = /^#scene-(\d+)$/.exec(location.hash);
-    if (m && scenes[+m[1] - 1]) select(+m[1] - 1, false, false);
+    if (m && scenes[+m[1] - 1]) {
+      select(+m[1] - 1, false, false);
+      reveal(picks[+m[1] - 1], list);
+    }
   };
   fromHash();
   if (!/^#scene-/.test(location.hash)) select(0, false, false);
@@ -125,7 +144,7 @@ if (spies.length && 'IntersectionObserver' in window) {
         const a = byId.get(en.target.id);
         if (a) {
           a.setAttribute('aria-current', 'true');
-          a.scrollIntoView({ block: 'nearest', inline: 'nearest' });
+          reveal(a, a.closest('ul'));
         }
       }
     },

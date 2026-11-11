@@ -535,3 +535,32 @@ a.other:hover .nm { color: var(--red); }
 .pp-back a { font-weight: 650; }
 .person .nm b a { color: inherit; text-decoration-thickness: 1px; text-underline-offset: 4px; }
 .person .links { font-size: 15px; }
+
+/* ---------- Phone fixes: long titles, tabs, scene picker, simple-page nav, mini player ---------- */
+/* Malayalam titles carry very long words; size them so a word never runs past the screen. */
+body { overflow-wrap: break-word; }
+html[lang='ml'] .hero h1 { font-size: clamp(30px, 5.2vw, 76px); line-height: 1.15; }
+.mini .mt { min-width: 0; }
+.mini .tm { flex: none; }
+@media (max-width: 720px) {
+  html[lang='ml'] .hero h1 { font-size: 9.4vw; }
+  .verse { gap: 20px; padding: 28px 20px; border-radius: 22px; }
+  .verse blockquote[lang='ml'] { font-size: min(27px, 6.4vw); }
+  /* Service tabs share the row instead of pushing the last (selected) one off screen. */
+  .tabs { gap: 6px; scrollbar-width: none; }
+  .tabs::-webkit-scrollbar, .picker::-webkit-scrollbar, .stickybar nav ul::-webkit-scrollbar, .arc-seasons ol::-webkit-scrollbar { display: none; }
+  .tab { flex: 1 0 auto; justify-content: center; padding: 0 10px; }
+  /* Scene picker: a swipeable strip, so the chosen scene sits right under it. */
+  .scenes { gap: 14px; }
+  .picker { flex: 1 1 100%; flex-direction: row; gap: 8px; margin: 0 calc(-1 * var(--gutter)); padding: 2px var(--gutter) 6px; overflow-x: auto; overscroll-behavior-x: contain; scroll-snap-type: x proximity; scroll-padding: 0 var(--gutter); scrollbar-width: none; }
+  .pick { flex: 0 0 auto; width: min(236px, 70vw); min-height: 64px; gap: 12px; padding: 10px 14px; border-radius: 14px; scroll-snap-align: start; }
+  .pick .n { font-size: 26px; }
+  .pick .t b { font-size: 16px; }
+  .pick .t span { font-size: 13px; }
+  .scene { padding: 22px 20px; gap: 16px; border-radius: 18px; }
+  .scene-top .n { font-size: 52px; }
+  .stickybar nav ul, .arc-seasons ol { overscroll-behavior-x: contain; }
+  /* Pages without the section bar keep their links to home and All Sundays. */
+  .topnav:not(:has(a[href^='#'])) { display: flex; gap: 0 18px; font-size: 15px; }
+  .mini { left: 10px; right: 10px; bottom: calc(10px + env(safe-area-inset-bottom, 0px)); }
+}
