@@ -9,7 +9,7 @@ import { longDate, strings } from './lib/i18n';
 import { Sunday, gospelOf } from './components/Sunday';
 import { Archive, NotFound, ShareCard, shareCardCss } from './components/Pages';
 import { PeopleIndex, PersonPage, peopleText } from './components/People';
-import { loadPeople, type Character } from './lib/people';
+import { iconPath, loadPeople, type Character } from './lib/people';
 
 export interface Assets {
   /** Minified site CSS, inlined. */
@@ -409,6 +409,7 @@ export function renderRoute(site: Site, route: Route, assets: Assets): string {
       name: c.name,
       ...(c.ml ? { alternateName: c.ml } : {}),
       subjectOf: c.appearances.map((a) => ({ '@id': `${base}${a.path}#article` })),
+      ...(c.icon ? { image: { '@type': 'ImageObject', contentUrl: base + iconPath(c.slug, 480), creditText: [c.icon.artist, c.icon.title].filter(Boolean).join(', '), license: c.icon.license_url ?? c.icon.source, acquireLicensePage: c.icon.source } } : {}),
     };
     return doc({
       lang: 'en',

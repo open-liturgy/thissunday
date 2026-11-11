@@ -506,35 +506,64 @@ a.other:hover .nm { color: var(--red); }
 }
 
 /* ---------- People (character pages) ---------- */
-.pp-crumb { margin-top: clamp(32px, 5vw, 64px); font-size: 15px; color: var(--on-dark); }
+.pp-crumb { font-size: 15px; color: var(--on-dark); }
 .pp-crumb a { color: var(--on-dark); }
 .pp-crumb a:hover { color: #fff; }
-.pp-crumb + h1 { margin-top: 12px; }
 .simple-hero .pp-ml { margin-top: 10px; font-size: 24px; color: var(--glow); }
 .pp-main { border-radius: 28px; }
 .pp-h2 { font-size: 28px; font-weight: 700; padding-bottom: 12px; border-bottom: 2px solid var(--ink); }
-.pp-list { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(260px, 100%), 1fr)); gap: 0 32px; }
-.pp-list a { display: flex; flex-wrap: wrap; align-items: baseline; gap: 2px 12px; min-height: 44px; padding: 14px 0; border-bottom: 1px solid var(--rule); text-decoration: none; color: var(--ink); }
-.pp-list .nm { font-size: 19px; font-weight: 700; }
-.pp-list .ml { font-size: 15px; color: var(--label); }
-.pp-list .n { margin-left: auto; font-size: 14px; color: var(--text-2); }
-.pp-list a:hover .nm { color: var(--red); }
-.pp-meanings { display: flex; flex-direction: column; gap: 8px; font-family: var(--serif); font-style: italic; font-size: 24px; line-height: 1.3; }
-.pp-note { font-size: 15px; color: var(--text-2); }
+.pp-hero-grid { display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: end; gap: 32px 56px; margin-top: clamp(32px, 5vw, 64px); }
+.pp-hero h1 { margin-top: 8px; }
+.pp-kind { margin-top: 28px !important; font-size: 13px !important; font-weight: 650; letter-spacing: 0.12em; text-transform: uppercase; color: var(--glow) !important; }
+.simple-hero .pp-mean { margin-top: 20px; font-family: var(--serif); font-style: italic; font-size: clamp(24px, 3vw, 32px); line-height: 1.25; color: #fff; }
+.pp-hero-icon { display: flex; flex-direction: column; align-items: center; gap: 10px; }
+.pp-hero-icon figcaption { max-width: 300px; font-size: 13px; line-height: 1.4; text-align: center; color: var(--on-dark-2); }
+.pp-icon { display: block; object-fit: cover; object-position: 50% 20%; background: rgba(255, 255, 255, 0.08); }
+.pp-icon-hero { width: clamp(200px, 26vw, 300px); height: auto; aspect-ratio: 4 / 5; border-radius: 999px 999px 18px 18px; border: 3px solid var(--glow); box-shadow: 0 0 0 8px rgba(255, 255, 255, 0.06); }
+.pp-icon-thumb { width: 100%; height: auto; aspect-ratio: 4 / 5; border-radius: 999px 999px 12px 12px; background: var(--tint); }
+.pp-icon-none { display: grid; place-items: center; font-family: var(--serif); font-size: 64px; font-style: italic; color: var(--glow); background: var(--ground); }
+.pp-icon-hero.pp-icon-none { font-size: 120px; }
+.pp-cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(150px, 42vw), 1fr)); gap: 28px 20px; }
+.pp-cards a { display: flex; flex-direction: column; gap: 4px; text-decoration: none; color: var(--ink); }
+.pp-cards .pp-icon { margin-bottom: 8px; transition: transform 0.15s; }
+.pp-cards a:hover .pp-icon { transform: translateY(-3px); }
+.pp-cards .nm { font-size: 18px; font-weight: 700; line-height: 1.2; }
+.pp-cards a:hover .nm { color: var(--red); }
+.pp-cards .ml { font-size: 14px; color: var(--label); }
+.pp-cards .n { font-size: 14px; color: var(--text-2); }
+.pp-facts { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(240px, 100%), 1fr)); gap: 16px; }
+.pp-facts > div { padding: 20px 24px; border-radius: 20px; background: var(--card); border: 1px solid var(--rule-soft); }
+.pp-facts dt { font-size: 13px; font-weight: 650; letter-spacing: 0.12em; text-transform: uppercase; color: var(--label); }
+.pp-facts dd { margin-top: 8px; font-size: 19px; line-height: 1.4; }
+.pp-facts dd[lang='ml'] { font-size: 22px; }
+.pp-m { display: block; font-family: var(--serif); font-style: italic; font-size: 21px; }
+.pp-note, .pp-fine { font-size: 15px; color: var(--text-2); }
 .pp-apps { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(320px, 100%), 1fr)); gap: 16px; }
-.pp-apps li { display: flex; flex-direction: column; gap: 8px; padding: 24px; }
+.pp-apps > li { display: flex; flex-direction: column; gap: 8px; padding: 24px; }
 .pp-apps .when { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 12px; font-size: 15px; font-weight: 600; color: var(--label); }
 .pp-apps .now { padding: 2px 10px; border-radius: 999px; background: var(--ink); color: #fff; font-size: 13px; }
 .pp-apps h3 { font-size: 22px; font-weight: 700; line-height: 1.25; }
 .pp-apps h3 a { text-decoration: none; }
 .pp-apps h3 a:hover { text-decoration: underline; }
 .pp-apps .g { font-size: 15px; color: var(--text-2); }
-.pp-apps .g + .role { margin-top: 4px; padding-top: 12px; border-top: 1px solid var(--rule-soft); font-size: 17px; line-height: 1.5; }
+.pp-apps .g + .role { margin-top: 4px; padding-top: 12px; border-top: 1px solid var(--rule-soft); }
+.pp-apps .role { font-size: 17px; line-height: 1.5; }
 .pp-apps .as { font-weight: 650; }
+.pp-apps .story { margin-top: auto; padding-top: 12px; }
+.pp-apps .story ul { display: flex; flex-direction: column; gap: 4px; margin-top: 6px; font-size: 15px; }
+.pp-apps .story a { display: inline-block; min-height: 24px; font-weight: 600; }
+.pp-apps .story span { color: var(--text-2); }
+.pp-credit { max-width: 760px; font-size: 16px; color: var(--text-2); }
 .pp-back { padding: 0 0 var(--sec); }
 .pp-back a { font-weight: 650; }
 .person .nm b a { color: inherit; text-decoration-thickness: 1px; text-underline-offset: 4px; }
 .person .links { font-size: 15px; }
+@media (max-width: 760px) {
+  .pp-hero-grid { grid-template-columns: 1fr; }
+  .pp-hero-icon { order: -1; align-items: flex-start; }
+  .pp-hero-icon figcaption { text-align: left; }
+  .pp-icon-hero { width: min(220px, 60vw); }
+}
 
 /* ---------- Phone fixes: long titles, tabs, scene picker, simple-page nav, mini player ---------- */
 /* Malayalam titles carry very long words; size them so a word never runs past the screen. */

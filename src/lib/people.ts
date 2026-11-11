@@ -19,6 +19,21 @@ const Entry = z.object({
   ml: text.optional(),
   kind: z.enum(['person', 'angel', 'group']).default('person'),
   match: z.array(text).min(1),
+  /** Words that find this character in a Sunday's scenes. Defaults from the name and matches. */
+  keywords: z.array(text).optional(),
+  /** An icon from Wikimedia Commons; files are public/people/{slug}-{240,480}.webp (4:5). */
+  icon: z
+    .object({
+      title: text,
+      artist: text.optional(),
+      date: text.optional(),
+      license: text,
+      license_url: z.string().url().optional(),
+      source: z.string().url(),
+      /** Alt text: what the image shows. */
+      alt: text,
+    })
+    .optional(),
 });
 const Registry = z.array(Entry);
 export type PersonEntry = z.infer<typeof Entry>;
@@ -30,6 +45,8 @@ export interface Appearance {
   as: EditionPerson[];
   /** Permanent page of the edition. */
   path: string;
+  /** Scenes of that Sunday's Gospel that mention this character, with their anchors. */
+  scenes: { title: string; verses: string; href: string }[];
 }
 
 export interface Character extends PersonEntry {
@@ -50,6 +67,18 @@ export interface People {
 }
 
 export const peoplePath = (slug: string) => `/people/${slug}/`;
+export const iconPath = (slug: string, w: 240 | 480) => `/people/${slug}-${w}.webp`;
+
+/** "John the Baptist" → John the Baptist, John; "The Pharisees" → Pharisees. */
+function defaultKeywords(p: PersonEntry): string[] {
+  const names = [p.name, ...p.match.map((m) => m.replace(/^[a-z0-9-]+:\s*/, ''))].filter((n) => !/ and |, /.test(n) || n === p.name);
+  const out = new Set<string>();
+  for (const n of names) {
+    out.add(n.replace(/^The /i, '').replace(/,.*$/, ''));
+    if (p.kind !== 'group' && !/^The /i.test(n)) out.add(n.split(/[ ,]/)[0]);
+  }
+  return [...out];
+}
 
 const sortKey = (s: string) => s.replace(/^The /, '').toLowerCase();
 const real = (v?: string): v is string => !!v && !isPlaceholder(v) && v.trim() !== '—';
@@ -101,7 +130,13 @@ export function loadPeople(site: Site, root = process.cwd()): People {
     for (const e of site.all) {
       if (!published.has(e.date)) continue;
       const as = e.people.filter((pp) => find(e.sunday_slug, pp.name).includes(p));
-      if (as.length) appearances.push({ edition: e, as, path: editionPath(e) });
+      if (!as.length) continue;
+      const words = (p.keywords ?? defaultKeywords(p)).map((w) => new RegExp(`\\b${w.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}\\b`, 'i'));
+      const scenes = e.scenes
+        .map((s, i) => ({ title: s.title, verses: s.verses, href: `${editionPath(e)}#scene-${i + 1}`, hay: `${s.title} ${s.text}` }))
+        .filter((s) => words.some((w) => w.test(s.hay)))
+        .map(({ hay: _, ...s }) => s);
+      appearances.push({ edition: e, as, path: editionPath(e), scenes });
     }
     if (!appearances.length) continue;
     // Name meanings: only from entries that name this character alone.

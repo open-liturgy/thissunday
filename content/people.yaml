@@ -20,24 +20,54 @@
   name: Jesus
   ml: യേശു
   match: [Jesus, Jesus of Nazareth]
+  icon:
+    title: "Christ Pantocrator, Saint Catherine’s Monastery, Sinai"
+    date: "6th century"
+    license: "Public domain"
+    source: https://commons.wikimedia.org/wiki/File:CHRIST_PANTOCRATOR-SINAI(6th_Century).jpg
+    alt: "Icon of Christ Pantocrator holding the Gospel book, Sinai, 6th century"
 - slug: mary
   name: Mary, Mother of God
   ml: ദൈവമാതാവായ മറിയം
   match: [Mary, "Mary, Mother of God"]
+  icon:
+    title: "Theotokos Hodegetria, Byzantine icon"
+    license: "Public domain"
+    source: https://commons.wikimedia.org/wiki/File:Unknown_-_tuntematon_-_%C3%B6k%C3%A4nd-_Theotokos_Hodegetria,_Bysantic_icon_-_Jumalan%C3%A4iti_Hodigitria,_bysanttilainen_ikoni_(28845470903).jpg
+    alt: "Icon of the Mother of God holding the Christ child, Byzantine"
 - slug: joseph
   name: Joseph
   ml: യോസേഫ്
   match: [Joseph]
+  icon:
+    title: "The Flight into Egypt"
+    artist: "Emmanuel Tzanes"
+    date: "c. 1660–1690"
+    license: "Public domain"
+    source: https://commons.wikimedia.org/wiki/File:Flight_to_Egypt_Emmanuel_Tzanes.png
+    alt: "Icon of Joseph leading Mary and the Christ child on a donkey into Egypt, by Emmanuel Tzanes"
 
 # Around the birth of Christ
 - slug: zechariah
   name: Zechariah
   ml: സെഖര്യാവ്
   match: [Zechariah]
+  icon:
+    title: "The Conception of John the Baptist, Russian icon"
+    date: "second half of the 15th century"
+    license: "Public domain"
+    source: https://commons.wikimedia.org/wiki/File:Conception_of_John_Baptist_(icon,_Russia,_15_c).jpg
+    alt: "Russian icon of Zechariah and Elizabeth embracing, 15th century"
 - slug: elizabeth
   name: Elizabeth
   ml: എലീശബെത്ത്
   match: [Elizabeth]
+  icon:
+    title: "The Meeting of Mary and Elizabeth, Greek icon"
+    date: "15th century"
+    license: "Public domain"
+    source: https://commons.wikimedia.org/wiki/File:0116Hb._Meeting_of_Mary_and_Elizabeth,_15th_century,_Greece.jpg
+    alt: "Greek icon of Mary and Elizabeth embracing at the Visitation, 15th century"
 - slug: john-the-baptist
   name: John the Baptist
   ml: യോഹന്നാൻ
@@ -45,15 +75,34 @@
     - "annunciation-to-zechariah: John"
     - "birth-of-john-the-baptist: John"
     - "visitation-to-elizabeth: John"
+  icon:
+    title: "Saint John the Baptist, from a Deesis tier"
+    artist: "Russian icon painter"
+    date: "17th century"
+    license: "Public domain"
+    source: https://commons.wikimedia.org/wiki/File:St_John_the_Baptist._Part_of_Deesis.jpg
+    alt: "Russian Deesis icon of John the Baptist bowing in prayer, 17th century"
 - slug: gabriel
   name: Gabriel
   ml: ഗബ്രിയേൽ
   kind: angel
   match: [Gabriel]
+  icon:
+    title: "Archangel Gabriel, Saint Catherine’s Monastery, Sinai"
+    date: "13th century"
+    license: "Public domain"
+    source: https://commons.wikimedia.org/wiki/File:Archangel_Gabriel_Icon_wearing_sacred_blue.png
+    alt: "Icon of the Archangel Gabriel in blue, Sinai, 13th century"
 - slug: herod-the-great
   name: Herod the Great
   ml: ഹെരോദാവ്
   match: [Herod the Great]
+  icon:
+    title: "The Massacre of the Innocents, Ionian icon"
+    date: "17th century"
+    license: "Public domain"
+    source: https://commons.wikimedia.org/wiki/File:Massacre_of_the_Innocents_(Ionian,_17th_c.,_Byzantine_museum).jpg
+    alt: "Ionian icon of Herod’s soldiers killing the infants of Bethlehem, 17th century"
 - slug: archelaus
   name: Archelaus
   ml: അർക്കെലയൊസ്
@@ -64,19 +113,52 @@
   name: Peter
   ml: പത്രൊസ്
   match: [Peter, Simon Peter, Simon bar Jonah, Peter and Andrew, "Peter, James, John and Andrew"]
+  icon:
+    title: "Saint Peter, Saint Catherine’s Monastery, Sinai"
+    date: "early 6th century"
+    license: "Public domain"
+    source: https://commons.wikimedia.org/wiki/File:Peter_Sinai_-_cropped.jpg
+    alt: "Icon of Saint Peter holding the keys and a cross staff, Sinai, 6th century"
 - slug: andrew
   name: Andrew
   match: [Peter and Andrew, "Peter, James, John and Andrew"]
+  icon:
+    title: "Saint Andrew the Apostle, Bulgarian icon"
+    artist: "Yoan of Gabrovo; photo by MrPanyGoff"
+    date: "19th century"
+    license: "CC BY-SA 3.0"
+    license_url: https://creativecommons.org/licenses/by-sa/3.0
+    source: https://commons.wikimedia.org/wiki/File:St_Andrew_the_Apostle_-_Bulgarian_icon.jpg
+    alt: "Bulgarian icon of Saint Andrew holding a scroll, 19th century"
 - slug: james-son-of-zebedee
   name: James, son of Zebedee
   match: [James and John, "Peter, James, John and Andrew"]
+  icon:
+    title: "Saint James, Monastery of Saint John, Patmos"
+    date: "12th century"
+    license: "Public domain"
+    source: https://commons.wikimedia.org/wiki/File:Icon_of_saint_Jacob.JPG
+    alt: "Icon of the Apostle James in a red cloak, Patmos, 12th century"
 - slug: john-son-of-zebedee
   name: John, son of Zebedee
   match: [James and John, "Peter, James, John and Andrew"]
+  icon:
+    title: "John the Theologian and Prochorus, Byzantine icon panel"
+    date: "early 15th century"
+    license: "CC0"
+    license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+    source: https://commons.wikimedia.org/wiki/File:Four_Icons_from_a_Pair_of_Doors_(Panels),_possibly_part_of_a_Polyptych-_John_the_Theologian_and_Prochoros,_the_Baptism_(Epiphany),_Harrowing_of_Hell_(Anastasis),_and_Saint_Nicholas_MET_DP327378.jpg
+    alt: "Byzantine icon of John the Theologian dictating the Gospel to Prochorus in a cave, 15th century"
 - slug: beloved-disciple
   name: The disciple whom Jesus loved
   ml: യേശു സ്നേഹിച്ച ശിഷ്യൻ
   match: [The disciple whom Jesus loved, The beloved disciple]
+  icon:
+    title: "Saint John the Theologian and Prochorus, Saint Catherine’s Monastery"
+    date: "early 18th century"
+    license: "Public domain"
+    source: https://commons.wikimedia.org/wiki/File:%CE%9F_%CE%86%CE%B3%CE%B9%CE%BF%CF%82_%CE%99%CF%89%CE%AC%CE%BD%CE%BD%CE%B7%CF%82_%CE%BF_%CE%98%CE%B5%CE%BF%CE%BB%CF%8C%CE%B3%CE%BF%CF%82_%CE%BA%CE%B1%CE%B9_%CE%A0%CF%81%CF%8C%CF%87%CE%BF%CF%81%CE%BF%CF%82_-_%CE%A3%CF%85%CE%BB%CE%BB%CE%BF%CE%B3%CE%AE_%CE%91%CE%B3%CE%AF%CE%B1%CF%82_%CE%91%CE%B9%CE%BA%CE%B1%CF%84%CE%B5%CF%81%CE%AF%CE%BD%CE%B7%CF%82_7690.jpg
+    alt: "Icon of John the Theologian in the cave of Patmos with his disciple Prochorus, 18th century"
 - slug: zebedee
   name: Zebedee
   ml: സെബെദി
@@ -85,26 +167,63 @@
   name: Philip
   ml: ഫിലിപ്പൊസ്
   match: ["second-sunday-after-denha: Philip"]
+  icon:
+    title: "The Apostle Philip, Saint Catherine’s Monastery, Sinai"
+    date: "10th century"
+    license: "Public domain"
+    source: https://commons.wikimedia.org/wiki/File:Icon_of_Apostle_Philip_(10th_c,_St._Catherine_monastery,_Sinai).jpg
+    alt: "Icon of the Apostle Philip holding a scroll, Sinai, 10th century"
 - slug: nathanael
   name: Nathanael
   ml: നഥനയേൽ
   match: [Nathanael]
+  icon:
+    title: "Saint Bartholomew the Apostle, Cretan icon"
+    date: "17th–18th century"
+    license: "Public domain"
+    source: https://commons.wikimedia.org/wiki/File:Saint_Apostle_Bartholomew_Icon,_Cretan.jpg
+    alt: "Cretan icon of the Apostle Bartholomew, traditionally Nathanael, holding a scroll"
 - slug: thomas
   name: Thomas
   ml: തോമാ
   match: [Thomas]
+  icon:
+    title: "The Incredulity of Thomas"
+    date: "15th century"
+    license: "Public domain"
+    source: https://commons.wikimedia.org/wiki/File:The_incredulity_of_Thomas.jpg
+    alt: "Icon of Thomas touching the wounds of the risen Christ among the apostles, 15th century"
 - slug: mary-magdalene
   name: Mary Magdalene
   ml: മഗ്ദലക്കാരത്തി മറിയ
   match: [Mary Magdalene]
+  icon:
+    title: "Saint Mary Magdalene, Greek icon"
+    date: "16th century"
+    license: "Public domain"
+    source: https://commons.wikimedia.org/wiki/File:Maria_Magdalene_icon.jpg
+    alt: "Greek icon of Mary Magdalene in red holding a cross and a jar of myrrh, 16th century"
 - slug: cleopas
   name: Cleopas
   ml: ക്ലെയൊപ്പാവ്
   match: [Cleopas]
+  icon:
+    title: "The Road to Emmaus, Skvariava Nova iconostasis"
+    artist: "Ivan Rutkovych; photo by Mykola Swarnyk"
+    license: "CC BY-SA 3.0"
+    license_url: https://creativecommons.org/licenses/by-sa/3.0
+    source: https://commons.wikimedia.org/wiki/File:Rutkovych_Skvariava_Nova_Iconostasis_Road_to_Emaus_LNM.jpg
+    alt: "Ukrainian iconostasis icon of the risen Christ walking with Cleopas and another disciple to Emmaus"
 - slug: lazarus
   name: Lazarus
   ml: ലാസർ
   match: [Lazarus]
+  icon:
+    title: "The Raising of Lazarus, Novgorod school"
+    date: "15th century"
+    license: "Public domain"
+    source: https://commons.wikimedia.org/wiki/File:The_Lazarus_Raising._Novgorod_icon-painting_school,_15th_cent.,_Kirillo-Belozersky_Monastery._Saint-Petersburg,_Russia.jpg
+    alt: "Novgorod icon of Christ raising Lazarus from the tomb, 15th century"
 
 # People Jesus meets
 - slug: canaanite-woman
@@ -114,15 +233,34 @@
 - slug: man-born-blind
   name: The man born blind
   match: [The man born blind]
+  icon:
+    title: "Christ Healing the Man Born Blind"
+    artist: "Emmanuel Tzanes"
+    date: "1686"
+    license: "Public domain"
+    source: https://commons.wikimedia.org/wiki/File:Christ_Healing_the_Blind_(Tzanes).png
+    alt: "Icon of Christ touching the eyes of the man born blind, by Emmanuel Tzanes, 1686"
 - slug: bent-woman
   name: The bent woman
   match: [The bent woman]
 - slug: leper
   name: The leper
   match: ["lepers-sunday: The leper"]
+  icon:
+    title: "Christ heals a leper, Monreale Cathedral mosaic"
+    date: "12th century"
+    license: "Public domain"
+    source: https://commons.wikimedia.org/wiki/File:Christ_and_leper_man.jpg
+    alt: "Byzantine-style mosaic of Christ healing a leper, Monreale, 12th century"
 - slug: paralysed-man
   name: The paralysed man
   match: [The paralysed man]
+  icon:
+    title: "The Healing of the Paralytic, Monreale Cathedral mosaic"
+    date: "12th century"
+    license: "Public domain"
+    source: https://commons.wikimedia.org/wiki/File:Monreale_-_healing_of_paralytic.jpg
+    alt: "Mosaic of the paralysed man lowered through the roof before Christ, Monreale, 12th century"
 - slug: rich-ruler
   name: The rich ruler
   match: [The rich ruler]
@@ -139,26 +277,63 @@
   name: Abraham
   ml: അബ്രാഹാം
   match: [Abraham]
+  icon:
+    title: "The Hospitality of Abraham, icon from Zakynthos"
+    date: "15th century"
+    license: "Public domain"
+    source: https://commons.wikimedia.org/wiki/File:Hospitality_of_Abraham_(Zakynthos,_15th_c.,_Byzantine_museum).jpg
+    alt: "Icon of Abraham and Sarah serving the three angels at Mamre, Zakynthos, 15th century"
 - slug: jacob
   name: Jacob
   ml: യാക്കോബ്
   match: ["all-departed-faithful: Jacob"]
+  icon:
+    title: "The Patriarch Jacob, Church of Saint John Chrysostom in Korovniki, Yaroslavl"
+    date: "c. 1654"
+    license: "Public domain"
+    source: https://commons.wikimedia.org/wiki/File:John_in_Korovniki_church_-_patriarch_02_Jacob_(c._1654,_Yaroslavl).jpg
+    alt: "Russian icon of the patriarch Jacob from an iconostasis, Yaroslavl, about 1654"
 - slug: moses
   name: Moses
   ml: മോശെ
   match: [Moses]
+  icon:
+    title: "Moses, Saint Catherine’s Monastery, Sinai (detail)"
+    date: "13th century"
+    license: "Public domain"
+    source: https://commons.wikimedia.org/wiki/File:Moses_Icon_Sinai_13th_century_detail.jpg
+    alt: "Icon of the prophet Moses, detail, Sinai, 13th century"
 - slug: aaron
   name: Aaron
   ml: അഹരോൻ
   match: [Aaron]
+  icon:
+    title: "The Prophet Aaron, Kirillo-Belozersky Monastery"
+    artist: "Terenty Fomin (attributed)"
+    date: "17th century"
+    license: "Public domain"
+    source: https://commons.wikimedia.org/wiki/File:Aaron_(Kirillo-Belozersk).jpg
+    alt: "Russian icon of Aaron the high priest holding a scroll, 17th century"
 - slug: david
   name: David
   ml: ദാവീദ്
   match: [David]
+  icon:
+    title: "King David, Novgorod school"
+    date: "15th century"
+    license: "Public domain"
+    source: https://commons.wikimedia.org/wiki/File:Novgorod_School_-_King_David_-_NG.M.01771_-_National_Museum_of_Art,_Architecture_and_Design.jpg
+    alt: "Novgorod icon of King David crowned, holding a scroll, 15th century"
 - slug: solomon
   name: Solomon
   ml: ശലോമോൻ
   match: [Solomon]
+  icon:
+    title: "King Solomon, Russian icon"
+    date: "early 18th century"
+    license: "Public domain"
+    source: https://commons.wikimedia.org/wiki/File:King-Solomon-Russian-icon.jpg
+    alt: "Russian icon of King Solomon crowned, holding the Temple and a scroll, 18th century"
 - slug: abiathar
   name: Abiathar
   ml: അബ്യാഥാർ
@@ -174,31 +349,70 @@
   ml: പന്ത്രണ്ട് അപ്പൊസ്തലന്മാർ
   kind: group
   match: [The twelve, The twelve apostles, The apostles, The eleven]
+  icon:
+    title: "The Synaxis of the Twelve Apostles"
+    artist: "Constantinople master"
+    date: "early 14th century"
+    license: "Public domain"
+    source: https://commons.wikimedia.org/wiki/File:Synaxis_of_the_Twelve_Apostles_by_Constantinople_master_(early_14th_c.,_Pushkin_museum).jpg
+    alt: "Byzantine icon of the twelve apostles gathered together, early 14th century"
 - slug: disciples
   name: The disciples
   ml: ശിഷ്യന്മാർ
   kind: group
   match: [The disciples]
+  icon:
+    title: "The Washing of the Feet, Stavronikita Monastery, Mount Athos"
+    artist: "Theophanes the Cretan"
+    date: "16th century"
+    license: "Public domain"
+    source: https://commons.wikimedia.org/wiki/File:Washing_of_the_feet_-_Stavronikita_monastery,_Mt_Athos_-_Theophanes_of_Crete,_16th_c..jpg
+    alt: "Fresco of Christ washing the disciples’ feet, by Theophanes the Cretan, Mount Athos, 16th century"
 - slug: the-seventy
   name: The seventy
   ml: എഴുപതു പേർ
   kind: group
   match: [The seventy]
+  icon:
+    title: "The Synaxis of the Seventy Apostles"
+    license: "Public domain"
+    source: https://commons.wikimedia.org/wiki/File:70Apostles_V-1.jpg
+    alt: "Icon of the Seventy Apostles in rows beneath Christ"
 - slug: wise-men
   name: The wise men
   ml: വിദ്വാന്മാർ
   kind: group
   match: [The wise men]
+  icon:
+    title: "The Adoration of the Magi"
+    artist: "Emmanuel Tzanes"
+    date: "1667"
+    license: "Public domain"
+    source: https://commons.wikimedia.org/wiki/File:Adoration_of_the_Magi_Emmanuel_Tzanes.png
+    alt: "Icon of the wise men offering gifts to the Christ child on Mary’s lap, by Emmanuel Tzanes, 1667"
 - slug: pharisees
   name: The Pharisees
   ml: പരീശന്മാർ
   kind: group
   match: [The Pharisees, The scribes and Pharisees]
+  icon:
+    title: "The Pharisee and the Publican"
+    artist: "Venediktos Emporios"
+    date: "1600–1628"
+    license: "Public domain"
+    source: https://commons.wikimedia.org/wiki/File:Pharisee_and_the_Publican.png
+    alt: "Icon of the Pharisee standing proudly and the publican bowing in the Temple, early 17th century"
 - slug: scribes
   name: The scribes
   ml: ശാസ്ത്രിമാർ
   kind: group
   match: [The scribes, The scribes from Jerusalem, The scribes and Pharisees]
+  icon:
+    title: "Christ among the Teachers, Kirillo-Belozersky Monastery iconostasis"
+    date: "1497"
+    license: "Public domain"
+    source: https://commons.wikimedia.org/wiki/File:Kirillo-Belozersky_iconostasis_06_-_Among_doctors.jpg
+    alt: "Russian icon of the boy Jesus seated among the teachers in the Temple, 1497"
 - slug: sadducees
   name: The Sadducees
   ml: സദൂക്യർ
