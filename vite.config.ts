@@ -46,7 +46,30 @@ function prerenderDev(): Plugin {
   };
 }
 
+/**
+ * `npm run preview`: appType 'custom' turns off Vite's index.html fallback, so
+ * map directory URLs (/, /2026/foo/) to their index.html in dist/.
+ */
+function previewDirIndex(): Plugin {
+  return {
+    name: 'this-sunday-preview-index',
+    configurePreviewServer(server) {
+      const outDir = path.resolve(server.config.build.outDir);
+      server.middlewares.use((req, _res, next) => {
+        const [url, query] = (req.url || '/').split('?');
+        if (!/\.\w+$/.test(url)) {
+          const candidate = path.join(outDir, url, 'index.html');
+          if (candidate.startsWith(outDir) && fs.existsSync(candidate)) {
+            req.url = (url.endsWith('/') ? url : url + '/') + 'index.html' + (query ? '?' + query : '');
+          }
+        }
+        next();
+      });
+    },
+  };
+}
+
 export default defineConfig({
   appType: 'custom',
-  plugins: [prerenderDev()],
+  plugins: [prerenderDev(), previewDirIndex()],
 });
