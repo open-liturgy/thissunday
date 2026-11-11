@@ -208,6 +208,45 @@ ${html}
 `;
 }
 
+/** Open Graph and Twitter tags. Every page shares a Sunday's own 1200x630 image. */
+function socialMeta(
+  site: Site,
+  o: { type: 'article' | 'website' | 'profile'; title: string; description: string; url: string; image: Edition; lang?: Lang; alternateLocale?: boolean },
+): string[] {
+  const base = site.tradition.site.url;
+  const e = o.image;
+  const img = base + ogPath(e);
+  const lang = o.lang ?? 'en';
+  const locale = (l: Lang) => (l === 'ml' ? 'ml_IN' : 'en_IN');
+  const other: Lang = lang === 'ml' ? 'en' : 'ml';
+  const alt = esc(`${e.name.en}, ${longDate(e.date)}. ${e.key_verse.ref}: ${e.key_verse.en}`);
+  return [
+    `<meta property="og:type" content="${o.type}">`,
+    `<meta property="og:site_name" content="${esc(site.tradition.site.name)}">`,
+    `<meta property="og:title" content="${esc(o.title)}">`,
+    `<meta property="og:description" content="${esc(o.description)}">`,
+    `<meta property="og:url" content="${o.url}">`,
+    `<meta property="og:locale" content="${locale(lang)}">`,
+    ...(o.alternateLocale ? [`<meta property="og:locale:alternate" content="${locale(other)}">`] : []),
+    `<meta property="og:image" content="${img}">`,
+    `<meta property="og:image:secure_url" content="${img}">`,
+    `<meta property="og:image:type" content="image/jpeg">`,
+    `<meta property="og:image:width" content="1200">`,
+    `<meta property="og:image:height" content="630">`,
+    `<meta property="og:image:alt" content="${alt}">`,
+    `<meta name="twitter:card" content="summary_large_image">`,
+    `<meta name="twitter:title" content="${esc(o.title)}">`,
+    `<meta name="twitter:description" content="${esc(o.description)}">`,
+    `<meta name="twitter:image" content="${img}">`,
+    `<meta name="twitter:image:alt" content="${alt}">`,
+  ];
+}
+
+function nextAppearance(c: Character, upcoming?: Edition): Edition | undefined {
+  const eds = c.appearances.map((a) => a.edition).filter((e) => e.date).sort((a, b) => a.date.localeCompare(b.date));
+  return (upcoming && eds.find((e) => e.date >= upcoming.date)) ?? eds.at(-1) ?? upcoming;
+}
+
 /** Where an edition sits in the year: its place in its season's run of Sundays, and the total. */
 function yearPlace(site: Site, e: Edition): { total: number; k: number; n: number; season: string } {
   // Runs are found on the English editions; `e` may be a translation, so only its season label is used.
@@ -237,25 +276,20 @@ export function renderRoute(site: Site, route: Route, assets: Assets): string {
     }
     if (prev?.path) head.push(`<link rel="prev" href="${base}${prev.path}">`);
     if (next?.path) head.push(`<link rel="next" href="${base}${next.path}">`);
-    const og = base + ogPath(e);
     const title = pageTitle(e, page.lang);
     const desc = pageDescription(e);
     head.push(
-      `<meta property="og:type" content="article">`,
-      `<meta property="og:site_name" content="${esc(tradition.site.name)}">`,
-      `<meta property="og:title" content="${esc(strings[page.lang].titleSuffix(e.name.en, longDate(e.date)))}">`,
-      `<meta property="og:description" content="${esc(desc)}">`,
-      `<meta property="og:url" content="${canonical}">`,
-      `<meta property="og:locale" content="${page.lang === 'ml' ? 'ml_IN' : 'en_IN'}">`,
-      `<meta property="og:image" content="${og}">`,
-      `<meta property="og:image:width" content="1200">`,
-      `<meta property="og:image:height" content="630">`,
-      `<meta property="og:image:alt" content="${esc(`${e.name.en}, ${longDate(e.date)}. ${e.key_verse.ref}: ${e.key_verse.en}`)}">`,
+      ...socialMeta(site, {
+        type: 'article',
+        title: strings[page.lang].titleSuffix(e.name.en, longDate(e.date)),
+        description: desc,
+        url: canonical,
+        image: e,
+        lang: page.lang,
+        alternateLocale: Object.keys(page.alternates).length > 1,
+      }),
       `<meta property="article:published_time" content="${e.prepared ?? e.date}">`,
-      `<meta name="twitter:card" content="summary_large_image">`,
-      `<meta name="twitter:title" content="${esc(title)}">`,
-      `<meta name="twitter:description" content="${esc(desc)}">`,
-      `<meta name="twitter:image" content="${og}">`,
+      ...(e.updated ? [`<meta property="article:modified_time" content="${e.updated}">`] : []),
       `<script type="application/ld+json">${JSON.stringify(jsonLd(site, page, canonical)).replace(/</g, '\\u003c')}</script>`,
     );
     return doc({
@@ -307,7 +341,15 @@ export function renderRoute(site: Site, route: Route, assets: Assets): string {
       title: `All Sundays: Malankara Orthodox readings for the whole year | This Sunday`,
       description: `Every edition of This Sunday: the readings, the Gospel explained and a family question for each Sunday of the Malankara Orthodox Church year.`,
       canonical: `${base}/all-sundays/`,
-      head: [`<meta property="og:title" content="All Sundays | This Sunday">`, `<meta property="og:url" content="${base}/all-sundays/">`, site.upcoming ? `<meta property="og:image" content="${base}${ogPath(site.upcoming)}">` : ''],
+      head: site.upcoming
+        ? socialMeta(site, {
+            type: 'website',
+            title: 'All Sundays | This Sunday',
+            description: `Every edition of This Sunday: the readings, the Gospel explained and a family question for each Sunday of the Malankara Orthodox Church year.`,
+            url: `${base}/all-sundays/`,
+            image: site.upcoming,
+          })
+        : [],
       assets: { ...assets, script: undefined },
       colours: coloursFor(site),
       body: <Archive site={site} t={t} colours={(e) => coloursFor(site, e)} />,
@@ -329,7 +371,8 @@ export function renderRoute(site: Site, route: Route, assets: Assets): string {
           ...extra,
         ],
       }).replace(/</g, '\\u003c')}</script>`;
-    const og = site.upcoming ? `<meta property="og:image" content="${base}${ogPath(site.upcoming)}">` : '';
+    const social = (type: 'website' | 'profile', title: string, description: string, image = site.upcoming) =>
+      image ? socialMeta(site, { type, title, description, url: canonical, image }) : [];
     if (route.kind === 'people') {
       const title = `${peopleText.indexTitle} | This Sunday`;
       const description = `Who is who in the Sunday readings of the Malankara Orthodox Church: ${people.list.length} people and groups, with every Sunday they appear in.`;
@@ -340,7 +383,7 @@ export function renderRoute(site: Site, route: Route, assets: Assets): string {
         title,
         description,
         canonical,
-        head: [`<meta property="og:title" content="${esc(peopleText.indexTitle)}">`, `<meta property="og:url" content="${canonical}">`, `<meta property="og:description" content="${esc(description)}">`, og, ld([breadcrumb as Thing, list as Thing], peopleText.indexTitle)],
+        head: [...social('website', peopleText.indexTitle, description), ld([breadcrumb as Thing, list as Thing], peopleText.indexTitle)],
         assets: { ...assets, script: undefined },
         colours: coloursFor(site),
         body: <PeopleIndex site={site} people={people} t={t} />,
@@ -373,11 +416,8 @@ export function renderRoute(site: Site, route: Route, assets: Assets): string {
       description,
       canonical,
       head: [
-        `<meta property="og:type" content="profile">`,
-        `<meta property="og:title" content="${esc(`${c.name} in the Sunday readings`)}">`,
-        `<meta property="og:description" content="${esc(description)}">`,
-        `<meta property="og:url" content="${canonical}">`,
-        og,
+        // The person's next Sunday from the upcoming one on, else their most recent.
+        ...social(c.kind === 'person' ? 'profile' : 'website', `${c.name} in the Sunday readings`, description, nextAppearance(c, site.upcoming)),
         ld([breadcrumb as Thing, about as Thing], title, { about: { '@id': `${canonical}#about` } }),
       ],
       assets: { ...assets, script: undefined },

@@ -51,7 +51,10 @@ export function rss(site: Site): string {
     feedLinks: { rss: `${base}/rss.xml` },
     updated: site.upcoming ? new Date(`${site.upcoming.prepared ?? site.upcoming.date}T00:00:00Z`) : undefined,
   });
-  for (const e of [...site.published].reverse()) {
+  // Newest first, ending at the upcoming Sunday: editions prepared ahead for later
+  // Sundays stay on the site but do not flood readers with a year of items.
+  const items = site.published.filter((e) => !site.upcoming || e.date <= site.upcoming.date).reverse();
+  for (const e of items) {
     const url = base + editionPath(e);
     feed.addItem({
       title: `${e.name.en} (${longDate(e.date)})`,
