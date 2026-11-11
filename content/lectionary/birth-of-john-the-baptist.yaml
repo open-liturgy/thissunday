@@ -4,7 +4,7 @@ sunday_slug: birth-of-john-the-baptist
 is_sunday: true
 name:
   en: Birth of John the Baptist
-  ml: '[MALAYALAM NAME]'
+  ml: യോഹന്നാൻ സ്നാപകന്റെ ജനനത്തിന്റെ ഞായർ
 title_as_printed: Birth of John the Baptist (Children's day)
 season:
   en: Suboro
@@ -74,7 +74,7 @@ readings:
   - kind: Pauline Epistle
     kind_ml: പൗലോസിന്റെ ലേഖനം
     ref: Ephesians 6:1–4
-    ml: എഫേസ്യർ 6:1–4
+    ml: എഫെസ്യർ 6:1–4
     note: Children, obey your parents; parents, do not provoke your children.
     printed: Ephesians 6:1-4
   - kind: Pauline Epistle
@@ -86,7 +86,7 @@ readings:
   - kind: Gospel
     kind_ml: സുവിശേഷം
     ref: Luke 1:57–80
-    ml: ലൂക്കോസ് 1:57–80
+    ml: ലൂക്കൊസ് 1:57–80
     note: John is born and named; Zechariah’s voice returns and he sings the Benedictus. This is the Gospel of the day.
     printed: St. Luke 1:57-80
     main: true
@@ -97,7 +97,7 @@ one_minute:
 readings_thread: Isaac is born to Sarah in old age, the baby Moses is saved from the river, and Hannah gives Samuel back to God. The psalm calls children a gift from the Lord, and Ephesians and Colossians speak to children and parents.
 key_verse:
   ref: Luke 1:76
-  ml: '[ML VERSE: Sathyavedapusthakam 1910, Luke 1:76]'
+  ml: നീയോ പൈതലേ, അത്യുന്നതന്റെ പ്രവാചകൻ എന്നു വിളിക്കപ്പെടും. കർത്താവിന്റെ വഴി ഒരുക്കുവാനും…
   ml_translation: Sathyavedapusthakam, 1910
   en: And you, child, will be called a prophet of the Most High; for you will go before the face of the Lord to prepare his ways,
   en_translation: World English Bible
@@ -144,7 +144,7 @@ phrases:
   explanation: A horn was a picture of strength. Zechariah means God has raised up a strong saviour from David’s house.
 reflection:
   title_en: What will this child be?
-  title_ml: '[TITLE ML]'
+  title_ml: ഈ പൈതൽ എന്താകും?
   read_time: A three-minute read
   body: |-
     Everyone in the hill country asks the same question about John: what will this child be? It is a question parents ask over every cradle, usually with hope and some fear. Zechariah and Elizabeth already know part of the answer, because Gabriel told them. Their son will go ahead of the Lord.

@@ -4,12 +4,12 @@ sunday_slug: third-sunday-after-pentecost
 is_sunday: true
 name:
   en: Third Sunday after Pentecost
-  ml: '[MALAYALAM NAME]'
+  ml: പെന്തിക്കോസ്തിക്കു ശേഷം മൂന്നാം ഞായർ
 title_as_printed: Third Sunday after Pentecost
 season:
   en: Pentecost
   gloss: The season of the Holy Spirit
-  syr: '[SYRIAC]'
+  syr: ܦܢܛܩܘܣܛܐ
 tagline: “Whoever comes to me I will never drive away”
 standfirst: 'Jesus keeps teaching about the bread of life. The crowd begins to grumble: isn’t this Joseph’s son? Jesus says no one comes to him unless the Father draws them.'
 description: 'Readings for the Third Sunday after Pentecost, with John 6:35–46 explained: the bread of life and the Father who draws. Reflection and question.'
@@ -28,7 +28,7 @@ readings:
   - kind: Gospel
     kind_ml: സുവിശേഷം
     ref: Luke 9:1–11
-    ml: ലൂക്കോസ് 9:1–11
+    ml: ലൂക്കൊസ് 9:1–11
     note: Jesus sends the twelve to proclaim the kingdom and heal.
     printed: St. Luke 9:1-11
   before_qurbana:
@@ -77,7 +77,7 @@ one_minute:
 readings_thread: Joseph tests his brothers in Egypt, and Jeremiah calls an unfaithful people to return. In Daniel, God rescues his servants from the furnace. Paul preaches forgiveness through Jesus, and Galatians says what counts is a new creation.
 key_verse:
   ref: John 6:37
-  ml: '[ML VERSE: Sathyavedapusthakam 1910, John 6:37]'
+  ml: പിതാവു എനിക്കു തരുന്നതു ഒക്കെയും എന്റെ അടുക്കൽ വരും; എന്റെ അടുക്കൽ വരുന്നവനെ ഞാൻ ഒരുനാളും തള്ളിക്കളകയില്ല.
   ml_translation: Sathyavedapusthakam, 1910
   en: All those whom the Father gives me will come to me. He who comes to me I will in no way throw out.
   en_translation: World English Bible
@@ -104,7 +104,7 @@ scenes:
   easy_to_miss: Faith is not only our search for God. It begins with God drawing us.
 people:
 - name: The crowd in Capernaum
-  ml: '[ML NAME]'
+  ml: കഫർന്നഹൂമിലെ പുരുഷാരം
   role: Listeners in the synagogue who know Jesus’ family and cannot believe he came from heaven.
   name_meaning: —
 - name: Joseph
@@ -120,7 +120,7 @@ phrases:
   explanation: A quotation of Isaiah 54:13, where God promises to teach all his children himself.
 reflection:
   title_en: Never driven away
-  title_ml: '[TITLE ML]'
+  title_ml: ഒരുനാളും തള്ളിക്കളയുകയില്ല
   read_time: A three-minute read
   body: |-
     Many people carry a fear that they are not good enough for God. They think they have done something too bad, or come too late, or doubted too much. Jesus answers that fear in one line: whoever comes to me I will never drive away.

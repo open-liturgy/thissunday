@@ -4,12 +4,12 @@ sunday_slug: first-sunday-after-new-sunday
 is_sunday: true
 name:
   en: First Sunday after New Sunday
-  ml: '[MALAYALAM NAME]'
+  ml: പുതുഞായറിനു ശേഷം ഒന്നാം ഞായർ
 title_as_printed: First Sunday after New Sunday
 season:
   en: Kyomtho
   gloss: The Resurrection season
-  syr: '[SYRIAC]'
+  syr: ܩܝܡܬܐ
 tagline: Breakfast on the beach with the risen Lord
 standfirst: Peter goes back to fishing and catches nothing all night. At dawn a stranger on the shore tells them where to cast the net, and then cooks them breakfast.
 description: Readings for the First Sunday after New Sunday, with John 21:1–14, breakfast by the Sea of Galilee, explained in five scenes. Reflection and question.
@@ -62,7 +62,7 @@ readings:
   - kind: Pauline Epistle
     kind_ml: പൗലോസിന്റെ ലേഖനം
     ref: Ephesians 6:10–20
-    ml: എഫേസ്യർ 6:10–20
+    ml: എഫെസ്യർ 6:10–20
     note: Put on the whole armour of God.
     printed: Ephesians 6:10-20
   - kind: Gospel
@@ -79,7 +79,7 @@ one_minute:
 readings_thread: Israel walks through the sea while the Egyptians drown, and the walls of Jericho fall. Paul preaches that God raised Jesus and did not let him see decay. Ephesians says to put on the whole armour of God.
 key_verse:
   ref: John 21:12
-  ml: '[ML VERSE: Sathyavedapusthakam 1910, John 21:12]'
+  ml: 'യേശു അവരോടു: വന്നു പ്രാതൽ കഴിച്ചുകൊൾവിൻ എന്നു പറഞ്ഞു; കർത്താവാകുന്നു എന്നു അറിഞ്ഞിട്ടു ശിഷ്യന്മാരിൽ ഒരുത്തനും: നീ ആർ എന്നു അവനോടു ചോദിപ്പാൻ തുനിഞ്ഞില്ല.'
   ml_translation: Sathyavedapusthakam, 1910
   en: Jesus said to them, “Come and eat breakfast!” None of the disciples dared inquire of him, “Who are you?” knowing that it was the Lord.
   en_translation: World English Bible
@@ -126,7 +126,7 @@ phrases:
   explanation: 'The Greek word appears only twice in the New Testament: here and at Peter’s denial.'
 reflection:
   title_en: Breakfast after a long night
-  title_ml: '[TITLE ML]'
+  title_ml: നീണ്ട രാത്രിക്കു ശേഷം ഒരു പ്രാതൽ
   read_time: A three-minute read
   body: |-
     Peter has had a terrible few weeks. He denied Jesus three times, watched him die, and then saw him risen, without yet having a chance to put things right. So he does what many of us do when life is confusing: he goes back to work. He fishes all night and catches nothing.

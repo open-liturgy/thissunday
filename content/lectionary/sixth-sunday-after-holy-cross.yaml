@@ -4,12 +4,12 @@ sunday_slug: sixth-sunday-after-holy-cross
 is_sunday: true
 name:
   en: Sixth Sunday after Holy Cross
-  ml: '[MALAYALAM NAME]'
+  ml: സ്ലീബാ പെരുന്നാളിനു ശേഷം ആറാം ഞായർ
 title_as_printed: Sixth Sunday after the Feast of Holy Cross
 season:
   en: Sleeba
   gloss: The season of the Cross
-  syr: '[SYRIAC]'
+  syr: ܨܠܝܒܐ
 tagline: The rich ruler and the eye of a needle
 standfirst: A wealthy, devout man asks Jesus what he must do to inherit eternal life. He has kept the commandments all his life. Jesus tells him he lacks one thing.
 description: Readings for the Sixth Sunday after Holy Cross, with Luke 18:18–27, the rich ruler, explained in five scenes. A reflection and a family question.
@@ -66,7 +66,7 @@ readings:
   - kind: Gospel
     kind_ml: സുവിശേഷം
     ref: Luke 18:18–27
-    ml: ലൂക്കോസ് 18:18–27
+    ml: ലൂക്കൊസ് 18:18–27
     note: 'The rich ruler: one thing you lack; with God all things are possible. This is the Gospel of the day.'
     printed: St. Luke 18:18-27
     main: true
@@ -77,7 +77,7 @@ one_minute:
 readings_thread: Jacob refuses to let Benjamin go to Egypt, holding on to the son he has left. The psalm longs for the courts of the Lord, and Isaiah says God is doing a new thing. Paul tells the Corinthians to clear out the old yeast.
 key_verse:
   ref: Luke 18:27
-  ml: '[ML VERSE: Sathyavedapusthakam 1910, Luke 18:27]'
+  ml: 'അതിന്നു അവൻ: മനുഷ്യരാൽ അസാദ്ധ്യമായതു ദൈവത്താൽ സാദ്ധ്യമാകുന്നു എന്നു പറഞ്ഞു.'
   ml_translation: Sathyavedapusthakam, 1910
   en: But he said, “The things which are impossible with men are possible with God.”
   en_translation: World English Bible
@@ -104,7 +104,7 @@ scenes:
   easy_to_miss: In the very next chapter, a rich man, Zacchaeus, gives half his goods to the poor (Luke 19:8). The impossible happens.
 people:
 - name: The rich ruler
-  ml: '[ML NAME]'
+  ml: ധനവാനായ പ്രമാണി
   role: A wealthy, law-keeping leader who wants eternal life.
   name_meaning: —
 - name: Peter
@@ -120,7 +120,7 @@ phrases:
   explanation: What is given to God and to the poor, which cannot be lost.
 reflection:
   title_en: One thing you lack
-  title_ml: '[TITLE ML]'
+  title_ml: ഇനി ഒരു കുറവ്
   read_time: A three-minute read
   body: |-
     The rich ruler is easy to like. He is sincere, devout and serious about eternal life. He has kept the commandments since he was a boy. He comes to Jesus with a good question. And he goes away sad, because the answer costs more than he can give.

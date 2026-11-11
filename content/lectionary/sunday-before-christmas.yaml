@@ -4,7 +4,7 @@ sunday_slug: sunday-before-christmas
 is_sunday: true
 name:
   en: Sunday before Christmas
-  ml: '[MALAYALAM NAME]'
+  ml: ജനനപ്പെരുന്നാളിനു മുമ്പുള്ള ഞായർ
 title_as_printed: Sunday before Christmas
 season:
   en: Suboro
@@ -73,7 +73,7 @@ readings:
   - kind: Gospel
     kind_ml: സുവിശേഷം
     ref: Luke 3:23–38
-    ml: ലൂക്കോസ് 3:23–38
+    ml: ലൂക്കൊസ് 3:23–38
     note: The genealogy of Jesus, back through David and Abraham to Adam, son of God. This is the Gospel of the day.
     printed: St. Luke 3:23-38
     main: true
@@ -84,7 +84,7 @@ one_minute:
 readings_thread: Genesis lists Jacob’s family going down to Egypt, and Kings and Isaiah promise a king from David’s line. Paul says the promise to Abraham was for all his children by faith, and Matthew gives his own family tree the evening before.
 key_verse:
   ref: Luke 3:38
-  ml: '[ML VERSE: Sathyavedapusthakam 1910, Luke 3:38]'
+  ml: കയിനാൻ എനോശിന്റെ മകൻ, എനോശ് ശേത്തിന്റെ മകൻ, ശേത്ത് ആദാമിന്റെ മകൻ, ആദാം ദൈവത്തിന്റെ മകൻ.
   ml_translation: Sathyavedapusthakam, 1910
   en: the son of Enos, the son of Seth, the son of Adam, the son of God.
   en_translation: World English Bible
@@ -131,7 +131,7 @@ phrases:
   explanation: Luke places this list right after the baptism, where the Father says “You are my beloved Son” (Luke 3:22).
 reflection:
   title_en: Every name counted
-  title_ml: '[TITLE ML]'
+  title_ml: ഓരോ പേരും എണ്ണപ്പെട്ടിരിക്കുന്നു
   read_time: A three-minute read
   body: |-
     It is tempting to skip a genealogy. It is a long list of names, many hard to pronounce, most of them people we know nothing about. Yet the Church reads one on the Sunday before Christmas, and Luke places it at the very start of Jesus’ work. The list is telling us something.

@@ -4,12 +4,12 @@ sunday_slug: second-sunday-after-new-sunday
 is_sunday: true
 name:
   en: Second Sunday after New Sunday
-  ml: '[MALAYALAM NAME]'
+  ml: പുതുഞായറിനു ശേഷം രണ്ടാം ഞായർ
 title_as_printed: Second Sunday after New Sunday
 season:
   en: Kyomtho
   gloss: The Resurrection season
-  syr: '[SYRIAC]'
+  syr: ܩܝܡܬܐ
 tagline: “Do you love me?” Peter is asked three times
 standfirst: After breakfast on the beach, Jesus turns to Peter. Three times Peter had denied him. Now, three times, Jesus asks him the same question.
 description: Readings for the Second Sunday after New Sunday, with John 21:15–19, Jesus and Peter by the lake, explained in five scenes. Reflection and question.
@@ -77,7 +77,7 @@ one_minute:
 readings_thread: Moses anoints Aaron and his sons to serve, and Rahab, an outsider, protects God’s people. Isaiah says even if a mother forgets her child, God will not forget. Peter and John refuse to stop speaking about Jesus.
 key_verse:
   ref: John 21:15
-  ml: '[ML VERSE: Sathyavedapusthakam 1910, John 21:15]'
+  ml: 'അവർ പ്രാതൽ കഴിച്ചശേഷം യേശു ശിമോൻ പത്രൊസിനോടു: യോഹന്നാന്റെ മകനായ ശിമോനേ, നീ ഇവരിൽ അധികമായി എന്നെ സ്നേഹിക്കുന്നുവോ എന്നു ചോദിച്ചു. അതിന്നു അവൻ: ഉവ്വു, കർത്താവേ, എനിക്കു നിന്നോടു പ്രിയമുണ്ടു എന്നു നീ അറിയുന്നുവല്ലോ എന്നു പറഞ്ഞു. എന്റെ കുഞ്ഞാടുകളെ മേയ്ക്ക എന്നു അവൻ അവനോടു പറഞ്ഞു.'
   ml_translation: Sathyavedapusthakam, 1910
   en: So when they had eaten their breakfast, Jesus said to Simon Peter, “Simon, son of Jonah, do you love me more than these?” He said to him, “Yes, Lord; you know that I have affection for you.” He said to him, “Feed my lambs.”
   en_translation: World English Bible
@@ -120,7 +120,7 @@ phrases:
   explanation: Early Christians read this as a picture of crucifixion.
 reflection:
   title_en: Three questions for three denials
-  title_ml: '[TITLE ML]'
+  title_ml: മൂന്നു തള്ളിപ്പറച്ചിലിനു മൂന്നു ചോദ്യങ്ങൾ
   read_time: A three-minute read
   body: |-
     Peter must have dreaded this moment. Three times he had said he did not know Jesus. Now he was sitting by a fire with him again. Jesus could have asked why. He could have reminded him of the boasting at the Last Supper. Instead he asks a single question, three times: do you love me?

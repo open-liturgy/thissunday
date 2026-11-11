@@ -4,12 +4,12 @@ sunday_slug: third-sunday-after-shunoyo
 is_sunday: true
 name:
   en: Third Sunday after Shunoyo
-  ml: '[MALAYALAM NAME]'
+  ml: ശൂനോയോയ്ക്കു ശേഷം മൂന്നാം ഞായർ
 title_as_printed: Third Sunday after the Festival of the Ascension of St. Mary
 season:
   en: Pentecost
   gloss: The season of the Holy Spirit
-  syr: '[SYRIAC]'
+  syr: ܦܢܛܩܘܣܛܐ
 tagline: A coin in a fish’s mouth
 standfirst: Tax collectors ask Peter whether his teacher pays the Temple tax. Jesus says the king’s children should be free, but pays anyway, with a coin Peter finds in the mouth of a fish.
 description: Readings for the Third Sunday after Shunoyo, with Matthew 17:22–27, the Temple tax and the coin in the fish, explained. Reflection and question.
@@ -28,7 +28,7 @@ readings:
   - kind: Gospel
     kind_ml: സുവിശേഷം
     ref: Luke 19:11–27
-    ml: ലൂക്കോസ് 19:11–27
+    ml: ലൂക്കൊസ് 19:11–27
     note: 'The parable of the pounds: well done, good servant, faithful in a very little.'
     printed: St. Luke 19:11-27
   before_qurbana:
@@ -77,7 +77,7 @@ one_minute:
 readings_thread: Moses goes up the mountain into the cloud, and the boy Samuel becomes known as a prophet. Ezekiel says if the wicked turn from their ways they will live. James warns the rich who hold back wages, and Paul speaks with the gentleness of Christ.
 key_verse:
   ref: Matthew 17:27
-  ml: '[ML VERSE: Sathyavedapusthakam 1910, Matthew 17:27]'
+  ml: എങ്കിലും നാം അവർക്കു ഇടർച്ച വരുത്താതിരിക്കേണ്ടതിന്നു നീ കടലിലേക്കു ചെന്നു ചൂണ്ടൽ ഇട്ടു ആദ്യം കിട്ടുന്ന മീനിനെ എടുക്ക; അതിന്റെ വായ് തുറക്കുമ്പോൾ ഒരു ചതുർദ്രഹ്മപ്പണം കാണും; അതു എടുത്തു എനിക്കും നിനക്കും വേണ്ടി കൊടുക്ക എന്നു പറഞ്ഞു.
   ml_translation: Sathyavedapusthakam, 1910
   en: But, lest we cause them to stumble, go to the sea, cast a hook, and take up the first fish that comes up. When you have opened its mouth, you will find a stater coin. Take that, and give it to them for me and you.”
   en_translation: World English Bible
@@ -108,7 +108,7 @@ people:
   role: A fisherman sent back to fishing for a coin.
   name_meaning: “Rock”
 - name: The tax collectors
-  ml: '[ML NAME]'
+  ml: ദ്വിദ്രഹ്മപ്പണം വാങ്ങുന്നവർ
   role: Men collecting the yearly half-shekel for the Temple.
   name_meaning: —
 phrases:
@@ -120,7 +120,7 @@ phrases:
   explanation: To put an obstacle in someone’s way that might lead them to sin or turn from God.
 reflection:
   title_en: Free, and choosing not to offend
-  title_ml: '[TITLE ML]'
+  title_ml: സ്വതന്ത്രൻ, എങ്കിലും ഇടർച്ച വരുത്താതെ
   read_time: A three-minute read
   body: |-
     This is one of the strangest stories in the Gospels, and one of the gentlest. Jesus has every right not to pay a tax for his Father’s house. He is the Son. But he does not insist on his rights. He pays, so as not to put an obstacle in anyone’s way.

@@ -3,7 +3,7 @@ import type { Site } from '../lib/content';
 import { editionPath } from '../lib/content';
 import type { Edition } from '../lib/schema';
 import { dayMonth, fullDate, longDate, shortDate, type Strings } from '../lib/i18n';
-import { AltarArt } from './Art';
+import { SundayArt } from './Art';
 import { Footer, TopBar } from './Chrome';
 import { gospelOf } from './Sunday';
 
@@ -53,8 +53,8 @@ const themeStyle = (c: { ground: string; glow: string }) => ({ '--ground': c.gro
  * it with <use>, so a drawing shared by several Sundays costs one copy.
  * When per-Sunday art lands, key by sunday_slug and draw that Sunday's art.
  */
-const artKey = (_e: Edition) => 'altar';
-const drawArt = (_e: Edition) => <AltarArt detail="small" label="" />;
+const artKey = (e: Edition) => e.sunday_slug;
+const drawArt = (e: Edition) => <SundayArt e={e} detail="small" label="" />;
 
 function ArtSymbols({ eds }: { eds: Edition[] }) {
   const byKey = new Map<string, Edition>();
@@ -255,7 +255,7 @@ export function ShareCard({ e, siteHost, variant }: { e: Edition; siteHost: stri
           <span className="sc-date">{date}</span>
         </div>
         <div className="sc-art">
-          <div className="sc-arch"><AltarArt detail="small" label="" /></div>
+          <div className="sc-arch"><SundayArt e={e} detail="small" label="" /></div>
           <div className="sc-floor" />
         </div>
         <div className="sc-words">
@@ -273,7 +273,7 @@ export function ShareCard({ e, siteHost, variant }: { e: Edition; siteHost: stri
   return (
     <div className="sc sc-l">
       <div className="sc-art">
-        <div className="sc-arch"><AltarArt detail="small" label="" /></div>
+        <div className="sc-arch"><SundayArt e={e} detail="small" label="" /></div>
       </div>
       <div className="sc-col">
         <div className="sc-top">

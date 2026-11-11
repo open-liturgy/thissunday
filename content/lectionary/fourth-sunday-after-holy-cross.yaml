@@ -4,12 +4,12 @@ sunday_slug: fourth-sunday-after-holy-cross
 is_sunday: true
 name:
   en: Fourth Sunday after Holy Cross
-  ml: '[MALAYALAM NAME]'
+  ml: സ്ലീബാ പെരുന്നാളിനു ശേഷം നാലാം ഞായർ
 title_as_printed: Fourth Sunday after the Feast of Holy Cross
 season:
   en: Sleeba
   gloss: The season of the Cross
-  syr: '[SYRIAC]'
+  syr: ܨܠܝܒܐ
 tagline: Faithful in little things, and no one can serve two masters
 standfirst: 'Jesus says that whoever is faithful in small things will be faithful in large ones. Then he says what everyone already suspected: you cannot serve God and money.'
 description: Readings for the Fourth Sunday after Holy Cross, with Luke 16:9–18, God and money, explained in five scenes. A reflection and a family question.
@@ -28,7 +28,7 @@ readings:
   - kind: Gospel
     kind_ml: സുവിശേഷം
     ref: Luke 9:37–45
-    ml: ലൂക്കോസ് 9:37–45
+    ml: ലൂക്കൊസ് 9:37–45
     note: Jesus heals a boy his disciples could not, and foretells his betrayal.
     printed: St. Luke 9:37-45
   before_qurbana:
@@ -66,7 +66,7 @@ readings:
   - kind: Gospel
     kind_ml: സുവിശേഷം
     ref: Luke 16:9–18
-    ml: ലൂക്കോസ് 16:9–18
+    ml: ലൂക്കൊസ് 16:9–18
     note: Faithful in little things; no one can serve two masters. This is the Gospel of the day.
     printed: St. Luke 16:9-18
     main: true
@@ -77,7 +77,7 @@ one_minute:
 readings_thread: Israel keeps the last day of the feast of Tabernacles, and Solomon prays at the dedication of the Temple. The psalm cries “as a deer longs for streams of water”. Paul says God chose what the world thinks foolish to shame the wise.
 key_verse:
   ref: Luke 16:13
-  ml: '[ML VERSE: Sathyavedapusthakam 1910, Luke 16:13]'
+  ml: രണ്ടു യജമാനന്മാരെ സേവിപ്പാൻ ഒരു ഭൃത്യന്നും കഴികയില്ല; അവൻ ഒരുവനെ പകെച്ചു മറ്റവനെ സ്നേഹിക്കും; അല്ലെങ്കിൽ ഒരുത്തനോടു പറ്റിച്ചേർന്നു മറ്റവനെ നിരസിക്കും. നിങ്ങൾക്കു ദൈവത്തെയും മമ്മോനെയും സേവിപ്പാൻ കഴികയില്ല.
   ml_translation: Sathyavedapusthakam, 1910
   en: No servant can serve two masters, for either he will hate the one, and love the other; or else he will hold to one, and despise the other. You aren’t able to serve God and Mammon.”
   en_translation: World English Bible
@@ -116,7 +116,7 @@ phrases:
   explanation: The smallest mark of a Hebrew letter. Not even that will fail.
 reflection:
   title_en: Two masters
-  title_ml: '[TITLE ML]'
+  title_ml: രണ്ടു യജമാനന്മാർ
   read_time: A three-minute read
   body: |-
     Jesus talks about money more than almost anything else in Luke’s Gospel. He knows how it grips people. In this passage he does not say money is evil. He says it is small, temporary, and a test. How we handle it shows whether we can be trusted with things that matter more.

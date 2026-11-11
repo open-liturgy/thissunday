@@ -4,12 +4,12 @@ sunday_slug: fourth-sunday-after-pentecost
 is_sunday: true
 name:
   en: Fourth Sunday after Pentecost
-  ml: '[MALAYALAM NAME]'
+  ml: പെന്തിക്കോസ്തിക്കു ശേഷം നാലാം ഞായർ
 title_as_printed: Fourth Sunday after Pentecost
 season:
   en: Pentecost
   gloss: The season of the Holy Spirit
-  syr: '[SYRIAC]'
+  syr: ܦܢܛܩܘܣܛܐ
 tagline: 'Seventy sent out in pairs: the harvest is plentiful'
 standfirst: Jesus sends seventy followers ahead of him, two by two, into every town he plans to visit. The harvest is huge, he says, and the workers are few.
 description: Readings for the Fourth Sunday after Pentecost, with Luke 10:1–16, the sending of the seventy, explained in five scenes. Reflection and question.
@@ -28,7 +28,7 @@ readings:
   - kind: Gospel
     kind_ml: സുവിശേഷം
     ref: Luke 10:17–24
-    ml: ലൂക്കോസ് 10:17–24
+    ml: ലൂക്കൊസ് 10:17–24
     note: The seventy return with joy; rejoice that your names are written in heaven.
     printed: St. Luke 10:17-24
   before_qurbana:
@@ -66,7 +66,7 @@ readings:
   - kind: Gospel
     kind_ml: സുവിശേഷം
     ref: Luke 10:1–16
-    ml: ലൂക്കോസ് 10:1–16
+    ml: ലൂക്കൊസ് 10:1–16
     note: 'Jesus sends seventy ahead of him: the harvest is plentiful, the workers few. This is the Gospel of the day.'
     printed: St. Luke 10:1-16
     main: true
@@ -77,7 +77,7 @@ one_minute:
 readings_thread: Moses blesses the tribes, and the psalm asks who may live on God’s holy hill. Isaiah says God will not destroy the whole vine for the sake of a few good grapes. In Acts seven are chosen to serve tables, and Paul ends a letter by greeting fellow workers.
 key_verse:
   ref: Luke 10:2
-  ml: '[ML VERSE: Sathyavedapusthakam 1910, Luke 10:2]'
+  ml: 'അവരോടു പറഞ്ഞതു: കൊയ്ത്തു വളരെ ഉണ്ടു സത്യം; വേലക്കാരോ ചുരുക്കം; ആകയാൽ കൊയ്ത്തിന്റെ യജമാനനോടു തന്റെ കൊയ്ത്തിന്നു വേലക്കാരെ അയക്കേണ്ടതിന്നു അപേക്ഷിപ്പിൻ.'
   ml_translation: Sathyavedapusthakam, 1910
   en: Then he said to them, “The harvest is indeed plentiful, but the laborers are few. Pray therefore to the Lord of the harvest, that he may send out laborers into his harvest.
   en_translation: World English Bible
@@ -116,7 +116,7 @@ phrases:
   explanation: Luke’s phrase (10:6) for a person who welcomes God’s peace.
 reflection:
   title_en: Pray, then go
-  title_ml: '[TITLE ML]'
+  title_ml: ആദ്യം പ്രാർത്ഥിക്കുക, പിന്നെ പോകുക
   read_time: A three-minute read
   body: |-
     The twelve were not enough. Jesus appoints seventy more, ordinary followers whose names Luke does not give us, and sends them out in pairs. The work was always meant to be shared. A Church where only the priest does the mission has misunderstood the Gospel.

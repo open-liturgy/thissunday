@@ -4,12 +4,12 @@ sunday_slug: canaanite-woman-sunday
 is_sunday: true
 name:
   en: Sunday of the Canaanite Woman
-  ml: '[MALAYALAM NAME]'
+  ml: കനാന്യസ്ത്രീയുടെ ഞായർ
 title_as_printed: Fourth Sunday of Great Lent (Canaanite woman)
 season:
   en: Great Lent
   gloss: The fifty days of fasting before Easter
-  syr: '[SYRIAC]'
+  syr: ܨܘܡܐ ܪܒܐ
 tagline: “Even the dogs eat the crumbs”
 standfirst: A foreign mother follows Jesus, shouting for her sick daughter. He does not answer. The disciples want her gone. She keeps asking, and Jesus calls her faith great.
 description: Readings for the fourth Sunday of Great Lent, with Matthew 15:21–31, the Canaanite woman, explained in five scenes. Reflection and a family question.
@@ -28,7 +28,7 @@ readings:
   - kind: Gospel
     kind_ml: സുവിശേഷം
     ref: Luke 7:1–10
-    ml: ലൂക്കോസ് 7:1–10
+    ml: ലൂക്കൊസ് 7:1–10
     note: 'A Roman centurion’s faith: “Just say the word, and my servant will be healed.”'
     printed: St. Luke 7:1-10
   before_qurbana:
@@ -77,7 +77,7 @@ one_minute:
 readings_thread: Isaiah says foreigners who hold fast to God will be welcomed into his house of prayer for all peoples. Aaron’s staff blossoms, and Samuel sets up a stone to say the Lord has helped us. Peter says there is no other name by which we are saved.
 key_verse:
   ref: Matthew 15:28
-  ml: '[ML VERSE: Sathyavedapusthakam 1910, Matthew 15:28]'
+  ml: 'യേശു അവളോടു: സ്ത്രീയേ, നിന്റെ വിശ്വാസം വലിയതു; നിന്റെ ഇഷ്ടംപോലെ നിനക്കു ഭവിക്കട്ടെ എന്നു ഉത്തരം പറഞ്ഞു. ആ നാഴികമുതൽ അവളുടെ മകൾക്കു സൗഖ്യം വന്നു.'
   ml_translation: Sathyavedapusthakam, 1910
   en: Then Jesus answered her, “Woman, great is your faith! Be it done to you even as you desire.” And her daughter was healed from that hour.
   en_translation: World English Bible
@@ -108,7 +108,7 @@ people:
   role: A mother from the coast of Phoenicia, outside Israel.
   name_meaning: —
 - name: Her daughter
-  ml: '[ML NAME]'
+  ml: അവളുടെ മകൾ
   role: Healed without meeting Jesus, from a distance.
   name_meaning: —
 phrases:
@@ -120,7 +120,7 @@ phrases:
   explanation: Jesus’ mission began with Israel. After the resurrection he sends the disciples to all nations (Matthew 28:19).
 reflection:
   title_en: Faith that keeps asking
-  title_ml: '[TITLE ML]'
+  title_ml: പിന്മാറാതെ ചോദിക്കുന്ന വിശ്വാസം
   read_time: A three-minute read
   body: |-
     This is one of the hardest conversations in the Gospels. A mother asks for help for her sick child, and Jesus first says nothing, then says he was not sent to her, then uses a word that sounds like an insult. It is uncomfortable to read, and it is meant to be.

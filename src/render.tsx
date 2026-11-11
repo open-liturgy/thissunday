@@ -42,7 +42,7 @@ const esc = (s: string) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replac
 
 export function coloursFor(site: Site, e?: Edition) {
   const c = site.tradition.colours;
-  return e?.season.colors ?? (e && c.bySeason?.[e.season.en]) ?? c.default;
+  return e?.season.colors ?? (e && (c.bySlug?.[e.sunday_slug] ?? c.bySeason?.[e.season.en])) ?? c.default;
 }
 
 export function pageTitle(e: Edition, lang: Lang = 'en') {
@@ -168,7 +168,7 @@ ${assets.preload.map((f) => `<link rel="preload" href="${f}" as="font" type="fon
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <link rel="alternate" type="application/rss+xml" title="This Sunday" href="/rss.xml">
 ${head.join('\n')}
-<style>${assets.fontCss}${assets.css}:root{--ground:${colours.ground};--glow:${colours.glow}}</style>
+<style>${assets.fontCss}${assets.css}:root{--ground:${colours.ground};--glow:${colours.glow};--ink:${colours.ground}}</style>
 ${assets.script ? `<script type="module" src="${assets.script}"></script>` : ''}
 </head>
 <body>
@@ -267,7 +267,7 @@ export function renderRoute(site: Site, route: Route, assets: Assets): string {
 export function renderShareCard(site: Site, e: Edition, variant: 'landscape' | 'portrait', fontCss: string): string {
   const c = coloursFor(site, e);
   const host = isPlaceholder(site.tradition.site.url) ? '' : site.tradition.site.url.replace(/^https?:\/\//, '');
-  return `<!doctype html><html lang="en"><head><meta charset="utf-8"><style>${fontCss}:root{--ground:${c.ground};--glow:${c.glow}}${shareCardCss}</style></head><body>${renderToStaticMarkup(
+  return `<!doctype html><html lang="en"><head><meta charset="utf-8"><style>${fontCss}:root{--ground:${c.ground};--glow:${c.glow};--ink:${c.ground}}${shareCardCss}</style></head><body>${renderToStaticMarkup(
     <ShareCard e={e} siteHost={host} variant={variant} />,
   )}</body></html>`;
 }

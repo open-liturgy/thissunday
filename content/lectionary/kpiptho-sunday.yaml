@@ -4,12 +4,12 @@ sunday_slug: kpiptho-sunday
 is_sunday: true
 name:
   en: Kpiptho Sunday
-  ml: '[MALAYALAM NAME]'
+  ml: കൂനിയുടെ ഞായർ
 title_as_printed: Fifth Sunday of Great Lent (Kpiptho/Crippled Woman)
 season:
   en: Great Lent
   gloss: The fifty days of fasting before Easter
-  syr: '[SYRIAC]'
+  syr: ܨܘܡܐ ܪܒܐ
 tagline: A woman bent double for eighteen years stands up straight
 standfirst: In the synagogue on the Sabbath there is a woman who has not been able to stand up straight for eighteen years. Jesus calls her over and sets her free, and the synagogue leader is furious.
 description: Readings for Kpiptho Sunday, the fifth Sunday of Great Lent, with Luke 13:10–17, the bent woman, explained in five scenes. Reflection and question.
@@ -21,14 +21,14 @@ readings:
   - kind: Gospel
     kind_ml: സുവിശേഷം
     ref: Luke 10:25–37
-    ml: ലൂക്കോസ് 10:25–37
+    ml: ലൂക്കൊസ് 10:25–37
     note: 'The Good Samaritan: who proved to be a neighbour?'
     printed: St. Luke 10:25-37
   morning:
   - kind: Gospel
     kind_ml: സുവിശേഷം
     ref: Luke 7:11–17
-    ml: ലൂക്കോസ് 7:11–17
+    ml: ലൂക്കൊസ് 7:11–17
     note: At Nain, Jesus raises a widow’s only son and gives him back to his mother.
     printed: St. Luke 7:11-17
   before_qurbana:
@@ -60,7 +60,7 @@ readings:
   - kind: General Epistle
     kind_ml: പൊതുലേഖനം
     ref: 1 Peter 3:8–16
-    ml: 1 പത്രോസ് 3:8–16
+    ml: 1 പത്രൊസ് 3:8–16
     note: Have compassion; do not repay evil for evil, but bless.
     printed: I Peter 3:8-16
   - kind: Pauline Epistle
@@ -72,7 +72,7 @@ readings:
   - kind: Gospel
     kind_ml: സുവിശേഷം
     ref: Luke 13:10–17
-    ml: ലൂക്കോസ് 13:10–17
+    ml: ലൂക്കൊസ് 13:10–17
     note: Jesus frees a woman bent over for eighteen years, on the Sabbath. This is the Gospel of the day.
     printed: St. Luke 13:10-17
     main: true
@@ -83,7 +83,7 @@ one_minute:
 readings_thread: God blesses Noah and protects every human life. Isaiah’s servant is given words to sustain the weary. The Good Samaritan and the widow of Nain show mercy that does not wait to be asked, and Romans calls us to rejoice and weep with others.
 key_verse:
   ref: Luke 13:16
-  ml: '[ML VERSE: Sathyavedapusthakam 1910, Luke 13:16]'
+  ml: എന്നാൽ സാത്താൻ പതിനെട്ടു സംവത്സരമായി ബന്ധിച്ചിരുന്ന അബ്രാഹാമിന്റെ മകളായ ഇവളെ ശബ്ബത്തുനാളിൽ ഈ ബന്ധനം അഴിച്ചു വിടേണ്ടതല്ലയോ എന്നു ഉത്തരം പറഞ്ഞു.
   ml_translation: Sathyavedapusthakam, 1910
   en: Ought not this woman, being a daughter of Abraham whom Satan had bound eighteen long years, be freed from this bondage on the Sabbath day?
   en_translation: World English Bible
@@ -110,7 +110,7 @@ scenes:
   easy_to_miss: The leader worried about the crowd; the crowd turns out to be on the woman’s side.
 people:
 - name: The bent woman
-  ml: '[ML NAME]'
+  ml: കൂനിയായ സ്ത്രീ
   role: Unable to stand straight for eighteen years, still at worship on the Sabbath.
   name_meaning: Called kpiptho, “bent”, in Syriac
 - name: The synagogue leader
@@ -126,7 +126,7 @@ phrases:
   explanation: Luke’s phrase for her illness. He describes it as a kind of bondage that Jesus unties.
 reflection:
   title_en: Seen, called and set free
-  title_ml: '[TITLE ML]'
+  title_ml: കണ്ടു, വിളിച്ചു, സ്വതന്ത്രയാക്കി
   read_time: A three-minute read
   body: |-
     For eighteen years this woman saw mostly the ground. She could not look people in the face. She still came to the synagogue every Sabbath, bent over, probably sitting at the back. Nobody expected anything to change, perhaps not even her.

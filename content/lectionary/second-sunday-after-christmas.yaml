@@ -4,12 +4,12 @@ sunday_slug: second-sunday-after-christmas
 is_sunday: true
 name:
   en: Second Sunday after Christmas
-  ml: '[MALAYALAM NAME]'
+  ml: ജനനപ്പെരുന്നാളിനു ശേഷം രണ്ടാം ഞായർ
 title_as_printed: Second Sunday after Christmas
 season:
   en: Yeldho
   gloss: The Christmas season
-  syr: '[SYRIAC]'
+  syr: ܝܠܕܐ
 tagline: The boy Jesus is found in the Temple
 standfirst: On the way home from Passover, Mary and Joseph realise their twelve-year-old is missing. After three days they find him in the Temple, asking questions.
 description: Readings for the Second Sunday after Christmas, with Luke 2:40–52, the boy Jesus in the Temple, explained in five scenes. Reflection and question.
@@ -66,7 +66,7 @@ readings:
   - kind: Gospel
     kind_ml: സുവിശേഷം
     ref: Luke 2:40–52
-    ml: ലൂക്കോസ് 2:40–52
+    ml: ലൂക്കൊസ് 2:40–52
     note: 'The boy Jesus in the Temple at twelve: “I must be in my Father’s house.” This is the Gospel of the day.'
     printed: St. Luke 2:40-52
     main: true
@@ -77,7 +77,7 @@ one_minute:
 readings_thread: Young Joseph dreams and his father keeps the matter in mind, as Mary later does. The boy Samuel serves in the house of God and grows in favour. Hebrews praises the faith of Moses’ parents, who hid their son.
 key_verse:
   ref: Luke 2:52
-  ml: '[ML VERSE: Sathyavedapusthakam 1910, Luke 2:52]'
+  ml: യേശുവോ ജ്ഞാനത്തിലും വളർച്ചയിലും ദൈവത്തിന്റെയും മനുഷ്യരുടെയും കൃപയിലും മുതിർന്നു വന്നു.
   ml_translation: Sathyavedapusthakam, 1910
   en: And Jesus increased in wisdom and stature, and in favor with God and men.
   en_translation: World English Bible
@@ -124,7 +124,7 @@ phrases:
   explanation: Luke says this of Mary twice (2:19 and 2:51). She thinks about what she does not yet understand.
 reflection:
   title_en: Lost, and found asking questions
-  title_ml: '[TITLE ML]'
+  title_ml: കാണാതെപോയി, ചോദ്യങ്ങൾ ചോദിക്കുന്നവനായി കണ്ടെത്തി
   read_time: A three-minute read
   body: |-
     Any parent who has lost a child for even a few minutes in a crowd knows what Mary and Joseph felt. They searched for three days. When they found him, Mary said what every parent would say: why have you done this to us? We were so worried.

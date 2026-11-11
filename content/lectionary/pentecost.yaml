@@ -4,12 +4,12 @@ sunday_slug: pentecost
 is_sunday: true
 name:
   en: Pentecost
-  ml: '[MALAYALAM NAME]'
+  ml: പെന്തിക്കോസ്തി പെരുന്നാൾ
 title_as_printed: Pentecost (Fiftieth day after Easter) Sunday School day
 season:
   en: Pentecost
   gloss: The season of the Holy Spirit
-  syr: '[SYRIAC]'
+  syr: ܦܢܛܩܘܣܛܐ
 also_kept_as: Sunday School Day
 tagline: The vine and the branches, and the Spirit poured out
 standfirst: 'Fifty days after Easter the Holy Spirit comes on the disciples in wind and fire. The Gospel for the Qurbana goes back to the Last Supper, where Jesus said: I am the vine, you are the branches.'
@@ -193,7 +193,7 @@ one_minute:
 readings_thread: 'God puts his Spirit on seventy elders, and Saul is changed when the Spirit comes on him. Ezekiel promises a new heart and a new spirit. In Acts the promise is kept, and Galatians lists the fruit of the Spirit: love, joy, peace, patience.'
 key_verse:
   ref: John 15:5
-  ml: '[ML VERSE: Sathyavedapusthakam 1910, John 15:5]'
+  ml: ഞാൻ മുന്തിരിവള്ളിയും നിങ്ങൾ കൊമ്പുകളും ആകുന്നു; ഒരുത്തൻ എന്നിലും ഞാൻ അവനിലും വസിക്കുന്നു എങ്കിൽ അവൻ വളരെ ഫലം കായ്ക്കും; എന്നെ പിരിഞ്ഞു നിങ്ങൾക്കു ഒന്നും ചെയ്‌വാൻ കഴികയില്ല.
   ml_translation: Sathyavedapusthakam, 1910
   en: I am the vine. You are the branches. He who remains in me and I in him bears much fruit, for apart from me you can do nothing.
   en_translation: World English Bible
@@ -224,7 +224,7 @@ people:
   role: Gathered in Jerusalem on the day of Pentecost when the Spirit comes.
   name_meaning: “Ones who are sent”
 - name: The pilgrims
-  ml: '[ML NAME]'
+  ml: യെരൂശലേമിൽ വന്ന ഭക്തന്മാർ
   role: Jews from every nation, in Jerusalem for the feast, who hear the apostles in their own languages.
   name_meaning: —
 phrases:
@@ -236,7 +236,7 @@ phrases:
   explanation: Cutting back a vine so it bears more fruit. Jesus uses it for God’s work in his people.
 reflection:
   title_en: Branches, not trees
-  title_ml: '[TITLE ML]'
+  title_ml: വൃക്ഷങ്ങളല്ല, കൊമ്പുകൾ
   read_time: A three-minute read
   body: |-
     The Church reads two pictures today. In Acts, the Spirit comes like a rushing wind and tongues of fire, and frightened disciples become bold preachers. In the Gospel, Jesus gives a much quieter picture: a vine and its branches. Both are about the same thing. The life of the Church comes from outside itself.

@@ -4,12 +4,12 @@ sunday_slug: sixth-sunday-after-pentecost
 is_sunday: true
 name:
   en: Sixth Sunday after Pentecost
-  ml: '[MALAYALAM NAME]'
+  ml: പെന്തിക്കോസ്തിക്കു ശേഷം ആറാം ഞായർ
 title_as_printed: Sixth Sunday after Pentecost
 season:
   en: Pentecost
   gloss: The season of the Holy Spirit
-  syr: '[SYRIAC]'
+  syr: ܦܢܛܩܘܣܛܐ
 tagline: 'Compassion for a hungry crowd: four thousand fed'
 standfirst: A crowd has been with Jesus for three days and has nothing left to eat. He says he will not send them home hungry, in case they collapse on the way.
 description: Readings for the Sixth Sunday after Pentecost, with Matthew 15:32–39, the feeding of the four thousand, explained in five scenes. Reflection and question.
@@ -21,7 +21,7 @@ readings:
   - kind: Gospel
     kind_ml: സുവിശേഷം
     ref: Luke 17:1–10
-    ml: ലൂക്കോസ് 17:1–10
+    ml: ലൂക്കൊസ് 17:1–10
     note: Forgive seven times; faith like a mustard seed; we are only servants.
     printed: St. Luke 17:1-10
   morning:
@@ -78,7 +78,7 @@ one_minute:
 readings_thread: The cloud fills the tabernacle and leads Israel on its journey, and the psalm prays that God will answer in the day of trouble. Isaiah says the Lord’s purposes will stand. Paul writes that for us there is one God, from whom all things come.
 key_verse:
   ref: Matthew 15:32
-  ml: '[ML VERSE: Sathyavedapusthakam 1910, Matthew 15:32]'
+  ml: 'എന്നാൽ യേശു തന്റെ ശിഷ്യന്മാരെ അടുക്കെവിളിച്ചു: ഈ പുരുഷാരം ഇപ്പോൾ മൂന്നു നാളായി എന്നോടുകൂടെ പാർക്കുന്നു; അവർക്കു ഭക്ഷിപ്പാൻ ഒന്നും ഇല്ലായ്കകൊണ്ടു അവരെക്കുറിച്ചു എനിക്കു മനസ്സലിവു തോന്നുന്നു; അവരെ പട്ടിണിയായി വിട്ടയപ്പാൻ മനസ്സുമില്ല; അവർ വഴിയിൽവെച്ചു തളർന്നുപോയേക്കും എന്നു പറഞ്ഞു.'
   ml_translation: Sathyavedapusthakam, 1910
   en: Jesus summoned his disciples and said, “I have compassion on the multitude, because they continue with me now three days and have nothing to eat. I don’t want to send them away fasting, or they might faint on the way.”
   en_translation: World English Bible
@@ -117,7 +117,7 @@ phrases:
   explanation: Eucharisteo in Greek. The Church’s word Eucharist, the Qurbana, comes from it.
 reflection:
   title_en: He noticed they were hungry
-  title_ml: '[TITLE ML]'
+  title_ml: അവർക്കു വിശക്കുന്നതു അവൻ ശ്രദ്ധിച്ചു
   read_time: A three-minute read
   body: |-
     The crowd had been with Jesus for three days. They had brought their sick, watched them healed and praised God. It would be easy to say their souls had been fed and that was enough. Jesus did not say that. He saw they were hungry and worried they would faint on the long walk home.

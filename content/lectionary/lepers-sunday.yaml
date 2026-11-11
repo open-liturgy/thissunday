@@ -4,12 +4,12 @@ sunday_slug: lepers-sunday
 is_sunday: true
 name:
   en: Lepers’ Sunday
-  ml: '[MALAYALAM NAME]'
+  ml: കുഷ്ഠരോഗിയുടെ ഞായർ
 title_as_printed: Second Sunday of Great Lent (Lepers' Sunday)
 season:
   en: Great Lent
   gloss: The fifty days of fasting before Easter
-  syr: '[SYRIAC]'
+  syr: ܨܘܡܐ ܪܒܐ
 tagline: “If you want to, you can make me clean”
 standfirst: A man covered in leprosy throws himself at Jesus’ feet. He has no doubt that Jesus can heal him. What he does not know is whether Jesus wants to.
 description: Readings for Lepers’ Sunday, the second Sunday of Great Lent, with Luke 5:12–16 and 4:40–41 explained in five scenes. Reflection and question.
@@ -80,7 +80,7 @@ readings:
   - kind: Gospel
     kind_ml: സുവിശേഷം
     ref: Luke 5:12–16; 4:40–41
-    ml: ലൂക്കോസ് 5:12–16; 4:40–41
+    ml: ലൂക്കൊസ് 5:12–16; 4:40–41
     note: 'Jesus lays hands on the sick at sunset, and touches a leper: “I want to. Be made clean.” This is the Gospel of the day.'
     printed: St. Luke 5:12-16, 4:40-41
     main: true
@@ -91,7 +91,7 @@ one_minute:
 readings_thread: Naaman, a foreign general, is healed of leprosy by washing in the Jordan, and Noah is shut in the ark while the flood rises. In Acts the sick are carried out so Peter’s shadow might fall on them, and Saul, once feared, is welcomed by Barnabas.
 key_verse:
   ref: Luke 5:13
-  ml: '[ML VERSE: Sathyavedapusthakam 1910, Luke 5:13]'
+  ml: 'യേശു കൈ നീട്ടി അവനെ തൊട്ടു: എനിക്കു മനസ്സുണ്ടു; ശുദ്ധമാക എന്നു പറഞ്ഞു. ഉടനെ കുഷ്ഠം അവനെ വിട്ടു മാറി.'
   ml_translation: Sathyavedapusthakam, 1910
   en: He stretched out his hand, and touched him, saying, “I want to. Be made clean.” Immediately the leprosy left him.
   en_translation: World English Bible
@@ -118,7 +118,7 @@ scenes:
   easy_to_miss: The busier Jesus becomes, the more Luke notes that he went away to pray.
 people:
 - name: The leper
-  ml: '[ML NAME]'
+  ml: കുഷ്ഠരോഗി
   role: A man with advanced leprosy, living outside the town as the law required.
   name_meaning: —
 - name: Naaman
@@ -134,7 +134,7 @@ phrases:
   explanation: The priest’s inspection would show the religious leaders what Jesus had done.
 reflection:
   title_en: Touched before he was clean
-  title_ml: '[TITLE ML]'
+  title_ml: ശുദ്ധനാകും മുമ്പേ തൊട്ടു
   read_time: A three-minute read
   body: |-
     The man with leprosy did not doubt Jesus’ power. He said so: you can make me clean. His question was whether Jesus would want to. People had kept their distance from him for years. He may have stopped believing that anyone wanted him near.

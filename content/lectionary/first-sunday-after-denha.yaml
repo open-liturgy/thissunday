@@ -4,12 +4,12 @@ sunday_slug: first-sunday-after-denha
 is_sunday: true
 name:
   en: First Sunday after Denha
-  ml: '[MALAYALAM NAME]'
+  ml: ദനഹായ്ക്കു ശേഷം ഒന്നാം ഞായർ
 title_as_printed: First Sunday after Baptism of our Lord
 season:
   en: Denha
   gloss: The Epiphany season
-  syr: '[SYRIAC]'
+  syr: ܕܢܚܐ
 tagline: A great light in Galilee, and the first four disciples
 standfirst: John has been arrested. Jesus moves to a lakeside town, starts preaching and calls two pairs of brothers away from their fishing nets.
 description: 'Readings for the First Sunday after Denha, with Matthew 4:12–22 explained: a great light in Galilee and the first disciples. Reflection and question.'
@@ -60,7 +60,7 @@ readings:
   - kind: Pauline Epistle
     kind_ml: പൗലോസിന്റെ ലേഖനം
     ref: Ephesians 1:3–14
-    ml: എഫേസ്യർ 1:3–14
+    ml: എഫെസ്യർ 1:3–14
     note: Chosen in Christ before the foundation of the world, sealed with the Holy Spirit.
     printed: Ephesians 1:3-14
   - kind: Gospel
@@ -77,7 +77,7 @@ one_minute:
 readings_thread: Jacob and Esau struggle from birth, and Naaman is healed by washing in the Jordan. Isaiah promises a light to the nations. Peter tells the crowd at Pentecost to repent and be baptised, and Ephesians says we were chosen in Christ.
 key_verse:
   ref: Matthew 4:19
-  ml: '[ML VERSE: Sathyavedapusthakam 1910, Matthew 4:19]'
+  ml: എന്റെ പിന്നാലെ വരുവിൻ; ഞാൻ നിങ്ങളെ മനുഷ്യരെ പിടിക്കുന്നവരാക്കും എന്നു അവരോടു പറഞ്ഞു.
   ml_translation: Sathyavedapusthakam, 1910
   en: He said to them, “Come after me, and I will make you fishers for men.”
   en_translation: World English Bible
@@ -124,7 +124,7 @@ phrases:
   explanation: Syriac for “dawn” or “rising”. The feast of Jesus’ baptism on 6 January, also called Epiphany.
 reflection:
   title_en: Called in the middle of the day
-  title_ml: '[TITLE ML]'
+  title_ml: പകൽ ജോലിക്കിടയിലെ വിളി
   read_time: A three-minute read
   body: |-
     Peter and Andrew are not praying when Jesus finds them. They are working, throwing a net into the lake as they did every day. James and John are mending torn nets with their father. Nothing about the scene is religious, and that is exactly where the call comes.

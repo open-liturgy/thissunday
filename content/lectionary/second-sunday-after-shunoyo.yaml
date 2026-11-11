@@ -4,12 +4,12 @@ sunday_slug: second-sunday-after-shunoyo
 is_sunday: true
 name:
   en: Second Sunday after Shunoyo
-  ml: '[MALAYALAM NAME]'
+  ml: ശൂനോയോയ്ക്കു ശേഷം രണ്ടാം ഞായർ
 title_as_printed: Second Sunday after the Festival of the Ascension of St. Mary
 season:
   en: Pentecost
   gloss: The season of the Holy Spirit
-  syr: '[SYRIAC]'
+  syr: ܦܢܛܩܘܣܛܐ
 tagline: 'Ask, seek, knock: the Father gives the Holy Spirit'
 standfirst: Jesus tells his friends to keep asking, seeking and knocking. If a human father gives his child a fish, not a snake, how much more will God give the Holy Spirit to those who ask?
 description: Readings for the Second Sunday after Shunoyo, with Luke 11:9–20, “ask, seek, knock”, explained in five scenes. A reflection and a family question.
@@ -21,14 +21,14 @@ readings:
   - kind: Gospel
     kind_ml: സുവിശേഷം
     ref: Luke 18:1–8
-    ml: ലൂക്കോസ് 18:1–8
+    ml: ലൂക്കൊസ് 18:1–8
     note: 'A persistent widow and an unjust judge: always pray and do not lose heart.'
     printed: St. Luke 18:1-8
   morning:
   - kind: Gospel
     kind_ml: സുവിശേഷം
     ref: Luke 18:9–17
-    ml: ലൂക്കോസ് 18:9–17
+    ml: ലൂക്കൊസ് 18:9–17
     note: The Pharisee and the tax collector; let the children come to me.
     printed: St. Luke 18:9-17
   before_qurbana:
@@ -54,7 +54,7 @@ readings:
   - kind: General Epistle
     kind_ml: പൊതുലേഖനം
     ref: 2 Peter 3:8–14
-    ml: 2 പത്രോസ് 3:8–14
+    ml: 2 പത്രൊസ് 3:8–14
     note: With the Lord a day is like a thousand years; he is patient, not wanting any to perish.
     printed: II Peter 3:8-14
   - kind: Pauline Epistle
@@ -66,7 +66,7 @@ readings:
   - kind: Gospel
     kind_ml: സുവിശേഷം
     ref: Luke 11:9–20
-    ml: ലൂക്കോസ് 11:9–20
+    ml: ലൂക്കൊസ് 11:9–20
     note: Ask, seek, knock; the Father gives the Holy Spirit to those who ask. This is the Gospel of the day.
     printed: St. Luke 11:9-20
     main: true
@@ -77,7 +77,7 @@ one_minute:
 readings_thread: God sees the earth filled with violence and finds Noah, and Ecclesiastes says sorrow can teach the heart. The psalm trusts God’s pure words. Peter says a day is like a thousand years to the Lord, and Thessalonians tells us to stay awake.
 key_verse:
   ref: Luke 11:9
-  ml: '[ML VERSE: Sathyavedapusthakam 1910, Luke 11:9]'
+  ml: യാചിപ്പിൻ, എന്നാൽ നിങ്ങൾക്കു കിട്ടും; അന്വേഷിപ്പിൻ, എന്നാൽ നിങ്ങൾ കണ്ടെത്തും; മുട്ടുവിൻ എന്നാൽ നിങ്ങൾക്കു തുറക്കും.
   ml_translation: Sathyavedapusthakam, 1910
   en: “I tell you, keep asking, and it will be given you. Keep seeking, and you will find. Keep knocking, and it will be opened to you.
   en_translation: World English Bible
@@ -104,11 +104,11 @@ scenes:
   easy_to_miss: Pharaoh’s magicians said “this is the finger of God” when they could not copy Moses’ signs (Exodus 8:19).
 people:
 - name: The mute man
-  ml: '[ML NAME]'
+  ml: ഊമൻ
   role: Freed from a demon that kept him from speaking.
   name_meaning: —
 - name: The critics
-  ml: '[ML NAME]'
+  ml: കുറ്റം പറഞ്ഞവർ
   role: Some in the crowd who say Jesus works by the power of Beelzebul.
   name_meaning: —
 phrases:
@@ -120,7 +120,7 @@ phrases:
   explanation: A name for the prince of demons.
 reflection:
   title_en: Keep knocking
-  title_ml: '[TITLE ML]'
+  title_ml: മുട്ടിക്കൊണ്ടേയിരിക്കുക
   read_time: A three-minute read
   body: |-
     Jesus teaches about prayer like a parent talking about parenting. Would you give your hungry child a snake? Of course not. Even imperfect parents give their children what is good. So, he says, think how much more your Father in heaven wants to give you.

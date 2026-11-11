@@ -43,6 +43,8 @@ export function AltarArt({ detail = 'full', label }: { detail?: 'full' | 'small'
   );
 }
 
+export { SundayArt, sundayArtLabel } from './SundayArt';
+
 export function ArchLogo({ size = 26, dot = 'currentColor', stroke = 'currentColor', width = 2 }: { size?: number; dot?: string; stroke?: string; width?: number }) {
   return (
     <svg width={size} height={Math.round((size * 32) / 26)} viewBox="0 0 26 32" fill="none" aria-hidden="true">

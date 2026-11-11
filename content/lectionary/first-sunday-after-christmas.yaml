@@ -4,12 +4,12 @@ sunday_slug: first-sunday-after-christmas
 is_sunday: true
 name:
   en: First Sunday after Christmas
-  ml: '[MALAYALAM NAME]'
+  ml: ജനനപ്പെരുന്നാളിനു ശേഷം ഒന്നാം ഞായർ
 title_as_printed: First Sunday after Christmas (The Holy Family flee to Egypt)
 season:
   en: Yeldho
   gloss: The Christmas season
-  syr: '[SYRIAC]'
+  syr: ܝܠܕܐ
 tagline: Wise men worship, and the Holy Family flees to Egypt
 standfirst: The wise men find the child, kneel and leave their gifts. That night Joseph is woken by an angel, and the family leaves for Egypt before dawn.
 description: 'Readings for the First Sunday after Christmas, with Matthew 2:9–15, 19–23 explained: the wise men and the flight to Egypt. Reflection and question.'
@@ -77,7 +77,7 @@ one_minute:
 readings_thread: Another Joseph, son of Jacob, is sold and taken down to Egypt. Zechariah promises God will bring his scattered people home, and Isaiah warns of the dark. Paul is turned aside by a vision, and Corinthians remembers Israel in the wilderness.
 key_verse:
   ref: Matthew 2:11
-  ml: '[ML VERSE: Sathyavedapusthakam 1910, Matthew 2:11]'
+  ml: ആ വീട്ടിൽ ചെന്നു, ശിശുവിനെ അമ്മയായ മറിയയോടുംകൂടെ കണ്ടു, വീണു അവനെ നമസ്കരിച്ചു; നിക്ഷേപപാത്രങ്ങളെ തുറന്നു അവന്നു പൊന്നും കുന്തുരുക്കവും മൂരും കാഴ്ചവെച്ചു.
   ml_translation: Sathyavedapusthakam, 1910
   en: 'They came into the house and saw the young child with Mary, his mother, and they fell down and worshiped him. Opening their treasures, they offered to him gifts: gold, frankincense, and myrrh.'
   en_translation: World English Bible
@@ -124,7 +124,7 @@ phrases:
   explanation: Someone from Nazareth. Matthew may also be hearing the Hebrew netser, “branch”, from Isaiah 11:1.
 reflection:
   title_en: The Holy Family on the road
-  title_ml: '[TITLE ML]'
+  title_ml: വഴിയിലായ തിരുക്കുടുംബം
   read_time: A three-minute read
   body: |-
     Christmas cards usually stop at the manger. Matthew’s story keeps going. The wise men leave their gifts and go home, and that same night Joseph wakes his wife and the baby and leaves for a foreign country. They take what they can carry and travel in the dark.

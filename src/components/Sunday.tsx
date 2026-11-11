@@ -3,7 +3,7 @@ import { isPlaceholder } from '../lib/content';
 import type { Edition, Reading } from '../lib/schema';
 import type { TraditionConfig } from '../lib/tradition';
 import { dayMonth, fullDate, shortDate, type Strings } from '../lib/i18n';
-import { AltarArt, ArchLogo, PlayIcon, ShareIcon } from './Art';
+import { ArchLogo, PlayIcon, ShareIcon, SundayArt } from './Art';
 import { Footer, SectionHead, TopBar } from './Chrome';
 
 export interface SundayProps {
@@ -101,7 +101,7 @@ export function Sunday({ page, t, tradition, prev, next, canonical, cardImage, h
           <figure className="hero-art">
             <div className="arch-outer">
               <div className="arch">
-                <AltarArt label="An altar of incense with smoke rising, and a disc of light to its right" />
+                <SundayArt e={e} />
               </div>
             </div>
             {e.hero_quote && (

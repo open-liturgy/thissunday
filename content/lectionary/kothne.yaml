@@ -4,12 +4,12 @@ sunday_slug: kothne
 is_sunday: true
 name:
   en: Kothne Sunday
-  ml: '[MALAYALAM NAME]'
+  ml: കോത്തിനെ ഞായർ
 title_as_printed: First Sunday of Great Lent (Kothine Sunday) (Pethurtha of the Great Lent)
 season:
   en: Great Lent
   gloss: The fifty days of fasting before Easter
-  syr: '[SYRIAC]'
+  syr: ܨܘܡܐ ܪܒܐ
 tagline: Great Lent begins at a wedding
 standfirst: The fast is about to begin, and the Church reads about a wedding where the wine ran out. Jesus’ first sign turns six jars of water into the best wine of the feast.
 description: Readings for Kothne Sunday, the start of Great Lent, with John 2:1–11, the wedding at Cana, explained in five scenes. Reflection and question.
@@ -28,7 +28,7 @@ readings:
   - kind: Gospel
     kind_ml: സുവിശേഷം
     ref: Luke 16:1–18
-    ml: ലൂക്കോസ് 16:1–18
+    ml: ലൂക്കൊസ് 16:1–18
     note: The shrewd manager; no one can serve two masters.
     printed: St. Luke 16:1-18
   before_qurbana:
@@ -83,7 +83,7 @@ one_minute:
 readings_thread: God gives the ten commandments, Joel calls the people to tear their hearts and not their clothes, and Isaiah describes the fast God wants. Colossians says to put on compassion, kindness and patience.
 key_verse:
   ref: John 2:5
-  ml: '[ML VERSE: Sathyavedapusthakam 1910, John 2:5]'
+  ml: 'അവന്റെ അമ്മ ശുശ്രൂഷക്കാരോടു: അവൻ നിങ്ങളോടു എന്തെങ്കിലും കല്പിച്ചാൽ അതു ചെയ്‌വിൻ എന്നു പറഞ്ഞു.'
   ml_translation: Sathyavedapusthakam, 1910
   en: His mother said to the servants, “Whatever he says to you, do it.”
   en_translation: World English Bible
@@ -114,11 +114,11 @@ people:
   role: The mother of Jesus, who notices the wine has run out.
   name_meaning: Hebrew Miriam; the meaning is uncertain
 - name: The steward
-  ml: '[ML NAME]'
+  ml: വിരുന്നുവാഴി
   role: The master of the feast, who tastes the wine and praises the bridegroom.
   name_meaning: —
 - name: The servants
-  ml: '[ML NAME]'
+  ml: ശുശ്രൂഷക്കാർ
   role: They fill the jars and carry the water, and they know where the wine came from.
   name_meaning: —
 phrases:
@@ -130,7 +130,7 @@ phrases:
   explanation: In the Malankara Church, the fifty-day fast from the Monday after Kothne Sunday to Easter.
 reflection:
   title_en: Lent begins at a wedding
-  title_ml: '[TITLE ML]'
+  title_ml: ഒരു കല്യാണവീട്ടിൽ തുടങ്ങുന്ന നോമ്പ്
   read_time: A three-minute read
   body: |-
     It might seem odd that the Church begins Great Lent with a wedding. Tomorrow we start fifty days of fasting, and today we read about Jesus making more than five hundred litres of wine for a party. The choice is deliberate. The fast is not the point. It is a road, and at the end of it is a feast.

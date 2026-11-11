@@ -4,12 +4,12 @@ sunday_slug: fourth-sunday-after-shunoyo
 is_sunday: true
 name:
   en: Fourth Sunday after Shunoyo
-  ml: '[MALAYALAM NAME]'
+  ml: ശൂനോയോയ്ക്കു ശേഷം നാലാം ഞായർ
 title_as_printed: Fourth Sunday after the Festival of the Ascension of St. Mary
 season:
   en: Pentecost
   gloss: The season of the Holy Spirit
-  syr: '[SYRIAC]'
+  syr: ܦܢܛܩܘܣܛܐ
 tagline: Love your enemies, pray for those who persecute you
 standfirst: Jesus takes the old rule of “an eye for an eye” and goes far beyond it. Turn the other cheek, go the second mile, love your enemies, and be perfect as your Father is perfect.
 description: Readings for the Fourth Sunday after Shunoyo, with Matthew 5:38–48, “love your enemies”, explained in five scenes. A reflection and a family question.
@@ -54,7 +54,7 @@ readings:
   - kind: General Epistle
     kind_ml: പൊതുലേഖനം
     ref: 1 Peter 2:1–5
-    ml: 1 പത്രോസ് 2:1–5
+    ml: 1 പത്രൊസ് 2:1–5
     note: Like newborn babies, long for pure spiritual milk; be built as living stones.
     printed: I Peter 2:1-5
   - kind: Pauline Epistle
@@ -77,7 +77,7 @@ one_minute:
 readings_thread: God calls Moses from the burning bush and gives his name. Job prays for his children, and Isaiah says though your sins are like scarlet, they will be white as snow. Peter calls us living stones, and Paul says we are God’s temple.
 key_verse:
   ref: Matthew 5:44
-  ml: '[ML VERSE: Sathyavedapusthakam 1910, Matthew 5:44]'
+  ml: 'ഞാനോ നിങ്ങളോടു പറയുന്നതു: നിങ്ങളുടെ ശത്രുക്കളെ സ്നേഹിപ്പിൻ; നിങ്ങളെ ഉപദ്രവിക്കുന്നവർക്കു വേണ്ടി പ്രാർത്ഥിപ്പിൻ.'
   ml_translation: Sathyavedapusthakam, 1910
   en: But I tell you, love your enemies, bless those who curse you, do good to those who hate you, and pray for those who mistreat you and persecute you,
   en_translation: World English Bible
@@ -104,7 +104,7 @@ scenes:
   easy_to_miss: The word means complete or whole. In context, it is about love that leaves no one out.
 people:
 - name: The crowd on the mountain
-  ml: '[ML NAME]'
+  ml: മലയിലെ പുരുഷാരം
   role: Disciples and crowds listening to the Sermon on the Mount.
   name_meaning: —
 phrases:
@@ -116,7 +116,7 @@ phrases:
   explanation: 'Greek teleios: complete, mature, whole. Love that includes even enemies.'
 reflection:
   title_en: Pray for them first
-  title_ml: '[TITLE ML]'
+  title_ml: ആദ്യം അവർക്കുവേണ്ടി പ്രാർത്ഥിക്കുക
   read_time: A three-minute read
   body: |-
     These verses can feel impossible. Turn the other cheek? Love the people who hurt us? Many people read them and quietly decide they are meant for saints. But Jesus said them to ordinary people sitting on a hillside, and he lived them on the cross when he prayed for those killing him.

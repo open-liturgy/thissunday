@@ -4,12 +4,12 @@ sunday_slug: third-sunday-after-new-sunday
 is_sunday: true
 name:
   en: Third Sunday after New Sunday
-  ml: '[MALAYALAM NAME]'
+  ml: പുതുഞായറിനു ശേഷം മൂന്നാം ഞായർ
 title_as_printed: Third Sunday after New Sunday
 season:
   en: Kyomtho
   gloss: The Resurrection season
-  syr: '[SYRIAC]'
+  syr: ܩܝܡܬܐ
 tagline: On the road to Emmaus, known in the breaking of bread
 standfirst: Two disciples walk home from Jerusalem, sad and confused. A stranger joins them and explains the Scriptures. They only recognise him when he breaks the bread.
 description: Readings for the Third Sunday after New Sunday, with Luke 24:13–35, the road to Emmaus, explained in five scenes. A reflection and a family question.
@@ -21,7 +21,7 @@ readings:
   - kind: Gospel
     kind_ml: സുവിശേഷം
     ref: Luke 5:27–39
-    ml: ലൂക്കോസ് 5:27–39
+    ml: ലൂക്കൊസ് 5:27–39
     note: Jesus calls Levi the tax collector and eats with sinners.
     printed: St. Luke 5:27-39
   morning:
@@ -72,7 +72,7 @@ readings:
   - kind: Gospel
     kind_ml: സുവിശേഷം
     ref: Luke 24:13–35
-    ml: ലൂക്കോസ് 24:13–35
+    ml: ലൂക്കൊസ് 24:13–35
     note: On the road to Emmaus, the risen Lord is known in the breaking of bread. This is the Gospel of the day.
     printed: St. Luke 24:13-35
     main: true
@@ -83,7 +83,7 @@ one_minute:
 readings_thread: Moses goes up the mountain a second time and God passes by, and Micah sees nations streaming to the Lord’s house. Zechariah pictures old people and children in Jerusalem’s streets again. John writes so that we may know we have eternal life.
 key_verse:
   ref: Luke 24:32
-  ml: '[ML VERSE: Sathyavedapusthakam 1910, Luke 24:32]'
+  ml: അവൻ വഴിയിൽ നമ്മോടു സംസാരിച്ചു തിരുവെഴുത്തുകളെ തെളിയിക്കുമ്പോൾ നമ്മുടെ ഹൃദയം നമ്മുടെ ഉള്ളിൽ കത്തിക്കൊണ്ടിരുന്നില്ലയോ എന്നു അവർ തമ്മിൽ പറഞ്ഞു.
   ml_translation: Sathyavedapusthakam, 1910
   en: They said to one another, “Weren’t our hearts burning within us, while he spoke to us along the way, and while he opened the Scriptures to us?”
   en_translation: World English Bible
@@ -114,7 +114,7 @@ people:
   role: One of the two disciples walking to Emmaus.
   name_meaning: Probably short for Cleopatros, “glory of the father”
 - name: The other disciple
-  ml: '[ML NAME]'
+  ml: മറ്റേ ശിഷ്യൻ
   role: Unnamed. Some early writers suggest Cleopas’ wife.
   name_meaning: —
 phrases:
@@ -126,7 +126,7 @@ phrases:
   explanation: The whole Old Testament. Jesus reads it as pointing to himself.
 reflection:
   title_en: Known in the breaking of bread
-  title_ml: '[TITLE ML]'
+  title_ml: അപ്പം നുറുക്കുമ്പോൾ തിരിച്ചറിഞ്ഞു
   read_time: A three-minute read
   body: |-
     The two disciples on the road to Emmaus had all the facts. They knew about the cross and the empty tomb. They had heard the women’s story about angels. They were still walking away from Jerusalem, sad, saying “we had hoped”. Facts had not turned into faith.

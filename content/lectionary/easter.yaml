@@ -4,12 +4,12 @@ sunday_slug: easter
 is_sunday: true
 name:
   en: Easter (Kyomtho)
-  ml: '[MALAYALAM NAME]'
+  ml: ഉയിർപ്പു പെരുന്നാൾ (ക്യംതാ)
 title_as_printed: Easter Sunday
 season:
   en: Kyomtho
   gloss: The Resurrection season
-  syr: '[SYRIAC]'
+  syr: ܩܝܡܬܐ
 tagline: He is not here. He has risen
 standfirst: At dawn two women come to see the tomb. The earth shakes, an angel rolls the stone away and sits on it, and the guards fall down like dead men. He is not here, the angel says.
 description: Readings for Easter (Kyomtho), with Matthew 28:1–20, the resurrection and the Great Commission, explained in five scenes. Reflection and question.
@@ -76,7 +76,7 @@ readings_other:
   - kind: Gospel
     kind_ml: സുവിശേഷം
     ref: Luke 24:1–12
-    ml: ലൂക്കോസ് 24:1–12
+    ml: ലൂക്കൊസ് 24:1–12
     note: Why do you look for the living among the dead?
     printed: St. Luke 24:1-12
   celebration_of_the_cross:
@@ -89,7 +89,7 @@ readings_other:
   - kind: General Epistle
     kind_ml: പൊതുലേഖനം
     ref: 1 Peter 5:5–14
-    ml: 1 പത്രോസ് 5:5–14
+    ml: 1 പത്രൊസ് 5:5–14
     note: Clothe yourselves with humility; cast all your anxiety on him.
     printed: I Peter 5:5-14
   - kind: Pauline Epistle
@@ -111,7 +111,7 @@ one_minute:
 readings_thread: Leviticus describes the Day of Atonement, and Isaiah calls Jerusalem to arise and shine because its light has come. Peter tells the crowd that God raised Jesus from the dead, and Paul says that if Christ is not raised, our faith is empty.
 key_verse:
   ref: Matthew 28:20
-  ml: '[ML VERSE: Sathyavedapusthakam 1910, Matthew 28:20]'
+  ml: ഞാൻ നിങ്ങളോടു കല്പിച്ചതു ഒക്കെയും പ്രമാണിപ്പാൻ തക്കവണ്ണം ഉപദേശിച്ചുംകൊണ്ടു സകലജാതികളെയും ശിഷ്യരാക്കിക്കൊൾവിൻ; ഞാനോ ലോകാവസാനത്തോളം എല്ലാനാളും നിങ്ങളോടുകൂടെ ഉണ്ടു എന്നു അരുളിച്ചെയ്തു.
   ml_translation: Sathyavedapusthakam, 1910
   en: teaching them to observe all things that I commanded you. Behold, I am with you always, even to the end of the age.” Amen.
   en_translation: World English Bible
@@ -158,7 +158,7 @@ phrases:
   explanation: 'Jesus’ last command in Matthew: make disciples of all nations. The Church in India traces its own beginning to it through St. Thomas.'
 reflection:
   title_en: Fear and great joy
-  title_ml: '[TITLE ML]'
+  title_ml: ഭയവും മഹാസന്തോഷവും
   read_time: A three-minute read
   body: |-
     The women came to the tomb expecting grief. They had watched Jesus die and seen where he was laid. They came to sit with a dead friend. Instead the ground shook, a stone rolled, and an angel told them to come and see that he was not there.

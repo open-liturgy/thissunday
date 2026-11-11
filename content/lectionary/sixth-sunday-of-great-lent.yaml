@@ -4,12 +4,12 @@ sunday_slug: sixth-sunday-of-great-lent
 is_sunday: true
 name:
   en: Sixth Sunday of Great Lent
-  ml: '[MALAYALAM NAME]'
+  ml: വലിയ നോമ്പിലെ ആറാം ഞായർ
 title_as_printed: Sixth Sunday of Great Lent (Catholicate Day)
 season:
   en: Great Lent
   gloss: The fifty days of fasting before Easter
-  syr: '[SYRIAC]'
+  syr: ܨܘܡܐ ܪܒܐ
 also_kept_as: Catholicate Day
 tagline: A man born blind sees, and is thrown out for it
 standfirst: Jesus heals a man who has never seen. Everyone around him argues about how it happened and who is to blame. The man himself sticks to one thing he knows.
@@ -55,7 +55,7 @@ readings:
   - kind: General Epistle
     kind_ml: പൊതുലേഖനം
     ref: 1 Peter 4:12–19
-    ml: 1 പത്രോസ് 4:12–19
+    ml: 1 പത്രൊസ് 4:12–19
     note: Do not be surprised at the fiery trial; share in Christ’s sufferings.
     printed: I Peter 4:12-19
   - kind: Pauline Epistle
@@ -68,7 +68,7 @@ readings:
       kind: Pauline Epistle
       kind_ml: പൗലോസിന്റെ ലേഖനം
       ref: Ephesians 5:1–14
-      ml: എഫേസ്യർ 5:1–14
+      ml: എഫെസ്യർ 5:1–14
       printed: Ephesians 5:1-14
   - kind: Gospel
     kind_ml: സുവിശേഷം
@@ -84,7 +84,7 @@ one_minute:
 readings_thread: 'Deuteronomy asks for honest weights and the first fruits of the harvest, and Malachi says bring the whole tithe. Job is restored after his trials. Corinthians praises a cheerful giver, and Ephesians says: wake up, and Christ will shine on you.'
 key_verse:
   ref: John 9:25
-  ml: '[ML VERSE: Sathyavedapusthakam 1910, John 9:25]'
+  ml: 'അതിന്നു അവൻ: അവൻ പാപിയോ അല്ലയോ എന്നു ഞാൻ അറിയുന്നില്ല; ഒന്നു അറിയുന്നു; ഞാൻ കുരുടനായിരുന്നു, ഇപ്പോൾ കണ്ണു കാണുന്നു എന്നു ഉത്തരം പറഞ്ഞു.'
   ml_translation: Sathyavedapusthakam, 1910
   en: 'He therefore answered, “I don’t know if he is a sinner. One thing I do know: that though I was blind, now I see.”'
   en_translation: World English Bible
@@ -111,11 +111,11 @@ scenes:
   easy_to_miss: The man who first saw Jesus as “a man” and then “a prophet” ends by worshipping him. His sight grows in two ways.
 people:
 - name: The man born blind
-  ml: '[ML NAME]'
+  ml: കുരുടനായി ജനിച്ചവൻ
   role: A beggar in Jerusalem who has never seen. He is healed and then thrown out of the synagogue.
   name_meaning: —
 - name: His parents
-  ml: '[ML NAME]'
+  ml: അവന്റെ അമ്മയപ്പന്മാർ
   role: They confirm he was born blind but are too afraid to say more.
   name_meaning: —
 - name: The Pharisees
@@ -131,7 +131,7 @@ phrases:
   explanation: The Sunday on which the Malankara Church prays for the Catholicate and its work.
 reflection:
   title_en: One thing I know
-  title_ml: '[TITLE ML]'
+  title_ml: ഒന്നു ഞാൻ അറിയുന്നു
   read_time: A three-minute read
   body: |-
     John 9 is a long chapter, and most of it is not about the healing. It is about what happens afterwards. The neighbours argue, the Pharisees interrogate, the parents back away. Everyone has a theory about Jesus. The man who was healed has only his experience.

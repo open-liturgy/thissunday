@@ -21,14 +21,14 @@ readings:
   - kind: Gospel
     kind_ml: സുവിശേഷം
     ref: Luke 2:15–20
-    ml: ലൂക്കോസ് 2:15–20
+    ml: ലൂക്കൊസ് 2:15–20
     note: '[NOTE: what to listen for in Luke 2:15–20]'
     printed: St. Luke 2:15-20
   morning:
   - kind: Gospel
     kind_ml: സുവിശേഷം
     ref: Luke 11:23–32
-    ml: ലൂക്കോസ് 11:23–32
+    ml: ലൂക്കൊസ് 11:23–32
     note: '[NOTE: what to listen for in Luke 11:23–32]'
     printed: St. Luke 11:23-32
   before_qurbana:
@@ -60,7 +60,7 @@ readings:
   - kind: Gospel
     kind_ml: സുവിശേഷം
     ref: Luke 8:16–21
-    ml: ലൂക്കോസ് 8:16–21
+    ml: ലൂക്കൊസ് 8:16–21
     note: A lamp is not hidden; Jesus’ mother and brothers are those who hear God’s word and do it. This is the Gospel of the day.
     printed: St. Luke 8:16-21
     main: true

@@ -4,12 +4,12 @@ sunday_slug: second-sunday-after-pentecost
 is_sunday: true
 name:
   en: Second Sunday after Pentecost
-  ml: '[MALAYALAM NAME]'
+  ml: പെന്തിക്കോസ്തിക്കു ശേഷം രണ്ടാം ഞായർ
 title_as_printed: Second Sunday after Pentecost
 season:
   en: Pentecost
   gloss: The season of the Holy Spirit
-  syr: '[SYRIAC]'
+  syr: ܦܢܛܩܘܣܛܐ
 tagline: 'Sheep among wolves: the twelve are sent out'
 standfirst: Jesus sends his twelve apostles out for the first time. He tells them what to say, what not to take, and what to do when a town will not listen.
 description: Readings for the Second Sunday after Pentecost, with Matthew 10:5–16, Jesus sending the twelve, explained in five scenes. Reflection and question.
@@ -21,7 +21,7 @@ readings:
   - kind: Gospel
     kind_ml: സുവിശേഷം
     ref: Luke 6:12–23
-    ml: ലൂക്കോസ് 6:12–23
+    ml: ലൂക്കൊസ് 6:12–23
     note: Jesus prays all night, chooses the twelve, and speaks the Beatitudes.
     printed: St. Luke 6:12-23
   morning:
@@ -60,7 +60,7 @@ readings:
   - kind: Pauline Epistle
     kind_ml: പൗലോസിന്റെ ലേഖനം
     ref: Ephesians 2:11–22
-    ml: എഫേസ്യർ 2:11–22
+    ml: എഫെസ്യർ 2:11–22
     note: Christ is our peace; he has broken down the wall of hostility.
     printed: Ephesians 2:11-22
   - kind: Gospel
@@ -77,7 +77,7 @@ one_minute:
 readings_thread: Leviticus calls Israel to be holy as God is holy, and David is made king over all Israel. Daniel’s God is praised by a foreign king. In Acts the believers pray for boldness, and Ephesians says the wall between peoples has been broken down.
 key_verse:
   ref: Matthew 10:16
-  ml: '[ML VERSE: Sathyavedapusthakam 1910, Matthew 10:16]'
+  ml: ചെന്നായ്ക്കളുടെ നടുവിൽ ആടിനെപ്പോലെ ഞാൻ നിങ്ങളെ അയക്കുന്നു. ആകയാൽ പാമ്പിനെപ്പോലെ ബുദ്ധിയുള്ളവരും പ്രാവിനെപ്പോലെ കളങ്കമില്ലാത്തവരും ആയിരിപ്പിൻ.
   ml_translation: Sathyavedapusthakam, 1910
   en: Behold, I send you out as sheep among wolves. Therefore be wise as serpents, and harmless as doves.
   en_translation: World English Bible
@@ -116,7 +116,7 @@ phrases:
   explanation: Shrewd and alert to danger, while staying as harmless as doves.
 reflection:
   title_en: Travelling light
-  title_ml: '[TITLE ML]'
+  title_ml: ഭാരമില്ലാത്ത യാത്ര
   read_time: A three-minute read
   body: |-
     Jesus sends the twelve out with almost nothing. No money, no luggage, not even a spare shirt. They will have to depend on the kindness of the people they visit. It sounds impractical, and it is meant to be. Their message is that God provides, and they are to live as if it is true.

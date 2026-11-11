@@ -4,12 +4,12 @@ sunday_slug: first-sunday-after-holy-cross
 is_sunday: true
 name:
   en: First Sunday after Holy Cross
-  ml: '[MALAYALAM NAME]'
+  ml: സ്ലീബാ പെരുന്നാളിനു ശേഷം ഒന്നാം ഞായർ
 title_as_printed: First Sunday after the Feast of Holy Cross
 season:
   en: Sleeba
   gloss: The season of the Cross
-  syr: '[SYRIAC]'
+  syr: ܨܠܝܒܐ
 tagline: Learn from the fig tree, and stay awake
 standfirst: 'Jesus tells his disciples that no one knows the day or hour of his return, not even the angels. So he gives them one word for everyone: watch.'
 description: Readings for the First Sunday after Holy Cross, with Mark 13:28–37, the fig tree and the call to watch, explained in five scenes. Reflection and question.
@@ -21,7 +21,7 @@ readings:
   - kind: Gospel
     kind_ml: സുവിശേഷം
     ref: Luke 17:20–37
-    ml: ലൂക്കോസ് 17:20–37
+    ml: ലൂക്കൊസ് 17:20–37
     note: The kingdom of God is among you; remember Lot’s wife.
     printed: St. Luke 17:20-37
   morning:
@@ -77,7 +77,7 @@ one_minute:
 readings_thread: Joseph’s brothers go down to Egypt for grain, not knowing who they will meet. Isaiah says wash yourselves, learn to do good. Peter says heaven must hold Jesus until all things are restored, and Paul says the Spirit searches the depths of God.
 key_verse:
   ref: Mark 13:31
-  ml: '[ML VERSE: Sathyavedapusthakam 1910, Mark 13:31]'
+  ml: ആകാശവും ഭൂമിയും ഒഴിഞ്ഞുപോകും; എന്റെ വചനങ്ങളോ ഒഴിഞ്ഞു പോകയില്ല.
   ml_translation: Sathyavedapusthakam, 1910
   en: Heaven and earth will pass away, but my words will not pass away.
   en_translation: World English Bible
@@ -104,7 +104,7 @@ scenes:
   easy_to_miss: 'Evening, midnight, cockcrow, morning: these become the hours of Jesus’ passion in Mark 14–15, when the disciples fall asleep.'
 people:
 - name: Peter, James, John and Andrew
-  ml: '[ML NAME]'
+  ml: പത്രൊസ്, യാക്കോബ്, യോഹന്നാൻ, അന്ത്രെയാസ്
   role: The four disciples who ask Jesus privately about the end (Mark 13:3).
   name_meaning: —
 phrases:
@@ -116,7 +116,7 @@ phrases:
   explanation: Syriac for “cross”. The Sundays after 14 September are counted from the Feast of the Holy Cross.
 reflection:
   title_en: Awake at the door
-  title_ml: '[TITLE ML]'
+  title_ml: വാതിൽക്കൽ ഉണർന്നിരിക്കുക
   read_time: A three-minute read
   body: |-
     People have always wanted to know when the world will end. Jesus refuses to tell us. Not even the Son knows, he says, only the Father. Instead of a date, he gives a single instruction for everyone: watch.

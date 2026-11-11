@@ -4,12 +4,12 @@ sunday_slug: first-sunday-after-pentecost
 is_sunday: true
 name:
   en: First Sunday after Pentecost
-  ml: '[MALAYALAM NAME]'
+  ml: പെന്തിക്കോസ്തിക്കു ശേഷം ഒന്നാം ഞായർ
 title_as_printed: First Sunday after Pentecost
 season:
   en: Pentecost
   gloss: The season of the Holy Spirit
-  syr: '[SYRIAC]'
+  syr: ܦܢܛܩܘܣܛܐ
 tagline: “I am the bread of life”
 standfirst: The day after Jesus fed five thousand people, the crowd finds him again. They want more bread. He tells them he is the bread they really need.
 description: Readings for the First Sunday after Pentecost, with John 6:26–35, “I am the bread of life”, explained in five scenes. A reflection and a family question.
@@ -21,7 +21,7 @@ readings:
   - kind: Gospel
     kind_ml: സുവിശേഷം
     ref: Luke 8:4–15
-    ml: ലൂക്കോസ് 8:4–15
+    ml: ലൂക്കൊസ് 8:4–15
     note: 'The parable of the sower: seed on the path, the rock, among thorns and in good soil.'
     printed: St. Luke 8:4-15
   morning:
@@ -83,7 +83,7 @@ one_minute:
 readings_thread: Joseph is given charge of Egypt’s grain, and Israel leaves Egypt in haste. The manna stops when Israel eats the produce of the promised land. Jeremiah promises God will bring his people home, and Paul says we are a new creation.
 key_verse:
   ref: John 6:27
-  ml: '[ML VERSE: Sathyavedapusthakam 1910, John 6:27]'
+  ml: നശിച്ചുപോകുന്ന ആഹാരത്തിന്നായിട്ടല്ല, നിത്യജീവങ്കലേക്കു നിലനില്ക്കുന്ന ആഹാരത്തിന്നായിട്ടു തന്നേ പ്രവർത്തിപ്പിൻ; അതു മനുഷ്യപുത്രൻ നിങ്ങൾക്കു തരും. അവനെ പിതാവായ ദൈവം മുദ്രയിട്ടിരിക്കുന്നു എന്നു ഉത്തരം പറഞ്ഞു.
   ml_translation: Sathyavedapusthakam, 1910
   en: Don’t work for the food which perishes, but for the food which remains to eternal life, which the Son of Man will give to you. For God the Father has sealed him.
   en_translation: World English Bible
@@ -126,7 +126,7 @@ phrases:
   explanation: 'Seven sayings in John where Jesus describes himself: bread, light, door, shepherd, resurrection, way, vine.'
 reflection:
   title_en: Food that lasts
-  title_ml: '[TITLE ML]'
+  title_ml: നിലനില്ക്കുന്ന ആഹാരം
   read_time: A three-minute read
   body: |-
     The crowd had a good reason to look for Jesus. Yesterday he had fed them for free, and they were hungry again. Jesus does not blame them for being hungry. He tells them that their hunger points to something deeper, which bread from a bakery will never satisfy.

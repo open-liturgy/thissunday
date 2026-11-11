@@ -4,7 +4,7 @@ sunday_slug: all-departed-faithful
 is_sunday: true
 name:
   en: Sunday of All the Departed Faithful
-  ml: '[MALAYALAM NAME]'
+  ml: വാങ്ങിപ്പോയ സകല വിശ്വാസികളുടെയും ഞായർ
 title_as_printed: All the Departed Faithful
 season:
   en: Remembrance of the departed
@@ -73,7 +73,7 @@ readings:
   - kind: Gospel
     kind_ml: സുവിശേഷം
     ref: Luke 12:32–48
-    ml: ലൂക്കോസ് 12:32–48
+    ml: ലൂക്കൊസ് 12:32–48
     note: Do not be afraid, little flock; keep your lamps burning. This is the Gospel of the day.
     printed: St. Luke 12:32-48
     main: true
@@ -84,7 +84,7 @@ one_minute:
 readings_thread: Jacob dies and is carried home to be buried. God promises to shepherd his scattered sheep himself, Hezekiah prays when he thinks he is dying, and Paul calls Christ the first fruits of those who have fallen asleep.
 key_verse:
   ref: Luke 12:32
-  ml: '[ML VERSE: Sathyavedapusthakam 1910, Luke 12:32]'
+  ml: ചെറിയ ആട്ടിൻ കൂട്ടമേ, ഭയപ്പെടരുതു; നിങ്ങളുടെ പിതാവു രാജ്യം നിങ്ങൾക്കു നല്കുവാൻ പ്രസാദിച്ചിരിക്കുന്നു.
   ml_translation: Sathyavedapusthakam, 1910
   en: Don’t be afraid, little flock, for it is your Father’s good pleasure to give you the Kingdom.
   en_translation: World English Bible
@@ -111,7 +111,7 @@ scenes:
   easy_to_miss: Jesus judges by what each person knew and was given, not by one standard for all.
 people:
 - name: The little flock
-  ml: '[ML NAME]'
+  ml: ചെറിയ ആട്ടിൻകൂട്ടം
   role: Jesus’ name for his disciples, few and vulnerable.
   name_meaning: —
 - name: Peter
@@ -131,7 +131,7 @@ phrases:
   explanation: All who have died in Christ. The Church prays for them in every Qurbana and keeps this Sunday for them.
 reflection:
   title_en: Where our treasure is
-  title_ml: '[TITLE ML]'
+  title_ml: നമ്മുടെ നിക്ഷേപം ഉള്ളേടത്ത്
   read_time: A three-minute read
   body: |-
     On this Sunday every family brings its own list of names. Grandparents, parents, perhaps a child or a friend who died too soon. The Church gathers them all into one prayer before Great Lent begins. It does so with a Gospel that begins: do not be afraid, little flock.

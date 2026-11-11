@@ -4,12 +4,12 @@ sunday_slug: palsy-sunday
 is_sunday: true
 name:
   en: Palsy Sunday
-  ml: '[MALAYALAM NAME]'
+  ml: തളർവാതക്കാരന്റെ ഞായർ
 title_as_printed: Third Sunday of Great Lent (Palsy Sunday)
 season:
   en: Great Lent
   gloss: The fifty days of fasting before Easter
-  syr: '[SYRIAC]'
+  syr: ܨܘܡܐ ܪܒܐ
 tagline: Four friends and a hole in the roof
 standfirst: The house is so crowded that nobody else can get in. Four men climb onto the roof, dig through it and lower their paralysed friend down in front of Jesus.
 description: Readings for Palsy Sunday, the third Sunday of Great Lent, with Mark 2:1–12, the paralysed man and his four friends, explained. Reflection and question.
@@ -21,7 +21,7 @@ readings:
   - kind: Gospel
     kind_ml: സുവിശേഷം
     ref: Luke 5:17–26
-    ml: ലൂക്കോസ് 5:17–26
+    ml: ലൂക്കൊസ് 5:17–26
     note: Friends lower a paralysed man through the roof; Jesus forgives and heals him.
     printed: St. Luke 5:17-26
   morning:
@@ -89,7 +89,7 @@ one_minute:
 readings_thread: 'Moses says he cannot speak well, and God answers: who made the mouth? Elisha watches Elijah taken up. In Acts even handkerchiefs carry healing, and Paul learns that God’s grace is enough when his own weakness is not taken away.'
 key_verse:
   ref: Mark 2:5
-  ml: '[ML VERSE: Sathyavedapusthakam 1910, Mark 2:5]'
+  ml: 'യേശു അവരുടെ വിശ്വാസം കണ്ടിട്ടു പക്ഷവാതക്കാരനോടു: മകനേ, നിന്റെ പാപങ്ങൾ മോചിച്ചു തന്നിരിക്കുന്നു എന്നു പറഞ്ഞു.'
   ml_translation: Sathyavedapusthakam, 1910
   en: Jesus, seeing their faith, said to the paralytic, “Son, your sins are forgiven you.”
   en_translation: World English Bible
@@ -116,11 +116,11 @@ scenes:
   easy_to_miss: He came in through the roof and leaves through the door, carrying the mat that carried him.
 people:
 - name: The paralysed man
-  ml: '[ML NAME]'
+  ml: പക്ഷവാതക്കാരൻ
   role: Unable to walk, carried on a mat by four friends.
   name_meaning: —
 - name: The four friends
-  ml: '[ML NAME]'
+  ml: ചുമന്നുകൊണ്ടുവന്ന നാലുപേർ
   role: Unnamed men whose faith Jesus sees.
   name_meaning: —
 - name: The scribes
@@ -136,7 +136,7 @@ phrases:
   explanation: A simple sleeping pallet, light enough to carry.
 reflection:
   title_en: Carried by others
-  title_ml: '[TITLE ML]'
+  title_ml: മറ്റുള്ളവർ ചുമന്നുകൊണ്ടുവന്നവൻ
   read_time: A three-minute read
   body: |-
     We never learn the paralysed man’s name, or what he believed. We only know that four people cared enough to carry him across town, find the door blocked, climb a roof and tear it open. Mark says Jesus saw their faith. The man was forgiven and healed because his friends would not give up.

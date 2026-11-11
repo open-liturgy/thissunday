@@ -4,12 +4,12 @@ sunday_slug: second-sunday-after-holy-cross
 is_sunday: true
 name:
   en: Second Sunday after Holy Cross
-  ml: '[MALAYALAM NAME]'
+  ml: സ്ലീബാ പെരുന്നാളിനു ശേഷം രണ്ടാം ഞായർ
 title_as_printed: Second Sunday after the Feast of Holy Cross
 season:
   en: Sleeba
   gloss: The season of the Cross
-  syr: '[SYRIAC]'
+  syr: ܨܠܝܒܐ
 tagline: Forgotten bread and the yeast of the Pharisees
 standfirst: The disciples cross the lake and realise they forgot to bring bread. Jesus warns them about yeast, and they think he is talking about lunch.
 description: Readings for the Second Sunday after Holy Cross, with Matthew 16:5–12, the yeast of the Pharisees, explained in five scenes. A reflection and a question.
@@ -83,7 +83,7 @@ one_minute:
 readings_thread: Joseph tests his brothers in Egypt, and Solomon asks God for an understanding heart. Wisdom says power is given by God. The apostles are freed from prison and keep teaching, and Paul says the Corinthians are still ready only for milk.
 key_verse:
   ref: Matthew 16:12
-  ml: '[ML VERSE: Sathyavedapusthakam 1910, Matthew 16:12]'
+  ml: അങ്ങനെ അപ്പത്തിന്റെ പുളിച്ച മാവല്ല, പരീശന്മാരുടെയും സദൂക്യരുടെയും ഉപദേശമത്രേ സൂക്ഷിച്ചുകൊൾവാൻ അവൻ പറഞ്ഞു എന്നു അവർ ഗ്രഹിച്ചു.
   ml_translation: Sathyavedapusthakam, 1910
   en: Then they understood that he didn’t tell them to beware of the yeast of bread, but of the teaching of the Pharisees and Sadducees.
   en_translation: World English Bible
@@ -126,7 +126,7 @@ phrases:
   explanation: What the Pharisees and Sadducees taught, which kept people from recognising Jesus.
 reflection:
   title_en: Watch what you take in
-  title_ml: '[TITLE ML]'
+  title_ml: ഉള്ളിലേക്കെടുക്കുന്നതു സൂക്ഷിക്കുക
   read_time: A three-minute read
   body: |-
     The disciples’ mistake is funny and familiar. Jesus says something serious, and all they can think about is that they forgot the bread. Their stomachs are louder than his words. He has to remind them of two miracles of bread they have already forgotten.

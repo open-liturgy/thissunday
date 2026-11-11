@@ -4,12 +4,12 @@ sunday_slug: first-sunday-after-shunoyo
 is_sunday: true
 name:
   en: First Sunday after Shunoyo
-  ml: '[MALAYALAM NAME]'
+  ml: ശൂനോയോയ്ക്കു ശേഷം ഒന്നാം ഞായർ
 title_as_printed: First Sunday after the Festival of the Ascension of St. Mary
 season:
   en: Pentecost
   gloss: The season of the Holy Spirit
-  syr: '[SYRIAC]'
+  syr: ܦܢܛܩܘܣܛܐ
 tagline: The speck, the log, and the fruit of a good tree
 standfirst: Jesus asks why we notice the speck in someone else’s eye and miss the log in our own. Then he says you can tell a tree by its fruit, and a person by what comes out of their mouth.
 description: Readings for the First Sunday after Shunoyo, with Luke 6:39–45, the speck and the log, explained in five scenes. Reflection and question.
@@ -21,14 +21,14 @@ readings:
   - kind: Gospel
     kind_ml: സുവിശേഷം
     ref: Luke 14:25–35
-    ml: ലൂക്കോസ് 14:25–35
+    ml: ലൂക്കൊസ് 14:25–35
     note: Count the cost before building a tower; salt that loses its taste.
     printed: St. Luke 14:25-35
   morning:
   - kind: Gospel
     kind_ml: സുവിശേഷം
     ref: Luke 15:1–10
-    ml: ലൂക്കോസ് 15:1–10
+    ml: ലൂക്കൊസ് 15:1–10
     note: 'The lost sheep and the lost coin: joy in heaven over one sinner who repents.'
     printed: St. Luke 15:1-10
   before_qurbana:
@@ -60,13 +60,13 @@ readings:
   - kind: Pauline Epistle
     kind_ml: പൗലോസിന്റെ ലേഖനം
     ref: Ephesians 6:10–17
-    ml: എഫേസ്യർ 6:10–17
+    ml: എഫെസ്യർ 6:10–17
     note: Put on the whole armour of God.
     printed: Ephesians 6:10-17
   - kind: Gospel
     kind_ml: സുവിശേഷം
     ref: Luke 6:39–45
-    ml: ലൂക്കോസ് 6:39–45
+    ml: ലൂക്കൊസ് 6:39–45
     note: The speck and the log; a tree is known by its fruit. This is the Gospel of the day.
     printed: St. Luke 6:39-45
     main: true
@@ -77,7 +77,7 @@ one_minute:
 readings_thread: 'Israel walks through the sea on dry ground, and the people ask Samuel for a king like other nations. God tells Israel: you are mine. John warns about those who deny the Son, and Ephesians tells us to put on God’s armour.'
 key_verse:
   ref: Luke 6:45
-  ml: '[ML VERSE: Sathyavedapusthakam 1910, Luke 6:45]'
+  ml: നല്ലമനുഷ്യൻ തന്റെ ഹൃദയത്തിലെ നല്ല നിക്ഷേപത്തിൽ നിന്നു നല്ലതു പുറപ്പെടുവിക്കുന്നു; ദുഷ്ടൻ ദോഷമായതിൽ നിന്നു ദോഷം പുറപ്പെടുവിക്കുന്നു. ഹൃദയത്തിൽ നിറഞ്ഞു കവിയുന്നതല്ലോ വായി പ്രസ്താവിക്കുന്നതു.
   ml_translation: Sathyavedapusthakam, 1910
   en: The good man out of the good treasure of his heart brings out that which is good, and the evil man out of the evil treasure of his heart brings out that which is evil, for out of the abundance of the heart, his mouth speaks.
   en_translation: World English Bible
@@ -116,7 +116,7 @@ phrases:
   explanation: 'What a person stores up inside: thoughts, habits and loves, which come out in speech.'
 reflection:
   title_en: Logs and specks
-  title_ml: '[TITLE ML]'
+  title_ml: കോലും കരടും
   read_time: A three-minute read
   body: |-
     Jesus’ picture is meant to make us laugh. A man with a plank sticking out of his eye leans in close to help his brother with a speck of dust. We laugh because we recognise ourselves. It is always easier to see what is wrong with other people.

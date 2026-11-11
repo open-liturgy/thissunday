@@ -4,12 +4,12 @@ sunday_slug: fourth-sunday-after-new-sunday
 is_sunday: true
 name:
   en: Fourth Sunday after New Sunday
-  ml: '[MALAYALAM NAME]'
+  ml: പുതുഞായറിനു ശേഷം നാലാം ഞായർ
 title_as_printed: Fourth Sunday after New Sunday
 season:
   en: Kyomtho
   gloss: The Resurrection season
-  syr: '[SYRIAC]'
+  syr: ܩܝܡܬܐ
 tagline: Jesus sets his face to Jerusalem, and looks for followers
 standfirst: Jesus turns towards Jerusalem, knowing what is waiting for him. On the way three people offer to follow him, and each one meets a hard answer.
 description: Readings for the Fourth Sunday after New Sunday, with Luke 9:51–62, the cost of following Jesus, explained in five scenes. Reflection and question.
@@ -54,7 +54,7 @@ readings:
   - kind: General Epistle
     kind_ml: പൊതുലേഖനം
     ref: 1 Peter 3:17–22
-    ml: 1 പത്രോസ് 3:17–22
+    ml: 1 പത്രൊസ് 3:17–22
     note: Christ suffered once for sins, the righteous for the unrighteous, to bring you to God.
     printed: I Peter 3:17-22
   - kind: Pauline Epistle
@@ -66,7 +66,7 @@ readings:
   - kind: Gospel
     kind_ml: സുവിശേഷം
     ref: Luke 9:51–62
-    ml: ലൂക്കോസ് 9:51–62
+    ml: ലൂക്കൊസ് 9:51–62
     note: 'Jesus sets his face to Jerusalem: no one who looks back is fit for the kingdom. This is the Gospel of the day.'
     printed: St. Luke 9:51-62
     main: true
@@ -77,7 +77,7 @@ one_minute:
 readings_thread: Israel keeps the Passover, and Joshua reads the whole law to the people. Isaiah tells Jerusalem to enlarge her tent. Hebrews remembers those who suffered for their faith and did not see the promise in their lifetime.
 key_verse:
   ref: Luke 9:62
-  ml: '[ML VERSE: Sathyavedapusthakam 1910, Luke 9:62]'
+  ml: 'യേശു അവനോടു: കലപ്പെക്കു കൈ വെച്ച ശേഷം പുറകോട്ടു നോക്കുന്നവൻ ആരും ദൈവരാജ്യത്തിന്നു കൊള്ളാകുന്നവനല്ല എന്നു പറഞ്ഞു.'
   ml_translation: Sathyavedapusthakam, 1910
   en: But Jesus said to him, “No one, having put his hand to the plow, and looking back, is fit for God’s Kingdom.”
   en_translation: World English Bible
@@ -108,7 +108,7 @@ people:
   role: Brothers among the twelve, quick-tempered enough to want fire from heaven.
   name_meaning: James is Jacob, “he grasps the heel”; John, “the Lord is gracious”
 - name: The would-be followers
-  ml: '[ML NAME]'
+  ml: അനുഗമിപ്പാൻ ഒരുങ്ങിയവർ
   role: Three people who want to follow Jesus, each with a condition.
   name_meaning: —
 phrases:
@@ -120,7 +120,7 @@ phrases:
   explanation: Luke’s word for the Ascension, which the Church celebrates on the Thursday after this Sunday.
 reflection:
   title_en: Hand on the plough
-  title_ml: '[TITLE ML]'
+  title_ml: കലപ്പയിൽ കൈ വെച്ചവർ
   read_time: A three-minute read
   body: |-
     Jesus’ answers to the three would-be followers sound harsh. Is it wrong to want to bury your father, or say goodbye to your family? Jesus is not against love for family. He is talking about the moment when following him becomes something for later, once other things are settled.

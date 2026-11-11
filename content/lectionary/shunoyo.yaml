@@ -4,12 +4,12 @@ sunday_slug: shunoyo
 is_sunday: false
 name:
   en: 'Shunoyo: the Assumption of St. Mary'
-  ml: '[MALAYALAM NAME]'
+  ml: 'ശൂനോയോ: വിശുദ്ധ ദൈവമാതാവിന്റെ വാങ്ങിപ്പ്'
 title_as_printed: The Festival of the Ascension of St. Mary (August 15) Martha Mariam Samajam Day
 season:
   en: Pentecost
   gloss: The season of the Holy Spirit
-  syr: '[SYRIAC]'
+  syr: ܦܢܛܩܘܣܛܐ
 also_kept_as: Martha Mariam Samajam Day
 tagline: The Mother of God, who heard the word and kept it
 standfirst: 'The Church celebrates the passing of St. Mary from this life. The Gospels it reads show her as Jesus himself saw her: the one who heard God’s word and kept it, and who stood by the cross.'
@@ -22,14 +22,14 @@ readings:
   - kind: Gospel
     kind_ml: സുവിശേഷം
     ref: Luke 1:39–56; 2:22–35
-    ml: ലൂക്കോസ് 1:39–56; 2:22–35
+    ml: ലൂക്കൊസ് 1:39–56; 2:22–35
     note: 'The Magnificat, and Simeon’s word to Mary: a sword will pierce your soul.'
     printed: St. Luke 1:39-56, 2:22-35
   morning:
   - kind: Gospel
     kind_ml: സുവിശേഷം
     ref: Luke 2:42–51
-    ml: ലൂക്കോസ് 2:42–51
+    ml: ലൂക്കൊസ് 2:42–51
     note: The boy Jesus in the Temple; his mother keeps all these things in her heart.
     printed: St. Luke 2:42-51
   before_qurbana:
@@ -67,7 +67,7 @@ readings:
   - kind: Gospel
     kind_ml: സുവിശേഷം
     ref: Luke 11:22–28
-    ml: ലൂക്കോസ് 11:22–28
+    ml: ലൂക്കൊസ് 11:22–28
     note: Blessed rather are those who hear the word of God and keep it.
     printed: St. Luke 11:22-28
   - kind: Gospel
@@ -90,7 +90,7 @@ one_minute:
 readings_thread: Moses sees the bush that burns and is not consumed, and Ezekiel sees the gate the Lord enters that stays shut. The Church has long seen Mary in both. Acts shows her praying with the apostles, and Hebrews describes the ark that held God’s covenant.
 key_verse:
   ref: John 19:27
-  ml: '[ML VERSE: Sathyavedapusthakam 1910, John 19:27]'
+  ml: 'പിന്നെ ശിഷ്യനോടു: ഇതാ നിന്റെ അമ്മ എന്നും പറഞ്ഞു. ആ നാഴികമുതൽ ആ ശിഷ്യൻ അവളെ തന്റെ വീട്ടിൽ കൈക്കൊണ്ടു.'
   ml_translation: Sathyavedapusthakam, 1910
   en: Then he said to the disciple, “Behold, your mother!” From that hour, the disciple took her to his own home.
   en_translation: World English Bible
@@ -133,7 +133,7 @@ phrases:
   explanation: The women’s organisation of the Malankara Orthodox Church, which keeps this day as its own.
 reflection:
   title_en: She heard the word and kept it
-  title_ml: '[TITLE ML]'
+  title_ml: അവൾ വചനം കേട്ടു പ്രമാണിച്ചു
   read_time: A three-minute read
   body: |-
     The woman in the crowd says what many of us feel about Mary: how blessed must the mother of such a son be. Jesus agrees, and then points deeper. Blessed are those who hear God’s word and keep it. Nobody did that more completely than his mother.

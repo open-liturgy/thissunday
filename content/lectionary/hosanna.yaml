@@ -4,12 +4,12 @@ sunday_slug: hosanna
 is_sunday: true
 name:
   en: Hosanna Sunday
-  ml: '[MALAYALAM NAME]'
+  ml: ഹോശാനാ ഞായർ
 title_as_printed: Hosanna/Palm Sunday – (Boys' and Girl's Day)
 season:
   en: Great Lent
   gloss: The fifty days of fasting before Easter
-  syr: '[SYRIAC]'
+  syr: ܨܘܡܐ ܪܒܐ
 also_kept_as: Boys’ and Girls’ Day
 also_kept_as_note: See Matthew 21:15–16
 tagline: The King rides into Jerusalem on a donkey
@@ -30,7 +30,7 @@ readings:
   - kind: Gospel
     kind_ml: സുവിശേഷം
     ref: Luke 19:28–44
-    ml: ലൂക്കോസ് 19:28–44
+    ml: ലൂക്കൊസ് 19:28–44
     note: Jesus rides down the Mount of Olives and weeps over Jerusalem.
     printed: St. Luke 19:28-44
   before_qurbana:
@@ -92,7 +92,7 @@ readings:
   - kind: Pauline Epistle
     kind_ml: പൗലോസിന്റെ ലേഖനം
     ref: Ephesians 6:1–24
-    ml: എഫേസ്യർ 6:1–24
+    ml: എഫെസ്യർ 6:1–24
     note: Children and parents, and the whole armour of God.
     printed: Ephesians:6:1-24
   - kind: Gospel
@@ -114,7 +114,7 @@ readings_other:
   - kind: Gospel
     kind_ml: സുവിശേഷം
     ref: Luke 19:28–40
-    ml: ലൂക്കോസ് 19:28–40
+    ml: ലൂക്കൊസ് 19:28–40
     note: If these were silent, the stones would cry out.
     printed: St. Luke 19:28-40
   blessing_of_the_palms:
@@ -155,7 +155,7 @@ one_minute:
 readings_thread: Jacob blesses Judah, whose ruler will tie his donkey to the vine. The boy Samuel serves the Lord, young Solomon asks for wisdom, and Daniel and his friends stay faithful as young men. Zephaniah and Zechariah call the daughter of Zion to rejoice.
 key_verse:
   ref: John 12:13
-  ml: '[ML VERSE: Sathyavedapusthakam 1910, John 12:13]'
+  ml: 'ഈത്തപ്പനയുടെ കുരുത്തോല എടുത്തുംകൊണ്ടു അവനെ എതിരേല്പാൻ ചെന്നു: ഹോശന്നാ, യിസ്രായേലിന്റെ രാജാവായി കർത്താവിന്റെ നാമത്തിൽ വരുന്നവൻ വാഴ്ത്തപ്പെട്ടവൻ എന്നു ആർത്തു.'
   ml_translation: Sathyavedapusthakam, 1910
   en: they took the branches of the palm trees and went out to meet him, and cried out, “Hosanna! Blessed is he who comes in the name of the Lord, the King of Israel!”
   en_translation: World English Bible
@@ -202,7 +202,7 @@ phrases:
   explanation: John’s word for Jesus’ death, resurrection and return to the Father.
 reflection:
   title_en: A king on a donkey
-  title_ml: '[TITLE ML]'
+  title_ml: കഴുതപ്പുറത്തു വരുന്ന രാജാവ്
   read_time: A three-minute read
   body: |-
     The crowd on Hosanna Sunday knew exactly what kind of king they wanted. They waved palm branches, the symbol of victory over enemies. They expected someone who would drive out Rome and make Israel great again. Jesus came riding on a young donkey.

@@ -4,12 +4,12 @@ sunday_slug: tenth-sunday-after-pentecost
 is_sunday: true
 name:
   en: Tenth Sunday after Pentecost
-  ml: '[MALAYALAM NAME]'
+  ml: പെന്തിക്കോസ്തിക്കു ശേഷം പത്താം ഞായർ
 title_as_printed: Tenth Sunday after Pentecost
 season:
   en: Pentecost
   gloss: The season of the Holy Spirit
-  syr: '[SYRIAC]'
+  syr: ܦܢܛܩܘܣܛܐ
 tagline: Who is the greatest? A child in the middle
 standfirst: The disciples ask Jesus who will be greatest in the kingdom. He answers by calling a small child and standing them in the middle of the group.
 description: Readings for the Tenth Sunday after Pentecost, with Matthew 18:1–11, becoming like children, explained in five scenes. Reflection and question.
@@ -21,7 +21,7 @@ readings:
   - kind: Gospel
     kind_ml: സുവിശേഷം
     ref: Luke 9:12–17
-    ml: ലൂക്കോസ് 9:12–17
+    ml: ലൂക്കൊസ് 9:12–17
     note: Jesus feeds five thousand with five loaves and two fish.
     printed: St. Luke 9:12-17
   morning:
@@ -77,7 +77,7 @@ one_minute:
 readings_thread: Water at Marah is made sweet, and Job is restored and prays for his friends. The psalm blesses the generous person. Paul says that all who call on the Lord will be saved, and asks how they will hear unless someone is sent.
 key_verse:
   ref: Matthew 18:3
-  ml: '[ML VERSE: Sathyavedapusthakam 1910, Matthew 18:3]'
+  ml: നിങ്ങൾ തിരിഞ്ഞു ശിശുക്കളെപ്പോലെ ആയ്‌വരുന്നില്ല എങ്കിൽ സ്വർഗ്ഗരാജ്യത്തിൽ കടക്കയില്ല എന്നു ഞാൻ സത്യമായിട്ടു നിങ്ങളോടു പറയുന്നു.
   ml_translation: Sathyavedapusthakam, 1910
   en: and said, “Most certainly I tell you, unless you turn, and become as little children, you will in no way enter into the Kingdom of Heaven.
   en_translation: World English Bible
@@ -120,7 +120,7 @@ phrases:
   explanation: The Church’s teaching on guardian angels draws on this verse.
 reflection:
   title_en: A child in the middle
-  title_ml: '[TITLE ML]'
+  title_ml: നടുവിൽ ഒരു ശിശു
   read_time: A three-minute read
   body: |-
     The disciples wanted a ranking. Who is greatest? Who gets the best seat when the kingdom comes? Jesus does not give them a list. He calls a child over and puts the child in the middle. In a world where children counted for little, that was a shock.

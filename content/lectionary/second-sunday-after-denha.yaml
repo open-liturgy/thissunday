@@ -4,12 +4,12 @@ sunday_slug: second-sunday-after-denha
 is_sunday: true
 name:
   en: Second Sunday after Denha
-  ml: '[MALAYALAM NAME]'
+  ml: ദനഹായ്ക്കു ശേഷം രണ്ടാം ഞായർ
 title_as_printed: Second Sunday after Baptism of our Lord
 season:
   en: Denha
   gloss: The Epiphany season
-  syr: '[SYRIAC]'
+  syr: ܕܢܚܐ
 tagline: '“Come and see”: Philip brings Nathanael'
 standfirst: Philip is sure he has found the one Moses wrote about. His friend Nathanael doubts anything good can come from Nazareth. Philip does not argue. He says, come and see.
 description: Readings for the Second Sunday after Denha, with John 1:43–51, Philip and Nathanael, explained in five scenes, a reflection and a family question.
@@ -54,7 +54,7 @@ readings:
   - kind: General Epistle
     kind_ml: പൊതുലേഖനം
     ref: 1 Peter 3:7–15
-    ml: 1 പത്രോസ് 3:7–15
+    ml: 1 പത്രൊസ് 3:7–15
     note: Be ready to give a reason for the hope that is in you, with gentleness.
     printed: I Peter 3:7-15
   - kind: '[KIND]'
@@ -78,7 +78,7 @@ one_minute:
 readings_thread: In the evening John points to the Lamb of God; in the morning Andrew brings his brother Simon. At Qurbana Philip brings Nathanael. Proverbs pictures Wisdom calling people in, and Isaiah tells them to look to the rock they were cut from.
 key_verse:
   ref: John 1:46
-  ml: '[ML VERSE: Sathyavedapusthakam 1910, John 1:46]'
+  ml: 'നഥനയേൽ അവനോടു: നസറെത്തിൽനിന്നു വല്ല നന്മയും വരുമോ എന്നു പറഞ്ഞു. ഫിലിപ്പൊസ് അവനോടു: വന്നു കാൺക എന്നു പറഞ്ഞു.'
   ml_translation: Sathyavedapusthakam, 1910
   en: Nathanael said to him, “Can any good thing come out of Nazareth?” Philip said to him, “Come and see.”
   en_translation: World English Bible
@@ -125,7 +125,7 @@ phrases:
   explanation: 'A way of naming the whole of the Jewish Scriptures: the Law and the Prophets.'
 reflection:
   title_en: Come and see
-  title_ml: '[TITLE ML]'
+  title_ml: വന്നു കാൺക
   read_time: A three-minute read
   body: |-
     Nathanael’s first reaction is the one many people have: I doubt it. Nazareth was a nowhere place, and he had grown up nearby. Philip could have argued with him. He could have listed the Scriptures, or told him what Jesus had said. Instead he says three words: come and see.

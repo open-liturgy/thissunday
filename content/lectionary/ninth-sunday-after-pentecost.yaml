@@ -4,12 +4,12 @@ sunday_slug: ninth-sunday-after-pentecost
 is_sunday: true
 name:
   en: Ninth Sunday after Pentecost
-  ml: '[MALAYALAM NAME]'
+  ml: പെന്തിക്കോസ്തിക്കു ശേഷം ഒമ്പതാം ഞായർ
 title_as_printed: Ninth Sunday after Pentecost
 season:
   en: Pentecost
   gloss: The season of the Holy Spirit
-  syr: '[SYRIAC]'
+  syr: ܦܢܛܩܘܣܛܐ
 tagline: Take the lowest seat at the wedding
 standfirst: At a dinner, Jesus watches the guests jostle for the best seats. He tells them a story about a wedding feast and the embarrassment of being moved down in front of everyone.
 description: Readings for the Ninth Sunday after Pentecost, with Luke 14:7–11, the lowest seat at the feast, explained in five scenes. Reflection and question.
@@ -72,7 +72,7 @@ readings:
   - kind: Gospel
     kind_ml: സുവിശേഷം
     ref: Luke 14:7–11
-    ml: ലൂക്കോസ് 14:7–11
+    ml: ലൂക്കൊസ് 14:7–11
     note: Take the lowest seat at the wedding feast. This is the Gospel of the day.
     printed: St. Luke 14:7-11
     main: true
@@ -83,7 +83,7 @@ one_minute:
 readings_thread: The psalm cries “My God, why have you forsaken me?”, the prayer of the one who was humbled most. Proverbs says a wise child listens. Isaiah warns of a world turned upside down. Paul tells the Corinthians not to take one another to court.
 key_verse:
   ref: Luke 14:11
-  ml: '[ML VERSE: Sathyavedapusthakam 1910, Luke 14:11]'
+  ml: തന്നെത്താൻ ഉയർത്തുന്നവൻ എല്ലാം താഴ്ത്തപ്പെടും; തന്നെത്താൻ താഴ്ത്തുന്നവൻ ഉയർത്തപ്പെടും.
   ml_translation: Sathyavedapusthakam, 1910
   en: For everyone who exalts himself will be humbled, and whoever humbles himself will be exalted.”
   en_translation: World English Bible
@@ -110,11 +110,11 @@ scenes:
   easy_to_miss: Luke uses this saying again after the parable of the Pharisee and the tax collector (Luke 18:14).
 people:
 - name: The host
-  ml: '[ML NAME]'
+  ml: വിരുന്നിനു ക്ഷണിച്ചവൻ
   role: A leader of the Pharisees who invited Jesus to a Sabbath meal.
   name_meaning: —
 - name: The guests
-  ml: '[ML NAME]'
+  ml: വിരുന്നുകാർ
   role: Diners competing quietly for the best places.
   name_meaning: —
 phrases:
@@ -126,7 +126,7 @@ phrases:
   explanation: Lifted up. In the end it is God who lifts the humble (Luke 1:52).
 reflection:
   title_en: The lowest seat
-  title_ml: '[TITLE ML]'
+  title_ml: ഒടുക്കത്തെ സ്ഥലം
   read_time: A three-minute read
   body: |-
     We may not fight over seats at dinners, but we know the feeling Jesus describes. Wanting to be noticed. Mentioning our achievements. Making sure people know who we are related to. Feeling slighted when someone else is honoured. It happens at weddings, in offices, in parish committees and on social media.

@@ -21,14 +21,14 @@ readings:
   - kind: Gospel
     kind_ml: സുവിശേഷം
     ref: Luke 2:22–40
-    ml: ലൂക്കോസ് 2:22–40
+    ml: ലൂക്കൊസ് 2:22–40
     note: '[NOTE: what to listen for in Luke 2:22–40]'
     printed: St. Luke 2:22-40
   morning:
   - kind: Gospel
     kind_ml: സുവിശേഷം
     ref: Luke 2:22–40
-    ml: ലൂക്കോസ് 2:22–40
+    ml: ലൂക്കൊസ് 2:22–40
     note: '[NOTE: what to listen for in Luke 2:22–40]'
     printed: St. Luke 2:22-40
   before_qurbana:
@@ -60,14 +60,14 @@ readings:
   - kind: Pauline Epistle
     kind_ml: പൗലോസിന്റെ ലേഖനം
     ref: Ephesians 3:13–21; 6:1–4
-    ml: എഫേസ്യർ 3:13–21; 6:1–4
+    ml: എഫെസ്യർ 3:13–21; 6:1–4
     note: '[NOTE: what to listen for in Ephesians 3:13–21; 6:1–4]'
     printed: 'Ephesians3: 13-21 6: 1-4'
     check: 'Printed as ''Ephesians3: 13-21 6: 1-4''.'
   - kind: Gospel
     kind_ml: സുവിശേഷം
     ref: Luke 2:22–40
-    ml: ലൂക്കോസ് 2:22–40
+    ml: ലൂക്കൊസ് 2:22–40
     note: '[NOTE: what to listen for in Luke 2:22–40]'
     printed: St. Luke 2:22-40
     main: true

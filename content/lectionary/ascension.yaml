@@ -28,7 +28,7 @@ readings:
   - kind: Gospel
     kind_ml: സുവിശേഷം
     ref: Luke 24:36–53
-    ml: ലൂക്കോസ് 24:36–53
+    ml: ലൂക്കൊസ് 24:36–53
     note: '[NOTE: what to listen for in Luke 24:36–53]'
     printed: St. Luke 24:36-53
   before_qurbana:
@@ -66,13 +66,13 @@ readings:
   - kind: Pauline Epistle
     kind_ml: പൗലോസിന്റെ ലേഖനം
     ref: Ephesians 4:1–16
-    ml: എഫേസ്യർ 4:1–16
+    ml: എഫെസ്യർ 4:1–16
     note: '[NOTE: what to listen for in Ephesians 4:1–16]'
     printed: Ephesians 4:1-16
   - kind: Gospel
     kind_ml: സുവിശേഷം
     ref: Luke 24:36–53
-    ml: ലൂക്കോസ് 24:36–53
+    ml: ലൂക്കൊസ് 24:36–53
     note: '[NOTE: what to listen for in Luke 24:36–53]'
     printed: St. Luke 24:36-53
     main: true

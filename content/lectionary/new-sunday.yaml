@@ -4,12 +4,12 @@ sunday_slug: new-sunday
 is_sunday: true
 name:
   en: New Sunday
-  ml: '[MALAYALAM NAME]'
+  ml: പുതുഞായർ
 title_as_printed: New Sunday (Sunday after Easter – The Sunday of the Youth)
 season:
   en: Kyomtho
   gloss: The Resurrection season
-  syr: '[SYRIAC]'
+  syr: ܩܝܡܬܐ
 also_kept_as: Youth Sunday
 also_kept_as_note: See Ecclesiastes 12:1
 tagline: 'Thomas sees the wounds: “My Lord and my God”'
@@ -62,7 +62,7 @@ readings:
   - kind: General Epistle
     kind_ml: പൊതുലേഖനം
     ref: 1 Peter 2:19–25
-    ml: 1 പത്രോസ് 2:19–25
+    ml: 1 പത്രൊസ് 2:19–25
     note: By his wounds you have been healed; you have returned to the Shepherd of your souls.
     printed: I Peter 2:19-25
   - kind: Pauline Epistle
@@ -85,7 +85,7 @@ one_minute:
 readings_thread: Joseph is raised to power at thirty, and Ecclesiastes tells the young to remember their Creator. Jeremiah is told not to say “I am only a youth”. Paul urges young Timothy to be strong in grace.
 key_verse:
   ref: John 20:28
-  ml: '[ML VERSE: Sathyavedapusthakam 1910, John 20:28]'
+  ml: 'തോമാസ് അവനോടു: എന്റെ കർത്താവും എന്റെ ദൈവവും ആയുള്ളോവേ എന്നു ഉത്തരം പറഞ്ഞു.'
   ml_translation: Sathyavedapusthakam, 1910
   en: Thomas answered him, “My Lord and my God!”
   en_translation: World English Bible
@@ -128,7 +128,7 @@ phrases:
   explanation: Greek for “twin”, the name John gives Thomas.
 reflection:
   title_en: Jesus came back for Thomas
-  title_ml: '[TITLE ML]'
+  title_ml: തോമായ്ക്കായി യേശു വീണ്ടും വന്നു
   read_time: A three-minute read
   body: |-
     Thomas has a bad name he does not deserve. He was the one who once told the others they should go to Jerusalem and die with Jesus. He was not a coward. He was a man who had seen his friend crucified and could not bear to hope again on someone else’s word.

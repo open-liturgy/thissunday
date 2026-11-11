@@ -4,12 +4,12 @@ sunday_slug: fifth-sunday-after-pentecost
 is_sunday: true
 name:
   en: Fifth Sunday after Pentecost
-  ml: '[MALAYALAM NAME]'
+  ml: പെന്തിക്കോസ്തിക്കു ശേഷം അഞ്ചാം ഞായർ
 title_as_printed: Fifth Sunday after Pentecost
 season:
   en: Pentecost
   gloss: The season of the Holy Spirit
-  syr: '[SYRIAC]'
+  syr: ܦܢܛܩܘܣܛܐ
 tagline: Five loaves, two fish, five thousand people
 standfirst: The apostles come back tired, and Jesus takes them away to rest. The crowds follow. By evening there are five thousand hungry people and only five loaves and two fish.
 description: Readings for the Fifth Sunday after Pentecost, with Luke 9:10–17, the feeding of the five thousand, explained in five scenes. Reflection and question.
@@ -21,7 +21,7 @@ readings:
   - kind: Gospel
     kind_ml: സുവിശേഷം
     ref: Luke 9:10–17
-    ml: ലൂക്കോസ് 9:10–17
+    ml: ലൂക്കൊസ് 9:10–17
     note: Five loaves and two fish feed five thousand, with twelve baskets left over.
     printed: St. Luke 9:10-17
   morning:
@@ -66,7 +66,7 @@ readings:
   - kind: Gospel
     kind_ml: സുവിശേഷം
     ref: Luke 9:10–17
-    ml: ലൂക്കോസ് 9:10–17
+    ml: ലൂക്കൊസ് 9:10–17
     note: Five loaves and two fish feed five thousand, with twelve baskets left over. This is the Gospel of the day.
     printed: St. Luke 9:10-17
     main: true
@@ -77,7 +77,7 @@ one_minute:
 readings_thread: Israel brings the first fruits of harvest to God, and the psalm trusts God as the giver of every good thing. Isaiah says those who wait on the Lord will renew their strength. Ananias is sent to Saul, and Paul calls us ambassadors for Christ.
 key_verse:
   ref: Luke 9:13
-  ml: '[ML VERSE: Sathyavedapusthakam 1910, Luke 9:13]'
+  ml: 'അവൻ അവരോടു: നിങ്ങൾ തന്നേ അവർക്കു ഭക്ഷിപ്പാൻ കൊടുപ്പിൻ എന്നു പറഞ്ഞതിന്നു: അഞ്ചപ്പവും രണ്ടുമീനും അല്ലാതെ അധികം ഞങ്ങളുടെ പക്കൽ ഇല്ല; ഞങ്ങൾ പോയി ഈ സകലജനത്തിന്നും വേണ്ടി ഭോജ്യങ്ങൾ കൊള്ളേണമോ എന്നു അവർ പറഞ്ഞു.'
   ml_translation: Sathyavedapusthakam, 1910
   en: But he said to them, “You give them something to eat.” They said, “We have no more than five loaves and two fish, unless we should go and buy food for all these people.”
   en_translation: World English Bible
@@ -116,7 +116,7 @@ phrases:
   explanation: An echo of Moses organising Israel in the wilderness in groups (Exodus 18:21).
 reflection:
   title_en: Not enough, in his hands
-  title_ml: '[TITLE ML]'
+  title_ml: തികയാത്തതും അവന്റെ കയ്യിൽ
   read_time: A three-minute read
   body: |-
     The disciples’ maths was correct. Five loaves and two fish do not feed five thousand people. Their suggestion to send everyone away to buy food was practical. Jesus asked something impossible instead: you give them something to eat.

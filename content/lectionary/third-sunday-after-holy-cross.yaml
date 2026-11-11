@@ -4,12 +4,12 @@ sunday_slug: third-sunday-after-holy-cross
 is_sunday: true
 name:
   en: Third Sunday after Holy Cross
-  ml: '[MALAYALAM NAME]'
+  ml: സ്ലീബാ പെരുന്നാളിനു ശേഷം മൂന്നാം ഞായർ
 title_as_printed: Third Sunday after the Feast of Holy Cross
 season:
   en: Sleeba
   gloss: The season of the Cross
-  syr: '[SYRIAC]'
+  syr: ܨܠܝܒܐ
 tagline: The Sabbath was made for people
 standfirst: Walking through a field on the Sabbath, the disciples pick ears of grain to eat. The Pharisees object. Jesus reminds them of what David once did when he was hungry.
 description: Readings for the Third Sunday after Holy Cross, with Mark 2:23–28, grain on the Sabbath, explained in five scenes. A reflection and a family question.
@@ -28,7 +28,7 @@ readings:
   - kind: Gospel
     kind_ml: സുവിശേഷം
     ref: Luke 16:1–13
-    ml: ലൂക്കോസ് 16:1–13
+    ml: ലൂക്കൊസ് 16:1–13
     note: The shrewd manager; you cannot serve God and money.
     printed: St. Luke 16:1-13
   before_qurbana:
@@ -77,7 +77,7 @@ one_minute:
 readings_thread: Joseph’s brothers find their money returned in their sacks and are afraid. Proverbs says the fear of the Lord is the beginning of knowledge. Stephen tells how God called Abraham, and Paul says the Spirit gives life where the law alone could not.
 key_verse:
   ref: Mark 2:27
-  ml: '[ML VERSE: Sathyavedapusthakam 1910, Mark 2:27]'
+  ml: 'പിന്നെ അവൻ അവരോടു: മനുഷ്യൻ ശബ്ബത്ത് നിമിത്തമല്ല; ശബ്ബത്ത് മനുഷ്യൻ നിമിത്തമത്രേ ഉണ്ടായതു.'
   ml_translation: Sathyavedapusthakam, 1910
   en: He said to them, “The Sabbath was made for man, not man for the Sabbath.
   en_translation: World English Bible
@@ -120,7 +120,7 @@ phrases:
   explanation: Jesus’ title for himself, from Daniel 7:13.
 reflection:
   title_en: A day made for us
-  title_ml: '[TITLE ML]'
+  title_ml: നമുക്കായി ഉണ്ടായ ദിവസം
   read_time: A three-minute read
   body: |-
     The Pharisees were not wrong to love the Sabbath. It was one of God’s great gifts to Israel: a day when no one, not even a slave, had to work. But they had surrounded it with so many rules that it had become a burden. They watched hungry men pick grain and saw only a broken rule.

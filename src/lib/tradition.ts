@@ -61,6 +61,8 @@ export interface TraditionConfig {
     default: SeasonColours;
     /** Optional per-season override, keyed by `season.en`. */
     bySeason?: Record<string, SeasonColours>;
+    /** Optional per-Sunday override, keyed by `sunday_slug`. Wins over bySeason. */
+    bySlug?: Record<string, SeasonColours>;
   };
   /** Languages this tradition can publish. The first one is the default. */
   languages: Lang[];

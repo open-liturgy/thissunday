@@ -4,12 +4,12 @@ sunday_slug: eighth-sunday-after-pentecost
 is_sunday: true
 name:
   en: Eighth Sunday after Pentecost
-  ml: '[MALAYALAM NAME]'
+  ml: പെന്തിക്കോസ്തിക്കു ശേഷം എട്ടാം ഞായർ
 title_as_printed: Eighth Sunday after Pentecost
 season:
   en: Pentecost
   gloss: The season of the Holy Spirit
-  syr: '[SYRIAC]'
+  syr: ܦܢܛܩܘܣܛܐ
 tagline: '“My flesh is true food”: the bread of life, part three'
 standfirst: Jesus says the bread he gives is his own flesh, for the life of the world. The listeners argue among themselves. How can this man give us his flesh to eat?
 description: 'Readings for the Eighth Sunday after Pentecost, with John 6:47–59 explained: the living bread, his flesh and blood. Reflection and question.'
@@ -54,7 +54,7 @@ readings:
   - kind: General Epistle
     kind_ml: പൊതുലേഖനം
     ref: 1 Peter 2:4–10
-    ml: 1 പത്രോസ് 2:4–10
+    ml: 1 പത്രൊസ് 2:4–10
     note: Come to the living stone, and be built into a spiritual house.
     printed: I Peter 2:4-10
   - kind: Pauline Epistle
@@ -77,7 +77,7 @@ one_minute:
 readings_thread: God reveals his name to Moses at the burning bush, and Jeremiah says God wants obedience more than sacrifice. Isaiah calls Jerusalem to wake and put on strength. Peter calls believers living stones, and Hebrews calls Jesus our great high priest.
 key_verse:
   ref: John 6:51
-  ml: '[ML VERSE: Sathyavedapusthakam 1910, John 6:51]'
+  ml: സ്വർഗ്ഗത്തിൽനിന്നു ഇറങ്ങിയ ജീവനുള്ള അപ്പം ഞാൻ ആകുന്നു; ഈ അപ്പം തിന്നുന്നവൻ എല്ലാം എന്നേക്കും ജീവിക്കും; ഞാൻ കൊടുപ്പാനിരിക്കുന്ന അപ്പമോ ലോകത്തിന്റെ ജീവന്നു വേണ്ടി ഞാൻ കൊടുക്കുന്ന എന്റെ മാംസം ആകുന്നു.
   ml_translation: Sathyavedapusthakam, 1910
   en: I am the living bread which came down out of heaven. If anyone eats of this bread, he will live forever. Yes, the bread which I will give for the life of the world is my flesh.”
   en_translation: World English Bible
@@ -104,7 +104,7 @@ scenes:
   easy_to_miss: John notes the place. Ruins of a later synagogue built on the same site still stand in Capernaum.
 people:
 - name: The listeners in Capernaum
-  ml: '[ML NAME]'
+  ml: കഫർന്നഹൂമിലെ കേൾവിക്കാർ
   role: People in the synagogue, many of whom find this teaching too hard (John 6:60).
   name_meaning: —
 phrases:
@@ -116,7 +116,7 @@ phrases:
   explanation: Syriac for “offering”. The Malankara Church’s name for the Eucharist.
 reflection:
   title_en: He lives in us
-  title_ml: '[TITLE ML]'
+  title_ml: അവൻ നമ്മിൽ വസിക്കുന്നു
   read_time: A three-minute read
   body: |-
     The people in the synagogue at Capernaum find Jesus’ words shocking. Eat his flesh? Drink his blood? Many of his own disciples leave after this conversation. Jesus does not call them back by softening what he said. He lets the words stand.

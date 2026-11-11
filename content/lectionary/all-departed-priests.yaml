@@ -4,7 +4,7 @@ sunday_slug: all-departed-priests
 is_sunday: true
 name:
   en: Sunday of All Departed Priests
-  ml: '[MALAYALAM NAME]'
+  ml: വാങ്ങിപ്പോയ പട്ടക്കാരുടെ ഞായർ
 title_as_printed: All Departed Priests
 season:
   en: Remembrance of the departed
@@ -28,7 +28,7 @@ readings:
   - kind: Gospel
     kind_ml: സുവിശേഷം
     ref: Luke 19:11–28
-    ml: ലൂക്കോസ് 19:11–28
+    ml: ലൂക്കൊസ് 19:11–28
     note: A nobleman leaves money with his servants and returns to see what they did with it.
     printed: St. Luke 19:11-28
   before_qurbana:
@@ -77,7 +77,7 @@ one_minute:
 readings_thread: Aaron dies on Mount Hor and his son takes his robes, and Moses sees the promised land before he dies. Paul says goodbye to the elders of Ephesus and tells them to guard the flock. Thessalonians tells us not to grieve without hope.
 key_verse:
   ref: Matthew 24:46
-  ml: '[ML VERSE: Sathyavedapusthakam 1910, Matthew 24:46]'
+  ml: യജമാനൻ വരുമ്പോൾ അങ്ങനെ ചെയ്തു കാണുന്ന ദാസൻ ഭാഗ്യവാൻ.
   ml_translation: Sathyavedapusthakam, 1910
   en: Blessed is that servant whom his lord finds doing so when he comes.
   en_translation: World English Bible
@@ -104,7 +104,7 @@ scenes:
   easy_to_miss: 'The wicked servant’s mistake starts in his heart: “my master is delayed”. Forgetting that the master will return is what lets him abuse the household.'
 people:
 - name: The faithful servant
-  ml: '[ML NAME]'
+  ml: വിശ്വസ്തനായ ദാസൻ
   role: Left in charge of the household, he keeps feeding everyone on time.
   name_meaning: —
 - name: Aaron
@@ -120,7 +120,7 @@ phrases:
   explanation: The Church prays for its priests who have died, by name in the Thubden of the Qurbana and on this Sunday.
 reflection:
   title_en: The priests who fed us
-  title_ml: '[TITLE ML]'
+  title_ml: നമ്മെ പോഷിപ്പിച്ച പട്ടക്കാർ
   read_time: A three-minute read
   body: |-
     Most of us can name the priests who baptised us, married us, or buried someone we loved. Many of them have now died. On this Sunday the Church remembers them and prays for them, and the Gospel it chooses tells us what they were for: feeding the household at the right time.

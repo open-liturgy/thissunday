@@ -4,7 +4,7 @@ sunday_slug: annunciation-to-st-mary
 is_sunday: true
 name:
   en: Annunciation to St. Mary
-  ml: '[MALAYALAM NAME]'
+  ml: വിശുദ്ധ മറിയത്തോടുള്ള അറിയിപ്പിന്റെ ഞായർ
 title_as_printed: Annunciation to St. Mary, Mother of God
 season:
   en: Suboro
@@ -21,7 +21,7 @@ readings:
   - kind: Gospel
     kind_ml: സുവിശേഷം
     ref: Luke 8:16–21
-    ml: ലൂക്കോസ് 8:16–21
+    ml: ലൂക്കൊസ് 8:16–21
     note: A lamp is not hidden; Jesus’ mother and brothers are those who hear God’s word and do it.
     printed: St. Luke 8:16-21
   morning:
@@ -78,7 +78,7 @@ readings:
   - kind: Gospel
     kind_ml: സുവിശേഷം
     ref: Luke 1:26–38
-    ml: ലൂക്കോസ് 1:26–38
+    ml: ലൂക്കൊസ് 1:26–38
     note: 'Gabriel is sent to Mary in Nazareth, and she says: let it be to me according to your word. This is the Gospel of the day.'
     printed: St. Luke 1:26-38
     main: true
@@ -89,7 +89,7 @@ one_minute:
 readings_thread: Jacob dreams of a ladder and calls the place the house of God. Samson’s mother hears an angel, and Zechariah and Isaiah promise that God will come to live among his people. In Mary, God makes his home.
 key_verse:
   ref: Luke 1:38
-  ml: '[ML VERSE: Sathyavedapusthakam 1910, Luke 1:38]'
+  ml: ഇതാ, ഞാൻ കർത്താവിന്റെ ദാസി; നിന്റെ വാക്കുപോലെ എനിക്കു ഭവിക്കട്ടെ.
   ml_translation: Sathyavedapusthakam, 1910
   en: Mary said, “Behold, the servant of the Lord; let it be done to me according to your word.”
   en_translation: World English Bible
@@ -140,7 +140,7 @@ phrases:
   explanation: God promised David that his line would rule for ever (2 Samuel 7:12–16). Gabriel says Jesus fulfils it.
 reflection:
   title_en: A question, and then yes
-  title_ml: '[TITLE ML]'
+  title_ml: ഒരു ചോദ്യം, പിന്നെ സമ്മതം
   read_time: A three-minute read
   body: |-
     Mary is often painted as calm and still, as if Gabriel’s words cost her nothing. Luke tells a different story. She is troubled. She wonders what the greeting means. She asks a sensible question about how any of this could happen. Only after that does she say yes.
@@ -155,6 +155,143 @@ week:
   question_note: Two minutes after the audio. Everyone gets a turn, and nobody is interrupted.
   small_act: Say yes to one thing someone asks of you this week, without first asking what is in it for you.
   prayer: Lord, you sent your angel to Mary and she said yes. Give us her courage to ask honest questions and her faith to trust you with the answer. Let it be done to us according to your word. Amen.
+translations:
+  ml:
+    name:
+      en: വിശുദ്ധ മറിയത്തോടുള്ള അറിയിപ്പിന്റെ ഞായർ
+      ml: Annunciation to St. Mary
+    season:
+      en: സൂബോറോ
+      gloss: അറിയിപ്പുകളുടെ കാലം
+    tagline: ഗബ്രിയേൽ വീണ്ടും അയയ്ക്കപ്പെടുന്നു, ഇത്തവണ നസറെത്തിലേക്ക്
+    standfirst: ദൈവാലയത്തിൽവെച്ച് സെഖര്യാവിനോടു സംസാരിച്ച് ആറു മാസം കഴിഞ്ഞ്, ഒരു ചെറിയ ഗ്രാമത്തിലെ ഒരു യുവതിയുടെ അടുക്കലേക്ക് ഗബ്രിയേൽ അയയ്ക്കപ്പെടുന്നു. അവൾ ഒരു ചോദ്യം ചോദിക്കുന്നു; പിന്നെ സമ്മതം മൂളുന്നു.
+    description: വിശുദ്ധ മറിയത്തോടുള്ള അറിയിപ്പിന്റെ ഞായറിലെ വായനകൾ, ലൂക്കൊസ് 1:26–38 അഞ്ചു രംഗങ്ങളിൽ, ഒരു ധ്യാനം, കുടുംബത്തിനായി ഒരു ചോദ്യം.
+    one_minute:
+      what_happens: നസറെത്തിൽവെച്ച് ഗബ്രിയേൽ ദൂതൻ മറിയയെ വന്ദിച്ച്, എന്നേക്കും വാഴുന്ന യേശു എന്ന ഒരു മകനെ അവൾ പ്രസവിക്കും എന്നു പറയുന്നു. താൻ കന്യകയായിരിക്കെ ഇത് എങ്ങനെ എന്ന് മറിയ ചോദിക്കുന്നു. പരിശുദ്ധാത്മാവ് അവളുടെമേൽ വരും എന്ന് ഗബ്രിയേൽ പറയുന്നു. മറിയ സമ്മതിക്കുന്നു.
+      why_this_sunday: കഴിഞ്ഞ ആഴ്ച ഗബ്രിയേൽ യോഹന്നാനെ വാഗ്ദാനം ചെയ്തു. ഈ ആഴ്ച യേശുവിനെ വാഗ്ദാനം ചെയ്യുന്നു. ക്രിസ്തുമസിനു മുമ്പുള്ള ഞായറാഴ്ചകൾ ഓരോ അറിയിപ്പായി കഥയിലൂടെ നടക്കുന്നു.
+      take_with_you: എല്ലാം മനസ്സിലാക്കിയിട്ടല്ല മറിയ സമ്മതം പറഞ്ഞത്. അവൾ തന്റെ ചോദ്യം ചോദിച്ചു, ഉത്തരം കേട്ടു, ബാക്കി ദൈവത്തെ ഏല്പിച്ചു.
+    readings_thread: യാക്കോബ് ഒരു ഗോവണി സ്വപ്നം കണ്ട് ആ സ്ഥലത്തെ ദൈവത്തിന്റെ ആലയം എന്നു വിളിക്കുന്നു. ശിംശോന്റെ അമ്മ ഒരു ദൂതനെ കേൾക്കുന്നു; ദൈവം തന്റെ ജനത്തിന്റെ നടുവിൽ വസിക്കാൻ വരുമെന്ന് സെഖര്യാവും യെശയ്യാവും വാഗ്ദാനം ചെയ്യുന്നു. മറിയയിൽ ദൈവം തന്റെ ഭവനം ഒരുക്കുന്നു.
+    scenes:
+    - verses: ലൂക്കൊസ് 1:26–27
+      title: ആറാം മാസം, നസറെത്തിൽ
+      text: എലീശബെത്തിന്റെ ആറാം മാസത്തിൽ ഗബ്രിയേൽ ഗലീലയിലെ നസറെത്തിലേക്ക്, ദാവീദുഗൃഹത്തിലെ യോസേഫിനു വിവാഹം നിശ്ചയിച്ചിരുന്ന മറിയ എന്ന കന്യകയുടെ അടുക്കലേക്ക് അയയ്ക്കപ്പെടുന്നു.
+      easy_to_miss: കഴിഞ്ഞ ആഴ്ചത്തെ സന്ദേശം യെരൂശലേം ദൈവാലയത്തിൽ ഒരു പുരോഹിതനാണ് ലഭിച്ചത്. ഇത് ആരും വലിയ വില കല്പിക്കാത്ത ഒരു ഗ്രാമത്തിലെ ഒരു യുവതിക്കാണ് (യോഹന്നാൻ 1:46).
+    - verses: ലൂക്കൊസ് 1:28–29
+      title: അവളെ കലക്കിയ ഒരു വന്ദനം
+      text: “കൃപലഭിച്ചവളേ, നിനക്കു വന്ദനം; കർത്താവു നിന്നോടുകൂടെ ഉണ്ടു.” മറിയ വളരെ കലങ്ങി, ഇത് എന്തൊരു വന്ദനം എന്നു വിചാരിക്കുന്നു.
+      easy_to_miss: അവളെ കലക്കുന്നത് ദൂതനല്ല, വാക്കുകളാണ്. സംസാരിക്കുന്നതിനു മുമ്പ് മറിയ ചിന്തിക്കുന്നു.
+    - verses: ലൂക്കൊസ് 1:30–33
+      title: നീ അവന്നു യേശു എന്നു പേർ വിളിക്കേണം
+      text: ഭയപ്പെടേണ്ടാ എന്ന് ഗബ്രിയേൽ പറയുന്നു. അവൾ ഒരു മകനെ പ്രസവിച്ച് അവനു യേശു എന്നു പേരിടും. അവൻ അത്യുന്നതന്റെ പുത്രൻ എന്നു വിളിക്കപ്പെടും, ദാവീദിന്റെ സിംഹാസനത്തിൽ ഇരിക്കും; അവന്റെ രാജ്യത്തിന് അവസാനം ഉണ്ടാകയില്ല.
+      easy_to_miss: ഇത്തവണ അമ്മയാണ് കുഞ്ഞിനു പേരിടുന്നത്. യോഹന്നാന്റെ കാര്യത്തിൽ പേരിടാൻ പറഞ്ഞത് അപ്പനോടായിരുന്നു (ലൂക്കൊസ് 1:13).
+    - verses: ലൂക്കൊസ് 1:34–35
+      title: ഇതു എങ്ങനെ സംഭവിക്കും?
+      text: തനിക്കു ഭർത്താവില്ലാതിരിക്കെ ഇത് എങ്ങനെ എന്ന് മറിയ ചോദിക്കുന്നു. പരിശുദ്ധാത്മാവ് അവളുടെമേൽ വരും, അത്യുന്നതന്റെ ശക്തി അവളുടെമേൽ നിഴലിടും എന്ന് ഗബ്രിയേൽ ഉത്തരം പറയുന്നു.
+      easy_to_miss: “ഇതു ഞാൻ എന്തൊന്നിനാൽ അറിയും?” എന്നു ചോദിച്ച സെഖര്യാവ് മൌനിയായി. “ഇതു എങ്ങനെ സംഭവിക്കും?” എന്നു ചോദിക്കുന്ന മറിയയ്ക്ക് ഉത്തരം ലഭിക്കുന്നു. ഒരാൾ തെളിവു ചോദിക്കുന്നു; മറ്റേയാൾ എങ്ങനെ അനുസരിക്കണം എന്നു ചോദിക്കുന്നു.
+    - verses: ലൂക്കൊസ് 1:36–38
+      title: അങ്ങനെ ഭവിക്കട്ടെ
+      text: 'എലീശബെത്തും ഗർഭിണിയാണ് എന്ന് ഗബ്രിയേൽ അവളോടു പറയുന്നു; ദൈവത്തിന് ഒരു കാര്യവും അസാദ്ധ്യമല്ലല്ലോ. മറിയ പറയുന്നു: ഇതാ, ഞാൻ കർത്താവിന്റെ ദാസി; നിന്റെ വാക്കുപോലെ എനിക്കു ഭവിക്കട്ടെ.'
+      easy_to_miss: “ദൈവത്തിന്നു ഒരു കാര്യവും അസാദ്ധ്യമല്ലല്ലോ” എന്നത് സാറായെക്കുറിച്ച് കർത്താവ് അബ്രാഹാമിനോടു പറഞ്ഞതിന്റെ പ്രതിധ്വനിയാണ് (ഉല്പത്തി 18:14).
+    people:
+    - name: മറിയം
+      role: യോസേഫിനു വിവാഹം നിശ്ചയിച്ചിരുന്ന നസറെത്തിലെ ഒരു യുവതി. സഭ അവളെ ദൈവമാതാവ് എന്നു വിളിക്കുന്നു.
+      name_meaning: എബ്രായയിൽ മിര്യാം; അർത്ഥം ഉറപ്പില്ല
+      ml: Mary
+    - name: ഗബ്രിയേൽ
+      role: ആറു മാസം മുമ്പ് സെഖര്യാവിനോടു സംസാരിച്ച അതേ ദൂതൻ.
+      name_meaning: “ദൈവം എന്റെ ബലം”
+      ml: Gabriel
+    - name: യോസേഫ്
+      role: മറിയയ്ക്കു വിവാഹം നിശ്ചയിച്ചിരുന്നവൻ; ദാവീദ് രാജാവിന്റെ വംശജൻ.
+      name_meaning: “അവൻ കൂട്ടിച്ചേർക്കും”
+      ml: Joseph
+    - name: യേശു
+      role: മറിയയ്ക്കു വാഗ്ദത്തം ചെയ്യപ്പെട്ട മകൻ; എന്നേക്കും വാഴുന്നവൻ.
+      name_meaning: “കർത്താവ് രക്ഷിക്കുന്നു”
+      ml: Jesus
+    phrases:
+    - term: വിവാഹനിശ്ചയം
+      explanation: സാധാരണ ഒരു വർഷത്തോളം നീളുന്ന, ബന്ധിക്കുന്ന ഒരു ഉടമ്പടി. ദമ്പതികൾ നിയമപരമായി വാഗ്ദത്തം ചെയ്യപ്പെട്ടവരായിരുന്നു; എങ്കിലും ഒന്നിച്ചു താമസിച്ചിരുന്നില്ല.
+    - term: നിഴലിടുക
+      explanation: ദൈവതേജസ്സ് തിരുനിവാസത്തെ നിറച്ചപ്പോൾ അതിനെ മൂടിയ മേഘത്തിന്റെ അതേ ചിത്രം (പുറപ്പാട് 40:34–35).
+    - term: ദാവീദിന്റെ സിംഹാസനം
+      explanation: ദാവീദിന്റെ വംശം എന്നേക്കും വാഴും എന്ന് ദൈവം അവനോടു വാഗ്ദത്തം ചെയ്തു (2 ശമൂവേൽ 7:12–16). യേശുവിൽ അതു നിറവേറുന്നു എന്ന് ഗബ്രിയേൽ പറയുന്നു.
+    reflection:
+      title_en: ഒരു ചോദ്യം, പിന്നെ സമ്മതം
+      read_time: മൂന്നു മിനിറ്റ് വായന
+      body: |-
+        ഗബ്രിയേലിന്റെ വാക്കുകൾ അവൾക്ക് ഒന്നും ബുദ്ധിമുട്ടുണ്ടാക്കിയില്ല എന്ന മട്ടിൽ, ശാന്തയും നിശ്ചലയുമായാണ് മറിയയെ പലപ്പോഴും വരയ്ക്കാറുള്ളത്. ലൂക്കൊസ് പറയുന്നത് മറ്റൊരു കഥയാണ്. അവൾ കലങ്ങുന്നു. ആ വന്ദനത്തിന്റെ അർത്ഥമെന്ത് എന്നു വിചാരിക്കുന്നു. ഇതെല്ലാം എങ്ങനെ സംഭവിക്കും എന്ന് ന്യായമായ ഒരു ചോദ്യം ചോദിക്കുന്നു. അതിനു ശേഷം മാത്രമാണ് അവൾ സമ്മതം പറയുന്നത്.
+
+        അവളുടെ സമ്മതം കണ്ണടച്ചുള്ളതല്ല. സംസാരിക്കുന്നവനെ വിശ്വസിക്കാൻ വേണ്ടത്ര കേട്ട ഒരാളുടെ ഉത്തരമാണത്; അത് എവിടേക്കു നയിക്കുമെന്ന് അവൾക്കു കാണാൻ കഴിയുന്നില്ലെങ്കിലും. ബേത്ലെഹെമിനെക്കുറിച്ചോ മിസ്രയീമിനെക്കുറിച്ചോ ക്രൂശിനെക്കുറിച്ചോ അവൾക്ക് അറിയില്ല. ദൈവം സംസാരിച്ചു എന്നും അവന് ഒരു കാര്യവും അസാദ്ധ്യമല്ല എന്നും അവൾക്കറിയാം.
+
+        ഒരു കുടുംബത്തിലെ വലിയ തീരുമാനങ്ങളിൽ മിക്കതും ഇങ്ങനെയാണ് എടുക്കുന്നത്; അവ എങ്ങനെ അവസാനിക്കും എന്നറിയാതെ. ചോദ്യങ്ങൾ ചോദിക്കുന്നതും ദൈവത്തിൽ ആശ്രയിക്കുന്നതും പരസ്പരവിരുദ്ധമല്ല എന്ന് മറിയ കാണിച്ചുതരുന്നു. അവൾ തന്റെ ചോദ്യം ദൈവത്തിന്റെ അടുക്കൽ കൊണ്ടുവന്നു; പിന്നെ തന്റെ ജീവിതം അവനു കൊടുത്തു. കാര്യങ്ങൾ ചെയ്യാൻ ഇന്നും അതൊരു നല്ല ക്രമമാണ്.
+      title_ml: A question, and then yes
+    week:
+      question: ഇപ്പോൾ ദൈവത്തോടു ചോദിക്കാൻ നിങ്ങൾ ആഗ്രഹിക്കുന്ന ഒരു ചോദ്യം എന്താണ്?
+      question_note: ഓഡിയോയ്ക്കു ശേഷം രണ്ടു മിനിറ്റ്. എല്ലാവർക്കും ഒരു അവസരം; ആരും ഇടയ്ക്കു കയറി സംസാരിക്കരുത്.
+      small_act: ഈ ആഴ്ച ആരെങ്കിലും നിങ്ങളോടു ചോദിക്കുന്ന ഒരു കാര്യത്തിന്, എനിക്കെന്തു കിട്ടും എന്ന് ആദ്യം ചോദിക്കാതെ, സമ്മതം പറയുക.
+      prayer: കർത്താവേ, നീ നിന്റെ ദൂതനെ മറിയയുടെ അടുക്കൽ അയച്ചു; അവൾ സമ്മതം പറഞ്ഞു. സത്യസന്ധമായി ചോദിക്കാനുള്ള അവളുടെ ധൈര്യവും ഉത്തരം നിന്നെ ഏല്പിക്കാനുള്ള അവളുടെ വിശ്വാസവും ഞങ്ങൾക്കു തരേണമേ. നിന്റെ വാക്കുപോലെ ഞങ്ങൾക്കു ഭവിക്കട്ടെ. ആമേൻ.
+    readings:
+      evening:
+      - kind: Gospel
+        kind_ml: സുവിശേഷം
+        ref: Luke 8:16–21
+        ml: ലൂക്കൊസ് 8:16–21
+        printed: St. Luke 8:16-21
+      morning:
+      - kind: Gospel
+        kind_ml: സുവിശേഷം
+        ref: Mark 3:31–35
+        ml: മർക്കൊസ് 3:31–35
+        printed: St. Mark 3:31-35
+      before_qurbana:
+      - kind: Old Testament
+        kind_ml: പഴയനിയമം
+        ref: Genesis 28:10–22
+        ml: ഉല്പത്തി 28:10–22
+        printed: Genesis 28:10-22
+      - kind: Old Testament
+        kind_ml: പഴയനിയമം
+        ref: Judges 13:2–14
+        ml: ന്യായാധിപന്മാർ 13:2–14
+        printed: Judges 13:2-14
+      - kind: Old Testament
+        kind_ml: പഴയനിയമം
+        ref: Zechariah 2:10–13; 4:1–7; 8:3
+        ml: സെഖര്യാവ് 2:10–13; 4:1–7; 8:3
+        printed: Zechariah 2:10-13, 4:1-7, 8:3
+      - kind: Old Testament
+        kind_ml: പഴയനിയമം
+        ref: Isaiah 63:15–64:5
+        ml: യെശയ്യാവ് 63:15–64:5
+        printed: Isaiah 63:15-64:5
+      holy_qurbana:
+      - kind: General Epistle
+        kind_ml: പൊതുലേഖനം
+        ref: 1 John 3:2–17
+        ml: 1 യോഹന്നാൻ 3:2–17
+        printed: I John 3:2-17
+      - kind: Pauline Epistle
+        kind_ml: പൗലോസിന്റെ ലേഖനം
+        ref: Galatians 4:1–7
+        ml: ഗലാത്യർ 4:1–7
+        printed: Galatians 4:1-7
+      - kind: Pauline Epistle
+        kind_ml: പൗലോസിന്റെ ലേഖനം
+        ref: Hebrews 2:14–18
+        ml: എബ്രായർ 2:14–18
+        printed: Hebrews 2:14-18
+      - kind: Gospel
+        kind_ml: സുവിശേഷം
+        ref: Luke 1:26–38
+        ml: ലൂക്കൊസ് 1:26–38
+        printed: St. Luke 1:26-38
+        main: true
+    key_verse:
+      ref: ലൂക്കൊസ് 1:38
+    hero_quote:
+      text: കൃപലഭിച്ചവളേ, നിനക്കു വന്ദനം; കർത്താവു നിന്നോടുകൂടെ ഉണ്ടു.
+      ref: ലൂക്കൊസ് 1:28
 sources:
   lectionary: https://mosc.in/lectionary/421-2/
 reviewed: false

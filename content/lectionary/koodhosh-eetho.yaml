@@ -4,12 +4,12 @@ sunday_slug: koodhosh-eetho
 is_sunday: true
 name:
   en: Koodosh Eetho
-  ml: '[MALAYALAM NAME]'
+  ml: കൂദോശ് ഈത്തോ ഞായർ
 title_as_printed: Koodhosh Eetho (Sanctification) Sunday
 season:
   en: Koodosh Eetho
   gloss: The Church year begins
-  syr: '[SYRIAC]'
+  syr: ܩܘܕܫ ܥܕܬܐ
 also_kept_as: Sanctification of the Church
 tagline: The Church year begins with Peter’s answer
 standfirst: Jesus asks his friends who they think he is. Peter gets the answer right, and a few verses later gets everything else wrong. The Church year starts with both.
@@ -55,7 +55,7 @@ readings:
   - kind: General Epistle
     kind_ml: പൊതുലേഖനം
     ref: 1 Peter 2:1–12
-    ml: 1 പത്രോസ് 2:1–12
+    ml: 1 പത്രൊസ് 2:1–12
     note: 'You are living stones, built into a spiritual house: a holy nation, God’s own people.'
     printed: I Peter 2:1-12
   - kind: Pauline Epistle
@@ -78,7 +78,7 @@ one_minute:
 readings_thread: Moses meets God in the tent outside the camp, the cloud fills the tabernacle, and Isaiah sees the Lord in the Temple. Peter and Paul then say the dwelling place of God is now his people. The year opens by asking what makes a place, and a people, holy.
 key_verse:
   ref: Matthew 16:18
-  ml: '[ML VERSE: Sathyavedapusthakam 1910, Matthew 16:18]'
+  ml: നീ പത്രൊസ് ആകുന്നു; ഈ പാറമേൽ ഞാൻ എന്റെ സഭയെ പണിയും; പാതാളഗോപുരങ്ങൾ അതിനെ ജയിക്കയില്ല എന്നു ഞാൻ നിന്നോടു പറയുന്നു.
   ml_translation: Sathyavedapusthakam, 1910
   en: I also tell you that you are Peter, and on this rock I will build my assembly, and the gates of Hades will not prevail against it.
   en_translation: World English Bible
@@ -109,7 +109,7 @@ people:
   role: A fisherman from Galilee, the first of the disciples to call Jesus the Christ.
   name_meaning: “Rock” (Kepha in Aramaic)
 - name: Simon bar Jonah
-  ml: '[ML NAME]'
+  ml: ബർയോനാ ശിമോൻ
   role: 'Peter’s name before Jesus renamed him: Simon, son of Jonah.'
   name_meaning: Simon means “he has heard”
 phrases:
@@ -121,7 +121,7 @@ phrases:
   explanation: Syriac for the sanctification of the Church. It is kept on the Sunday on or after 30 October and opens the Church year.
 reflection:
   title_en: Built on people who get it wrong
-  title_ml: '[TITLE ML]'
+  title_ml: തെറ്റുപറ്റുന്നവരുടെ മേൽ പണിത സഭ
   read_time: A three-minute read
   body: |-
     Peter’s answer at Caesarea Philippi is the most famous thing he ever says. Jesus blesses him for it and calls him the rock. Five verses later the same man tries to talk Jesus out of the cross and is told to get out of the way. Matthew does not soften either moment.
@@ -136,6 +136,126 @@ week:
   question_note: Two minutes after the audio. Everyone gets a turn, and nobody is interrupted.
   small_act: Pick one thing you want to do differently in this new Church year, and tell one person at home so they can ask you about it.
   prayer: Lord Jesus, you are the Christ, the Son of the living God. Build your Church on us, weak as we are, and correct us when we think as people think and not as God thinks. Amen.
+translations:
+  ml:
+    name:
+      en: കൂദോശ് ഈത്തോ ഞായർ
+      ml: Koodosh Eetho
+    season:
+      en: കൂദോശ് ഈത്തോ
+      gloss: സഭാവർഷം ആരംഭിക്കുന്നു
+    also_kept_as: സഭയുടെ ശുദ്ധീകരണം
+    tagline: പത്രൊസിന്റെ ഉത്തരത്തോടെ സഭാവർഷം തുടങ്ങുന്നു
+    standfirst: താൻ ആരെന്നാണ് അവർ കരുതുന്നത് എന്ന് യേശു തന്റെ സ്നേഹിതരോടു ചോദിക്കുന്നു. പത്രൊസ് ശരിയായ ഉത്തരം പറയുന്നു; ഏതാനും വാക്യങ്ങൾ കഴിയുമ്പോൾ ബാക്കിയെല്ലാം അവനു തെറ്റുന്നു. സഭാവർഷം ആരംഭിക്കുന്നത് ഇവ രണ്ടോടും കൂടെയാണ്.
+    description: സഭാവർഷത്തിലെ ആദ്യ ഞായറായ കൂദോശ് ഈത്തോയുടെ വായനകൾ, മത്തായി 16:13–23 വിശദീകരിച്ചത്, ഒരു ധ്യാനം, കുടുംബത്തിനായി ഒരു ചോദ്യം.
+    one_minute:
+      what_happens: കൈസര്യഫിലിപ്പിക്കടുത്തുവെച്ച്, ജനങ്ങൾ തന്നെ ആരെന്നു പറയുന്നു എന്ന് യേശു ചോദിക്കുന്നു; പിന്നെ ശിഷ്യന്മാരോടും ചോദിക്കുന്നു. അവൻ ക്രിസ്തു ആകുന്നു എന്ന് പത്രൊസ് പറയുന്നു. സഭ പണിയപ്പെടുന്ന പാറ എന്ന് യേശു അവനെ വിളിക്കുന്നു; പിന്നെ താൻ കഷ്ടം അനുഭവിക്കേണ്ടതാണെന്നു പറയുന്നു. പത്രൊസ് എതിർക്കുന്നു, ശാസന കേൾക്കുന്നു.
+      why_this_sunday: 'കൂദോശ് ഈത്തോ എന്നാൽ സഭയുടെ ശുദ്ധീകരണം. പുതുവർഷത്തിലെ ആദ്യ ഞായറാഴ്ച സഭ താൻ എവിടെനിന്നു വന്നു എന്ന് ഓർക്കുന്നു: യേശു ആരെന്ന് ഒരു മനുഷ്യൻ നടത്തിയ ഏറ്റുപറച്ചിൽ.'
+      take_with_you: ഒരേ സംഭാഷണത്തിൽ പത്രൊസ് പാറയെന്നും ഇടർച്ചയെന്നും വിളിക്കപ്പെടുന്നു. അങ്ങനെയുള്ളവരുടെ മേലാണ് സഭ പണിയപ്പെട്ടത്; ഇന്നും അങ്ങനെതന്നെ.
+    readings_thread: പാളയത്തിനു പുറത്തുള്ള കൂടാരത്തിൽ മോശെ ദൈവത്തെ കാണുന്നു; മേഘം തിരുനിവാസത്തെ നിറയ്ക്കുന്നു; യെശയ്യാവ് ദൈവാലയത്തിൽ കർത്താവിനെ കാണുന്നു. ദൈവത്തിന്റെ വാസസ്ഥലം ഇപ്പോൾ അവന്റെ ജനമാണെന്ന് പത്രൊസും പൗലോസും പറയുന്നു. ഒരു സ്ഥലത്തെയും ഒരു ജനത്തെയും വിശുദ്ധമാക്കുന്നത് എന്ത് എന്ന ചോദ്യത്തോടെയാണ് വർഷം തുടങ്ങുന്നത്.
+    scenes:
+    - verses: മത്തായി 16:13–14
+      title: ജനങ്ങൾ എന്തു പറയുന്നു?
+      text: അങ്ങു വടക്ക്, കൈസരുടെ പേരുള്ള ഒരു പട്ടണത്തിനടുത്ത്, ജനങ്ങൾ തന്നെക്കുറിച്ച് എന്തു പറയുന്നു എന്ന് യേശു ചോദിക്കുന്നു. യോഹന്നാൻ സ്നാപകൻ, ഏലീയാവ്, യിരെമ്യാവ്, പ്രവാചകന്മാരിൽ ഒരുവൻ.
+      easy_to_miss: പുരുഷാരം പറയുന്ന ഓരോ ഉത്തരവും ഇതിനകം മരിച്ചുപോയ ഒരു പ്രവാചകനാണ്. യേശുവിനെ അവർക്ക് ഭൂതകാലത്തിലേ ഉൾക്കൊള്ളിക്കാൻ കഴിയുന്നുള്ളൂ.
+    - verses: മത്തായി 16:15–16
+      title: നിങ്ങളോ എന്നെ ആർ എന്നു പറയുന്നു?
+      text: 'യേശു ചോദ്യം ശിഷ്യന്മാരിലേക്കു തിരിക്കുന്നു. എല്ലാവർക്കുംവേണ്ടി പത്രൊസ് ഉത്തരം പറയുന്നു: “നീ ജീവനുള്ള ദൈവത്തിന്റെ പുത്രനായ ക്രിസ്തു.”'
+      easy_to_miss: ചോദ്യം “ജനങ്ങളിൽ” നിന്ന് “നിങ്ങളിലേക്ക്” നീങ്ങുന്നു. ഈ ചോദ്യത്തിന് മറ്റൊരാളുടെ ഉത്തരം കടം വാങ്ങാൻ ആർക്കും കഴിയില്ല.
+    - verses: മത്തായി 16:17–19
+      title: പാറയും താക്കോലുകളും
+      text: പത്രൊസ് ഇതു സ്വയം കണ്ടുപിടിച്ചതല്ല, പിതാവ് അവനു വെളിപ്പെടുത്തിയതാണ് എന്ന് യേശു പറയുന്നു. സഭ നിലനില്ക്കുന്ന പാറ പത്രൊസാണ്; സ്വർഗ്ഗരാജ്യത്തിന്റെ താക്കോലുകൾ അവനു നല്കപ്പെടുന്നു.
+      easy_to_miss: സുവിശേഷങ്ങളിൽ “സഭ” എന്ന വാക്ക് വരുന്ന രണ്ടു സ്ഥലങ്ങളിൽ ഒന്നാണിത് (മറ്റേതു മത്തായി 18:17).
+    - verses: മത്തായി 16:20–21
+      title: യെരൂശലേമിലേക്കുള്ള വഴി
+      text: ഇപ്പോൾ ഇതു ആരോടും പറയരുത് എന്ന് യേശു കല്പിക്കുന്നു. താൻ യെരൂശലേമിൽ ചെന്ന് കഷ്ടം അനുഭവിച്ച്, കൊല്ലപ്പെട്ട്, മൂന്നാം നാൾ ഉയിർത്തെഴുന്നേല്ക്കേണ്ടതാകുന്നു എന്ന് ഈ നിമിഷംമുതൽ അവൻ വിശദീകരിച്ചു തുടങ്ങുന്നു.
+      easy_to_miss: 'മത്തായി ഇതിനെ ഒരു വഴിത്തിരിവായി അടയാളപ്പെടുത്തുന്നു: “അന്നുമുതൽ യേശു … തുടങ്ങി”. സുവിശേഷത്തിന്റെ ബാക്കി ഭാഗം ക്രൂശിലേക്കാണ് നടക്കുന്നത്.'
+    - verses: മത്തായി 16:22–23
+      title: എന്നെ വിട്ടു പോ
+      text: പത്രൊസ് യേശുവിനെ മാറ്റിനിർത്തി, ഇതു ഒരിക്കലും സംഭവിക്കരുത് എന്നു പറയുന്നു. യേശു അവനെ സാത്താൻ എന്നും ഇടർച്ച എന്നും വിളിക്കുന്നു; കാരണം അവൻ ചിന്തിക്കുന്നതു ദൈവത്തിന്റേതല്ല, മനുഷ്യരുടേതാണ്.
+      easy_to_miss: 18-ാം വാക്യത്തിലെ പാറ 23-ാം വാക്യത്തിൽ ഇടർച്ചയാകുന്നു. ഒരേ മനുഷ്യൻ അടിസ്ഥാനമോ തട്ടിവീഴ്ത്തുന്ന കല്ലോ ആകാം.
+    people:
+    - name: പത്രൊസ്
+      role: ഗലീലയിൽനിന്നുള്ള ഒരു മീൻപിടുത്തക്കാരൻ; യേശുവിനെ ക്രിസ്തു എന്നു വിളിച്ച ആദ്യ ശിഷ്യൻ.
+      name_meaning: “പാറ” (അരാമ്യഭാഷയിൽ കേഫാ)
+      ml: Peter
+    - name: ബർയോനാ ശിമോൻ
+      role: 'യേശു പേരു മാറ്റുന്നതിനു മുമ്പുള്ള പത്രൊസിന്റെ പേര്: യോനയുടെ മകനായ ശിമോൻ.'
+      name_meaning: ശിമോൻ എന്നാൽ “അവൻ കേട്ടു”
+      ml: Simon bar Jonah
+    phrases:
+    - term: കൈസര്യഫിലിപ്പി
+      explanation: ഹെർമ്മോൻ പർവ്വതത്തിന്റെ അടിവാരത്തുള്ള ഒരു പട്ടണം. ഹെരോദാവിന്റെ മകൻ ഫിലിപ്പൊസ് പുതുക്കിപ്പണിത്, ചക്രവർത്തിയുടെ പേരിട്ടതാണ്. അവിടെ നിറയെ ജാതീയ ക്ഷേത്രങ്ങൾ ഉണ്ടായിരുന്നു.
+    - term: സ്വർഗ്ഗരാജ്യത്തിന്റെ താക്കോലുകൾ
+      explanation: രാജാവിനുവേണ്ടി വീട് തുറക്കുകയും അടയ്ക്കുകയും ചെയ്യുന്ന വിശ്വസ്തനായ ഗൃഹവിചാരകനാണ് താക്കോലുകൾ നല്കിയിരുന്നത് (യെശയ്യാവ് 22:22).
+    - term: കൂദോശ് ഈത്തോ
+      explanation: സഭയുടെ ശുദ്ധീകരണം എന്നർത്ഥമുള്ള സുറിയാനി വാക്ക്. ഒക്ടോബർ 30-നോ അതിനു ശേഷമോ വരുന്ന ഞായറാഴ്ച ആചരിക്കുന്നു; സഭാവർഷം ഇതോടെ തുടങ്ങുന്നു.
+    reflection:
+      title_en: തെറ്റുപറ്റുന്നവരുടെ മേൽ പണിത സഭ
+      read_time: മൂന്നു മിനിറ്റ് വായന
+      body: |-
+        കൈസര്യഫിലിപ്പിയിൽ പത്രൊസ് പറഞ്ഞ ഉത്തരമാണ് അവൻ എന്നെങ്കിലും പറഞ്ഞതിൽ ഏറ്റവും പ്രസിദ്ധം. യേശു അതിന്റെ പേരിൽ അവനെ അനുഗ്രഹിക്കുകയും പാറ എന്നു വിളിക്കുകയും ചെയ്യുന്നു. അഞ്ചു വാക്യങ്ങൾക്കു ശേഷം അതേ മനുഷ്യൻ യേശുവിനെ ക്രൂശിൽനിന്നു പിന്തിരിപ്പിക്കാൻ ശ്രമിക്കുന്നു; വഴിയിൽനിന്നു മാറിപ്പോകാൻ അവനോടു പറയുന്നു. ഈ രണ്ടു നിമിഷങ്ങളെയും മത്തായി മയപ്പെടുത്തുന്നില്ല.
+
+        സഭ ഈ സുവിശേഷത്തോടെ വർഷം തുടങ്ങുന്നത് മനഃപൂർവ്വമാണ്. സഭയെ ഒരു കെട്ടിടമായോ, ഒരിക്കലും കാലിടറാത്തവരുടെ കൂട്ടമായോ സങ്കല്പിക്കാൻ എളുപ്പമാണ്. എന്നാൽ യേശു അതു പണിയുന്നത് ഒരു കാര്യം പൂർണ്ണമായി മനസ്സിലാക്കുകയും മറ്റൊന്ന് ഒട്ടും മനസ്സിലാക്കാതിരിക്കുകയും ചെയ്ത, ഒരു വർഷത്തിനകം അവനെ തള്ളിപ്പറയാനിരുന്ന ഒരു മനുഷ്യന്റെ മേലാണ്.
+
+        അത് നമുക്കെല്ലാവർക്കും ഇടം നല്കുന്നു. യേശു ചോദിക്കുന്ന ചോദ്യം ഇന്നും ഓരോരുത്തരോടും മാറിമാറി ചോദിക്കപ്പെടുന്നു: നിങ്ങളോ എന്നെ ആർ എന്നു പറയുന്നു? അതിന് ഉത്തരം പറയുന്നതാണ് ആദ്യപടി. നാം ചിന്തിക്കുന്ന ബാക്കി കാര്യങ്ങൾ അവൻ തിരുത്താൻ അനുവദിക്കുന്നത് ഒരു വർഷം മുഴുവനുമുള്ള വേലയാണ്; ഇത് അതിന്റെ ആദ്യ ഞായറാഴ്ചയാണ്.
+      title_ml: Built on people who get it wrong
+    week:
+      question: യേശു നിങ്ങൾക്ക് ആരാണ് എന്ന് ഈ ആഴ്ച ആരെങ്കിലും ചോദിച്ചാൽ, സത്യസന്ധമായി നിങ്ങൾ എന്തു പറയും?
+      question_note: ഓഡിയോയ്ക്കു ശേഷം രണ്ടു മിനിറ്റ്. എല്ലാവർക്കും ഒരു അവസരം; ആരും ഇടയ്ക്കു കയറി സംസാരിക്കരുത്.
+      small_act: ഈ പുതിയ സഭാവർഷത്തിൽ വ്യത്യസ്തമായി ചെയ്യാൻ ആഗ്രഹിക്കുന്ന ഒരു കാര്യം തിരഞ്ഞെടുക്കുക. അതിനെക്കുറിച്ച് പിന്നീട് നിങ്ങളോടു ചോദിക്കാൻ വീട്ടിലെ ഒരാളോടു പറയുക.
+      prayer: കർത്താവായ യേശുവേ, നീ ജീവനുള്ള ദൈവത്തിന്റെ പുത്രനായ ക്രിസ്തു ആകുന്നു. ബലഹീനരായിരിക്കുന്ന ഞങ്ങളുടെ മേൽ നിന്റെ സഭയെ പണിയേണമേ. ദൈവത്തിന്റേതല്ല, മനുഷ്യരുടേതു ഞങ്ങൾ ചിന്തിക്കുമ്പോൾ ഞങ്ങളെ തിരുത്തേണമേ. ആമേൻ.
+    readings:
+      evening:
+      - kind: Gospel
+        kind_ml: സുവിശേഷം
+        ref: Mark 8:27–33
+        ml: മർക്കൊസ് 8:27–33
+        printed: St. Mark 8:27-33
+      morning:
+      - kind: Gospel
+        kind_ml: സുവിശേഷം
+        ref: John 21:15–22
+        ml: യോഹന്നാൻ 21:15–22
+        printed: St. John 21:15-22
+      before_qurbana:
+      - kind: Old Testament
+        kind_ml: പഴയനിയമം
+        ref: Exodus 33:7–11
+        ml: പുറപ്പാട് 33:7–11
+        printed: Exodus 33:7-11
+      - kind: Old Testament
+        kind_ml: പഴയനിയമം
+        ref: Exodus 40:17–38
+        ml: പുറപ്പാട് 40:17–38
+        printed: Exodus 40:17-38
+      - kind: Old Testament
+        kind_ml: പഴയനിയമം
+        ref: Isaiah 6:1–8
+        ml: യെശയ്യാവ് 6:1–8
+        printed: Isaiah 6:1-8
+      holy_qurbana:
+      - kind: General Epistle
+        kind_ml: പൊതുലേഖനം
+        ref: 1 Peter 2:1–12
+        ml: 1 പത്രൊസ് 2:1–12
+        printed: I Peter 2:1-12
+      - kind: Pauline Epistle
+        kind_ml: പൗലോസിന്റെ ലേഖനം
+        ref: 1 Corinthians 3:16–17; 6:15–20
+        ml: 1 കൊരിന്ത്യർ 3:16–17; 6:15–20
+        printed: I Corinthians 3:16-17, 6:15-20
+      - kind: Gospel
+        kind_ml: സുവിശേഷം
+        ref: Matthew 16:13–23
+        ml: മത്തായി 16:13–23
+        printed: St. Matthew 16:13-23
+        main: true
+    key_verse:
+      ref: മത്തായി 16:18
+    hero_quote:
+      text: നീ ജീവനുള്ള ദൈവത്തിന്റെ പുത്രനായ ക്രിസ്തു.
+      ref: മത്തായി 16:16
 sources:
   lectionary: https://mosc.in/lectionary/421-2/
 lectionary_note: The Sunday that comes on or after October 30th is called Koodhosh Eetho (Sanctification of Church) Sunday.

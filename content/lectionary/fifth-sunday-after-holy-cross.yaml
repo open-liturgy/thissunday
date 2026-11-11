@@ -4,12 +4,12 @@ sunday_slug: fifth-sunday-after-holy-cross
 is_sunday: true
 name:
   en: Fifth Sunday after Holy Cross
-  ml: '[MALAYALAM NAME]'
+  ml: സ്ലീബാ പെരുന്നാളിനു ശേഷം അഞ്ചാം ഞായർ
 title_as_printed: Fifth Sunday after the Feast of Holy Cross
 season:
   en: Sleeba
   gloss: The season of the Cross
-  syr: '[SYRIAC]'
+  syr: ܨܠܝܒܐ
 tagline: The greatest among you will be your servant
 standfirst: Jesus warns the crowds about religious leaders who say the right things and do not do them, who love titles and the best seats. The greatest among you, he says, will be the servant.
 description: Readings for the Fifth Sunday after Holy Cross, with Matthew 23:1–12, the greatest as servant, explained. Reflection and question.
@@ -21,7 +21,7 @@ readings:
   - kind: Gospel
     kind_ml: സുവിശേഷം
     ref: Luke 20:27–40
-    ml: ലൂക്കോസ് 20:27–40
+    ml: ലൂക്കൊസ് 20:27–40
     note: He is not the God of the dead but of the living.
     printed: St. Luke 20:27-40
   morning:
@@ -77,7 +77,7 @@ one_minute:
 readings_thread: Leviticus describes the grain offering, a simple gift of flour and oil. The psalm says God is our refuge and strength, and Isaiah says those who wait on the Lord will renew their strength. Paul charges Timothy to keep the faith without stain.
 key_verse:
   ref: Matthew 23:11
-  ml: '[ML VERSE: Sathyavedapusthakam 1910, Matthew 23:11]'
+  ml: നിങ്ങളിൽ ഏറ്റവും വലിയവൻ നിങ്ങളുടെ ശുശ്രൂഷക്കാരൻ ആകേണം.
   ml_translation: Sathyavedapusthakam, 1910
   en: But he who is greatest among you will be your servant.
   en_translation: World English Bible
@@ -116,7 +116,7 @@ phrases:
   explanation: Hebrew for “my great one”, a respectful title for a teacher.
 reflection:
   title_en: Practise what you preach
-  title_ml: '[TITLE ML]'
+  title_ml: പറയുന്നതു ചെയ്യുക
   read_time: A three-minute read
   body: |-
     This Gospel is uncomfortable for anyone with any kind of authority: priests, parents, teachers, committee members, older siblings. Jesus does not say the Pharisees taught the wrong things. He says they did not live them, and they liked being honoured more than serving.

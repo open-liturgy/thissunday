@@ -4,12 +4,12 @@ sunday_slug: seventh-sunday-after-pentecost
 is_sunday: true
 name:
   en: Seventh Sunday after Pentecost
-  ml: '[MALAYALAM NAME]'
+  ml: പെന്തിക്കോസ്തിക്കു ശേഷം ഏഴാം ഞായർ
 title_as_printed: Seventh Sunday after Pentecost
 season:
   en: Pentecost
   gloss: The season of the Holy Spirit
-  syr: '[SYRIAC]'
+  syr: ܦܢܛܩܘܣܛܐ
 tagline: A house divided cannot stand
 standfirst: Jesus’ family thinks he has lost his mind, and teachers from Jerusalem say he is working for the devil. He answers both with a story about a strong man and a divided house.
 description: Readings for the Seventh Sunday after Pentecost, with Mark 3:20–30, the house divided and the strong man, explained. Reflection and question.
@@ -60,7 +60,7 @@ readings:
   - kind: Pauline Epistle
     kind_ml: പൗലോസിന്റെ ലേഖനം
     ref: Ephesians 2:11–22
-    ml: എഫേസ്യർ 2:11–22
+    ml: എഫെസ്യർ 2:11–22
     note: Christ is our peace; he has broken down the wall of hostility.
     printed: Ephesians 2:11-22
   - kind: Gospel
@@ -77,7 +77,7 @@ one_minute:
 readings_thread: Leviticus describes the Day of Atonement, when the people’s sins are carried away. Hosea warns leaders who have led the people astray, and Isaiah says God lives with the humble. Acts shows a community of one heart, and Ephesians a wall broken down.
 key_verse:
   ref: Mark 3:25
-  ml: '[ML VERSE: Sathyavedapusthakam 1910, Mark 3:25]'
+  ml: ഒരു വീടു തന്നിൽ തന്നേ ഛിദ്രിച്ചു എങ്കിൽ ആ വീട്ടിന്നു നിലനില്പാൻ കഴികയില്ല.
   ml_translation: Sathyavedapusthakam, 1910
   en: If a house is divided against itself, that house cannot stand.
   en_translation: World English Bible
@@ -104,7 +104,7 @@ scenes:
   easy_to_miss: Mark explains the warning himself in verse 30. It is about calling the Spirit’s work evil, not about a sin people commit by accident.
 people:
 - name: Jesus’ family
-  ml: '[ML NAME]'
+  ml: യേശുവിന്റെ ചാർച്ചക്കാർ
   role: Relatives who come to take him home, thinking he is out of his mind.
   name_meaning: —
 - name: The scribes from Jerusalem
@@ -120,7 +120,7 @@ phrases:
   explanation: Deliberately calling the work of God’s Spirit evil, and so refusing the forgiveness the Spirit brings.
 reflection:
   title_en: A house that stands
-  title_ml: '[TITLE ML]'
+  title_ml: നിലനില്ക്കുന്ന ഒരു വീട്
   read_time: A three-minute read
   body: |-
     Jesus is surrounded by misunderstanding. His family thinks he has gone mad. Religious experts say he is in league with the devil. He is so busy healing people that he cannot eat. In the middle of it all, he tells a simple story: a house divided against itself cannot stand.

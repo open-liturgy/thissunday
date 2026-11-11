@@ -4,12 +4,12 @@ sunday_slug: sunday-before-pentecost
 is_sunday: true
 name:
   en: Sunday before Pentecost
-  ml: '[MALAYALAM NAME]'
+  ml: പെന്തിക്കോസ്തിക്കു മുമ്പുള്ള ഞായർ
 title_as_printed: Sunday before Pentecost (Sunday of the Monks)
 season:
   en: Kyomtho
   gloss: The Resurrection season
-  syr: '[SYRIAC]'
+  syr: ܩܝܡܬܐ
 also_kept_as: Sunday of the Monks
 tagline: Jesus prays for his friends, and for us
 standfirst: On the night before he dies, Jesus prays aloud for his disciples. Then he prays for everyone who will believe through them, which includes every reader of this page.
@@ -78,7 +78,7 @@ one_minute:
 readings_thread: Leviticus describes the Sabbath year when the land rests, and Joshua is told to be strong and courageous. Acts mentions Philip’s four daughters who prophesied. Paul writes about giving one’s life undivided to the Lord.
 key_verse:
   ref: John 17:21
-  ml: '[ML VERSE: Sathyavedapusthakam 1910, John 17:21]'
+  ml: നീ എന്നെ അയച്ചിരിക്കുന്നു എന്നു ലോകം വിശ്വസിപ്പാൻ അവർ എല്ലാവരും ഒന്നാകേണ്ടതിന്നു, പിതാവേ, നീ എന്നിലും ഞാൻ നിന്നിലും ആകുന്നതുപോലെ അവരും നമ്മിൽ ആകേണ്ടതിന്നു തന്നേ.
   ml_translation: Sathyavedapusthakam, 1910
   en: that they may all be one; even as you, Father, are in me, and I in you, that they also may be one in us; that the world may believe that you sent me.
   en_translation: World English Bible
@@ -113,7 +113,7 @@ people:
   role: Listening to Jesus pray for them.
   name_meaning: —
 - name: Philip’s daughters
-  ml: '[ML NAME]'
+  ml: ഫിലിപ്പൊസിന്റെ പുത്രിമാർ
   role: Four unmarried daughters of Philip the evangelist who prophesied (Acts 21:9).
   name_meaning: —
 phrases:
@@ -125,7 +125,7 @@ phrases:
   explanation: On this Sunday the Church remembers those who have given their lives to prayer in monasteries and dayaras.
 reflection:
   title_en: Jesus prays for us
-  title_ml: '[TITLE ML]'
+  title_ml: യേശു നമുക്കുവേണ്ടി പ്രാർത്ഥിക്കുന്നു
   read_time: A three-minute read
   body: |-
     It is moving to overhear someone pray for you. A grandmother at night, a parent at a bedside, a friend in hospital. In John 17 we overhear Jesus praying, and at verse 20 he turns to us: not only for these, but for those who will believe through their word. That is every Christian since.
