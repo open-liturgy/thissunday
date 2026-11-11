@@ -1,0 +1,50 @@
+# Edition for Sunday 15 November 2026.
+# Year-independent text comes from content/lectionary/annunciation-to-zechariah.yaml;
+# anything repeated here wins.
+date: 2026-11-15
+sunday_slug: annunciation-to-zechariah
+week_of_year: 3
+reviewed: false
+prepared: 2026-11-11
+
+description: "Readings for the Annunciation to Zechariah, 15 November 2026: Luke 1:5–25 explained in five scenes, with a reflection and a question for the family."
+standfirst: "An old priest walks into the Temple to burn incense and walks out unable to speak. The Christmas story starts here, with a couple who had prayed for a child most of their lives."
+
+audio:
+  src: "/audio/2026-11-15.wav"
+  transcript: "Test transcript paragraph one.\n\nParagraph two."
+  duration: "2:59"
+  language: ml
+
+one_minute:
+  what_happens: "Zechariah, an elderly priest, is chosen to burn incense in the Temple. The angel Gabriel meets him there and says his wife Elizabeth will have a son, John. Zechariah asks for proof and leaves unable to speak."
+  why_this_sunday: "The Church year is two weeks old. From today until Christmas, each Sunday reads the next scene in the story of Christ’s coming. The first scene is the promise of John, who will prepare the way."
+  take_with_you: "Zechariah and Elizabeth prayed for years and heard nothing. Luke still calls them righteous. A long wait is no proof that God has forgotten you."
+
+reflection:
+  title_en: "Even in the waiting, God does not forget us"
+  title_ml: "കാത്തിരിപ്പിലും ദൈവം നമ്മെ മറക്കുന്നില്ല"
+  read_time: "A three-minute read"
+  author: "[AUTHOR NAME]"
+  reviewer: "[REVIEWER NAME, PARISH]"
+  body:
+    - "Luke introduces Zechariah and Elizabeth with a detail that is easy to skip. Both were righteous, and they had no child. He sets the two facts side by side on purpose. Their long wait was never a verdict on their faith, and people who pray every day still carry questions that stay open for years."
+    - "The answer arrives on an ordinary working day. Zechariah is on duty, doing the task his division was assigned, when Gabriel speaks. The child he is promised is given for other people too. John will get a whole people ready for the Lord, so what this family receives is meant to travel beyond it."
+    - "Read carefully, this Gospel makes no promise that every prayer is answered soon, and it never measures a home by whether it has children. Its request is for the rest of us. Notice who around you is waiting, and stay near them. Letting one person at home finish their whole story before you reply is a place to start."
+
+week:
+  question: "Who near you is waiting for something right now, and what is one small thing you could do for them before next Sunday?"
+  question_note: "Two minutes after the audio. Everyone gets a turn, and nobody is interrupted."
+  small_act: "Message or visit one person who is waiting on a result, a job, a recovery or a reply. Ask how they are and listen."
+  prayer: "Lord, you remembered Zechariah and Elizabeth. Remember those who are still waiting. Teach us to listen to people who are troubled, and let patience and mercy grow in our home. Amen."
+
+sermon:
+  title: "[SERMON TITLE]"
+  speaker: "[SPEAKER]"
+  parish: "[PARISH]"
+  length: "[LENGTH]"
+  url: "[SERMON URL]"
+
+translations:
+  ml:
+    standfirst: "പരീക്ഷണ വാചകം."

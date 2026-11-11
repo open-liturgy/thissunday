@@ -1,0 +1,70 @@
+# This Sunday · ഈ ഞായറാഴ്ച
+
+One page for the coming Sunday in the Malankara Orthodox Syrian Church: the readings, a short explanation of the Gospel, a reflection and one question for the family. Open it on Saturday evening and be ready for Qurbana in five minutes.
+
+Static, SEO-first, and complete with JavaScript turned off.
+
+## How it works
+
+- **Vite + React, rendered at build time.** `scripts/build.ts` renders every page to full HTML with `react-dom/server`. No React ships to the browser.
+- **One small script** (`src/client/enhance.ts`, about 2 KB gzipped) turns the service list and the five scenes into tabs, runs the audio player, highlights the phone section chips and opens the share sheet. Without it, everything is still on the page.
+- **Content is YAML, validated with Zod** (`src/lib/schema.ts`, documented in [docs/CONTENT.md](docs/CONTENT.md)). The build fails on invalid content and warns for every `[PLACEHOLDER]`.
+- **Fonts are self-hosted and subset at build** to the characters the pages use, with variable axes trimmed to the ranges the CSS uses (`scripts/fonts.ts`).
+- **Social images** (1200×630 Open Graph and the portrait share card) are screenshots of an HTML card in headless Chromium, so Malayalam shapes correctly (`scripts/og.ts`). They are cached by content in `.cache/og`.
+- **SEO**: one `<h1>`, ordered headings, `lang="ml"`/`lang="syr"`, canonical URLs, Open Graph and Twitter tags, JSON-LD (`WebPage` with `reviewedBy`, `Article`, `BreadcrumbList`, `AudioObject`), `sitemap.xml`, `robots.txt`, `rss.xml`, `hreflang` for Malayalam pages, previous/next links.
+
+## URLs
+
+| Path | What |
+| --- | --- |
+| `/` | The upcoming Sunday. Canonical points to its permanent page. |
+| `/{year}/{sunday_slug}/` | Permanent page for one edition. |
+| `/ml/{year}/{sunday_slug}/` | Malayalam edition, only when the edition has `translations.ml`. |
+| `/archive/` | Every published edition. |
+| `/og/{date}.jpg`, `/og/{date}-card.jpg` | Social image and share card. |
+
+## Commands
+
+```sh
+npm install
+npm run dev        # dev server with live content, http://localhost:5173
+npm run check      # validate content and list placeholders
+npm run build      # typecheck + full static build into dist/
+npm run build:fast # skip social images
+npm run preview    # serve dist/ on :4173
+npm run lhci       # Lighthouse CI with the budgets in lighthouserc.json
+```
+
+Social images need Chromium. The build looks for `CHROME_PATH`, then Playwright's Chromium, then system Chrome. Run `npx playwright-core install chromium` if none is found.
+
+Set `SITE_URL` (for example `https://thissunday.in`) for canonical and Open Graph URLs.
+
+## Add a Sunday
+
+1. If this Sunday's year-independent text is not there yet, add `content/lectionary/{sunday_slug}.yaml` (readings with notes, scenes, people, phrases, key verse).
+2. Add `content/sundays/{YYYY-MM-DD}.yaml` with the date, `sunday_slug`, `week_of_year`, standfirst, one-minute cards, reflection and week. Anything you repeat from the lectionary file overrides it.
+3. Put any audio file in `public/audio/` and set `audio.src: /audio/{date}.mp3`.
+4. Run `npm run check`, fix errors, and resolve each placeholder warning or leave it for review.
+5. Set `reviewed: true` once a priest or editor has checked it. Open a pull request.
+
+The page goes live automatically in the week of that Sunday.
+
+## Add another church tradition
+
+Nothing in `src/` names a church. A tradition is a config file plus a content folder:
+
+1. Copy `traditions/mosc/config.ts` to `traditions/{id}/config.ts`. Set the site name, `contentDir`, services (the keys used under `readings:`), reading-kind labels, Bible translations, lectionary name and season colours.
+2. Create the content folder with `sundays/` and `lectionary/`.
+3. Build with `TRADITION={id} SITE_URL=https://... npm run build` and deploy that `dist/` to its own host.
+
+Interface wording lives in `src/lib/i18n.ts`. Add a language there and to the config's `languages`.
+
+## Deploy
+
+`dist/` is plain static files; any static host works (GitHub Pages, Cloudflare Pages, Netlify, S3). Serve `404.html` for missing pages.
+
+`.github/workflows/site.yml` builds on every push and pull request, runs Lighthouse CI (fails below SEO 100, Accessibility 100, Performance 95, or over the LCP, CLS, JS and page-weight budgets) and deploys `main` to GitHub Pages. A weekly schedule (Monday 00:05 India time) rebuilds so `/` moves to the next Sunday. Set the repository variable `SITE_URL`, and enable Pages with "GitHub Actions" as the source.
+
+## Licence
+
+Code: [CODE LICENCE]. Content: [CONTENT LICENCE]. Fonts: SIL Open Font License (Anek Malayalam, Newsreader, Noto Sans Syriac Western).

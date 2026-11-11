@@ -1,0 +1,66 @@
+name: Build and deploy
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  # Weekly: Monday 00:05 India time (Sunday 18:35 UTC), so "/" moves to the next Sunday.
+  schedule:
+    - cron: '35 18 * * 0'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages-${{ github.ref }}
+  cancel-in-progress: true
+
+env:
+  # Set this repository variable to the live address, e.g. https://thissunday.in
+  SITE_URL: ${{ vars.SITE_URL }}
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - name: Install Chromium (social images and Lighthouse)
+        run: npx playwright-core install --with-deps chromium
+      - name: Cache social images
+        uses: actions/cache@v4
+        with:
+          path: .cache/og
+          key: og-${{ hashFiles('content/**', 'src/components/Pages.tsx') }}
+          restore-keys: og-
+      - name: Build
+        run: CHROME_PATH=$(find ~/.cache/ms-playwright -type f -name chrome | head -1) npm run build
+      - name: Lighthouse (SEO 100, Accessibility 100, Performance 95+, budgets)
+        run: CHROME_PATH=$(find ~/.cache/ms-playwright -type f -name chrome | head -1) npx lhci autorun
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: lighthouse
+          path: .lighthouseci/reports
+      - uses: actions/upload-pages-artifact@v3
+        if: github.event_name != 'pull_request'
+        with:
+          path: dist
+
+  deploy:
+    if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

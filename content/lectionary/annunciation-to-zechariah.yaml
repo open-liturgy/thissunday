@@ -1,0 +1,136 @@
+# Year-independent text for this Sunday. Every dated edition with
+# `sunday_slug: annunciation-to-zechariah` starts from this file, and the
+# edition file overrides any field it repeats (objects merge, lists replace).
+sunday_slug: annunciation-to-zechariah
+name:
+  en: "Annunciation to Zechariah"
+  ml: "സെഖര്യാവിനോടുള്ള അറിയിപ്പിന്റെ ഞായർ"
+tagline: "Gabriel is sent to an old priest at the altar of incense"
+season:
+  en: "Suboro"
+  gloss: "The Annunciation season"
+  syr: "ܣܘܒܪܐ" # NEEDS REVIEW: Syriac spelling drafted from memory
+also_kept_as: "Parents’ Day"
+also_kept_as_note: "See Ephesians 6:1–4"
+
+# Readings: official MOSC lectionary (sources.lectionary).
+# Notes are one line on what to listen for. NEEDS REVIEW: notes drafted from memory.
+readings:
+  evening:
+    - kind: Gospel
+      ref: "Matthew 19:3–12"
+      ml: "മത്തായി 19:3–12"
+      note: "Jesus is asked about divorce and answers with the beginning: “what God has joined together”."
+  morning:
+    - kind: Gospel
+      ref: "Luke 10:38–42"
+      ml: "ലൂക്കോസ് 10:38–42"
+      note: "Martha is busy serving while Mary sits and listens."
+  before_qurbana:
+    - kind: Old Testament
+      ref: "Genesis 2:18–25"
+      ml: "ഉല്പത്തി 2:18–25"
+      note: "The first household: “It is not good for the man to be alone.”"
+    - kind: Old Testament
+      ref: "Genesis 17:15–22"
+      ml: "ഉല്പത്തി 17:15–22"
+      note: "Sarah is promised a son in old age, and Abraham laughs."
+    - kind: Old Testament
+      ref: "Numbers 8:13–20"
+      ml: "സംഖ്യാപുസ്തകം 8:13–20"
+      note: "The Levites are set apart to serve in the sanctuary."
+    - kind: Old Testament
+      ref: "Ruth 1:11–18"
+      ml: "രൂത്ത് 1:11–18"
+      note: "Ruth refuses to leave Naomi: “where you go, I will go”."
+    - kind: Old Testament
+      ref: "1 Samuel 1:9–17"
+      ml: "1 ശമൂവേൽ 1:9–17"
+      note: "Hannah prays in the sanctuary for a child."
+    - kind: Old Testament
+      ref: "Psalm 133:1–3"
+      ml: "സങ്കീർത്തനങ്ങൾ 133:1–3"
+      note: "How good it is when a family lives together in unity."
+    - kind: Old Testament
+      ref: "Isaiah 41:8–15"
+      ml: "യെശയ്യാവ് 41:8–15"
+      note: "God tells Israel not to be afraid, because he is with them."
+  holy_qurbana:
+    - kind: General Epistle
+      ref: "2 Peter 1:1–15"
+      ml: "2 പത്രോസ് 1:1–15"
+      note: "Build on your faith: goodness, knowledge, self-control, patience."
+    - kind: Pauline Epistle
+      ref: "Ephesians 5:21–6:4"
+      ml: "എഫേസ്യർ 5:21–6:4"
+      note: "How a household lives in the Lord: spouses, children and parents."
+    - kind: Gospel
+      ref: "Luke 1:5–25"
+      ml: "ലൂക്കോസ് 1:5–25"
+      main: true
+      note: "Gabriel tells Zechariah that Elizabeth will have a son. This is the Gospel of the day."
+
+readings_thread: "Sarah, Hannah and Elizabeth each waited years for a child. Genesis 2, Ruth, Psalm 133 and Ephesians describe how a household holds together. The Church also keeps this Sunday as Parents’ Day."
+
+hero_quote:
+  text: "An angel of the Lord appeared to him, standing on the right side of the altar of incense."
+  ref: "Luke 1:11"
+
+# NEEDS REVIEW: verse wording in both languages.
+key_verse:
+  ref: "Luke 1:13"
+  ml: "സെഖര്യാവേ, ഭയപ്പെടേണ്ടാ; നിന്റെ പ്രാർത്ഥനെക്കു ഉത്തരമായി."
+  en: "Don’t be afraid, Zacharias, because your request has been heard."
+
+# NEEDS REVIEW: scene explanations.
+scenes:
+  - verses: "Luke 1:5–7"
+    title: "Righteous, and still waiting"
+    text: "Luke opens with two facts held together. Zechariah and Elizabeth are “righteous before God”, and they have no child. Both are old."
+    easy_to_miss: "In their world a childless home was read as a reproach, and Elizabeth uses that word in verse 25. Luke rejects that reading in his first sentence about them."
+  - verses: "Luke 1:8–10"
+    title: "The lot falls on Zechariah"
+    text: "His division is on duty, and the lot picks him to enter the sanctuary and burn incense. A crowd prays outside while he goes in alone."
+    easy_to_miss: "There were far more priests than turns. By tradition a priest offered the incense once in his life, and some never did."
+  - verses: "Luke 1:11–17"
+    title: "A voice at the altar"
+    text: "Gabriel appears at the right side of the altar of incense. “Your request has been heard.” Elizabeth will bear a son named John, and he will turn many people back to God."
+    easy_to_miss: "Gabriel borrows the closing lines of the prophet Malachi (4:5–6). The New Testament story picks up where the last prophet stopped."
+  - verses: "Luke 1:18–20"
+    title: "How can I be sure?"
+    text: "Zechariah asks for proof, because he and his wife are old. The sign he gets is one he did not ask for. He will be silent until the day the promise comes true."
+    easy_to_miss: "Abraham reacts the same way in Genesis 17:17, which is read before Qurbana this Sunday. The Old Testament readings are chosen to echo the Gospel."
+  - verses: "Luke 1:21–25"
+    title: "Silence, then a child"
+    text: "The people outside wonder why he is taking so long. Zechariah comes out unable to speak, finishes his days of service and goes home. Elizabeth conceives."
+    easy_to_miss: "His silence lasts until the child is born and named John (Luke 1:57–64)."
+
+# NEEDS REVIEW: name meanings.
+people:
+  - name: "Zechariah"
+    ml: "സെഖര്യാവ്"
+    role: "A priest of the division of Abijah, on duty in Jerusalem."
+    name_meaning: "The Lord remembers"
+  - name: "Elizabeth"
+    ml: "എലീശബെത്ത്"
+    role: "His wife, from the family of Aaron. Related to Mary."
+    name_meaning: "My God is an oath"
+  - name: "Gabriel"
+    ml: "ഗബ്രിയേൽ"
+    role: "The angel “who stands in the presence of God”, sent to speak to Zechariah."
+    name_meaning: "God is my strength"
+  - name: "John"
+    ml: "യോഹന്നാൻ"
+    role: "The promised son, later called the Baptist. He goes ahead of Christ."
+    name_meaning: "The Lord is gracious"
+
+phrases:
+  - term: "Division of Abijah"
+    explanation: "Temple priests served in 24 divisions that took turns. Abijah’s was the eighth (1 Chronicles 24:10)."
+  - term: "Altar of incense"
+    explanation: "A small gold altar inside the sanctuary, in front of the veil. Incense burned on it every morning and evening (Exodus 30:1–8)."
+  - term: "Spirit and power of Elijah"
+    explanation: "Malachi said Elijah would return before the day of the Lord. Gabriel gives that role to John (Luke 1:17)."
+
+sources:
+  lectionary: "https://mosc.in/lectionary/421-2/"
