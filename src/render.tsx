@@ -131,6 +131,21 @@ function jsonLd(site: Site, page: Page, canonical: string): Graph {
   } as Graph;
 }
 
+/**
+ * On a non-English page the root is lang="ml", so any text that was not
+ * translated (English names, Bible references, the English verse, untranslated
+ * fields) would inherit the wrong language. Mark every leaf element whose text
+ * has Latin letters and no Malayalam as lang="en". Elements that already carry
+ * a lang attribute are left alone.
+ */
+export function markEnglish(html: string): string {
+  return html.replace(/<([a-z][a-z0-9]*)((?:\s[^<>]*)?)>([^<>]+)<\/\1>/g, (m, tag: string, attrs: string, text: string) => {
+    if (/\slang=/.test(attrs) || tag === 'script' || tag === 'style') return m;
+    if (!/[A-Za-z]/.test(text) || /[ഀ-ൿ]/.test(text)) return m;
+    return `<${tag}${attrs} lang="en">${text}</${tag}>`;
+  });
+}
+
 function doc({
   lang,
   title,
@@ -152,7 +167,7 @@ function doc({
   colours: { ground: string; glow: string };
   robots?: string;
 }) {
-  const html = renderToStaticMarkup(body);
+  const html = lang === 'en' ? renderToStaticMarkup(body) : markEnglish(renderToStaticMarkup(body));
   return `<!doctype html>
 <html lang="${lang}" class="no-js">
 <head>
