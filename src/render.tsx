@@ -8,7 +8,7 @@ import type { Lang } from './lib/tradition';
 import { longDate, strings } from './lib/i18n';
 import { Sunday, gospelOf } from './components/Sunday';
 import { Archive, NotFound, ShareCard, shareCardCss } from './components/Pages';
-import { PeopleIndex, PersonPage, peopleText } from './components/People';
+import { PeopleIndex, PersonCard, PersonPage, peopleText, personCardCss } from './components/People';
 import { iconPath, loadPeople, type Character } from './lib/people';
 
 export interface Assets {
@@ -48,6 +48,7 @@ export function routes(site: Site): Route[] {
 }
 
 export const ogPath = (e: Edition) => `/og/${e.date}.jpg`;
+export const personOgPath = (slug: string) => `/og/people/${slug}.jpg`;
 export const cardPath = (e: Edition) => `/og/${e.date}-card.jpg`;
 
 const esc = (s: string) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
@@ -211,15 +212,15 @@ ${html}
 /** Open Graph and Twitter tags. Every page shares a Sunday's own 1200x630 image. */
 function socialMeta(
   site: Site,
-  o: { type: 'article' | 'website' | 'profile'; title: string; description: string; url: string; image: Edition; lang?: Lang; alternateLocale?: boolean },
+  o: { type: 'article' | 'website' | 'profile'; title: string; description: string; url: string; image: Edition | { path: string; alt: string }; lang?: Lang; alternateLocale?: boolean },
 ): string[] {
   const base = site.tradition.site.url;
   const e = o.image;
-  const img = base + ogPath(e);
+  const img = base + ('path' in e ? e.path : ogPath(e));
   const lang = o.lang ?? 'en';
   const locale = (l: Lang) => (l === 'ml' ? 'ml_IN' : 'en_IN');
   const other: Lang = lang === 'ml' ? 'en' : 'ml';
-  const alt = esc(`${e.name.en}, ${longDate(e.date)}. ${e.key_verse.ref}: ${e.key_verse.en}`);
+  const alt = esc('path' in e ? e.alt : `${e.name.en}, ${longDate(e.date)}. ${e.key_verse.ref}: ${e.key_verse.en}`);
   return [
     `<meta property="og:type" content="${o.type}">`,
     `<meta property="og:site_name" content="${esc(site.tradition.site.name)}">`,
@@ -240,11 +241,6 @@ function socialMeta(
     `<meta name="twitter:image" content="${img}">`,
     `<meta name="twitter:image:alt" content="${alt}">`,
   ];
-}
-
-function nextAppearance(c: Character, upcoming?: Edition): Edition | undefined {
-  const eds = c.appearances.map((a) => a.edition).filter((e) => e.date).sort((a, b) => a.date.localeCompare(b.date));
-  return (upcoming && eds.find((e) => e.date >= upcoming.date)) ?? eds.at(-1) ?? upcoming;
 }
 
 /** Where an edition sits in the year: its place in its season's run of Sundays, and the total. */
@@ -371,7 +367,7 @@ export function renderRoute(site: Site, route: Route, assets: Assets): string {
           ...extra,
         ],
       }).replace(/</g, '\\u003c')}</script>`;
-    const social = (type: 'website' | 'profile', title: string, description: string, image = site.upcoming) =>
+    const social = (type: 'website' | 'profile', title: string, description: string, image: Edition | { path: string; alt: string } | undefined = site.upcoming) =>
       image ? socialMeta(site, { type, title, description, url: canonical, image }) : [];
     if (route.kind === 'people') {
       const title = `${peopleText.indexTitle} | This Sunday`;
@@ -409,6 +405,7 @@ export function renderRoute(site: Site, route: Route, assets: Assets): string {
       '@id': `${canonical}#about`,
       name: c.name,
       ...(c.ml ? { alternateName: c.ml } : {}),
+      description,
       subjectOf: c.appearances.map((a) => ({ '@id': `${base}${a.path}#article` })),
       ...(c.icon ? { image: { '@type': 'ImageObject', contentUrl: base + iconPath(c.slug, 480), creditText: [c.icon.artist, c.icon.title].filter(Boolean).join(', '), license: c.icon.license_url ?? c.icon.source, acquireLicensePage: c.icon.source } } : {}),
     };
@@ -418,8 +415,11 @@ export function renderRoute(site: Site, route: Route, assets: Assets): string {
       description,
       canonical,
       head: [
-        // The person's next Sunday from the upcoming one on, else their most recent.
-        ...social(c.kind === 'person' ? 'profile' : 'website', `${c.name} in the Sunday readings`, description, nextAppearance(c, site.upcoming)),
+        // Each character has its own image: the icon, name and summary.
+        ...social(c.kind === 'person' ? 'profile' : 'website', title.replace(/ \| This Sunday$/, ''), description, {
+          path: personOgPath(c.slug),
+          alt: `${c.name}${c.icon ? `: ${c.icon.alt}` : ''}. ${c.life ? 'Life, Bible passages and Sundays' : 'In the Sunday readings'} on This Sunday.`,
+        }),
         ld([breadcrumb as Thing, about as Thing], title, { about: { '@id': `${canonical}#about` } }),
       ],
       assets: { ...assets, script: undefined },
@@ -437,6 +437,15 @@ export function renderRoute(site: Site, route: Route, assets: Assets): string {
     colours: coloursFor(site),
     body: <NotFound site={site} t={strings.en} />,
   });
+}
+
+/** Standalone HTML for a character's 1200×630 social image. */
+export function renderPersonCard(site: Site, c: Character, fontCss: string): string {
+  const col = coloursFor(site);
+  const host = isPlaceholder(site.tradition.site.url) ? '' : site.tradition.site.url.replace(/^https?:\/\//, '');
+  return `<!doctype html><html lang="en"><head><meta charset="utf-8"><style>${fontCss}:root{--ground:${col.ground};--glow:${col.glow}}${personCardCss}</style></head><body>${renderToStaticMarkup(
+    <PersonCard c={c} siteHost={host} />,
+  )}</body></html>`;
 }
 
 /** Standalone HTML for a social image, screenshotted at build. */

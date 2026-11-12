@@ -364,3 +364,54 @@ export function PersonPage({ site, people, c, t }: { site: Site; people: People;
     </>
   );
 }
+
+/** 1200×630 Open Graph image for a character page, screenshotted at build. */
+export function PersonCard({ c, siteHost }: { c: Character; siteHost: string }) {
+  const n = c.appearances.length;
+  return (
+    <div className="pc">
+      <div className="pc-art">
+        <div className="pc-arch">
+          {c.icon ? <img src={iconPath(c.slug, 480)} alt="" /> : <span className="pc-letter">{c.name.replace(/^The /, '').charAt(0)}</span>}
+        </div>
+      </div>
+      <div className="pc-col">
+        <div className="pc-top">
+          <span className="pc-brand"><b>This Sunday</b><span lang="ml">ഈ ഞായറാഴ്ച</span></span>
+          <span className="pc-kind">{`${peopleText.kind[c.kind]} · ${peopleText.sundays(n)}`.toUpperCase()}</span>
+        </div>
+        <div className="pc-words">
+          <div className="pc-name">{c.name}</div>
+          {c.ml && <div className="pc-ml" lang="ml">{c.ml}</div>}
+          {c.life && <div className="pc-sum">{c.life.summary}</div>}
+        </div>
+        <div className="pc-foot">
+          <span><b>{c.life ? 'Life, Bible passages and Sundays' : 'In the Sunday readings'}</b><span>Malankara Orthodox Sunday readings</span></span>
+          <span className="pc-site">{siteHost}</span>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+export const personCardCss = `
+*{box-sizing:border-box;margin:0}
+body{background:var(--ground)}
+.pc{width:1200px;height:630px;padding:56px 64px 48px;display:flex;gap:60px;background:var(--ground);color:#fff;font-family:'Anek Malayalam',sans-serif;overflow:hidden}
+.pc-art{flex:0 0 330px;display:flex;align-items:flex-end;color:var(--glow)}
+.pc-arch{width:330px;height:526px;overflow:hidden;border:2px solid currentColor;border-bottom:0;border-radius:165px 165px 0 0;background:rgba(0,0,0,.32);display:flex;align-items:center;justify-content:center}
+.pc-arch img{width:100%;height:100%;object-fit:cover;display:block}
+.pc-letter{font-family:'Newsreader',serif;font-style:italic;font-size:220px;line-height:1;color:var(--glow)}
+.pc-col{flex:1 1 auto;min-width:0;display:flex;flex-direction:column;gap:26px}
+.pc-top{display:flex;align-items:center;justify-content:space-between;gap:12px}
+.pc-brand{display:flex;align-items:baseline;gap:8px}
+.pc-brand b{font-size:24px;font-weight:700}.pc-brand span{font-size:20px;color:#C9CCE6}
+.pc-kind{font-size:17px;font-weight:650;letter-spacing:.12em;color:var(--glow)}
+.pc-words{display:flex;flex-direction:column;gap:14px;margin-top:6px}
+.pc-name{font-size:76px;line-height:.98;font-weight:750;font-stretch:82%;letter-spacing:-.02em}
+.pc-ml{font-size:32px;line-height:1.4;font-weight:550;color:var(--glow)}
+.pc-sum{font-family:'Newsreader',serif;font-size:25px;line-height:1.38;display:-webkit-box;-webkit-line-clamp:5;-webkit-box-orient:vertical;overflow:hidden}
+.pc-foot{margin-top:auto;display:flex;align-items:flex-end;justify-content:space-between;gap:12px;padding-top:20px;border-top:1px solid rgba(255,255,255,.22);font-size:19px;line-height:1.4;color:#C9CCE6}
+.pc-foot>span:first-child{display:flex;flex-direction:column}.pc-foot b{font-weight:650;color:#fff}
+.pc-site{text-align:right}
+`;

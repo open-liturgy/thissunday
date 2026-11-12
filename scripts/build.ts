@@ -12,7 +12,7 @@ import { build as viteBuild, transformWithEsbuild } from 'vite';
 import { loadTradition } from '../src/lib/tradition';
 import { loadSite } from '../src/lib/content';
 import { loadPeople } from '../src/lib/people';
-import { renderRoute, renderShareCard, routes, ogPath, cardPath, type Assets } from '../src/render';
+import { renderRoute, renderShareCard, renderPersonCard, routes, ogPath, personOgPath, cardPath, type Assets } from '../src/render';
 import { buildFonts, htmlText } from './fonts';
 import { shoot, type Shot } from './og';
 import { robots, rss, sitemap } from './feeds';
@@ -102,6 +102,15 @@ if (!args.has('--skip-og')) {
       const key = (await import('node:crypto')).createHash('sha256').update(html.replace(/-[0-9a-f]{8}\.woff2/g, '')).digest('hex').slice(0, 16);
       shots.push({ html, out: path.join(cache, `${key}.jpg`), width: w, height: h, scale, key, dest: path.join(DIST, out) });
     }
+  }
+  for (const r of routes(site)) {
+    if (r.kind !== 'person') continue;
+    const html = renderPersonCard(site, r.character, fonts.css);
+    const iconFile = r.character.icon ? path.join(ROOT, 'public/people', `${r.character.slug}-480.webp`) : '';
+    const hash = (await import('node:crypto')).createHash('sha256').update(html.replace(/-[0-9a-f]{8}\.woff2/g, ''));
+    if (iconFile && fs.existsSync(iconFile)) hash.update(fs.readFileSync(iconFile));
+    const key = 'p-' + hash.digest('hex').slice(0, 16);
+    shots.push({ html, out: path.join(cache, `${key}.jpg`), width: 1200, height: 630, scale: 1, key, dest: path.join(DIST, personOgPath(r.character.slug)) });
   }
   const todo = shots.filter((s) => !fs.existsSync(s.out));
   await shoot(DIST, todo);
